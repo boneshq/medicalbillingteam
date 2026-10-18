@@ -17,10 +17,10 @@
    "/approved-vendors/alliance-global-solutions/"
   ]
  },
- "built": "2026-10-18T13:45:43",
+ "built": "2026-10-18T13:51:01",
  "base_path": "",
  "indexing_enabled": true,
- "form_backend_enabled": false,
+ "form_backend_enabled": true,
  "live_ready": [
   "/",
   "/what-is-revenue-cycle-management/",
