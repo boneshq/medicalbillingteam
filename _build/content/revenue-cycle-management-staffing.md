@@ -1,8 +1,8 @@
 ---
 title: "Revenue Cycle Management Staffing: Roles, KPIs, Costs"
-meta_description: "A practical guide to RCM staffing: in-house, outsourced and offshore RCM teams, the revenue cycle workflow, key KPIs defined, and how to compare costs."
+meta_description: "RCM staffing explained: roles, the revenue cycle workflow, KPI definitions, and in-house vs outsourced costs. Get the free billing health checklist."
 slug: "/revenue-cycle-management-staffing/"
-schema_type: ["Article", "FAQPage"]
+schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
   - q: "What is revenue cycle management staffing?"
     a: "It means filling the roles that move a patient encounter from scheduling to final payment: eligibility and benefits verification, prior authorization, coding, charge entry, claim submission, denial management, A/R follow-up and payment posting. You can staff these roles in-house, outsource the whole function, or add dedicated remote or offshore staff who work in your systems."
@@ -14,11 +14,23 @@ faq:
     a: "Benchmarks vary by specialty, payer mix and data source, and many industry benchmark reports are member-only. Track your own trend month to month and compare with specialty-specific data from sources you trust, rather than relying on a single generic number."
   - q: "Can remote RCM staff do medical coding?"
     a: "Yes, if they hold the right credentials and specialty experience. Coding is a skilled role; ask for certification details and test candidates on your specialty's documentation before they code live claims."
+canonical: "https://medicalbillingteam.com/revenue-cycle-management-staffing/"
+primary_keyword: "revenue cycle management staffing"
+search_intent: "commercial-informational"
+audience: "practice and billing managers"
+conversion_destination: "/contact/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "quarterly + on rule change"
 ---
 
 # Revenue cycle management staffing: roles, workflow, KPIs and costs
 
-*Last reviewed: October 18, 2026.*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+**Short answer:** Revenue cycle management (RCM) staffing means putting people on each step that turns a patient visit into payment: eligibility, coding, charge entry, claims, denials, A/R follow-up and payment posting. Practices staff it in-house, through a billing company, or with dedicated remote staff working in the practice's own systems. The right mix depends on volume, specialty and how much control you want to keep.
 
 Revenue cycle management (RCM) is every step between a patient booking an appointment and your practice collecting the last dollar for that visit. When one step is understaffed, the effect shows up later, as denials, aging A/R and write-offs. This guide covers the RCM workflow, the roles behind it, the KPIs worth tracking and the three main ways practices and billing companies staff it: in-house, outsourced and dedicated remote or offshore teams.
 
@@ -131,24 +143,42 @@ Be wary of any vendor that guarantees a specific reduction in denials or A/R day
 
 A dedicated remote team tends to fit when you have steady, queue-based work (eligibility, posting, A/R, denials), systems that support secure remote access, and someone in-house who can own the process. It fits less well if your processes are undocumented or your billing system can't support remote access securely.
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines; you can see the company's broader [outsourcing services](https://www.allianceglobalsolutions.com/services/) on its own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](/contact/).
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines; you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/medical-billing/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](/contact/).
+
+## Related guides
+
+- [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)
+- [Behavioral health and treatment center billing](/behavioral-health-billing/)
+- [Denial management basics](/denial-management/)
+- [What an AR specialist does](/ar-specialist/)
+- [Hiring remote medical coders](/hire-remote-medical-coders/)
+- [Prior authorization specialist role](/prior-authorization-specialist/)
+- [Credentialing specialist role](/credentialing-specialist/)
+- [Virtual medical assistants for billing and front office](/virtual-medical-assistant/)
+- [Medical billing outsourcing: three models](/medical-billing-outsourcing/)
+- [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
 
 ## FAQ
 
-**What is revenue cycle management staffing?**
-Filling the roles that move an encounter from scheduling to payment: eligibility, authorization, coding, charge entry, claims, denials, A/R and posting.
+### What is revenue cycle management staffing?
 
-**What is the difference between outsourced RCM and an offshore RCM team?**
-Outsourced RCM hands the function to a vendor. An offshore RCM team is dedicated staff abroad working your queues under your direction.
+It means filling the roles that move a patient encounter from scheduling to final payment: eligibility and benefits verification, prior authorization, coding, charge entry, claim submission, denial management, A/R follow-up and payment posting. You can staff these roles in-house, outsource the whole function, or add dedicated remote or offshore staff who work in your systems.
 
-**Which RCM KPIs should a small practice track first?**
-Days in A/R, denial rate, clean claim rate and net collection rate.
+### What is the difference between outsourced RCM and an offshore RCM team?
 
-**Is there a standard benchmark for days in A/R?**
-Benchmarks vary by specialty and source. Trend your own numbers and compare with specialty data you trust.
+Outsourced RCM usually means a vendor runs the revenue cycle for you, often for a percentage of collections. An offshore RCM team is a staffing arrangement where dedicated staff abroad work your queues under your direction. Some vendors combine both.
 
-**Can remote RCM staff do medical coding?**
-Yes, with the right credentials and specialty experience. Test before live coding.
+### Which RCM KPIs should a small practice track first?
+
+Start with days in A/R, denial rate, clean claim rate and net collection rate. They are straightforward to calculate from most practice management systems and show where the cycle is slowing.
+
+### Is there a standard benchmark for days in A/R?
+
+Benchmarks vary by specialty, payer mix and data source, and many industry benchmark reports are member-only. Track your own trend month to month and compare with specialty-specific data from sources you trust, rather than relying on a single generic number.
+
+### Can remote RCM staff do medical coding?
+
+Yes, if they hold the right credentials and specialty experience. Coding is a skilled role; ask for certification details and test candidates on your specialty's documentation before they code live claims.
 
 ---
 *Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*

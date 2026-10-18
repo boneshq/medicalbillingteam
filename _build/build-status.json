@@ -1,6 +1,18 @@
 {
- "ags_links_pending_prod_check": {},
- "built": "2026-10-18T12:20:35",
+ "ags_links_pending_prod_check": {
+  "https://www.allianceglobalsolutions.com/medical-billing/": [
+   "/revenue-cycle-management-staffing/",
+   "/hire-remote-medical-coders/",
+   "/ar-specialist/",
+   "/credentialing-specialist/",
+   "/prior-authorization-specialist/",
+   "/medical-billing-outsourcing/",
+   "/offshore-medical-billers/",
+   "/hipaa-outsourced-medical-billing/",
+   "/medical-billing-staffing-cost/"
+  ]
+ },
+ "built": "2026-10-18T12:40:15",
  "base_path": "/medicalbillingteam",
  "indexing_enabled": false,
  "form_backend_enabled": false,
@@ -10,7 +22,14 @@
   "/denial-management/",
   "/reduce-ar-days/",
   "/eligibility-verification-prior-authorization/",
+  "/hire-remote-medical-coders/",
+  "/ar-specialist/",
+  "/credentialing-specialist/",
+  "/prior-authorization-specialist/",
   "/hire-remote-medical-billers/",
+  "/medical-billing-outsourcing/",
+  "/offshore-medical-billers/",
+  "/virtual-medical-assistant/",
   "/hipaa-outsourced-medical-billing/",
   "/medical-billing-staffing-cost/",
   "/behavioral-health-billing/",
@@ -22,13 +41,5 @@
   "/privacy/",
   "/terms/"
  ],
- "stubs": [
-  "/hire-remote-medical-coders/",
-  "/ar-specialist/",
-  "/credentialing-specialist/",
-  "/prior-authorization-specialist/",
-  "/medical-billing-outsourcing/",
-  "/offshore-medical-billers/",
-  "/virtual-medical-assistant/"
- ]
+ "stubs": []
 }

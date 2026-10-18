@@ -55,10 +55,22 @@
     });
   });
   document.querySelectorAll('[data-unlock]').forEach(function (b) { b.addEventListener('click', function () { var g = document.getElementById('unlocked'); if (g) g.hidden = false; }); });
-  var s = document.querySelector('.sticky-cta');
+  var s = document.querySelector('.sticky-cta'), hero = document.querySelector('.hero');
   if (s && !sessionStorage.getItem('mbt_cta_x')) {
-    var onScroll = function () { var h = document.documentElement; if ((h.scrollTop + innerHeight) / h.scrollHeight > 0.4) { s.hidden = false; removeEventListener('scroll', onScroll); } };
+    var onScroll = function () {
+      var h = document.documentElement, past = hero ? hero.getBoundingClientRect().bottom < 0 : (h.scrollTop + innerHeight) / h.scrollHeight > 0.4;
+      if (past) { s.hidden = false; removeEventListener('scroll', onScroll); }
+    };
     addEventListener('scroll', onScroll, { passive: true });
     s.querySelector('.x').addEventListener('click', function () { s.hidden = true; sessionStorage.setItem('mbt_cta_x', '1'); });
+  }
+  // presentation only: header shadow on scroll + subtle reveal (skipped when the user prefers reduced motion)
+  var hdr = document.querySelector('.site-header');
+  if (hdr) { var sh = function () { hdr.classList.toggle('scrolled', scrollY > 8); }; addEventListener('scroll', sh, { passive: true }); sh(); }
+  if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.tile, .feature-list li, .resource-card, .faq details, .trust-row li').forEach(function (el) {
+      if (el.getBoundingClientRect().top > innerHeight) { el.classList.add('reveal'); io.observe(el); }
+    });
   }
 })();

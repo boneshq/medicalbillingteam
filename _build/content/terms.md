@@ -1,9 +1,20 @@
 ---
 title: "Terms of Use (DRAFT) | Medical Billing Team"
-meta_description: "Terms for using medicalbillingteam.com, including informational-use limits, no-PHI rule and disclosures. Draft pending legal review."
+meta_description: "Terms for using medicalbillingteam.com, including informational-use limits, the no-patient-information rule and disclosures. Draft pending legal review."
 slug: "/terms/"
 schema_type: ["WebPage"]
 status: "DRAFT - FOR LEGAL REVIEW - DO NOT PUBLISH UNTIL APPROVED"
+canonical: "https://medicalbillingteam.com/terms/"
+primary_keyword: "terms of use"
+search_intent: "navigational"
+audience: "all visitors"
+conversion_destination: "n/a"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "semiannual"
+robots: "noindex"  # until legal approval; remove when approved
 ---
 
 > **DRAFT FOR LEGAL REVIEW.** Bracketed items must be confirmed by counsel before publishing.

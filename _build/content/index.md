@@ -2,7 +2,7 @@
 title: "Medical Billing Team: Remote Billing & RCM Staffing"
 meta_description: "Plain-English guides for US practices on medical billing staffing, remote RCM teams, HIPAA safeguards and costs. Request a free staffing assessment."
 slug: "/"
-schema_type: ["WebSite", "Organization", "FAQPage"]
+schema_type: ["WebSite", "Organization", "FAQPage"]  # FAQPage optional: Google retired FAQ rich results May 2026; keep only if it matches visible FAQ
 canonical: "https://medicalbillingteam.com/"
 faq:
   - q: "What is a remote medical billing team?"
@@ -15,9 +15,18 @@ faq:
     a: "No. Please do not include any patient information in forms, emails or chat. Practice-level details, such as specialty, number of providers and a collections range, are enough."
   - q: "Can remote staff work with HIPAA requirements?"
     a: "Remote staff can work within HIPAA's rules when the right contracts and safeguards are in place, including a business associate agreement, role-based access and training. There is no official 'HIPAA certification' for any company or person. See our HIPAA guide for the questions to ask."
+primary_keyword: "medical billing staffing"
+search_intent: "commercial"
+audience: "practice owners, managers, billing companies"
+conversion_destination: "/#assessment"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "semiannual"
 ---
 
-<!-- HERO: two-column layout. Left = copy. Right = SHORT FORM (above the fold on desktop; directly under H1 on mobile). -->
+<!-- HERO: design at 375px first. Mobile first screen = H1 + one-line subhead + the first form fields (not a jump link). Desktop: two columns, copy left, SHORT FORM right. One column on mobile; 48px fields, 16px type, labels above. -->
 
 # Medical billing staff for US practices, without the hiring headache
 
@@ -111,17 +120,27 @@ A one-page self-audit covering front-end, claims, denials, A/R, payment posting 
 
 ## Short FAQ
 
-**What is a remote medical billing team?**
-Dedicated billing and RCM staff who work remotely in your systems and under your workflows. You direct the work; the staffing provider handles recruiting, employment and support.
+### What is a remote medical billing team?
 
-**Is this the same as hiring a billing company?**
-No. A billing company usually takes over the whole function. A staffing model gives you dedicated people and you keep control.
+It is one or more dedicated billing and revenue cycle staff who work remotely inside your systems, under your workflows, doing tasks such as eligibility checks, prior authorizations, claim follow-up, payment posting and denial work. You direct the work; a staffing provider handles recruiting, employment and supervision support.
 
-**What does the free assessment involve?**
-A short conversation about your workload and gaps. No obligation, and no patient information needed.
+### Is this the same as outsourcing my billing to a billing company?
 
-**Can remote staff work within HIPAA?**
-Yes, when the right agreements and safeguards are in place. There is no official HIPAA certification, so ask about the specific safeguards instead. See the [HIPAA guide](/hipaa-outsourced-medical-billing/).
+Not exactly. A billing company usually takes over the whole function, often for a percentage of collections. A staffing model gives you dedicated people who work your queues in your software, and you keep control of the process and your payer relationships.
+
+### What does the free staffing assessment involve?
+
+A short call about your workload, specialty, current setup and gaps. We discuss which roles, if any, would make sense. There is no obligation, and we never need patient information for this conversation.
+
+### Do you need patient information to give me an assessment?
+
+No. Please do not include any patient information in forms, emails or chat. Practice-level details, such as specialty, number of providers and a collections range, are enough.
+
+### Can remote staff work with HIPAA requirements?
+
+Remote staff can work within HIPAA's rules when the right contracts and safeguards are in place, including a business associate agreement, role-based access and training. There is no official 'HIPAA certification' for any company or person. See our HIPAA guide for the questions to ask.
+
+See the [HIPAA guide](/hipaa-outsourced-medical-billing/) for the safeguards to ask about.
 
 [More questions →](/faq/)
 
@@ -129,7 +148,7 @@ Yes, when the right agreements and safeguards are in place. There is no official
 
 ## Sticky CTA bar (mobile bottom bar / desktop footer band)
 
-- **Short text (mobile):** Free billing staffing assessment → **[Get started]**
+- **Short text (mobile):** Free billing staffing assessment → **[Get my free assessment]**
 - **Desktop text:** Short on billing staff? Get a free, no-obligation staffing assessment. No patient info needed. **[Request assessment]**
 - **Behavior:** Appears after 40% scroll; links to the hero form anchor `#assessment`; dismissible; hidden on /contact/.
 

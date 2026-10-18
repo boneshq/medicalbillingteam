@@ -1,120 +1,122 @@
 {
- "site_name": "MedicalBillingTeam.com",
- "canonical_base": "https://medicalbillingteam.com",
- "disclosure": "This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.",
- "llms_summary": "Practical guides on medical billing staffing, outsourced and offshore billing teams, revenue cycle management (RCM) staffing and HIPAA safeguards for US medical practices and billing companies.",
- "ga4_measurement_id": "G-XXXXXXXXXX",
- "ai_crawlers": [
-  "GPTBot",
-  "OAI-SearchBot",
-  "ChatGPT-User",
-  "ClaudeBot",
-  "Claude-Web",
-  "Claude-SearchBot",
-  "Claude-User",
-  "anthropic-ai",
-  "PerplexityBot",
-  "Perplexity-User",
-  "Google-Extended",
-  "Googlebot",
-  "Bingbot",
-  "Applebot",
-  "Applebot-Extended",
-  "CCBot",
-  "Meta-ExternalAgent",
-  "Amazonbot",
-  "DuckAssistBot",
-  "cohere-ai",
-  "MistralAI-User",
-  "YouBot"
- ],
- "home": {
-  "h1": "Medical billing and RCM staffing, explained for US practices",
-  "lede": ""
- },
- "form": {
-  "roles": [
-   "Practice owner / physician",
-   "Practice administrator or office manager",
-   "Billing or RCM manager",
-   "Billing company owner or manager",
-   "Other"
+  "site_name": "Medical Billing Team",
+  "canonical_base": "https://medicalbillingteam.com",
+  "disclosure": "This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.",
+  "llms_summary": "Practical guides on medical billing staffing, outsourced and offshore billing teams, revenue cycle management (RCM) staffing and HIPAA safeguards for US medical practices and billing companies.",
+  "ga4_measurement_id": "G-XXXXXXXXXX",
+  "ai_crawlers": [
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "Claude-SearchBot",
+    "Claude-User",
+    "PerplexityBot",
+    "Perplexity-User",
+    "Amazonbot",
+    "DuckAssistBot",
+    "MistralAI-User",
+    "YouBot",
+    "Googlebot",
+    "Bingbot",
+    "Applebot"
   ],
-  "specialties": [
-   "Primary care",
-   "Behavioral health / mental health",
-   "Substance use treatment center",
-   "Physical / occupational therapy",
-   "Chiropractic",
-   "Laboratory",
-   "Ambulatory surgery center",
-   "Multi-specialty",
-   "Medical billing company",
-   "Other"
+  "home": {
+    "h1": "Medical billing and RCM staffing, explained for US practices",
+    "lede": ""
+  },
+  "form": {
+    "roles": [
+      "Practice owner / physician",
+      "Practice administrator or office manager",
+      "Billing or RCM manager",
+      "Billing company owner or manager",
+      "Other"
+    ],
+    "specialties": [
+      "Primary care",
+      "Behavioral health / mental health",
+      "Substance use treatment center",
+      "Physical / occupational therapy",
+      "Chiropractic",
+      "Laboratory",
+      "Ambulatory surgery center",
+      "Multi-specialty",
+      "Medical billing company",
+      "Other"
+    ],
+    "providers": [
+      "1",
+      "2-5",
+      "6-15",
+      "16-50",
+      "50+",
+      "I'm a billing company"
+    ],
+    "collections": [
+      "Under $50k",
+      "$50k-$150k",
+      "$150k-$500k",
+      "$500k-$1M",
+      "Over $1M",
+      "Prefer not to say"
+    ],
+    "setups": [
+      "In-house staff",
+      "Outsourced to a billing company",
+      "Mix of in-house and outsourced",
+      "We are a billing company",
+      "Other"
+    ],
+    "help_areas": [
+      "Billing / claims",
+      "A/R follow-up",
+      "Eligibility / VOB",
+      "Prior authorization",
+      "Payment posting",
+      "Denial follow-up",
+      "Admissions / intake",
+      "Coding",
+      "Credentialing",
+      "Not sure yet"
+    ]
+  },
+  "indexing_enabled": false,
+  "preview_base_path": "/medicalbillingteam",
+  "form_backend": {
+    "mode": "apps_script",
+    "apps_script_url": "",
+    "form_key": "mbt-public-v1",
+    "_note": "Lead form -> Google Apps Script web app -> 'MedicalBillingTeam Leads' Sheet (tony@ Drive). apps_script_url stays EMPTY until Tony deploys (see _build/apps-script/DEPLOY.md); while empty the form shows a clear 'not connected' message and sends nothing. The URL is PUBLIC by design (the browser must know where to POST) and will be served in /form-config.js once set. form_key is also PUBLIC; it is a junk filter, not a secret. Supabase is not used (Tony said no, 2026-10-18)."
+  },
+  "tcpa_text": "By checking this box, I agree that Alliance Global Solutions may call or text me at the number I provided about remote medical billing and revenue cycle staffing, including calls or texts made with an autodialer or prerecorded or artificial voice. Consent is not a condition of any purchase or of receiving the assessment. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help.",
+  "tcpa_version": "2026-10-18-v1",
+  "phi_notice": "Do not include any patient information. Please don't enter patient names, dates of birth, addresses, member or policy IDs, claim numbers, diagnoses or any health details anywhere on this site.",
+  "email_notice": "By submitting, you agree that we may email you about your request and about remote billing and RCM staffing. Every marketing email includes an unsubscribe link, and we honor opt-outs promptly.",
+  "hold_sections": {},
+  "ags_verified_200": [
+    "https://www.allianceglobalsolutions.com/",
+    "https://www.allianceglobalsolutions.com/services/",
+    "https://www.allianceglobalsolutions.com/contact/",
+    "https://www.allianceglobalsolutions.com/careers/",
+    "https://www.allianceglobalsolutions.com/about-us/",
+    "https://www.allianceglobalsolutions.com/virtual-assistants/",
+    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/",
+    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/",
+    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/data-entry/",
+    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/",
+    "https://www.allianceglobalsolutions.com/blog/",
+    "https://www.allianceglobalsolutions.com/how-to-hire-the-best-virtual-assistant-for-your-company/"
   ],
-  "providers": [
-   "1",
-   "2-5",
-   "6-15",
-   "16-50",
-   "50+",
-   "I'm a billing company"
-  ],
-  "collections": [
-   "Under $50k",
-   "$50k-$150k",
-   "$150k-$500k",
-   "$500k-$1M",
-   "Over $1M",
-   "Prefer not to say"
-  ],
-  "setups": [
-   "In-house staff",
-   "Outsourced to a billing company",
-   "Mix of in-house and outsourced",
-   "We are a billing company",
-   "Other"
-  ],
-  "help_areas": [
-   "Billing / claims",
-   "A/R follow-up",
-   "Eligibility / VOB",
-   "Prior authorization",
-   "Payment posting",
-   "Denial follow-up",
-   "Admissions / intake",
-   "Coding",
-   "Credentialing",
-   "Not sure yet"
+  "ai_training_crawlers": [
+    "GPTBot",
+    "Google-Extended",
+    "CCBot",
+    "anthropic-ai",
+    "ClaudeBot",
+    "Claude-Web",
+    "Applebot-Extended",
+    "meta-externalagent",
+    "Bytespider",
+    "cohere-ai",
+    "Diffbot"
   ]
- },
- "indexing_enabled": false,
- "preview_base_path": "/medicalbillingteam",
- "form_backend": {
-  "mode": "apps_script",
-  "apps_script_url": "",
-  "form_key": "mbt-public-v1",
-  "_note": "Lead form -> Google Apps Script web app -> 'MedicalBillingTeam Leads' Sheet (tony@ Drive). apps_script_url stays EMPTY until Tony deploys (see _build/apps-script/DEPLOY.md); while empty the form shows a clear 'not connected' message and sends nothing. The URL is PUBLIC by design (the browser must know where to POST) and will be served in /form-config.js once set. form_key is also PUBLIC; it is a junk filter, not a secret. Supabase is not used (Tony said no, 2026-10-18)."
- },
- "tcpa_text": "By checking this box, I agree that Alliance Global Solutions may call or text me at the number I provided about remote medical billing and revenue cycle staffing, including calls or texts made with an autodialer or prerecorded or artificial voice. Consent is not a condition of any purchase or of receiving the assessment. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help.",
- "tcpa_version": "2026-10-18-v1",
- "phi_notice": "Do not include any patient information. Please don't enter patient names, dates of birth, addresses, member or policy IDs, claim numbers, diagnoses or any health details anywhere on this site.",
- "email_notice": "By submitting, you agree that we may email you about your request and about remote billing and RCM staffing. Every marketing email includes an unsubscribe link, and we honor opt-outs promptly.",
- "hold_sections": {
-  "Related domain": "medicalbillingadvisor.com does not redirect yet; show only after the 301 is live"
- },
- "ags_verified_200": [
-  "https://www.allianceglobalsolutions.com/",
-  "https://www.allianceglobalsolutions.com/services/",
-  "https://www.allianceglobalsolutions.com/contact/",
-  "https://www.allianceglobalsolutions.com/careers/",
-  "https://www.allianceglobalsolutions.com/about-us/",
-  "https://www.allianceglobalsolutions.com/virtual-assistants/",
-  "https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/",
-  "https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/",
-  "https://www.allianceglobalsolutions.com/virtual-assistant-skills/data-entry/",
-  "https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/",
-  "https://www.allianceglobalsolutions.com/blog/",
-  "https://www.allianceglobalsolutions.com/how-to-hire-the-best-virtual-assistant-for-your-company/"
- ]
 }

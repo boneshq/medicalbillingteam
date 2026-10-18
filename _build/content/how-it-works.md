@@ -1,6 +1,6 @@
 ---
 title: "How a Remote Medical Billing Team Works | 3 Steps"
-meta_description: "How dedicated remote billing and RCM staff are scoped, hired, onboarded securely and managed, from free assessment to day-to-day work in your systems."
+meta_description: "How dedicated remote billing and RCM staff are scoped, onboarded securely under a BAA and managed in your systems. Request a free staffing assessment."
 slug: "/how-it-works/"
 schema_type: ["WebPage", "HowTo", "FAQPage"]
 faq:
@@ -12,9 +12,23 @@ faq:
     a: "A signed business associate agreement, a secure way for staff to reach your systems (ideally a virtual desktop or VPN with MFA), user accounts with role-based access, and documented procedures for the tasks you're assigning."
   - q: "Can we start with one person?"
     a: "Yes. Many practices start with one role, such as eligibility verification or A/R follow-up, and add more once the workflow is running smoothly."
+canonical: "https://medicalbillingteam.com/how-it-works/"
+primary_keyword: "remote medical billing team"
+search_intent: "commercial"
+audience: "prospective clients"
+conversion_destination: "/contact/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "semiannual"
 ---
 
 # How a remote medical billing team works
+
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+**Short answer:** You tell us which billing work needs help. Alliance Global Solutions recruits dedicated remote staff for those roles, and they work in your systems, under your workflows, once a business associate agreement and access controls are in place. You direct the work; the staffing provider employs and supports the staff.
 
 A dedicated remote billing team is people, not software. Here is what the process looks like from the first conversation to day-to-day work.
 
@@ -57,6 +71,24 @@ If you decide to go ahead:
 - We don't ask for patient information through this website.
 - We don't claim to be "HIPAA certified"; no such official certification exists.
 - We don't promise specific outcomes before understanding your data.
+
+## FAQ
+
+### Do remote staff use our software or theirs?
+
+Yours. Dedicated staff work in your practice management system, clearinghouse and payer portals, with access you grant and can revoke at any time.
+
+### Who manages the remote staff day to day?
+
+You direct the work and set priorities. The staffing provider handles employment, HR, equipment, attendance and support, and can help with supervision and reporting.
+
+### What do we need to have in place first?
+
+A signed business associate agreement, a secure way for staff to reach your systems (ideally a virtual desktop or VPN with MFA), user accounts with role-based access, and documented procedures for the tasks you're assigning.
+
+### Can we start with one person?
+
+Yes. Many practices start with one role, such as eligibility verification or A/R follow-up, and add more once the workflow is running smoothly.
 
 [Request a free staffing assessment →](/contact/)
 

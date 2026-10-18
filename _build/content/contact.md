@@ -1,15 +1,25 @@
 ---
 title: "Free Medical Billing Staffing Assessment | Contact"
-meta_description: "Request a free, no-obligation medical billing staffing assessment. Practice-level details only. Please do not include any patient information."
+meta_description: "Request a free medical billing staffing assessment. Share practice-level details only and never patient information. We reply within one business day."
 slug: "/contact/"
 schema_type: ["ContactPage"]
+canonical: "https://medicalbillingteam.com/contact/"
+primary_keyword: "medical billing staffing assessment"
+search_intent: "transactional"
+audience: "prospective clients"
+conversion_destination: "form submit"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "semiannual"
 ---
 
 # Request a free staffing assessment
 
 Tell us about your practice or billing company and a billing staffing specialist will follow up, usually within one business day. The assessment is free and there's no obligation. If remote staff aren't a good fit for you, we'll say so.
 
-> **Do not include any patient information.** This form is for business inquiries only. Please don't enter patient names, dates of birth, addresses, member or policy IDs, claim numbers, account numbers, diagnoses, treatment details or any other health information, in any field, including the comments box.
+> **Do not include any patient information.** This form is for business inquiries only. Please don't enter patient names, dates of birth, addresses, member or policy IDs, claim numbers, account numbers, diagnoses, treatment details or any other health information in any field.
 
 ## Form fields
 
@@ -25,7 +35,6 @@ Tell us about your practice or billing company and a billing staffing specialist
 | 8 | Where do you need help? (optional) | checkboxes | No | Billing / claims · A/R follow-up · Eligibility / VOB · Prior authorization · Payment posting · Denial follow-up · Admissions / intake · Coding · Credentialing · Not sure yet |
 | 9 | Work email | email | Yes | Please use your practice or company email. |
 | 10 | Phone (optional) | tel | No | Only if you'd like a call or text. |
-| 11 | Anything else? (optional) | textarea, 500 chars | No | Placeholder: "Describe your workload or goals. No patient information, please." |
 
 **Phone consent (checkbox under field 10; unchecked by default; shown only when a phone number is entered; NOT required to submit the form):**
 > ☐ By checking this box, I agree that Alliance Global Solutions may call or text me at the number I provided about remote medical billing and revenue cycle staffing, including calls or texts made with an autodialer or prerecorded or artificial voice. Consent is not a condition of any purchase or of receiving the assessment. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help. You can also withdraw consent by emailing [privacy contact]. See our [Privacy Policy](/privacy/) and [Terms](/terms/).
@@ -36,7 +45,7 @@ Tell us about your practice or billing company and a billing staffing specialist
 **Patient-information reminder (repeated directly above the button):**
 > Reminder: do not include any patient information.
 
-**Submit button:** Request my free assessment
+**Submit button:** Request my assessment
 
 **Success page / message:**
 > Thank you. We've received your request. A staffing specialist will email you, usually within one business day. In the meantime, you might find these useful: [Medical Billing Health Checklist](/checklist/) · [HIPAA guide for outsourced billing staff](/hipaa-outsourced-medical-billing/) · [RCM staffing guide](/revenue-cycle-management-staffing/)
@@ -50,7 +59,7 @@ Tell us about your practice or billing company and a billing staffing specialist
 - Add a honeypot field and server-side rate limiting; avoid CAPTCHAs that collect extra data where possible.
 - Do not write form submissions to page analytics (no form-field values in GA4 events).
 - Auto-reply email must include the sender's physical postal address and an unsubscribe link (CAN-SPAM).
-- Optional client-side warning: if the comments box contains patterns like dates of birth (MM/DD/YYYY) or long ID-like numbers, show "This looks like it may contain patient information. Please remove it."
+- No free-text field: the optional "Anything else?" comments box was removed (Code Desk, 2026-10-18) to reduce PHI risk. Keep every field structured. Name and practice-name fields still get a server-side PHI-pattern check (dates of birth, long ID-like numbers) and length limits.
 
 ## Other ways to reach us
 

@@ -1,8 +1,8 @@
 ---
 title: "Medical Billing Staffing Cost: In-House vs Outsourced"
-meta_description: "Compare the cost of in-house billers, outsourced billing companies and dedicated remote billing staff, using public wage data and a worksheet, not guesses."
+meta_description: "Compare in-house, billing company and remote staff costs using public BLS wage and benefit data, plus a worksheet. Request a free staffing assessment."
 slug: "/medical-billing-staffing-cost/"
-schema_type: ["Article", "FAQPage"]
+schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
   - q: "How much does outsourced medical billing cost?"
     a: "Billing companies commonly price as a percentage of collections, a per-claim fee or a monthly fee. The right comparison is the fee applied to your actual collections and claim volume, compared with your fully loaded in-house cost. Ask exactly what services are included and how collections are defined."
@@ -14,11 +14,23 @@ faq:
     a: "It depends on your volume and needs. Percentage pricing scales with collections and bundles management, but you give up some control. Staffing pricing is predictable and keeps control in-house, but you manage the process."
   - q: "What hidden costs should I include?"
     a: "Vacancies and turnover, overtime, aging A/R while positions are unfilled, write-offs from missed timely filing limits, and the time owners or managers spend doing billing themselves."
+canonical: "https://medicalbillingteam.com/medical-billing-staffing-cost/"
+primary_keyword: "medical billing staffing cost"
+search_intent: "commercial"
+audience: "practice owners and administrators"
+conversion_destination: "/contact/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "quarterly + on rule change"
 ---
 
 # Medical billing staffing cost: in-house vs outsourced vs remote staff
 
-*Last reviewed: October 18, 2026.*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+**Short answer:** An in-house biller costs their wage plus benefits and overhead. BLS puts the median wage for billing and posting clerks at $23.32 an hour (May 2025), and benefits average 30% of private-industry compensation costs (June 2026). Billing companies usually charge a percentage of collections, while remote staff are priced per full-time person. Compare all three with a fully loaded worksheet, not just the hourly rate.
 
 "How much does it cost?" is the first question practices ask about billing help, and the honest answer is: it depends on your volume, specialty and what you're comparing. Instead of quoting price ranges we can't back up, this guide shows you how to compare three common models using your own numbers and public wage data.
 
@@ -137,24 +149,36 @@ The [Medical Billing Health Checklist](/checklist/) includes this worksheet in p
 
 Many practices combine models: a local billing manager plus remote specialists for specific queues.
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff; you can review its [service lines](https://www.allianceglobalsolutions.com/services/) on its own site. If you want help working through the worksheet, request a [free staffing assessment](/contact/). We'll tell you if another model makes more sense.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff; you can read about its [dedicated medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) on its own site. If you want help working through the worksheet, request a [free staffing assessment](/contact/). We'll tell you if another model makes more sense.
+
+## Related guides
+
+- [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)
+- [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [How to reduce A/R days](/reduce-ar-days/)
+- [Medical billing outsourcing: three models](/medical-billing-outsourcing/)
 
 ## FAQ
 
-**How much does outsourced medical billing cost?**
-Usually a percentage of collections, a per-claim fee or a monthly fee. Compare the fee applied to your actual collections against your fully loaded in-house cost.
+### How much does outsourced medical billing cost?
 
-**What is the fully loaded cost of an in-house biller?**
-Wages plus taxes, benefits, leave, recruiting, training, software, equipment, workspace and supervision. Benefits averaged 30% of private-industry compensation costs in June 2026 (BLS).
+Billing companies commonly price as a percentage of collections, a per-claim fee or a monthly fee. The right comparison is the fee applied to your actual collections and claim volume, compared with your fully loaded in-house cost. Ask exactly what services are included and how collections are defined.
 
-**Are remote billing staff cheaper than in-house staff?**
-Often the rate is lower, but compare total cost including your management time, onboarding, software and secure access.
+### What is the fully loaded cost of an in-house medical biller?
 
-**Is a percentage-of-collections fee better than paying for staff?**
-It depends on volume and how much control you want.
+Wages plus payroll taxes, benefits, paid leave, recruiting, training, software licenses, equipment, workspace and supervision time. BLS data show benefits averaged 30% of private-industry employer compensation costs in June 2026, so salary alone understates the cost.
 
-**What hidden costs should I include?**
-Vacancies, turnover, overtime, aging A/R, timely filing write-offs and owner time.
+### Are remote medical billing staff cheaper than in-house staff?
+
+Often the hourly rate is lower, but you should compare total cost, including your management time, onboarding, software seats and secure remote access, against the fully loaded cost of a local hire for the same role.
+
+### Is a percentage-of-collections fee better than paying for staff?
+
+It depends on your volume and needs. Percentage pricing scales with collections and bundles management, but you give up some control. Staffing pricing is predictable and keeps control in-house, but you manage the process.
+
+### What hidden costs should I include?
+
+Vacancies and turnover, overtime, aging A/R while positions are unfilled, write-offs from missed timely filing limits, and the time owners or managers spend doing billing themselves.
 
 ---
 *Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*

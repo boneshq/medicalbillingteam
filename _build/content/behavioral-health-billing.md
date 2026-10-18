@@ -1,8 +1,8 @@
 ---
 title: "Behavioral Health & Treatment Center Billing Staff"
-meta_description: "Behavioral health and treatment center billing: VOB, admissions, authorizations, concurrent review, Part 2 privacy rules and staffing options."
+meta_description: "Behavioral health and treatment center billing: VOB, levels of care, concurrent review, Part 2 privacy and staffing. Request a free staffing assessment."
 slug: "/behavioral-health-billing/"
-schema_type: ["Article", "FAQPage"]
+schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
   - q: "Why is behavioral health billing different from other specialties?"
     a: "Behavioral health often involves time-based psychotherapy codes, frequent authorizations and concurrent reviews, levels of care with different benefits, carved-out behavioral health plans, and extra privacy rules for substance use disorder records under 42 CFR Part 2."
@@ -14,11 +14,23 @@ faq:
     a: "Yes, VOB and admissions support are phone- and portal-based and can be done remotely, provided staff are trained on levels of care, coverage rules and privacy requirements, and work under a BAA with appropriate access controls."
   - q: "What should a behavioral health practice look for in billing staff?"
     a: "Experience with behavioral health codes and payers, authorization and concurrent review tracking, knowledge of carve-out plans, understanding of Part 2 and psychotherapy notes rules, and strong documentation habits."
+canonical: "https://medicalbillingteam.com/behavioral-health-billing/"
+primary_keyword: "behavioral health billing"
+search_intent: "commercial"
+audience: "behavioral health practices and treatment centers"
+conversion_destination: "/contact/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "quarterly + on rule change"
 ---
 
 # Medical billing for behavioral health practices and treatment centers
 
-*Last reviewed: October 18, 2026.*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+**Short answer:** Behavioral health billing is harder than it looks. Practices and treatment centers deal with time-based psychotherapy codes, frequent authorizations and concurrent reviews, benefits that vary by level of care, carved-out behavioral health plans, and extra privacy rules for substance use disorder records under 42 CFR Part 2. Billing staff need training in all of these.
 
 Behavioral health billing looks simple from the outside: a lot of the same few codes. In practice, it's one of the more demanding specialties to bill well. Authorizations and concurrent reviews are frequent, benefits vary by level of care, many plans carve behavioral health out to a separate administrator, and substance use disorder (SUD) records carry their own federal privacy rules. This guide covers what's different and how practices and treatment centers staff the work. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -125,22 +137,34 @@ Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.co
 A note on scope: this guide covers billing operations, not clinical or legal requirements. Licensure, program certification and state rules vary, so check them with your state agencies and counsel.
 
 
+## Related guides
+
+- [Eligibility verification and prior authorization](/eligibility-verification-prior-authorization/)
+- [HIPAA and outsourced billing staff](/hipaa-outsourced-medical-billing/)
+- [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [Prior authorization specialist role](/prior-authorization-specialist/)
+
 ## FAQ
 
-**Why is behavioral health billing different?**
-Time-based codes, frequent authorizations and concurrent reviews, levels of care, carve-outs and Part 2 privacy rules.
+### Why is behavioral health billing different from other specialties?
 
-**What is a VOB in a treatment center?**
-A detailed benefits check by level of care, usually before admission.
+Behavioral health often involves time-based psychotherapy codes, frequent authorizations and concurrent reviews, levels of care with different benefits, carved-out behavioral health plans, and extra privacy rules for substance use disorder records under 42 CFR Part 2.
 
-**Does 42 CFR Part 2 apply to billing staff?**
-Billing staff who handle Part 2 records must follow its rules. Compliance with the 2024 rule was required by February 16, 2026.
+### What is a VOB in a treatment center?
 
-**Can remote staff handle admissions and VOB?**
-Yes, with training, a BAA and appropriate access controls.
+A verification of benefits confirms a prospective patient's coverage and benefits for specific levels of care, such as detox, residential, partial hospitalization or intensive outpatient, including authorization requirements, day limits and out-of-network benefits, usually before admission.
 
-**What should I look for in behavioral health billing staff?**
-Behavioral health payer experience, authorization tracking, carve-out knowledge, privacy training and strong documentation.
+### Does 42 CFR Part 2 apply to billing staff?
+
+Part 2 applies to federally assisted SUD programs and to certain recipients of Part 2 records, including HIPAA covered entities and business associates and qualified service organizations. Billing staff who handle Part 2 records must follow its consent and redisclosure rules. HHS says compliance with the 2024 final rule was required by February 16, 2026.
+
+### Can remote staff handle admissions and VOB for a treatment center?
+
+Yes, VOB and admissions support are phone- and portal-based and can be done remotely, provided staff are trained on levels of care, coverage rules and privacy requirements, and work under a BAA with appropriate access controls.
+
+### What should a behavioral health practice look for in billing staff?
+
+Experience with behavioral health codes and payers, authorization and concurrent review tracking, knowledge of carve-out plans, understanding of Part 2 and psychotherapy notes rules, and strong documentation habits.
 
 ---
 *Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*

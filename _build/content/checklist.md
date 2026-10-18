@@ -1,10 +1,21 @@
 ---
 title: "Medical Billing Health Checklist (Free Download)"
-meta_description: "A free self-audit for practices and billing companies: front end, claims, denials, A/R, posting, KPIs, staffing and HIPAA. No patient data needed."
+meta_description: "A free self-audit for practices and billing companies: front end, claims, denials, A/R, posting, KPIs and HIPAA. No patient data needed. Download it."
 slug: "/checklist/"
 schema_type: ["WebPage", "CreativeWork"]
 gated: true
 gate_form: "short (name, work email, practice name, number of providers, optional phone + TCPA consent, no-PHI notice)"
+canonical: "https://medicalbillingteam.com/checklist/"
+primary_keyword: "medical billing checklist"
+search_intent: "transactional (lead magnet)"
+audience: "practice and billing managers"
+conversion_destination: "checklist form"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "semiannual"
+og_image_alt: "Medical Billing Health Checklist cover"
 ---
 
 <!-- GATE PAGE (public): headline, bullets, short form. After submit: show full checklist below + PDF download link. -->

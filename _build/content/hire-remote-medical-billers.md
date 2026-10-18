@@ -1,8 +1,8 @@
 ---
 title: "Hiring Remote and Offshore Medical Billers: A Guide"
-meta_description: "How to hire remote or offshore medical billers: roles, skills to test, interview questions, agency vs freelancer, security questions, onboarding."
+meta_description: "How to hire remote or offshore medical billers: skills to test, interview questions, agency vs freelancer and security checks. Get a free assessment."
 slug: "/hire-remote-medical-billers/"
-schema_type: ["Article", "FAQPage"]
+schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
   - q: "Should I hire a freelance medical biller or go through an agency?"
     a: "A freelancer can work for small, simple needs but leaves you handling vetting, backup coverage, equipment and security. An agency typically handles recruiting, employment, equipment, backfill and HIPAA arrangements such as a BAA, but adds a margin. Compare total cost and risk, not just the hourly rate."
@@ -14,11 +14,23 @@ faq:
     a: "A signed BAA, unique logins with MFA, secure remote access through VDI or VPN, no local downloads or printing, company-managed encrypted devices, role-based access, HIPAA training records, background checks, a current risk analysis and an incident response plan."
   - q: "Can offshore medical billers work US payer hours?"
     a: "Many offshore teams work schedules that overlap US business hours. Confirm the schedule in writing, because payer calls and same-day eligibility work depend on it."
+canonical: "https://medicalbillingteam.com/hire-remote-medical-billers/"
+primary_keyword: "hire remote medical billers"
+search_intent: "commercial-transactional"
+audience: "practice owners and billing companies"
+conversion_destination: "/contact/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "quarterly + on rule change"
 ---
 
 # Hiring remote and offshore medical billers: what to look for
 
-*Last reviewed: October 18, 2026.*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+**Short answer:** To hire a remote or offshore medical biller, define the queue first and test candidates with a practical exercise on fictional data. Then choose between a freelancer, where you handle vetting and security, and an agency, which handles employment, equipment, backup coverage and the BAA. Before anyone logs in, require a BAA, MFA, secure remote access and role-based access.
 
 Remote medical billers can add real capacity, or create new problems, depending on how you hire. This guide covers the roles you can fill, how to choose between a freelancer and an agency, what skills to test, the security practices to ask about, and how to onboard. It's written for practices and for billing companies adding staff. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -142,27 +154,40 @@ And be wary of "HIPAA certified" claims. There is no official HIPAA certificatio
 
 ## Next steps
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff from the Philippines. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](/contact/) here. Use the questions above with us, too.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff from the Philippines. It signs a BAA with each client before any of its staff access protected health information. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](/contact/) here. Use the questions above with us, too.
 
 A final tip: write down what "good" looks like before you hire, meaning the queues, volumes, quality checks and hours. A clear role description makes it easier to interview and onboard, and to judge whether the hire is working.
 
 
+## Related guides
+
+- [Medical billing staffing cost comparison](/medical-billing-staffing-cost/)
+- [HIPAA and outsourced billing staff](/hipaa-outsourced-medical-billing/)
+- [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
+- [Hiring remote medical coders](/hire-remote-medical-coders/)
+
 ## FAQ
 
-**Freelancer or agency?**
-Freelancers suit small, simple needs; agencies handle vetting, employment, backfill and the BAA. Compare total cost and risk.
+### Should I hire a freelance medical biller or go through an agency?
 
-**What skills should a remote medical biller have?**
-Practice management and portal experience, remittance reading, CARC/RARC codes, follow-up, clear English and documentation.
+A freelancer can work for small, simple needs but leaves you handling vetting, backup coverage, equipment and security. An agency typically handles recruiting, employment, equipment, backfill and HIPAA arrangements such as a BAA, but adds a margin. Compare total cost and risk, not just the hourly rate.
 
-**How do I test a candidate?**
-A practical test with fictional or de-identified data. Never real patient data.
+### What skills should a remote medical biller have?
 
-**What security practices should I ask about?**
-BAA, MFA, VDI/VPN, no downloads, managed devices, role-based access, training, background checks, risk analysis and incident response.
+Experience with your practice management system or similar, payer portals, reading ERAs and EOBs, CARC/RARC codes, claim follow-up, clear written English and documentation habits. Specialty experience matters for behavioral health, therapy, labs and ASCs.
 
-**Can offshore billers work US payer hours?**
-Many do. Confirm the schedule in writing.
+### How do I test a medical billing candidate?
+
+Use a short practical test with de-identified or fictional data: interpret a remittance, decide next steps on a denied claim, draft a payer call note, or calculate days in A/R from sample figures. Never use real patient data in a test.
+
+### What security practices should I ask an agency about?
+
+A signed BAA, unique logins with MFA, secure remote access through VDI or VPN, no local downloads or printing, company-managed encrypted devices, role-based access, HIPAA training records, background checks, a current risk analysis and an incident response plan.
+
+### Can offshore medical billers work US payer hours?
+
+Many offshore teams work schedules that overlap US business hours. Confirm the schedule in writing, because payer calls and same-day eligibility work depend on it.
 
 ---
 *Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*

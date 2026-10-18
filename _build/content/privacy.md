@@ -1,9 +1,20 @@
 ---
 title: "Privacy Policy (DRAFT) | Medical Billing Team"
-meta_description: "How medicalbillingteam.com collects, uses and protects the business contact information you submit. Draft pending legal review."
+meta_description: "How medicalbillingteam.com collects, uses and protects the business contact details you submit, and your choices. Draft pending legal review."
 slug: "/privacy/"
 schema_type: ["WebPage"]
 status: "DRAFT - FOR LEGAL REVIEW - DO NOT PUBLISH UNTIL APPROVED"
+canonical: "https://medicalbillingteam.com/privacy/"
+primary_keyword: "privacy policy"
+search_intent: "navigational"
+audience: "all visitors"
+conversion_destination: "n/a"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "semiannual"
+robots: "noindex"  # until legal approval; remove when approved
 ---
 
 > **DRAFT FOR LEGAL REVIEW.** Bracketed items must be confirmed. This draft isn't legal advice and shouldn't be published until counsel approves it.
@@ -12,7 +23,7 @@ status: "DRAFT - FOR LEGAL REVIEW - DO NOT PUBLISH UNTIL APPROVED"
 
 *Effective date: [DATE]*
 
-medicalbillingteam.com (the "Site") is operated by Alliance Global Solutions ("we," "us"), [LEGAL ENTITY NAME AND JURISDICTION], [POSTAL ADDRESS]. This policy explains what we collect through the Site, how we use it and the choices you have. medicalbillingadvisor.com redirects to this Site and is covered by this policy.
+medicalbillingteam.com (the "Site") is operated by Alliance Global Solutions ("we," "us"), [LEGAL ENTITY NAME AND JURISDICTION], [POSTAL ADDRESS]. This policy explains what we collect through the Site, how we use it and the choices you have. If medicalbillingadvisor.com is later set up to redirect to this Site, this policy will cover visits that arrive through it. [CONFIRM at launch: remove this sentence if the redirect is not live, or state that it is once it is.]
 
 ## 1. Please do not send patient information
 
@@ -23,7 +34,7 @@ The Site is meant for business inquiries from medical practices, billing compani
 **Information you provide** through our forms:
 - name, role, work email and (optional) phone number;
 - practice or company name, specialty, number of providers, monthly collections range and current billing setup;
-- areas you want help with and any comments; and
+- the areas you want help with (selected from a list); and
 - your consent choices (for example, whether you agreed to calls or texts), with the date, time, page and consent wording shown.
 
 **Information collected automatically:**

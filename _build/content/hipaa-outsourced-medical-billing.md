@@ -1,26 +1,38 @@
 ---
 title: "HIPAA and Outsourced Medical Billing Staff: A Guide"
-meta_description: "HIPAA for outsourced or offshore medical billing staff: BAAs, minimum necessary, access controls, training, breaches and questions to ask agencies."
+meta_description: "HIPAA for outsourced and offshore billing staff: BAAs, minimum necessary, access controls, training and breaches. Get our 15 questions for agencies."
 slug: "/hipaa-outsourced-medical-billing/"
-schema_type: ["Article", "FAQPage"]
+schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
   - q: "Is there such a thing as HIPAA certification?"
     a: "No. There is no official HIPAA certification for companies or individuals. HHS's Office for Civil Rights says it does not endorse, certify or recommend specific technology or products. Private training courses may issue certificates, but these are not government certification of HIPAA compliance."
   - q: "Does a medical billing staffing agency need to sign a BAA?"
     a: "If the agency or its staff will create, receive, maintain or transmit protected health information on your behalf, such as by working claims in your billing system, the agency is generally a business associate and HIPAA requires a business associate agreement before PHI is shared. Confirm your situation with your own counsel."
-  - q: "Does the operator sign a BAA?"
-    a: "Yes. Alliance Global Solutions signs a Business Associate Agreement with clients before any staff access PHI."
   - q: "Can offshore staff access PHI under HIPAA?"
     a: "HIPAA does not ban offshore work. HHS guidance on cloud services says the rules do not include requirements specific to PHI handled outside the US, but notes that overseas arrangements may increase risk and raise enforceability concerns. Those risks should be addressed in your risk analysis and safeguards."
   - q: "How quickly must a business associate report a breach?"
     a: "Under the Breach Notification Rule, a business associate must notify the covered entity without unreasonable delay and no later than 60 days after discovering a breach of unsecured PHI. Many BAAs set a shorter deadline."
   - q: "What does minimum necessary mean for billing staff?"
     a: "It means making reasonable efforts to use, disclose and request only the minimum PHI needed for the task. For billing staff, that usually means role-based access limited to the queues, screens and payers they actually work."
+canonical: "https://medicalbillingteam.com/hipaa-outsourced-medical-billing/"
+primary_keyword: "HIPAA outsourced medical billing"
+search_intent: "informational"
+audience: "practice owners and compliance leads"
+conversion_destination: "/contact/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "quarterly + on rule change"
 ---
 
 # HIPAA and outsourced medical billing staff: what to check before anyone logs in
 
-*Last reviewed: October 18, 2026. General information, not legal advice. Talk to your own healthcare attorney or compliance adviser about your situation.*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+*General information, not legal advice. Talk to your own healthcare attorney or compliance adviser about your situation.*
+
+**Short answer:** Before outsourced or offshore billing staff touch patient data, have a signed business associate agreement, limit access to the minimum necessary, and require strong technical controls: unique logins, MFA, secure remote access and no local downloads. Add documented training and a breach-notification process. There is no official "HIPAA certification," because HHS does not certify vendors, so ask for evidence of specific safeguards instead.
 
 Billing work runs on patient data. Names, dates of birth, member IDs, diagnosis and procedure codes and payment details all sit on the screens your billing staff use every day. So when you bring in outsourced, remote or offshore billing staff through an agency, HIPAA is not a box to tick at the end. It shapes which agency you choose, how the contract is written, how access is set up and what happens if something goes wrong.
 
@@ -142,27 +154,37 @@ Our forms never ask for patient information, and we ask you not to submit any. W
 
 - Compare options in our [medical billing staffing cost guide](/medical-billing-staffing-cost/).
 - Read [how to hire remote and offshore medical billers](/hire-remote-medical-billers/).
-- Ask us these questions directly with a [free staffing assessment](/contact/). This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/); you can also reach the company through its [contact page](https://www.allianceglobalsolutions.com/contact/).
+- Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. We don't claim to be "HIPAA certified" (no such certification exists), and you should still ask us the other questions on this page.
+- Ask us these questions directly with a [free staffing assessment](/contact/). This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/); you can also read how the company approaches [outsourced medical billing staffing](https://www.allianceglobalsolutions.com/medical-billing/) on its own site.
+
+## Related guides
+
+- [Security questions to ask when hiring remote billers](/hire-remote-medical-billers/)
+- [Part 2 and behavioral health billing](/behavioral-health-billing/)
+- [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
 
 ## FAQ
 
-**Is there such a thing as HIPAA certification?**
-No. There is no official HIPAA certification for companies or people. OCR does not endorse or certify products or vendors.
+### Is there such a thing as HIPAA certification?
 
-**Does a billing staffing agency need to sign a BAA?**
-If its staff will create, receive, maintain or transmit PHI on your behalf, it is generally a business associate and a BAA is required before PHI is shared.
+No. There is no official HIPAA certification for companies or individuals. HHS's Office for Civil Rights says it does not endorse, certify or recommend specific technology or products. Private training courses may issue certificates, but these are not government certification of HIPAA compliance.
 
-**Does the operator sign a BAA?**
-Yes. Alliance Global Solutions signs a Business Associate Agreement with clients before any staff access PHI.
+### Does a medical billing staffing agency need to sign a BAA?
 
-**Can offshore staff access PHI under HIPAA?**
-HIPAA has no offshore-specific ban, but HHS notes increased risk and enforceability concerns. Address them in your risk analysis and safeguards, and check payer contracts.
+If the agency or its staff will create, receive, maintain or transmit protected health information on your behalf, such as by working claims in your billing system, the agency is generally a business associate and HIPAA requires a business associate agreement before PHI is shared. Confirm your situation with your own counsel.
 
-**How quickly must a business associate report a breach?**
-Without unreasonable delay and no later than 60 days after discovery. Many BAAs require faster notice.
+### Can offshore staff access PHI under HIPAA?
 
-**What does minimum necessary mean for billing staff?**
-Access only to the PHI each role needs, enforced by role-based permissions.
+HIPAA does not ban offshore work. HHS guidance on cloud services says the rules do not include requirements specific to PHI handled outside the US, but notes that overseas arrangements may increase risk and raise enforceability concerns. Those risks should be addressed in your risk analysis and safeguards.
+
+### How quickly must a business associate report a breach?
+
+Under the Breach Notification Rule, a business associate must notify the covered entity without unreasonable delay and no later than 60 days after discovering a breach of unsecured PHI. Many BAAs set a shorter deadline.
+
+### What does minimum necessary mean for billing staff?
+
+It means making reasonable efforts to use, disclose and request only the minimum PHI needed for the task. For billing staff, that usually means role-based access limited to the queues, screens and payers they actually work.
 
 ---
 *Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it. This page is general information, not legal advice.*

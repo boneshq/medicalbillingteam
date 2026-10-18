@@ -1,8 +1,8 @@
 ---
 title: "How to Reduce AR Days: Workflow and AR Staffing Guide"
-meta_description: "How to reduce days in A/R: calculate it correctly, work aging buckets, fix front-end causes, follow up on unpaid claims, and staff AR follow-up properly."
+meta_description: "How to reduce days in A/R: measure it consistently, prioritize follow-up, fix front-end errors and staff the work. Download the free KPI worksheet."
 slug: "/reduce-ar-days/"
-schema_type: ["Article", "FAQPage"]
+schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
   - q: "How do you calculate days in A/R?"
     a: "A common method divides total accounts receivable by average daily charges. For example, add gross charges for the last 90 days, divide by 90 to get average daily charges, then divide current total A/R by that number. Use the same method every month so the trend is meaningful."
@@ -14,11 +14,23 @@ faq:
     a: "They work unpaid and underpaid claims by age and value, check claim status in payer portals, call payers, correct and resubmit claims, route denials for appeal, and document every action."
   - q: "Should old A/R be written off?"
     a: "Only under a written write-off policy after documented collection efforts, and with approval. Before writing off, check whether claims can still be corrected or appealed within the payer's limits."
+canonical: "https://medicalbillingteam.com/reduce-ar-days/"
+primary_keyword: "how to reduce AR days"
+search_intent: "informational"
+audience: "billing managers"
+conversion_destination: "/checklist/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "quarterly + on rule change"
 ---
 
 # How to reduce AR days: a practical workflow and staffing guide
 
-*Last reviewed: October 18, 2026.*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+**Short answer:** To reduce days in A/R, measure it the same way every month, submit clean claims quickly, and work unpaid claims by dollar value and age. Fix the eligibility and authorization errors at the front end, post payments daily, and handle patient balances in their own workflow. Most of these steps depend on having enough dedicated follow-up time.
 
 Days in accounts receivable (A/R) is the number most practice owners look at first, because it answers a simple question: how long does it take us to get paid? This guide explains how to measure it, the workflow that brings it down, and how to staff A/R follow-up so it actually happens. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -130,22 +142,34 @@ This site is operated by [Alliance Global Solutions](https://www.allianceglobals
 - **Touching claims without a next step.** Every follow-up should end with a documented action and a date to check again.
 - **Letting credits and unapplied payments sit.** They distort A/R reports and can create refund obligations.
 
+## Related guides
+
+- [Denial management basics](/denial-management/)
+- [Medical billing staffing cost comparison](/medical-billing-staffing-cost/)
+- [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [What an AR specialist does](/ar-specialist/)
+
 ## FAQ
 
-**How do you calculate days in A/R?**
-Total A/R divided by average daily charges (for example, last 90 days of charges ÷ 90). Use the same method monthly.
+### How do you calculate days in A/R?
 
-**What is a good number of days in A/R?**
-It varies by specialty and payer mix. Track your own trend and your share of A/R over 90 days.
+A common method divides total accounts receivable by average daily charges. For example, add gross charges for the last 90 days, divide by 90 to get average daily charges, then divide current total A/R by that number. Use the same method every month so the trend is meaningful.
 
-**What is the fastest way to reduce A/R days?**
-Work high-dollar 31-90 day claims first, fix rejections daily, enter charges promptly and stop front-end errors.
+### What is a good number of days in A/R?
 
-**What does an AR follow-up specialist do?**
-Works unpaid claims by age and value, checks status, calls payers, resubmits, routes denials and documents everything.
+It varies by specialty, payer mix and calculation method, and many benchmark sources are member-only. Track your own trend and the share of A/R over 90 days, and compare with specialty data you trust.
 
-**Should old A/R be written off?**
-Only under a written policy after documented efforts, and after checking whether claims can still be corrected or appealed.
+### What is the fastest way to reduce A/R days?
+
+Work high-dollar claims in the 31-90 day buckets before they age further, fix rejections daily, submit charges promptly, and stop recurring front-end errors such as eligibility and authorization problems.
+
+### What does an AR follow-up specialist do?
+
+They work unpaid and underpaid claims by age and value, check claim status in payer portals, call payers, correct and resubmit claims, route denials for appeal, and document every action.
+
+### Should old A/R be written off?
+
+Only under a written write-off policy after documented collection efforts, and with approval. Before writing off, check whether claims can still be corrected or appealed within the payer's limits.
 
 ---
 *Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*

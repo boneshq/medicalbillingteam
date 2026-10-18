@@ -1,8 +1,8 @@
 ---
 title: "Eligibility Verification & Prior Authorization Staffing"
-meta_description: "How eligibility verification (VOB) and prior authorization work, what CMS-0057-F changed, workflows that prevent denials, and how to staff them."
+meta_description: "Eligibility verification and prior authorization workflows, what CMS-0057-F changed, and how to staff them. Request a free staffing assessment."
 slug: "/eligibility-verification-prior-authorization/"
-schema_type: ["Article", "FAQPage"]
+schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
   - q: "What is insurance eligibility verification?"
     a: "It is confirming, before a visit, that a patient's coverage is active and finding out benefits that affect payment: copay, deductible, coinsurance, plan type, network status, coordination of benefits, and whether a referral or prior authorization is required."
@@ -14,11 +14,23 @@ faq:
     a: "In an AMA survey of 1,000 physicians, practices reported an average of 39 prior authorization requests per physician per week, taking about 13 hours of physician and staff time."
   - q: "Can eligibility and prior authorization be done by remote staff?"
     a: "Yes. Both are largely portal- and phone-based, so remote staff can do them well with access to your scheduling system, payer portals and clear rules, plus HIPAA safeguards such as a BAA, MFA and role-based access."
+canonical: "https://medicalbillingteam.com/eligibility-verification-prior-authorization/"
+primary_keyword: "eligibility verification and prior authorization"
+search_intent: "informational"
+audience: "front-office and billing managers"
+conversion_destination: "/contact/"
+date_published: "2026-10-18"
+date_modified: "2026-10-18"
+author: "Medical Billing Team editors"  # brand byline; no invented persona
+reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
+review_cadence: "quarterly + on rule change"
 ---
 
 # Eligibility verification and prior authorization: workflows and staffing
 
-*Last reviewed: October 18, 2026.*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+
+**Short answer:** Verify eligibility and benefits before every visit, not just the first. Confirm active coverage, plan type, cost sharing, coordination of benefits, and whether the service needs a referral or prior authorization. Then track each authorization's expiration and visit limits. CMS-0057-F now sets decision timeframes for many payers, but practices still need staff to submit requests and follow up.
 
 Most denials are decided before the patient arrives. If coverage wasn't active, benefits weren't understood, or an authorization was missing, no amount of A/R follow-up will fully fix it. This guide covers eligibility verification and prior authorization, what changed recently in federal rules, the workflows that work, and how practices staff them. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -115,22 +127,34 @@ This site is operated by [Alliance Global Solutions](https://www.allianceglobals
 - **Treating the front desk as the only line of defense.** Front desk staff juggle phones, check-in and payments. A dedicated verification person or team, working a day or two ahead of the schedule, catches problems before the patient arrives.
 - **Ignoring secondary coverage.** Coordination-of-benefits problems were the most commonly reported cause of rising denials in Tebra's 2025 survey of billers ([Tebra](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)). Ask every patient about other coverage and confirm which plan is primary.
 
+## Related guides
+
+- [Denial management basics](/denial-management/)
+- [VOB and authorizations in behavioral health](/behavioral-health-billing/)
+- [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [Prior authorization specialist role](/prior-authorization-specialist/)
+
 ## FAQ
 
-**What is insurance eligibility verification?**
-Confirming active coverage and benefits before a visit, including whether a referral or authorization is required.
+### What is insurance eligibility verification?
 
-**What is a VOB?**
-Verification of benefits, a detailed benefits check common in behavioral health and treatment centers.
+It is confirming, before a visit, that a patient's coverage is active and finding out benefits that affect payment: copay, deductible, coinsurance, plan type, network status, coordination of benefits, and whether a referral or prior authorization is required.
 
-**How long do payers have to respond to prior authorization requests?**
-For CMS-0057-F impacted payers (excluding FFE QHPs for this provision): 72 hours expedited, seven calendar days standard, from 2026.
+### What is a VOB?
 
-**How much time do practices spend on prior authorization?**
-AMA survey: 39 requests per physician per week, about 13 hours.
+VOB stands for verification of benefits. The term is common in behavioral health and treatment centers, where staff verify detailed benefits for specific levels of care before admission.
 
-**Can eligibility and prior authorization be done by remote staff?**
-Yes, with access to the right systems, clear rules and HIPAA safeguards.
+### How long do payers have to respond to prior authorization requests?
+
+Under the CMS Interoperability and Prior Authorization final rule, impacted payers such as Medicare Advantage and Medicaid managed care plans (excluding FFE qualified health plans for this provision) must send decisions within 72 hours for expedited requests and seven calendar days for standard requests, beginning in 2026. Commercial plans outside the rule follow their own contracts and state laws.
+
+### How much time do practices spend on prior authorization?
+
+In an AMA survey of 1,000 physicians, practices reported an average of 39 prior authorization requests per physician per week, taking about 13 hours of physician and staff time.
+
+### Can eligibility and prior authorization be done by remote staff?
+
+Yes. Both are largely portal- and phone-based, so remote staff can do them well with access to your scheduling system, payer portals and clear rules, plus HIPAA safeguards such as a BAA, MFA and role-based access.
 
 ---
 *Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
