@@ -394,7 +394,7 @@ Be wary of any vendor that guarantees a specific reduction in denials or A/R day
 
 A dedicated remote team tends to fit when you have steady, queue-based work (eligibility, posting, A/R, denials), systems that support secure remote access, and someone in-house who can own the process. It fits less well if your processes are undocumented or your billing system can't support remote access securely.
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines; you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/medical-billing/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines, Colombia and other countries, with US-based management and admin; you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/medical-billing/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -1400,7 +1400,7 @@ Treatment centers usually choose between a behavioral health billing company tha
 
 ## Getting help
 
-Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), specializes in medical billing, especially drug and alcohol treatment billing, VOBs and RCM. Its staff work as the client's own dedicated employees, whom the client trains as it wishes, while Alliance Global Solutions handles hiring and monitoring. Its staff are based in the Philippines and Colombia, and its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+. References are available on request. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. Read its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). To talk through VOB and admissions coverage, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions.
+Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), specializes in medical billing, especially drug and alcohol treatment billing, VOBs and RCM. Its staff work as the client's own dedicated employees, whom the client trains as it wishes, while Alliance Global Solutions handles hiring and monitoring. Its management and admin are US-based, its staff are in the Philippines, Colombia and other countries, and its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+. References are available on request. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. Read its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). To talk through VOB and admissions coverage, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions.
 
 ## Technology
 
@@ -1538,7 +1538,7 @@ Federal mental health parity rules generally require that limits on mental healt
 - **Outsourced billing companies** that specialize in behavioral health can take the whole function; confirm how they handle VOB speed and Part 2.
 - **Dedicated remote staff** can cover VOB, authorizations, claims and A/R in your systems, including evening and weekend admissions coverage if scheduled. Put a BAA and access controls in place first, and limit access to what each role needs ([HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/)).
 
-Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). It specializes in medical billing, including VOB for drug and alcohol treatment centers and broader RCM, with dedicated staff in the Philippines and Colombia whom clients train on their own workflows while Alliance Global Solutions handles hiring and monitoring. It signs a business associate agreement with each client before any of its staff access protected health information. See its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) and our guide to [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/). If you're weighing options, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information.
+Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). It specializes in medical billing, including VOB for drug and alcohol treatment centers and broader RCM, with US-based management and admin and dedicated staff in the Philippines, Colombia and other countries whom clients train on their own workflows while Alliance Global Solutions handles hiring and monitoring. It signs a business associate agreement with each client before any of its staff access protected health information. See its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) and our guide to [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/). If you're weighing options, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information.
 
 ## Checklist for behavioral health billing leaders
 
@@ -1929,7 +1929,7 @@ And be wary of "HIPAA certified" claims. There is no official HIPAA certificatio
 
 ## Next steps
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff from the Philippines. It signs a BAA with each client before any of its staff access protected health information. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](https://medicalbillingteam.com/contact/) here. Use the questions above with us, too.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff from the Philippines, Colombia and other countries, with US-based management and admin. It signs a BAA with each client before any of its staff access protected health information. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](https://medicalbillingteam.com/contact/) here. Use the questions above with us, too.
 
 A final tip: write down what "good" looks like before you hire, meaning the queues, volumes, quality checks and hours. A clear role description makes it easier to interview and onboard, and to judge whether the hire is working.
 
@@ -2367,7 +2367,7 @@ Start with one well-defined queue, such as eligibility or A/R follow-up, with wr
 | Contract restrictions | Check carefully | Check | Usually fewer |
 | HIPAA safeguards needed | Same, plus overseas risk analysis | Same, plus cross-border review | Same |
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), which provides remote staff based in the Philippines. It signs a BAA with each client before any of its staff access protected health information. You can read about its [offshore medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/). If you're weighing an offshore team, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll also tell you when it isn't a fit.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), which provides remote staff based in the Philippines, Colombia and other countries, with US-based management and admin. It signs a BAA with each client before any of its staff access protected health information. You can read about its [offshore medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/). If you're weighing an offshore team, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll also tell you when it isn't a fit.
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -3264,7 +3264,7 @@ Source: https://medicalbillingteam.com/approved-vendors/
 ### Alliance Global Solutions
 **Affiliation: operates this site.**
 
-Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with staff in the Philippines and Colombia. It handles hiring and monitoring of staff, and its clients train those staff on their own workflows. Its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+, and it handles a lot of their back-end work. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader revenue cycle work. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information.
+Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with US-based management and admin and staff in the Philippines, Colombia and other countries. It handles hiring and monitoring of staff, and its clients train those staff on their own workflows. Its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+, and it handles a lot of their back-end work. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader revenue cycle work. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information.
 
 - **Services:** [revenue cycle management staffing](https://medicalbillingteam.com/revenue-cycle-management-staffing/), [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/), [prior authorization](https://medicalbillingteam.com/prior-authorization-specialist/), [credentialing](https://medicalbillingteam.com/credentialing-services/), [medical coding](https://medicalbillingteam.com/hire-remote-medical-coders/), [A/R follow-up](https://medicalbillingteam.com/ar-specialist/) and [virtual medical assistants](https://medicalbillingteam.com/virtual-medical-assistant/)
 - **References:** available on request
@@ -3413,7 +3413,7 @@ Source: https://medicalbillingteam.com/approved-vendors/alliance-global-solution
 
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](https://medicalbillingteam.com/about/#how-we-write-our-guides)*
 
-**Short answer:** Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with staff in the Philippines and Colombia. It hires and monitors the staff, its clients train them on their workflows, and it signs a business associate agreement with each client before any PHI access. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader RCM. It also operates this site, so read this profile as an affiliated listing.
+**Short answer:** Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with US-based management and admin and staff in the Philippines, Colombia and other countries. It hires and monitors the staff, its clients train them on their workflows, and it signs a business associate agreement with each client before any PHI access. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader RCM. It also operates this site, so read this profile as an affiliated listing.
 
 
 
@@ -3422,7 +3422,7 @@ Source: https://medicalbillingteam.com/approved-vendors/alliance-global-solution
 ## At a glance
 
 - **What it provides:** dedicated remote employees for medical billing and revenue cycle work
-- **Where staff are based:** the Philippines and Colombia
+- **Where staff are based:** US-based management and admin; staff in the Philippines, Colombia and other countries
 - **Who hires and monitors staff:** Alliance Global Solutions
 - **Who trains staff on your workflows:** you, the client, in your own systems
 - **Clients:** from small outpatient centers to large billing companies that handle billing for multiple clients
@@ -3456,7 +3456,7 @@ Team size depends on the client, from 2-3 dedicated staff to 50+. A small outpat
 
 ## Where the team is
 
-Staff work from the Philippines and Colombia. Offshore access to PHI is allowed under HIPAA when the right agreements and safeguards are in place, but it calls for careful risk analysis ([HHS](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). See [offshore medical billers](https://medicalbillingteam.com/offshore-medical-billers/) for the questions to ask.
+Management and admin are US-based; staff work from the Philippines, Colombia and other countries. Offshore access to PHI is allowed under HIPAA when the right agreements and safeguards are in place, but it calls for careful risk analysis ([HHS](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). See [offshore medical billers](https://medicalbillingteam.com/offshore-medical-billers/) for the questions to ask.
 
 
 
@@ -3489,7 +3489,7 @@ Alliance Global Solutions recruits, hires and monitors its staff, and assigns de
 
 ### Where are Alliance Global Solutions staff located?
 
-Its staff are based in the Philippines and Colombia.
+Its management and admin are US-based, and its staff are in the Philippines, Colombia and other countries.
 
 ### Does Alliance Global Solutions sign a BAA?
 
@@ -3686,7 +3686,7 @@ Medical Billing Team is a resource for US medical practices and billing companie
 
 **This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. Alliance Global Solutions is currently the only vendor on our approved vendor list, and requests you submit here may be referred to it. We benefit financially if you hire it. We may contact you about our services if you request it.**
 
-That means we have a commercial interest in the topics we write about. Alliance Global Solutions provides dedicated remote staff, based in the Philippines and Colombia, for roles such as billing specialists, A/R follow-up, eligibility and insurance verification (VOB), prior authorization, payment posting, denial follow-up and admissions or intake support. You can learn more about the company on its own website: [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/).
+That means we have a commercial interest in the topics we write about. Alliance Global Solutions provides dedicated remote staff, with US-based management and admin and staff in the Philippines, Colombia and other countries, for roles such as billing specialists, A/R follow-up, eligibility and insurance verification (VOB), prior authorization, payment posting, denial follow-up and admissions or intake support. You can learn more about the company on its own website: [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/).
 
 Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. We don't describe ourselves as "HIPAA certified," because there is no such certification.
 

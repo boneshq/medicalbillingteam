@@ -29,7 +29,27 @@ BAA_LINE = 'Alliance Global Solutions signs a BAA before any PHI access.'  # app
 SPEC_SECTIONS = re.compile(r'^(short form|sticky cta|footer$|form fields|implementation notes|other ways to reach us|get the checklist)', re.I)
 FAQ_HEAD = re.compile(r'^(short )?faq$', re.I)
 BYLINE_RE = re.compile(r'^\*By the Medical Billing Team editors.*\*\s*$', re.M)
-COPY_FIXES = []  # source wording is now general law (AG v2 copy, 1:11 PM ET); override dropped
+# Build-level copy override (Tony, 2026-10-18 1:31 PM ET): AGS location = "US-based management and admin; staff in the
+# Philippines, Colombia and other countries". Applied to content, frontmatter (FAQ/schema), llms.txt and llms-full.txt so a
+# content re-sync can't revert it; Alliance Global will fix the source. No office addresses. Build fails if the old wording returns.
+COPY_FIXES = [
+    ("Its staff are based in the Philippines and Colombia, and", "Its management and admin are US-based, its staff are in the Philippines, Colombia and other countries, and"),
+    ("Its staff are based in the Philippines and Colombia.", "Its management and admin are US-based, and its staff are in the Philippines, Colombia and other countries."),
+    ("- **Where staff are based:** the Philippines and Colombia", "- **Where staff are based:** US-based management and admin; staff in the Philippines, Colombia and other countries"),
+    ("Staff work from the Philippines and Colombia.", "Management and admin are US-based; staff work from the Philippines, Colombia and other countries."),
+    ("with dedicated staff in the Philippines and Colombia", "with US-based management and admin and dedicated staff in the Philippines, Colombia and other countries"),
+    ("with staff in the Philippines and Colombia", "with US-based management and admin and staff in the Philippines, Colombia and other countries"),
+    ("dedicated remote staff, based in the Philippines and Colombia, for roles", "dedicated remote staff, with US-based management and admin and staff in the Philippines, Colombia and other countries, for roles"),
+    ("places remote billing and RCM staff from the Philippines.", "places remote billing and RCM staff from the Philippines, Colombia and other countries, with US-based management and admin."),
+    ("provides remote staff based in the Philippines.", "provides remote staff based in the Philippines, Colombia and other countries, with US-based management and admin."),
+    ("provides remote staff from the Philippines;", "provides remote staff from the Philippines, Colombia and other countries, with US-based management and admin;"),
+    ("Alliance Global Solutions staff are based in the Philippines and Colombia;", "Alliance Global Solutions has US-based management and admin and staff in the Philippines, Colombia and other countries;"),
+    ("including the Philippines and Colombia", "including the Philippines, Colombia and other countries"),
+]
+def fix_copy(s):
+    for _a, _b in COPY_FIXES: s = s.replace(_a, _b)
+    return s
+LOC_OLD = re.compile(r'Philippines and Colombia|staff (?:from|based in) the Philippines[.;]')
 CLAIM_RE = re.compile(r'\b(25|twenty[- ]five)\s*\+?\s*(-\s*)?(years?|yrs?)\b', re.I)   # no tenure claims anywhere (Tony via AG 2026-10-18)
 BANNED = ['subcontractor business associate and signs a BAA with the billing company']  # unconfirmed claim (Tony via CEO 2026-10-18); build fails if it reappears
 MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December']
@@ -481,7 +501,7 @@ def components(h, p):
 def vendor_main(p):
     d = p['vendor']
     facts = (f'<dl class="vp-facts"><div><dt>{ico("users-round")}Team size range</dt><dd>{E(d.get("team_size_range", ""))}</dd></div>'
-             f'<div><dt>{ico("map-pin")}Staff locations</dt><dd>Philippines and Colombia</dd></div>'
+             f'<div><dt>{ico("map-pin")}Locations</dt><dd>US-based management and admin; staff in the Philippines, Colombia and other countries</dd></div>'
              f'<div><dt>{ico("file-signature")}HIPAA</dt><dd>Signs a BAA with each client before any PHI access</dd></div>'
              f'<div><dt>{ico("messages-square")}References</dt><dd>{E(d.get("references", ""))}</dd></div>'
              f'<div><dt>{ico("handshake")}Listing</dt><dd>{E(d.get("affiliation_badge", ""))}. <a href="#affiliation">Disclosure</a></dd></div></dl>')
@@ -671,14 +691,14 @@ bots = CFG['ai_crawlers']
     + ''.join(f'User-agent: {b}\nAllow: /\n' for b in bots) + f'\nSitemap: {SITE}/sitemap.xml\n')
 
 # llms.txt: served verbatim from the copywriter's file (CODE-DESK #7)
-shutil.copy2(B / 'content' / 'llms.txt', ROOT / 'llms.txt')
+(ROOT / 'llms.txt').write_text(fix_copy((B / 'content' / 'llms.txt').read_text()))   # verbatim + location override
 # llms-full.txt: regenerated from published markdown on every build (CODE-DESK #8; logic from medbill/gen/llmsfull.py)
 FULL_ORDER = ['index','what-is-revenue-cycle-management','revenue-cycle-management-staffing','hipaa-outsourced-medical-billing','medical-billing-staffing-cost','medical-billing-technology','credentialing-services','credentialing-specialist','prior-authorization-specialist','eligibility-verification-prior-authorization','treatment-center-vob','behavioral-health-billing','ar-specialist','hire-remote-medical-coders','hire-remote-medical-billers','virtual-medical-assistant','virtual-medical-receptionist','medical-billing-outsourcing','offshore-medical-billers','denial-management','denial-code-co-16','denial-code-co-22','denial-code-co-29','denial-code-co-97','denial-code-co-197','denial-code-co-204','reduce-ar-days','approved-vendors','how-we-vet-vendors','featured-vendor-alliance-global-solutions','how-it-works','faq','about']   # = medbill/gen/llmsfull.py order
 FT = ["# Medical Billing Team: full text\n\n> Concatenated public guides from medicalbillingteam.com, generated " + TODAY + ". Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; requests may be referred to it. Excludes forms, legal drafts and gated content.\n"]
 for k in FULL_ORDER:
     f = B / 'content' / f'{k}.md'
     if not f.exists() or not BYKEY[k]['ready']: continue
-    src = f.read_text(); fm, body = src.split('---', 2)[1], src.split('---', 2)[2]
+    src = fix_copy(f.read_text()); fm, body = src.split('---', 2)[1], src.split('---', 2)[2]
     slug = re.search(r'^slug:\s*"?([^"\n]+)"?', fm, re.M).group(1)
     body = re.sub(r'<!--.*?-->', '', body, flags=re.S)
     if k == 'index':
@@ -733,3 +753,11 @@ for _f in ROOT.rglob('*.webp'):   # image names (published) must not carry badge
     if re.search(r'home-pic|years|badge', _f.name, re.I): _claims.append(f'{_f.relative_to(ROOT)}: image name')
 if _claims: raise SystemExit('BLOCKED TENURE CLAIM(S):\n' + '\n'.join(_claims))
 print('tenure-claim check (25 years / 25+ years): OK')
+
+# Location override guard (Tony 1:31 PM ET): old AGS location wording must not reach published output.
+_loc = []
+for _f in list(ROOT.rglob('*.html')) + [ROOT / 'llms.txt', ROOT / 'llms-full.txt']:
+    if any(s in _f.parts for s in ('_build', '.git', 'node_modules', 'v1')): continue
+    for _m in LOC_OLD.finditer(_f.read_text(errors='ignore')): _loc.append(f'{_f.relative_to(ROOT)}: {_m.group(0)!r}')
+if _loc: raise SystemExit('OLD AGS LOCATION WORDING:\n' + '\n'.join(_loc))
+print('location override check: OK')
