@@ -1,12 +1,13 @@
 ---
-title: "Medical Billing Health Checklist (Free Download)"
-meta_description: "A free self-audit for practices and billing companies: front end, claims, denials, A/R, posting, KPIs and HIPAA. No patient data needed. Download it."
+title: "Medical Billing Audit Checklist (Free Download)"
+meta_description: "A free medical billing audit checklist for practices and billing companies: front end, claims, denials, A/R, posting, KPIs and HIPAA. No patient data."
 slug: "/checklist/"
 schema_type: ["WebPage", "CreativeWork"]
 gated: true
 gate_form: "short (name, work email, practice name, number of providers, optional phone + TCPA consent, no-PHI notice)"
 canonical: "https://medicalbillingteam.com/checklist/"
-primary_keyword: "medical billing checklist"
+secondary_keywords: ["medical billing checklist"]
+primary_keyword: "medical billing audit checklist"  # swapped 2026-10-18 from "medical billing checklist" (Semrush)
 search_intent: "transactional (lead magnet)"
 audience: "practice and billing managers"
 conversion_destination: "checklist form"
@@ -16,11 +17,14 @@ author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "semiannual"
 og_image_alt: "Medical Billing Health Checklist cover"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "When you run this audit, check which steps are already automated (eligibility checks, claim scrubbing, claim status) and which still depend on manual work. Large RCM vendors are moving payer-policy checks to the front end so requirements are visible before care is delivered ([Fierce Healthcare](https://www.fiercehealthcare.com/health-tech/thoreau-backed-ensemble-penelope-health-partner-tackle-payer-denials-upstream)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 <!-- GATE PAGE (public): headline, bullets, short form. After submit: show full checklist below + PDF download link. -->
 
-# Medical Billing Health Checklist
+# Medical Billing Health Checklist: a medical billing audit checklist
 
 A one-page self-audit to find where your revenue cycle is leaking. Built for practice owners, office managers, billing managers and billing companies. It takes about 15 minutes and you don't need any patient data to complete it.
 
@@ -154,5 +158,9 @@ Source for the benefits share: [BLS Employer Costs for Employee Compensation](ht
 
 (Scoring bands are a simple rule of thumb, not a validated benchmark.)
 
+## Technology
+
+When you run this audit, check which steps are already automated (eligibility checks, claim scrubbing, claim status) and which still depend on manual work. Large RCM vendors are moving payer-policy checks to the front end so requirements are visible before care is delivered ([Fierce Healthcare](https://www.fiercehealthcare.com/health-tech/thoreau-backed-ensemble-penelope-health-partner-tackle-payer-denials-upstream)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ---
-*This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it. This checklist is general information, not legal or compliance advice.*
+*Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/). This checklist is general information, not legal or compliance advice.*

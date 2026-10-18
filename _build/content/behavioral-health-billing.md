@@ -24,6 +24,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Behavioral health programs use automated eligibility checks and electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Substance use disorder records may also fall under 42 CFR Part 2, so check how any AI tool handles that data before you use it. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Medical billing for behavioral health practices and treatment centers
@@ -122,7 +125,7 @@ Federal mental health parity rules generally require that limits on mental healt
 - **Outsourced billing companies** that specialize in behavioral health can take the whole function; confirm how they handle VOB speed and Part 2.
 - **Dedicated remote staff** can cover VOB, authorizations, claims and A/R in your systems, including evening and weekend admissions coverage if scheduled. Put a BAA and access controls in place first, and limit access to what each role needs ([HIPAA guide](/hipaa-outsourced-medical-billing/)).
 
-Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), provides remote staff including VOB and admissions support for treatment programs. If you're weighing options, request a [free staffing assessment](/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information.
+Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), is currently our only [approved vendor](/approved-vendors/). It specializes in medical billing, including VOB for drug and alcohol treatment centers and broader RCM, with dedicated staff in the Philippines and Colombia whom clients train on their own workflows while Alliance Global Solutions handles hiring and monitoring. It signs a business associate agreement with each client before any of its staff access protected health information. See its [featured vendor profile](/approved-vendors/alliance-global-solutions/) and our guide to [VOB for treatment centers](/treatment-center-vob/). If you're weighing options, request a [free staffing assessment](/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information.
 
 ## Checklist for behavioral health billing leaders
 
@@ -136,6 +139,10 @@ Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.co
 
 A note on scope: this guide covers billing operations, not clinical or legal requirements. Licensure, program certification and state rules vary, so check them with your state agencies and counsel.
 
+
+## Technology
+
+Behavioral health programs use automated eligibility checks and electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Substance use disorder records may also fall under 42 CFR Part 2, so check how any AI tool handles that data before you use it. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
 
 ## Related guides
 
@@ -167,4 +174,4 @@ Yes, VOB and admissions support are phone- and portal-based and can be done remo
 Experience with behavioral health codes and payers, authorization and concurrent review tracking, knowledge of carve-out plans, understanding of Part 2 and psychotherapy notes rules, and strong documentation habits.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

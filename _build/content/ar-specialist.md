@@ -25,6 +25,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "A/R specialists now use automated claim-status checks and work-queue prioritization to decide which claims to chase first. AI assistants can summarize payer call notes and draft appeal letters for the specialist to review before sending. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # What does an AR specialist do in medical billing?
@@ -87,6 +90,12 @@ A/R follow-up is well suited to remote work because it happens in portals, on th
 
 This site is operated by Alliance Global Solutions, which provides remote staff. You can read about its [remote medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) or its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/). For a second opinion on your A/R workload, request a [free staffing assessment](/contact/).
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+A/R specialists now use automated claim-status checks and work-queue prioritization to decide which claims to chase first. AI assistants can summarize payer call notes and draft appeal letters for the specialist to review before sending. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
@@ -116,4 +125,4 @@ CMS sets it at one calendar year from the date of service. Commercial payer limi
 Days in A/R, the percentage of A/R over 90 days, dollars resolved, aged A/R by payer, and a quality review of documented actions.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

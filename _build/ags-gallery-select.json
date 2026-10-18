@@ -1,26 +1,64 @@
 {
- "_note": "CODE DESK curation, updated 2026-10-18 1:05 PM ET per Alliance Global/Tony: NO close-up portraits of individuals until Tony confirms consent and photo rights. Allowed set = About-page group photo + office/workspace shots only. office-02..04 have branded diagonal edges: SWAP PENDING (clean originals requested from Alliance Global). Excluded: all 9 team portraits (ph-148..154, ags-staff-*), ags-jonathan-solo (single-person shot), logos, stock-*, city/building stock, ph-107/109/165 (appear to be stock), illustration, hands/laptop + headset stock, home-pic* badge composites (unverified tenure claim), low-res captures, broken files. Build refuses any file not listed here.",
+ "_note": "CODE DESK curation, updated 2026-10-18 ~1:35 PM ET. Tony confirmed consent/rights for AGS gallery photos, 2026-10-18 1:22 PM ET, via CEO: the 9 team portraits are back (alt text from manifest, no names, titles, quotes or testimonials next to any person). Hero = About-page group photo; gallery = 3 workspace shots (branded diagonal edges, SWAP PENDING clean originals). DROPPED: ags-untitled-graphic.png and ags-home-pic-1.png (the 25-years badge overlaps the people, so no clean crop exists), all home-pic* composites, ags-jonathan-solo (composite with silhouettes + logo). HELD: ags-home-banner.jpg (BGC skyline) until rights are confirmed. Excluded: logos (published separately as the official logo files), stock-*, city/building stock, ph-107/109/165 (appear to be stock), illustrations, low-res captures, broken files. Build refuses any blocked file.",
  "office": [
   {
    "file": "ags-about-us-group-photo.jpg",
-   "alt": "Alliance Global Solutions team group photo",
-   "source": "same image as AGS About page (wp-content/uploads/2021/11/AGS-Blog-Featured-Image-New-About-Us-Group-Photo-scaled.jpg)"
+   "alt": "Group of thirteen Alliance Global Solutions team members posing in two rows; most wear black company polo shirts with the AGS logo",
+   "caption": "The Alliance Global Solutions team.",
+   "source": "same image as AGS About page"
   },
   {
    "file": "ags-service-data-entry.png",
-   "alt": "Alliance Global Solutions workstation with a staff member entering data",
-   "swap_pending": true
-  },
-  {
-   "file": "ags-service-accounting.png",
-   "alt": "Alliance Global Solutions workstation with two monitors",
+   "alt": "Alliance Global Solutions team member working at a cubicle computer with spreadsheet software and sticky notes on the monitor",
    "swap_pending": true
   },
   {
    "file": "ags-service-it.png",
-   "alt": "Alliance Global Solutions multi-monitor workstation",
+   "alt": "Alliance Global Solutions team member at a dual-monitor desk wearing an AGS lanyard, working in chat and design software",
+   "swap_pending": true
+  },
+  {
+   "file": "ags-service-accounting.png",
+   "alt": "Alliance Global Solutions team member working at a dual-monitor desk with a spreadsheet open in an office cubicle",
    "swap_pending": true
   }
  ],
- "team": []
+ "team": [
+  {
+   "file": "ph-148-gerald.png",
+   "alt": "Professional headshot of an Alliance Global Solutions team member"
+  },
+  {
+   "file": "ph-149-riel.png",
+   "alt": "Professional headshot of an Alliance Global Solutions team member"
+  },
+  {
+   "file": "ph-150-anjo.png",
+   "alt": "Professional headshot of an Alliance Global Solutions team member"
+  },
+  {
+   "file": "ph-151-carl.png",
+   "alt": "Professional headshot of an Alliance Global Solutions team member"
+  },
+  {
+   "file": "ph-152-iza.png",
+   "alt": "Professional headshot of an Alliance Global Solutions team member"
+  },
+  {
+   "file": "ph-153-jerline-sambrano.png",
+   "alt": "Professional headshot of an Alliance Global Solutions team member"
+  },
+  {
+   "file": "ph-154-maria.png",
+   "alt": "Smiling Alliance Global Solutions team member in a black blazer with a company logo pin"
+  },
+  {
+   "file": "ags-staff-reynalyn.jpg",
+   "alt": "Professional headshot of a smiling Alliance Global Solutions team member with long dark hair in a black V-neck shirt"
+  },
+  {
+   "file": "ags-staff-verla.jpg",
+   "alt": "Professional headshot of a smiling Alliance Global Solutions team member in a white shirt and black cardigan"
+  }
+ ]
 }

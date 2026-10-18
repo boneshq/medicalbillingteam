@@ -7,6 +7,9 @@
   function msg(f, t, bad) { var m = f.querySelector('.form-msg'); m.textContent = t; m.className = 'form-msg' + (bad ? ' bad' : ' ok'); }
   function utm() { var q = new URLSearchParams(location.search), o = {}; ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid'].forEach(function (k) { if (q.get(k)) o[k] = q.get(k).slice(0, 120); }); return o; }
   document.querySelectorAll('form.lead-form').forEach(function (f) {
+    // Backend not connected: keep submit disabled and the 'temporarily unavailable' notice visible (nothing is ever silently dropped).
+    if (!C.enabled || !C.endpoint) { f.querySelectorAll('button[type=submit]').forEach(function (b) { b.disabled = true; }); f.classList.add('is-off'); }
+    else { f.classList.remove('is-off'); var off = f.querySelector('.form-off'); if (off) off.remove(); f.querySelectorAll('button[type=submit]').forEach(function (b) { b.disabled = false; b.removeAttribute('aria-disabled'); }); }
     var phone = f.querySelector('[name=phone]'), tcpa = f.querySelector('.tcpa');
     if (phone && tcpa) phone.addEventListener('input', function () { tcpa.hidden = !phone.value.trim(); if (tcpa.hidden) tcpa.querySelector('input').checked = false; });
     f.addEventListener('submit', function (e) {
@@ -33,13 +36,15 @@
         source_page: location.href.split('#')[0].slice(0, 500), utm: utm(), user_agent: navigator.userAgent.slice(0, 300),
         elapsed_ms: Date.now() - start, is_test: /[?&]mbt_test=1\b/.test(location.search)
       };
-      if (!C.enabled || !C.endpoint) { msg(f, 'Preview build: the form backend is not connected yet, so nothing was sent.', true); return; }
+      if (!C.enabled || !C.endpoint) { msg(f, 'Online requests are temporarily unavailable. Please try again shortly. Nothing was sent.', true); return; }
       f.dataset.busy = '1'; msg(f, 'Sending…');
       var done = function () {
-        try { window.gtag && gtag('event', 'generate_lead', { form_id: row.form_id }); } catch (x) {}
-        var t = f.dataset.thanks || '';
-        if (t.charAt(0) === '#') { var g = document.querySelector(t); if (g) { g.hidden = false; f.hidden = true; g.scrollIntoView(); } return; }
-        location.href = t;
+        var t = f.dataset.thanks || '', went = false;
+        var go = function () { if (went) return; went = true;
+          if (t.charAt(0) === '#') { var g = document.querySelector(t); if (g) { g.hidden = false; f.hidden = true; g.scrollIntoView(); } return; }
+          location.href = t; };
+        // GA4 generate_lead fires on confirmed success only (no form values); navigation waits at most 1.2 s for it.
+        if (window.gtag) { try { gtag('event', 'generate_lead', { form_type: row.form_id, event_callback: go, event_timeout: 1200 }); } catch (x) {} setTimeout(go, 1300); } else go();
       };
       var fail = function () { delete f.dataset.busy; msg(f, 'Sorry, something went wrong. Please try again in a minute.', true); };
       // Google Apps Script web app (form-urlencoded = CORS "simple" request, no preflight). The endpoint URL is public by design.

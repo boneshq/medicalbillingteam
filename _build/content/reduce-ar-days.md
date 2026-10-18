@@ -1,6 +1,6 @@
 ---
-title: "How to Reduce AR Days: Workflow and AR Staffing Guide"
-meta_description: "How to reduce days in A/R: measure it consistently, prioritize follow-up, fix front-end errors and staff the work. Download the free KPI worksheet."
+title: "Days in AR: How to Calculate and Reduce AR Days"
+meta_description: "What days in AR means, how to calculate AR days consistently, and how to reduce them with better follow-up, front-end fixes and staffing. Free worksheet."
 slug: "/reduce-ar-days/"
 schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
@@ -15,7 +15,8 @@ faq:
   - q: "Should old A/R be written off?"
     a: "Only under a written write-off policy after documented collection efforts, and with approval. Before writing off, check whether claims can still be corrected or appealed within the payer's limits."
 canonical: "https://medicalbillingteam.com/reduce-ar-days/"
-primary_keyword: "how to reduce AR days"
+secondary_keywords: ["how to reduce AR days"]
+primary_keyword: "days in ar"  # swapped 2026-10-18 from "how to reduce AR days" (Semrush)
 search_intent: "informational"
 audience: "billing managers"
 conversion_destination: "/checklist/"
@@ -24,13 +25,16 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Automated claim-status checks and A/R prioritization tools can show which claims need a call today, which helps lower days in A/R. AI assistants can summarize payer responses and draft follow-up notes for a person to review. Someone still has to make the calls and resolve the claims. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
-# How to reduce AR days: a practical workflow and staffing guide
+# Days in AR: how to calculate and reduce AR days
 
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
-**Short answer:** To reduce days in A/R, measure it the same way every month, submit clean claims quickly, and work unpaid claims by dollar value and age. Fix the eligibility and authorization errors at the front end, post payments daily, and handle patient balances in their own workflow. Most of these steps depend on having enough dedicated follow-up time.
+**Short answer:** Days in AR (days in accounts receivable) is the average number of days it takes to collect payment, usually calculated as total A/R divided by average daily charges. To reduce days in A/R, measure it the same way every month, submit clean claims quickly, and work unpaid claims by dollar value and age. Fix the eligibility and authorization errors at the front end, post payments daily, and handle patient balances in their own workflow. Most of these steps depend on having enough dedicated follow-up time.
 
 Days in accounts receivable (A/R) is the number most practice owners look at first, because it answers a simple question: how long does it take us to get paid? This guide explains how to measure it, the workflow that brings it down, and how to staff A/R follow-up so it actually happens. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -142,6 +146,12 @@ This site is operated by [Alliance Global Solutions](https://www.allianceglobals
 - **Touching claims without a next step.** Every follow-up should end with a documented action and a date to check again.
 - **Letting credits and unapplied payments sit.** They distort A/R reports and can create refund obligations.
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Automated claim-status checks and A/R prioritization tools can show which claims need a call today, which helps lower days in A/R. AI assistants can summarize payer responses and draft follow-up notes for a person to review. Someone still has to make the calls and resolve the claims. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Denial management basics](/denial-management/)
@@ -172,4 +182,4 @@ They work unpaid and underpaid claims by age and value, check claim status in pa
 Only under a written write-off policy after documented collection efforts, and with approval. Before writing off, check whether claims can still be corrected or appealed within the payer's limits.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

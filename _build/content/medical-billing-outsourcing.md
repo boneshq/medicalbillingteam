@@ -25,6 +25,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Whichever outsourcing model you choose, ask which tools touch your data: practice management, clearinghouse, eligibility automation and any AI assistants. Each tool vendor that handles PHI on your behalf is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Medical billing outsourcing: three models and how to choose
@@ -97,6 +100,12 @@ Any outsourcing partner whose people access patient information on your behalf i
 
 This site is operated by Alliance Global Solutions, which offers the dedicated-staff model. It signs a BAA with each client before any of its staff access protected health information. You can read about its [outsourced medical billing staffing](https://www.allianceglobalsolutions.com/medical-billing/) and broader [staffing services](https://www.allianceglobalsolutions.com/services/). If you'd like help deciding, request a [free staffing assessment](/contact/); we'll tell you if a billing company is the better fit.
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Whichever outsourcing model you choose, ask which tools touch your data: practice management, clearinghouse, eligibility automation and any AI assistants. Each tool vendor that handles PHI on your behalf is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
@@ -126,4 +135,4 @@ Yes. A hybrid model outsources specific queues such as A/R follow-up, denials, e
 It depends on your payers, specialty, documentation and processes. Be cautious of promises of a specific reduction made before anyone reviews your data.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

@@ -1,6 +1,6 @@
 ---
-title: "Eligibility Verification & Prior Authorization Staffing"
-meta_description: "Eligibility verification and prior authorization workflows, what CMS-0057-F changed, and how to staff them. Request a free staffing assessment."
+title: "Insurance Verification Services & Prior Authorization"
+meta_description: "Insurance verification services and prior authorization: eligibility workflows, what CMS-0057-F changed, and how to staff them. Free staffing assessment."
 slug: "/eligibility-verification-prior-authorization/"
 schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
@@ -15,7 +15,8 @@ faq:
   - q: "Can eligibility and prior authorization be done by remote staff?"
     a: "Yes. Both are largely portal- and phone-based, so remote staff can do them well with access to your scheduling system, payer portals and clear rules, plus HIPAA safeguards such as a BAA, MFA and role-based access."
 canonical: "https://medicalbillingteam.com/eligibility-verification-prior-authorization/"
-primary_keyword: "eligibility verification and prior authorization"
+secondary_keywords: ["eligibility verification and prior authorization"]
+primary_keyword: "insurance verification services"  # swapped 2026-10-18 from "eligibility verification and prior authorization" (Semrush)
 search_intent: "informational"
 audience: "front-office and billing managers"
 conversion_destination: "/contact/"
@@ -24,13 +25,16 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Electronic eligibility checks return coverage details in seconds, and CMS-0057-F requires impacted payers to support prior authorization APIs by January 1, 2027, with decisions within 72 hours for expedited and seven calendar days for standard requests ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Carve-outs, out-of-network details and authorization rules still often need a call. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Eligibility verification and prior authorization: workflows and staffing
 
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
-**Short answer:** Verify eligibility and benefits before every visit, not just the first. Confirm active coverage, plan type, cost sharing, coordination of benefits, and whether the service needs a referral or prior authorization. Then track each authorization's expiration and visit limits. CMS-0057-F now sets decision timeframes for many payers, but practices still need staff to submit requests and follow up.
+**Short answer:** Whether you do it in-house or use insurance verification services, verify eligibility and benefits before every visit, not just the first. Confirm active coverage, plan type, cost sharing, coordination of benefits, and whether the service needs a referral or prior authorization. Then track each authorization's expiration and visit limits. CMS-0057-F now sets decision timeframes for many payers, but practices still need staff to submit requests and follow up.
 
 Most denials are decided before the patient arrives. If coverage wasn't active, benefits weren't understood, or an authorization was missing, no amount of A/R follow-up will fully fix it. This guide covers eligibility verification and prior authorization, what changed recently in federal rules, the workflows that work, and how practices staff them. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -127,6 +131,12 @@ This site is operated by [Alliance Global Solutions](https://www.allianceglobals
 - **Treating the front desk as the only line of defense.** Front desk staff juggle phones, check-in and payments. A dedicated verification person or team, working a day or two ahead of the schedule, catches problems before the patient arrives.
 - **Ignoring secondary coverage.** Coordination-of-benefits problems were the most commonly reported cause of rising denials in Tebra's 2025 survey of billers ([Tebra](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)). Ask every patient about other coverage and confirm which plan is primary.
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Electronic eligibility checks return coverage details in seconds, and CMS-0057-F requires impacted payers to support prior authorization APIs by January 1, 2027, with decisions within 72 hours for expedited and seven calendar days for standard requests ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Carve-outs, out-of-network details and authorization rules still often need a call. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Denial management basics](/denial-management/)
@@ -157,4 +167,4 @@ In an AMA survey of 1,000 physicians, practices reported an average of 39 prior 
 Yes. Both are largely portal- and phone-based, so remote staff can do them well with access to your scheduling system, payer portals and clear rules, plus HIPAA safeguards such as a BAA, MFA and role-based access.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

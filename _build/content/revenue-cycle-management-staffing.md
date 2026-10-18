@@ -24,6 +24,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "RCM teams increasingly pair people with automation: eligibility bots, claim scrubbers, denial-prediction tools and electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Staffing still matters, because someone has to own each queue and handle the exceptions automation can't. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Revenue cycle management staffing: roles, workflow, KPIs and costs
@@ -145,6 +148,12 @@ A dedicated remote team tends to fit when you have steady, queue-based work (eli
 
 This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines; you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/medical-billing/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](/contact/).
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+RCM teams increasingly pair people with automation: eligibility bots, claim scrubbers, denial-prediction tools and electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Staffing still matters, because someone has to own each queue and handle the exceptions automation can't. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)
@@ -181,4 +190,4 @@ Benchmarks vary by specialty, payer mix and data source, and many industry bench
 Yes, if they hold the right credentials and specialty experience. Coding is a skilled role; ask for certification details and test candidates on your specialty's documentation before they code live claims.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

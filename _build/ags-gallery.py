@@ -16,12 +16,17 @@ OUT = B / 'static' / 'img' / 'ags'
 OUT.mkdir(parents=True, exist_ok=True)
 for old in OUT.glob('*.webp'): old.unlink()
 WIDTHS = {'office': (640, 1000), 'team': (320, 480)}
-# Hard guard (Tony via Alliance Global 2026-10-18): no portraits of individuals until consent/rights confirmed,
-# no stock, no logos, no '25+ years' badge composites. Any listed file matching these fails the run.
-BLOCK = re.compile(r'^(ph-|ags-staff-|ags-capture|ags-jonathan|ags-home-pic|stock-|logo-|ags-theme-|ags-allianceservicespic|ags-call-center|ags-screenshot)', re.I)
-if SEL.get('team'): sys.exit('ags-gallery: team portraits are blocked until Tony confirms consent and photo rights')
+# Guard. Team portraits allowed: Tony confirmed consent/rights for AGS gallery photos, 2026-10-18 1:22 PM ET, via CEO.
+# Still blocked: stock, logos (official logo files are published separately), '25+ years' badge composites
+# (home-pic*, untitled-graphic: badge overlaps the people, no clean crop), the BGC skyline until its rights are
+# confirmed, composites/screenshots. Any listed file matching these fails the run. Team = AGS portraits only.
+BLOCK = re.compile(r'^(stock-|logo-|ags-home-pic|ags-untitled|ags-home-banner|ags-jonathan|ags-theme-|ags-allianceservicespic|ags-call-center|ags-screenshot|ags-capture)', re.I)
+TEAM_OK = re.compile(r'^(ph-1[45]\d-|ags-staff-)', re.I)
 _bad = [it['file'] for g in ('office', 'team') for it in SEL.get(g, []) if BLOCK.match(it['file'])]
+_bad += [it['file'] for it in SEL.get('team', []) if not TEAM_OK.match(it['file'])]
 if _bad: sys.exit(f'ags-gallery: blocked file(s) in selection: {_bad}')
+_named = [it['file'] for g in ('office', 'team') for it in SEL.get(g, []) if re.search(r'\b(quote|testimonial)\b', (it.get('caption', '') + it.get('alt', '')), re.I)]
+if _named: sys.exit(f'ags-gallery: no quotes/testimonials next to people: {_named}')
 res = {}
 for group in ('office', 'team'):
     res[group] = []

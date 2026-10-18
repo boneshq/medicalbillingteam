@@ -14,8 +14,8 @@
      572
     ]
    ],
-   "alt": "Alliance Global Solutions team group photo",
-   "caption": ""
+   "alt": "Group of thirteen Alliance Global Solutions team members posing in two rows; most wear black company polo shirts with the AGS logo",
+   "caption": "The Alliance Global Solutions team."
   },
   {
    "stem": "office-02",
@@ -31,7 +31,7 @@
      624
     ]
    ],
-   "alt": "Alliance Global Solutions workstation with a staff member entering data",
+   "alt": "Alliance Global Solutions team member working at a cubicle computer with spreadsheet software and sticky notes on the monitor",
    "caption": ""
   },
   {
@@ -48,7 +48,7 @@
      624
     ]
    ],
-   "alt": "Alliance Global Solutions workstation with two monitors",
+   "alt": "Alliance Global Solutions team member at a dual-monitor desk wearing an AGS lanyard, working in chat and design software",
    "caption": ""
   },
   {
@@ -65,9 +65,163 @@
      624
     ]
    ],
-   "alt": "Alliance Global Solutions multi-monitor workstation",
+   "alt": "Alliance Global Solutions team member working at a dual-monitor desk with a spreadsheet open in an office cubicle",
    "caption": ""
   }
  ],
- "team": []
+ "team": [
+  {
+   "stem": "team-01",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of an Alliance Global Solutions team member",
+   "caption": ""
+  },
+  {
+   "stem": "team-02",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of an Alliance Global Solutions team member",
+   "caption": ""
+  },
+  {
+   "stem": "team-03",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of an Alliance Global Solutions team member",
+   "caption": ""
+  },
+  {
+   "stem": "team-04",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of an Alliance Global Solutions team member",
+   "caption": ""
+  },
+  {
+   "stem": "team-05",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of an Alliance Global Solutions team member",
+   "caption": ""
+  },
+  {
+   "stem": "team-06",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of an Alliance Global Solutions team member",
+   "caption": ""
+  },
+  {
+   "stem": "team-07",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Smiling Alliance Global Solutions team member in a black blazer with a company logo pin",
+   "caption": ""
+  },
+  {
+   "stem": "team-08",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of a smiling Alliance Global Solutions team member with long dark hair in a black V-neck shirt",
+   "caption": ""
+  },
+  {
+   "stem": "team-09",
+   "sizes": [
+    [
+     320,
+     320,
+     400
+    ],
+    [
+     480,
+     480,
+     600
+    ]
+   ],
+   "alt": "Professional headshot of a smiling Alliance Global Solutions team member in a white shirt and black cardigan",
+   "caption": ""
+  }
+ ]
 }

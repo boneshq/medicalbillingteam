@@ -54,10 +54,10 @@ We do not send form field values to analytics tools.
 
 ## 4. How information is stored and shared
 
-- **Form submissions** are stored in a database hosted by Supabase [CONFIRM PROJECT REGION] with access limited to authorized personnel.
+- **Form submissions** are stored in a Google Sheet (Google Workspace) with access limited to authorized personnel, and a notification of each submission is emailed to our team.
 - **The Site** is hosted on GitHub Pages; GitHub may process technical data (such as IP addresses) to deliver the Site.
-- **Service providers** that help us operate (hosting, database, email delivery, analytics [LIST]) process data on our behalf.
-- **Alliance Global Solutions** personnel and affiliates [CONFIRM] use your information to respond to you.
+- **Service providers** that help us operate (hosting, Google Workspace for form storage, email delivery, analytics [LIST]) process data on our behalf.
+- **Alliance Global Solutions** personnel and affiliates [CONFIRM] use your information to respond to you. Because Alliance Global Solutions operates this Site and is currently our only approved vendor, requests you submit may be referred to it.
 - **Legal reasons:** we may disclose information if required by law or to protect rights and safety.
 
 We do not sell your personal information. [CONFIRM: no "sharing" for cross-context behavioral advertising; if ad pixels are added, update this section and add opt-out mechanisms.]
@@ -89,7 +89,7 @@ The Site is for business users and isn't directed to children under 13 [or 16].
 
 ## 11. International transfers
 
-Alliance Global Solutions staff may access information from outside the United States, including the Philippines. [COUNSEL: confirm disclosure wording.]
+Alliance Global Solutions staff may access information from outside the United States, including the Philippines and Colombia. [COUNSEL: confirm disclosure wording.]
 
 ## 12. Changes
 
@@ -100,4 +100,4 @@ We'll post updates here with a new effective date.
 [PRIVACY EMAIL] · [POSTAL ADDRESS]
 
 ---
-*This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

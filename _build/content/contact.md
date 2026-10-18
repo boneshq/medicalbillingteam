@@ -1,6 +1,6 @@
 ---
 title: "Free Medical Billing Staffing Assessment | Contact"
-meta_description: "Request a free medical billing staffing assessment. Share practice-level details only and never patient information. We reply within one business day."
+meta_description: "Request a free medical billing staffing assessment from a vetted approved vendor. Practice-level details only, never patient information. Reply in 1 day."
 slug: "/contact/"
 schema_type: ["ContactPage"]
 canonical: "https://medicalbillingteam.com/contact/"
@@ -17,7 +17,9 @@ review_cadence: "semiannual"
 
 # Request a free staffing assessment
 
-Tell us about your practice or billing company and a billing staffing specialist will follow up, usually within one business day. The assessment is free and there's no obligation. If remote staff aren't a good fit for you, we'll say so.
+Tell us about your practice or billing company and we'll route your request to a vetted, [approved vendor](/approved-vendors/), usually within one business day. The assessment is free and there's no obligation. If remote staff aren't a good fit for you, you'll hear that too.
+
+> **Who receives your request:** Medical Billing Team is operated by Alliance Global Solutions, currently the only vendor on our approved vendor list. Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. See [how we vet vendors](/how-we-vet-vendors/) and the [Alliance Global Solutions profile](/approved-vendors/alliance-global-solutions/).
 
 > **Do not include any patient information.** This form is for business inquiries only. Please don't enter patient names, dates of birth, addresses, member or policy IDs, claim numbers, account numbers, diagnoses, treatment details or any other health information in any field.
 
@@ -45,10 +47,13 @@ Tell us about your practice or billing company and a billing staffing specialist
 **Patient-information reminder (repeated directly above the button):**
 > Reminder: do not include any patient information.
 
+**Referral notice (directly above the button, always visible):**
+> Your request will be shared with Alliance Global Solutions, our affiliated approved vendor, so it can follow up.
+
 **Submit button:** Request my assessment
 
 **Success page / message:**
-> Thank you. We've received your request. A staffing specialist will email you, usually within one business day. In the meantime, you might find these useful: [Medical Billing Health Checklist](/checklist/) · [HIPAA guide for outsourced billing staff](/hipaa-outsourced-medical-billing/) · [RCM staffing guide](/revenue-cycle-management-staffing/)
+> Thank you. We've received your request. Alliance Global Solutions, our affiliated approved vendor, will email you, usually within one business day. In the meantime, you might find these useful: [Medical Billing Health Checklist](/checklist/) · [HIPAA guide for outsourced billing staff](/hipaa-outsourced-medical-billing/) · [RCM staffing guide](/revenue-cycle-management-staffing/)
 
 **Error message (validation):** Please complete the required fields. Remember: no patient information.
 
@@ -59,6 +64,7 @@ Tell us about your practice or billing company and a billing staffing specialist
 - Add a honeypot field and server-side rate limiting; avoid CAPTCHAs that collect extra data where possible.
 - Do not write form submissions to page analytics (no form-field values in GA4 events).
 - Auto-reply email must include the sender's physical postal address and an unsubscribe link (CAN-SPAM).
+- Lead routing is unchanged: every submission is written to the lead Google Sheet and an alert goes to tony@altfunding.com only. The 'approved vendor' wording is copy, not a routing change.
 - No free-text field: the optional "Anything else?" comments box was removed (Code Desk, 2026-10-18) to reduce PHI risk. Keep every field structured. Name and practice-name fields still get a server-side PHI-pattern check (dates of birth, long ID-like numbers) and length limits.
 
 ## Other ways to reach us
@@ -67,4 +73,4 @@ Tell us about your practice or billing company and a billing staffing specialist
 - Mailing address: [postal address, TBD; required in marketing emails]
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We don't publish ratings, reviews or testimonials. [How we vet vendors](/how-we-vet-vendors/).*

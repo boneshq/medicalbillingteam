@@ -27,7 +27,7 @@ These terms govern your use of medicalbillingteam.com (the "Site"), operated by 
 
 ## 1. Who operates the Site
 
-This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it. Content on the Site is published by us and may reference our services.
+Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/). Content on the Site is published by us and may reference our services.
 
 ## 2. Informational use only
 
@@ -70,4 +70,4 @@ We may update these terms by posting a new version with a new effective date.
 [CONTACT EMAIL] · [POSTAL ADDRESS]
 
 ---
-*This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

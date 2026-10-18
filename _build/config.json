@@ -3,7 +3,7 @@
   "canonical_base": "https://medicalbillingteam.com",
   "disclosure": "This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.",
   "llms_summary": "Practical guides on medical billing staffing, outsourced and offshore billing teams, revenue cycle management (RCM) staffing and HIPAA safeguards for US medical practices and billing companies.",
-  "ga4_measurement_id": "G-XXXXXXXXXX",
+  "ga4_measurement_id": "",
   "ai_crawlers": [
     "OAI-SearchBot",
     "ChatGPT-User",
@@ -79,8 +79,8 @@
       "Not sure yet"
     ]
   },
-  "indexing_enabled": false,
-  "preview_base_path": "/medicalbillingteam",
+  "indexing_enabled": true,
+  "preview_base_path": "",
   "form_backend": {
     "mode": "apps_script",
     "apps_script_url": "",
@@ -120,8 +120,9 @@
     "Diffbot"
   ],
   "affiliation": {
-    "_note": "SLOT: interim wording by Code Desk 2026-10-18; final wording from Alliance Global ~4 PM ET (POSITIONING-CHANGES.md).",
-    "full": "Affiliation disclosure: Medical Billing Team is operated by, and affiliated with, Alliance Global Solutions (AGS). AGS is currently the only approved vendor in our directory, so our vendor listing is not independent.",
-    "short": "Affiliated with Alliance Global Solutions, our only listed vendor."
+    "_note": "Final wording: CODE-DESK-V2-SLOTS.md §4 (Alliance Global, 2026-10-18 ~1:20 PM ET). Markdown links allowed.",
+    "full": "Medical Billing Team is operated by Alliance Global Solutions. That means we have a financial interest in Alliance Global Solutions, currently the only vendor on our approved vendor list. Requests you submit through this site may be referred to Alliance Global Solutions, and we benefit if you hire it. We hold Alliance Global Solutions to the same [published criteria](/how-we-vet-vendors/) we'd apply to any vendor, and we don't publish ratings, reviews or testimonials.",
+    "short": "Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).",
+    "referral": "Your request will be shared with Alliance Global Solutions, our affiliated approved vendor, so it can follow up."
   }
 }

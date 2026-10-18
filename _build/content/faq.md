@@ -11,7 +11,7 @@ faq:
   - q: "What roles can remote staff cover?"
     a: "Common roles include billing and claims specialists, A/R follow-up, denial follow-up, eligibility and benefits verification (VOB), prior authorization, payment posting, coding (with credentials), credentialing and admissions or intake support."
   - q: "Do you work with medical billing companies?"
-    a: "Yes. Billing companies often add dedicated remote staff as they take on new clients."
+    a: "Yes. Billing companies often add dedicated remote staff as they take on new clients. Our approved vendor's clients include large billing companies that handle billing for multiple clients."
   - q: "Is anyone 'HIPAA certified'?"
     a: "No. There is no official HIPAA certification for companies or individuals. HHS's Office for Civil Rights does not endorse or certify vendors. Ask about specific safeguards instead: a BAA, MFA, secure remote access, role-based access, training and incident response."
   - q: "Will the staffing provider sign a business associate agreement?"
@@ -44,6 +44,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "semiannual"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "AI and automation now show up across billing, from claim scrubbing to electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Any tool vendor that handles PHI on your behalf is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Frequently asked questions
@@ -64,7 +67,7 @@ Common roles include billing and claims specialists, A/R follow-up, denial follo
 
 ### Do you work with medical billing companies?
 
-Yes. Billing companies often add dedicated remote staff as they take on new clients.
+Yes. Billing companies often add dedicated remote staff as they take on new clients. Our approved vendor's clients include large billing companies that handle billing for multiple clients.
 
 ## HIPAA and security
 
@@ -118,5 +121,9 @@ No. Please do not include any patient information in forms, emails or chat. Prac
 
 Use the unsubscribe link in any email, reply STOP to texts, or tell us on a call. We honor opt-out requests promptly.
 
+## Technology
+
+AI and automation now show up across billing, from claim scrubbing to electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Any tool vendor that handles PHI on your behalf is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

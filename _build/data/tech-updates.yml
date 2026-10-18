@@ -1,0 +1,29 @@
+# Technology "Latest updates" feed (CODE-DESK-FIXES #39).
+# Append one entry per item. Fields:
+#   date:        YYYY-MM-DD (publication date of the source story)
+#   headline:    one line, no trailing period required
+#   summary:     one or two plain sentences, no claims about any vendor
+#   source_name: publisher shown in the "Source:" link
+#   source_url:  absolute https URL of the original story
+#   status:      draft | approved   (only "approved" items render; Tony approves before publishing)
+# Rendering: approved items, newest first, on /medical-billing-technology/ ("Latest updates");
+# the 3 newest also appear as the home-page teaser. When an item flips to approved, the build sets the
+# hub's dateModified to the newest approved date if it is later than the frontmatter date_modified.
+- date: '2026-10-15'
+  headline: AHA prepares hospitals for the Jan. 1, 2027 prior authorization deadline.
+  summary: The AHA launched a prior authorization resource site as major provisions of CMS-0057-F take effect Jan. 1, 2027.
+  source_name: AHA
+  source_url: https://www.aha.org/news/headline/2026-10-15-aha-launches-new-website-prior-authorization
+  status: approved
+- date: '2026-10-15'
+  headline: CMS official says parts of the WISeR AI prior-auth pilot "are not working."
+  summary: CMS is also piloting AI to flag suspicious Medicaid billing before payment.
+  source_name: Nextgov/FCW
+  source_url: https://www.nextgov.com/artificial-intelligence/2026/10/cms-hopes-quadruple-provider-suspensions-over-next-six-months-official-says/416640/
+  status: approved
+- date: '2026-10-13'
+  headline: Ensemble and Penelope Health partner to bring payer-policy intelligence into RCM.
+  summary: The aim is to move denial management upstream into denial prevention.
+  source_name: Fierce Healthcare
+  source_url: https://www.fiercehealthcare.com/health-tech/thoreau-backed-ensemble-penelope-health-partner-tackle-payer-denials-upstream
+  status: approved

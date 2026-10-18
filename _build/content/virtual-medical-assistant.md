@@ -25,6 +25,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Virtual medical assistants often work with scheduling automation, reminder systems and AI assistants that help draft messages or summarize inbox items for a person to review. Any tool that touches PHI should be approved by your practice and covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Virtual medical assistants for billing and front-office work
@@ -104,6 +107,12 @@ There's no official "HIPAA certified" virtual assistant. See our [HIPAA guide](/
 
 This site is operated by Alliance Global Solutions, which provides remote staff. It signs a BAA with each client before any of its staff access protected health information. You can read about its [administrative virtual assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) or [browse virtual staff profiles](https://www.allianceglobalsolutions.com/virtual-assistants/). To talk through which tasks to hand off, request a [free staffing assessment](/contact/).
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Virtual medical assistants often work with scheduling automation, reminder systems and AI assistants that help draft messages or summarize inbox items for a person to review. Any tool that touches PHI should be approved by your practice and covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
@@ -133,4 +142,4 @@ A virtual assistant handles broad administrative tasks; a biller focuses on clai
 List the most time-consuming administrative tasks, write procedures for two or three of them, agree on a schedule, sign a BAA, and check in daily for the first two weeks.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

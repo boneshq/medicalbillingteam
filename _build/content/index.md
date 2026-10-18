@@ -1,20 +1,24 @@
 ---
-title: "Medical Billing Team: Remote Billing & RCM Staffing"
-meta_description: "Plain-English guides for US practices on medical billing staffing, remote RCM teams, HIPAA safeguards and costs. Request a free staffing assessment."
+title: "Medical Billing Team: Billing & RCM Staffing Guides"
+meta_description: "Plain-English guides for US practices on medical billing staffing, RCM, HIPAA and costs, plus vetted approved vendors. Request a free staffing assessment."
 slug: "/"
-schema_type: ["WebSite", "Organization", "FAQPage"]  # FAQPage optional: Google retired FAQ rich results May 2026; keep only if it matches visible FAQ
+schema_type: ["WebSite", "Organization", "FAQPage"]  # Organization = Medical Billing Team (publisher), with parentOrganization/sponsor = Alliance Global Solutions  # FAQPage optional: Google retired FAQ rich results May 2026; keep only if it matches visible FAQ
 canonical: "https://medicalbillingteam.com/"
 faq:
   - q: "What is a remote medical billing team?"
-    a: "It is one or more dedicated billing and revenue cycle staff who work remotely inside your systems, under your workflows, doing tasks such as eligibility checks, prior authorizations, claim follow-up, payment posting and denial work. You direct the work; a staffing provider handles recruiting, employment and supervision support."
-  - q: "Is this the same as outsourcing my billing to a billing company?"
-    a: "Not exactly. A billing company usually takes over the whole function, often for a percentage of collections. A staffing model gives you dedicated people who work your queues in your software, and you keep control of the process and your payer relationships."
-  - q: "What does the free staffing assessment involve?"
-    a: "A short call about your workload, specialty, current setup and gaps. We discuss which roles, if any, would make sense. There is no obligation, and we never need patient information for this conversation."
-  - q: "Do you need patient information to give me an assessment?"
-    a: "No. Please do not include any patient information in forms, emails or chat. Practice-level details, such as specialty, number of providers and a collections range, are enough."
-  - q: "Can remote staff work with HIPAA requirements?"
-    a: "Remote staff can work within HIPAA's rules when the right contracts and safeguards are in place, including a business associate agreement, role-based access and training. There is no official 'HIPAA certification' for any company or person. See our HIPAA guide for the questions to ask."
+    a: "It is one or more dedicated billing and revenue cycle staff who work remotely inside your systems, under your workflows, doing tasks such as eligibility checks, prior authorizations, claim follow-up, payment posting and denial work. You direct the work; a staffing provider handles recruiting, employment and supervision."
+  - q: "Should I outsource medical billing or keep it in-house?"
+    a: "It depends on volume, specialty and how much control you want. In-house staff give the most control but are the hardest to hire and cover. A full-service billing company takes over the function. Dedicated remote staff sit in between: you keep the process, and a provider handles hiring."
+  - q: "What are the main medical billing staffing models?"
+    a: "Three: an in-house team you employ, a full-service billing company that runs billing for you, and dedicated remote staff who work your queues in your systems while a staffing provider employs them. Many practices mix models, such as in-house billing plus remote verification or A/R help."
+  - q: "How much does medical billing staffing cost?"
+    a: "In-house cost is wages plus benefits and overhead; BLS reports a May 2025 median hourly wage of $23.32 for billing and posting clerks. Billing companies often charge a percentage of collections, while staffing providers usually charge per staff member. Our cost guide compares them."
+  - q: "Do remote or offshore billers need a business associate agreement?"
+    a: "Yes. A company whose staff handle protected health information for your billing is a business associate under HIPAA and needs a signed BAA before access. No company or person can be officially 'HIPAA certified,' so be wary of that claim."
+  - q: "How do you choose approved vendors?"
+    a: "We publish our criteria, including signing a BAA before any PHI access, dedicated staff working in your systems, US billing experience, references on request and no 'HIPAA certified' claims. This site is operated by Alliance Global Solutions, currently our only approved vendor."
+  - q: "How do I get started, and do you need patient information?"
+    a: "Use the short form on this page or the longer contact form. Practice-level details such as specialty and number of providers are enough. Never send patient information. Your request may be referred to Alliance Global Solutions, our affiliated approved vendor."
 primary_keyword: "medical billing staffing"
 search_intent: "commercial"
 audience: "practice owners, managers, billing companies"
@@ -30,9 +34,9 @@ review_cadence: "semiannual"
 
 # Medical billing staff for US practices, without the hiring headache
 
-Claims pile up when one person is out. Denials sit unworked. Prior authorizations eat your front desk's afternoon. This site explains how practices and billing companies solve those problems, including when a dedicated remote billing team makes sense and when it doesn't.
+Claims pile up when one person is out. Denials sit unworked. Prior authorizations eat your front desk's afternoon. This site explains how practices and billing companies solve those problems, including when a dedicated remote billing team makes sense and when it doesn't. When you want help, we route your request to a [vetted, approved vendor](/approved-vendors/).
 
-**Get a free staffing assessment.** Tell us a little about your practice and a billing staffing specialist will follow up. It takes about a minute.
+**Get a free staffing assessment.** Tell us a little about your practice and we'll connect you with a vetted billing staffing vendor. It takes about a minute.
 
 ## Short form (hero)
 
@@ -55,6 +59,8 @@ Claims pile up when one person is out. Denials sit unworked. Prior authorization
 **Button:** Request my assessment
 
 **Microcopy under button:** We'll email you within one business day. You can unsubscribe from our emails at any time.
+
+**Referral disclosure (under microcopy, always visible):** This site is operated by Alliance Global Solutions, currently our only [approved vendor](/approved-vendors/). Your request may be referred to it. [How we vet vendors](/how-we-vet-vendors/).
 
 **Success message:** Thanks. A staffing specialist will reach out by email. If you have more detail to share, the [longer form](/contact/) helps us prepare. (Again: no patient information, please.)
 
@@ -89,7 +95,15 @@ A remote billing team is not a software product and not a full billing takeover.
 
 Typical roles include billing specialists, A/R follow-up specialists, eligibility and benefits verification (VOB) staff, prior authorization coordinators, payment posters, denial follow-up specialists and admissions or intake support.
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines. We think a staffing model fits some practices well and others not at all. Our [cost guide](/medical-billing-staffing-cost/) compares in-house, outsourced and remote options side by side.
+We think a staffing model fits some practices well and others not at all. Our [cost guide](/medical-billing-staffing-cost/) compares in-house, outsourced and remote options side by side, and [medical billing outsourcing: three models](/medical-billing-outsourcing/) explains the trade-offs.
+
+## Approved vendors
+
+<!-- VENDOR TEASER: card with logo-ags-icon.png, "Affiliated: operates this site" badge, two-line blurb, links. No ratings, reviews or testimonials. -->
+
+We list only vendors that meet our [published vetting criteria](/how-we-vet-vendors/), such as signing a BAA before any PHI access and never claiming to be "HIPAA certified." Today that's one company:
+
+**Alliance Global Solutions** (operates this site) provides dedicated remote medical billing and revenue cycle staff. Its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, and it handles a lot of their back-end work, including VOB for drug and alcohol treatment centers. It signs a business associate agreement with each client before any of its staff access protected health information. [Read the featured vendor profile →](/approved-vendors/alliance-global-solutions/) · [See approved vendors →](/approved-vendors/) · [Visit Alliance Global Solutions](https://www.allianceglobalsolutions.com/)
 
 ## HIPAA comes first
 
@@ -114,6 +128,12 @@ One more thing to know: **there is no official "HIPAA certification"** for compa
 
 [See how it works in detail →](/how-it-works/)
 
+## Technology in medical billing
+
+AI and automation now touch most of the revenue cycle: claim scrubbing, denial prediction, eligibility checks and electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). People still own the queues and review the output. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [See technology in medical billing and the latest updates →](/medical-billing-technology/)
+
+<!-- HOME TEASER: show the 3 newest items from data/tech-updates.yml (date + headline + source link) under this paragraph. -->
+
 ## Free resource: Medical Billing Health Checklist
 
 A one-page self-audit covering front-end, claims, denials, A/R, payment posting and staffing. [Get the checklist →](/checklist/)
@@ -122,25 +142,33 @@ A one-page self-audit covering front-end, claims, denials, A/R, payment posting 
 
 ### What is a remote medical billing team?
 
-It is one or more dedicated billing and revenue cycle staff who work remotely inside your systems, under your workflows, doing tasks such as eligibility checks, prior authorizations, claim follow-up, payment posting and denial work. You direct the work; a staffing provider handles recruiting, employment and supervision support.
+It is one or more dedicated billing and revenue cycle staff who work remotely inside your systems, under your workflows, doing tasks such as eligibility checks, prior authorizations, claim follow-up, payment posting and denial work. You direct the work; a staffing provider handles recruiting, employment and supervision.
 
-### Is this the same as outsourcing my billing to a billing company?
+### Should I outsource medical billing or keep it in-house?
 
-Not exactly. A billing company usually takes over the whole function, often for a percentage of collections. A staffing model gives you dedicated people who work your queues in your software, and you keep control of the process and your payer relationships.
+It depends on volume, specialty and how much control you want. In-house staff give the most control but are the hardest to hire and cover. A full-service billing company takes over the function. Dedicated remote staff sit in between: you keep the process, and a provider handles hiring.
 
-### What does the free staffing assessment involve?
+### What are the main medical billing staffing models?
 
-A short call about your workload, specialty, current setup and gaps. We discuss which roles, if any, would make sense. There is no obligation, and we never need patient information for this conversation.
+Three: an in-house team you employ, a full-service billing company that runs billing for you, and dedicated remote staff who work your queues in your systems while a staffing provider employs them. Many practices mix models, such as in-house billing plus remote verification or A/R help.
 
-### Do you need patient information to give me an assessment?
+### How much does medical billing staffing cost?
 
-No. Please do not include any patient information in forms, emails or chat. Practice-level details, such as specialty, number of providers and a collections range, are enough.
+In-house cost is wages plus benefits and overhead; BLS reports a May 2025 median hourly wage of $23.32 for billing and posting clerks. Billing companies often charge a percentage of collections, while staffing providers usually charge per staff member. Our cost guide compares them.
 
-### Can remote staff work with HIPAA requirements?
+### Do remote or offshore billers need a business associate agreement?
 
-Remote staff can work within HIPAA's rules when the right contracts and safeguards are in place, including a business associate agreement, role-based access and training. There is no official 'HIPAA certification' for any company or person. See our HIPAA guide for the questions to ask.
+Yes. A company whose staff handle protected health information for your billing is a business associate under HIPAA and needs a signed BAA before access. No company or person can be officially 'HIPAA certified,' so be wary of that claim.
 
-See the [HIPAA guide](/hipaa-outsourced-medical-billing/) for the safeguards to ask about.
+### How do you choose approved vendors?
+
+We publish our criteria, including signing a BAA before any PHI access, dedicated staff working in your systems, US billing experience, references on request and no 'HIPAA certified' claims. This site is operated by Alliance Global Solutions, currently our only approved vendor.
+
+### How do I get started, and do you need patient information?
+
+Use the short form on this page or the longer contact form. Practice-level details such as specialty and number of providers are enough. Never send patient information. Your request may be referred to Alliance Global Solutions, our affiliated approved vendor.
+
+See the [HIPAA guide](/hipaa-outsourced-medical-billing/), [cost guide](/medical-billing-staffing-cost/) and [how we vet vendors](/how-we-vet-vendors/) for detail.
 
 [More questions →](/faq/)
 
@@ -154,7 +182,7 @@ See the [HIPAA guide](/hipaa-outsourced-medical-billing/) for the safeguards to 
 
 ## Footer
 
-- Links: [About & disclosure](/about/) · [How it works](/how-it-works/) · [HIPAA guide](/hipaa-outsourced-medical-billing/) · [FAQ](/faq/) · [Contact](/contact/) · [Privacy](/privacy/) · [Terms](/terms/)
-- **Disclosure:** This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.
+- Links: [About & disclosure](/about/) · [How it works](/how-it-works/) · [Approved vendors](/approved-vendors/) · [How we vet vendors](/how-we-vet-vendors/) · [Technology](/medical-billing-technology/) · [HIPAA guide](/hipaa-outsourced-medical-billing/) · [FAQ](/faq/) · [Contact](/contact/) · [Privacy](/privacy/) · [Terms](/terms/)
+- **Affiliation disclosure (every page):** Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We don't publish ratings, reviews or testimonials. [How we vet vendors](/how-we-vet-vendors/).
 - Reminder: Please do not submit patient information through this site.
 - Content is general information, not legal, compliance or financial advice.

@@ -24,6 +24,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "AI assistants and automation tools raise the same HIPAA question as staff: if a vendor's tool creates, receives, maintains or transmits PHI on your behalf, that vendor is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Check where data is stored, whether it's used to train models and who can access it. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # HIPAA and outsourced medical billing staff: what to check before anyone logs in
@@ -48,7 +51,7 @@ What matters is evidence of specific safeguards: a signed business associate agr
 
 HIPAA's rules apply directly to **covered entities** (health plans, clearinghouses and health care providers that conduct standard electronic transactions such as claims) and to their **business associates**. HHS defines a business associate generally as a person or organization, other than a member of the covered entity's workforce, that performs functions or services on behalf of a covered entity involving the use or disclosure of protected health information (PHI). HHS lists **billing, claims processing and practice management** among the examples ([HHS, Business Associates](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)).
 
-A staffing agency whose people work your claims, check eligibility or post payments in your systems is therefore typically a business associate. A billing company that serves practices is often itself a business associate, so if it adds agency staff, the agency becomes a **subcontractor business associate**, and HHS says a business associate must have a BAA with its subcontractor before disclosing PHI to it ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)).
+A staffing agency whose people work your claims, check eligibility or post payments in your systems is therefore typically a business associate. As a general rule of HIPAA law (not a description of any particular vendor's arrangements): a billing company that serves practices is often itself a business associate, so if it adds agency staff, the agency becomes a **subcontractor business associate**, and HHS says a business associate must have a BAA with its subcontractor before disclosing PHI to it ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)).
 
 Business associates are not just contractually bound. Since the HITECH Act, they are directly liable for complying with the Security Rule's safeguards and certain Privacy Rule provisions ([HHS, Summary of the Security Rule](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)).
 
@@ -157,6 +160,12 @@ Our forms never ask for patient information, and we ask you not to submit any. W
 - Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. We don't claim to be "HIPAA certified" (no such certification exists), and you should still ask us the other questions on this page.
 - Ask us these questions directly with a [free staffing assessment](/contact/). This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/); you can also read how the company approaches [outsourced medical billing staffing](https://www.allianceglobalsolutions.com/medical-billing/) on its own site.
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+AI assistants and automation tools raise the same HIPAA question as staff: if a vendor's tool creates, receives, maintains or transmits PHI on your behalf, that vendor is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Check where data is stored, whether it's used to train models and who can access it. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Security questions to ask when hiring remote billers](/hire-remote-medical-billers/)
@@ -187,4 +196,4 @@ Under the Breach Notification Rule, a business associate must notify the covered
 It means making reasonable efforts to use, disclose and request only the minimum PHI needed for the task. For billing staff, that usually means role-based access limited to the queues, screens and payers they actually work.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it. This page is general information, not legal advice.*
+*Disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/). This page is general information, not legal advice.*

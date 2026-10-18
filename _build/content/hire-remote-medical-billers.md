@@ -1,6 +1,6 @@
 ---
-title: "Hiring Remote and Offshore Medical Billers: A Guide"
-meta_description: "How to hire remote or offshore medical billers: skills to test, interview questions, agency vs freelancer and security checks. Get a free assessment."
+title: "Medical Billing Virtual Assistant: Hiring Remote Billers"
+meta_description: "How to hire a medical billing virtual assistant or remote biller: skills to test, interview questions, agency vs freelancer, security checks."
 slug: "/hire-remote-medical-billers/"
 schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
@@ -15,7 +15,8 @@ faq:
   - q: "Can offshore medical billers work US payer hours?"
     a: "Many offshore teams work schedules that overlap US business hours. Confirm the schedule in writing, because payer calls and same-day eligibility work depend on it."
 canonical: "https://medicalbillingteam.com/hire-remote-medical-billers/"
-primary_keyword: "hire remote medical billers"
+secondary_keywords: ["hire remote medical billers"]
+primary_keyword: "medical billing virtual assistant"  # swapped 2026-10-18 from "hire remote medical billers" (Semrush)
 search_intent: "commercial-transactional"
 audience: "practice owners and billing companies"
 conversion_destination: "/contact/"
@@ -24,13 +25,16 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Remote billers increasingly work alongside automation: claim scrubbers, eligibility bots and AI assistants that draft appeals or summarize payer policies. Look for billers who can review automated output and handle the exceptions, and confirm any AI tool that touches PHI is covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Hiring remote and offshore medical billers: what to look for
 
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
-**Short answer:** To hire a remote or offshore medical biller, define the queue first and test candidates with a practical exercise on fictional data. Then choose between a freelancer, where you handle vetting and security, and an agency, which handles employment, equipment, backup coverage and the BAA. Before anyone logs in, require a BAA, MFA, secure remote access and role-based access.
+**Short answer:** To hire a medical billing virtual assistant or other remote biller, define the queue first and test candidates with a practical exercise on fictional data. Then choose between a freelancer, where you handle vetting and security, and an agency, which handles employment, equipment, backup coverage and the BAA. Before anyone logs in, require a BAA, MFA, secure remote access and role-based access.
 
 Remote medical billers can add real capacity, or create new problems, depending on how you hire. This guide covers the roles you can fill, how to choose between a freelancer and an agency, what skills to test, the security practices to ask about, and how to onboard. It's written for practices and for billing companies adding staff. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -159,6 +163,12 @@ This site is operated by [Alliance Global Solutions](https://www.allianceglobals
 A final tip: write down what "good" looks like before you hire, meaning the queues, volumes, quality checks and hours. A clear role description makes it easier to interview and onboard, and to judge whether the hire is working.
 
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Remote billers increasingly work alongside automation: claim scrubbers, eligibility bots and AI assistants that draft appeals or summarize payer policies. Look for billers who can review automated output and handle the exceptions, and confirm any AI tool that touches PHI is covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Medical billing staffing cost comparison](/medical-billing-staffing-cost/)
@@ -190,4 +200,4 @@ A signed BAA, unique logins with MFA, secure remote access through VDI or VPN, n
 Many offshore teams work schedules that overlap US business hours. Confirm the schedule in writing, because payer calls and same-day eligibility work depend on it.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

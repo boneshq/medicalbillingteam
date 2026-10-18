@@ -22,6 +22,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "semiannual"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Once staff are onboarded, many teams add automation for eligibility checks and claim status, plus AI assistants that help draft appeals or summarize payer policies, with a person reviewing the output. Any tool that touches PHI should be approved by your practice and covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # How a remote medical billing team works
@@ -72,6 +75,12 @@ If you decide to go ahead:
 - We don't claim to be "HIPAA certified"; no such official certification exists.
 - We don't promise specific outcomes before understanding your data.
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Once staff are onboarded, many teams add automation for eligibility checks and claim status, plus AI assistants that help draft appeals or summarize payer policies, with a person reviewing the output. Any tool that touches PHI should be approved by your practice and covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## FAQ
 
 ### Do remote staff use our software or theirs?
@@ -93,4 +102,4 @@ Yes. Many practices start with one role, such as eligibility verification or A/R
 [Request a free staffing assessment →](/contact/)
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

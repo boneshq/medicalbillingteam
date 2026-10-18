@@ -24,6 +24,9 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Automation changes the staffing math but doesn't remove it: tools can shrink manual eligibility and claim-status work, while people still work denials, appeals and exceptions. When you compare costs, include software and AI tool fees, and confirm that any tool vendor handling PHI signs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Medical billing staffing cost: in-house vs outsourced vs remote staff
@@ -151,6 +154,12 @@ Many practices combine models: a local billing manager plus remote specialists f
 
 This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff; you can read about its [dedicated medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) on its own site. If you want help working through the worksheet, request a [free staffing assessment](/contact/). We'll tell you if another model makes more sense.
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Automation changes the staffing math but doesn't remove it: tools can shrink manual eligibility and claim-status work, while people still work denials, appeals and exceptions. When you compare costs, include software and AI tool fees, and confirm that any tool vendor handling PHI signs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)
@@ -181,4 +190,4 @@ It depends on your volume and needs. Percentage pricing scales with collections 
 Vacancies and turnover, overtime, aging A/R while positions are unfilled, write-offs from missed timely filing limits, and the time owners or managers spend doing billing themselves.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

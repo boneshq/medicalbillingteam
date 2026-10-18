@@ -1,13 +1,16 @@
 [
  ".nojekyll",
  "404.html",
+ "CNAME",
  "about",
  "approved-vendors",
  "ar-specialist",
  "behavioral-health-billing",
  "checklist",
  "contact",
+ "credentialing-services",
  "credentialing-specialist",
+ "denial-codes",
  "denial-management",
  "eligibility-verification-prior-authorization",
  "faq",
@@ -21,6 +24,7 @@
  "hire-remote-medical-coders",
  "how-it-works",
  "how-we-vet-vendors",
+ "images",
  "img",
  "index.html",
  "llms-full.txt",
@@ -28,6 +32,7 @@
  "logo.svg",
  "medical-billing-outsourcing",
  "medical-billing-staffing-cost",
+ "medical-billing-technology",
  "offshore-medical-billers",
  "og-default.jpg",
  "prior-authorization-specialist",
@@ -39,5 +44,8 @@
  "styles.css",
  "terms",
  "thank-you",
- "virtual-medical-assistant"
+ "treatment-center-vob",
+ "virtual-medical-assistant",
+ "virtual-medical-receptionist",
+ "what-is-revenue-cycle-management"
 ]

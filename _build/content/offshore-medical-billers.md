@@ -1,6 +1,6 @@
 ---
-title: "Offshore Medical Billers: Pros, Cons and Safeguards"
-meta_description: "Offshore medical billers: where they fit, what HHS says about overseas PHI risk, contract checks, safeguards and how to start small. Get an assessment."
+title: "Offshore Medical Billing: Pros, Cons and Safeguards"
+meta_description: "Offshore medical billing explained: where offshore billers fit, HHS guidance on overseas PHI risk, contract checks and safeguards. Get an assessment."
 slug: "/offshore-medical-billers/"
 schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
@@ -15,7 +15,8 @@ faq:
   - q: "Are offshore medical billers HIPAA certified?"
     a: "No one is. There is no official HIPAA certification; HHS does not certify vendors. Ask for evidence of specific safeguards instead."
 canonical: "https://medicalbillingteam.com/offshore-medical-billers/"
-primary_keyword: "offshore medical billers"
+secondary_keywords: ["offshore medical billers"]
+primary_keyword: "offshore medical billing"  # swapped 2026-10-18 from "offshore medical billers" (Semrush)
 search_intent: "commercial"
 audience: "practice owners, billing companies"
 conversion_destination: "/contact/"
@@ -25,13 +26,16 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "Offshore teams often use the same automation as onshore teams: eligibility bots, claim scrubbers and AI assistants. Any tool that stores or processes PHI, wherever it is hosted, needs a BAA when the tool vendor handles PHI on your behalf ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Offshore medical billers: pros, cons and the safeguards to require
 
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
-**Short answer:** Offshore medical billers can add capacity at a lower hourly cost than local hires, and many practices and billing companies use them for A/R follow-up, eligibility, payment posting and denials. HIPAA doesn't ban offshore work, but HHS notes that overseas arrangements can raise risk and enforceability questions. Check your payer and Medicaid contracts, require a BAA and strong access controls, and include offshore access in your risk analysis.
+**Short answer:** Offshore medical billing uses billers based outside the US. Offshore medical billers can add capacity at a lower hourly cost than local hires, and many practices and billing companies use them for A/R follow-up, eligibility, payment posting and denials. HIPAA doesn't ban offshore work, but HHS notes that overseas arrangements can raise risk and enforceability questions. Check your payer and Medicaid contracts, require a BAA and strong access controls, and include offshore access in your risk analysis.
 
 Offshore billing teams are common in US healthcare, and they're also a source of understandable worry about data security, quality and communication. This guide covers where offshore billers fit, the real risks and the safeguards to require. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
 
@@ -88,6 +92,12 @@ Start with one well-defined queue, such as eligibility or A/R follow-up, with wr
 
 This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), which provides remote staff based in the Philippines. It signs a BAA with each client before any of its staff access protected health information. You can read about its [offshore medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/). If you're weighing an offshore team, request a [free staffing assessment](/contact/); we'll also tell you when it isn't a fit.
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+Offshore teams often use the same automation as onshore teams: eligibility bots, claim scrubbers and AI assistants. Any tool that stores or processes PHI, wherever it is hosted, needs a BAA when the tool vendor handles PHI on your behalf ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
@@ -117,4 +127,4 @@ Many teams work schedules that overlap US business hours so they can call payers
 No one is. There is no official HIPAA certification; HHS does not certify vendors. Ask for evidence of specific safeguards instead.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

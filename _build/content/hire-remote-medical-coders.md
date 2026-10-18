@@ -1,6 +1,6 @@
 ---
-title: "Hiring Remote Medical Coders: Skills, Tests, Security"
-meta_description: "How to hire remote or offshore medical coders: credentials to verify, specialty fit, coding tests, audits and HIPAA safeguards. Get a free assessment."
+title: "Outsource Medical Coding: Hiring Remote Medical Coders"
+meta_description: "How to outsource medical coding to remote or offshore coders: credentials to verify, coding tests, audits and HIPAA safeguards. Get a free assessment."
 slug: "/hire-remote-medical-coders/"
 schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
@@ -15,7 +15,8 @@ faq:
   - q: "What does a medical coder earn in the US?"
     a: "BLS reports a median of $51,140 a year ($24.59 an hour) in May 2025 for medical records specialists, the occupation group that includes coders."
 canonical: "https://medicalbillingteam.com/hire-remote-medical-coders/"
-primary_keyword: "hire remote medical coders"
+secondary_keywords: ["hire remote medical coders"]
+primary_keyword: "outsource medical coding"  # swapped 2026-10-18 from "hire remote medical coders" (Semrush)
 search_intent: "commercial"
 audience: "practices, billing companies, coding managers"
 conversion_destination: "/contact/"
@@ -25,13 +26,16 @@ date_modified: "2026-10-18"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
+tech_section:  # reusable <TechSection> component; edit here
+  body: "AI coding assistants suggest codes from clinical documentation, but coders still validate them against documentation, payer rules and annual code set updates; ICD-10 updates take effect October 1 each year ([CMS](https://www.cms.gov/medicare/coding-billing/icd-10-codes)). Outsourced coding works best when coders review AI suggestions rather than accept them blindly. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  link: "/medical-billing-technology/"
 ---
 
 # Hiring remote medical coders: what to verify, test and set up
 
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
-**Short answer:** Hire remote medical coders the way you'd hire local ones, then add security controls. Verify credentials directly with the issuing body, match specialty experience to your services, and give a practical coding test on fictional records. Agree on accuracy audits and turnaround, and put a BAA, MFA, secure remote access and role-based access in place before the coder sees a chart.
+**Short answer:** When you outsource medical coding to remote coders, hire them the way you'd hire local ones, then add security controls. Verify credentials directly with the issuing body, match specialty experience to your services, and give a practical coding test on fictional records. Agree on accuracy audits and turnaround, and put a BAA, MFA, secure remote access and role-based access in place before the coder sees a chart.
 
 Coding sits between documentation and payment. A coder who doesn't know your specialty, or who works without quality checks, can create denials, compliance risk and rework. This guide covers what to look for in a remote or offshore coder and how to set up the role safely. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) guide.
 
@@ -93,6 +97,12 @@ A freelancer can cover a small, steady volume, but you handle vetting, backup co
 
 This site is operated by Alliance Global Solutions, which provides remote staff, including for coding-related roles. It signs a BAA with each client before any of its staff access protected health information. You can read about its [remote medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) or [browse its virtual staff profiles](https://www.allianceglobalsolutions.com/virtual-assistants/). To talk through your coding volume, request a [free staffing assessment](/contact/).
 
+**Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
+
+## Technology
+
+AI coding assistants suggest codes from clinical documentation, but coders still validate them against documentation, payer rules and annual code set updates; ICD-10 updates take effect October 1 each year ([CMS](https://www.cms.gov/medicare/coding-billing/icd-10-codes)). Outsourced coding works best when coders review AI suggestions rather than accept them blindly. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+
 ## Related guides
 
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
@@ -122,4 +132,4 @@ Agree on a regular audit sample with your coding lead. New coders are commonly a
 BLS reports a median of $51,140 a year ($24.59 an hour) in May 2025 for medical records specialists, the occupation group that includes coders.
 
 ---
-*Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*
