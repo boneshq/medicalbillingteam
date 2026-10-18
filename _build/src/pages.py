@@ -43,6 +43,13 @@ PAGES = [
   P("behavioral-health-billing", "/behavioral-health-billing/", "Behavioral Health Billing", "pillar", None,
     "Behavioral Health & Treatment Center Billing Staff", "Billing and staffing for behavioral health practices and treatment centers."),
   # Supporting
+  # Directory (positioning change, Tony via CEO/AG 2026-10-18 12:51 PM ET; LVNY hub + light vendor directory)
+  P("approved-vendors", "/approved-vendors/", "Approved Vendors", "directory", None,
+    "Approved Medical Billing Staffing Vendors", "Vetted medical billing and RCM staffing vendors, and how we vet them."),
+  P("alliance-global-solutions", "/approved-vendors/alliance-global-solutions/", "Alliance Global Solutions", "vendor", "approved-vendors",
+    "Alliance Global Solutions: Featured Vendor Profile", "Remote medical billing and RCM staff from Alliance Global Solutions."),
+  P("how-we-vet-vendors", "/how-we-vet-vendors/", "How We Vet Vendors", "page", "approved-vendors",
+    "How We Vet Medical Billing Staffing Vendors", "The checks a vendor must pass before we list it."),
   P("how-it-works", "/how-it-works/", "How It Works", "page", None, "How It Works", "How a remote billing staffing engagement works."),
   P("faq", "/faq/", "FAQ", "page", None, "Medical Billing Staffing FAQ", "Common questions."),
   P("checklist", "/checklist/", "Free Checklist", "page", None, "Medical Billing Health Checklist", "A one-page billing self-audit."),
@@ -58,6 +65,6 @@ NAV = [
   ("RCM Staffing", "revenue-cycle-management-staffing"),
   ("HIPAA", "hipaa-outsourced-medical-billing"),
   ("Costs", "medical-billing-staffing-cost"),
-  ("How It Works", "how-it-works"),
+  ("Approved Vendors", "approved-vendors"),
   ("FAQ", "faq"),
 ]

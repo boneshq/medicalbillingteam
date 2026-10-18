@@ -5,3 +5,4 @@ set -euo pipefail
 SRC="${1:-/workspace/alliance-global/medbill/site-content}"
 DST="$(cd "$(dirname "$0")" && pwd)/content"
 for f in "$SRC"/*.md "$SRC"/llms.txt; do [ -e "$f" ] || continue; cp -p "$f" "$DST/"; echo "synced $(basename "$f")"; done
+python3 "$(dirname "$0")/ags-gallery.py"   # real AGS photos -> WebP gallery (0..N)

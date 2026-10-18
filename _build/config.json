@@ -118,5 +118,10 @@
     "Bytespider",
     "cohere-ai",
     "Diffbot"
-  ]
+  ],
+  "affiliation": {
+    "_note": "SLOT: interim wording by Code Desk 2026-10-18; final wording from Alliance Global ~4 PM ET (POSITIONING-CHANGES.md).",
+    "full": "Affiliation disclosure: Medical Billing Team is operated by, and affiliated with, Alliance Global Solutions (AGS). AGS is currently the only approved vendor in our directory, so our vendor listing is not independent.",
+    "short": "Affiliated with Alliance Global Solutions, our only listed vendor."
+  }
 }

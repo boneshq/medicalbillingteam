@@ -21,6 +21,8 @@ TODAY = datetime.date.today().isoformat()
 BYKEY = {p['key']: p for p in PAGES}
 E = lambda s: html.escape(str(s or ''), quote=True)
 DISC = CFG['disclosure']
+AFF = CFG['affiliation']   # SLOT: final wording ~4 PM ET
+GALLERY = json.loads((B / 'ags-gallery.json').read_text()) if (B / 'ags-gallery.json').exists() else {}
 ASSET_V = datetime.datetime.now().strftime('%Y%m%d%H%M')
 BAA_Q = 'Does Alliance Global Solutions sign a BAA?'
 BAA_LINE = 'Alliance Global Solutions signs a BAA before any PHI access.'  # approved copy addition (Tony via Alliance Global, 2026-10-18); HIPAA page disclosure only
@@ -48,6 +50,9 @@ def load(p):
     if str(meta.get('status', '')).lower() == 'stub' or not txt.strip(): return
     p['ready'] = True
     p['draft'] = 'DRAFT' in str(meta.get('status', '')).upper()
+    p['slot'] = str(meta.get('copy_status', '')).lower() == 'slot'   # interim copy awaiting the 4 PM drop
+    p['vendor'] = meta.get('vendor') or {}
+    p['steps'] = meta.get('steps') or []
     p['gated'] = bool(meta.get('gated'))
     p['robots_fm'] = str(meta.get('robots') or '')
     p['date_published'] = str(meta.get('date_published') or '')
@@ -102,7 +107,7 @@ def load(p):
 for p in PAGES:
     load(p)
     if p['kind'] in ('utility',): p['ready'] = True
-    p['indexable'] = p['ready'] and p['kind'] != 'utility' and not p.get('draft') and 'noindex' not in p.get('robots_fm', '')
+    p['indexable'] = p['ready'] and p['kind'] != 'utility' and not p.get('draft') and not p.get('slot') and 'noindex' not in p.get('robots_fm', '')
 
 def url(p): return SITE + p['path']
 
@@ -113,6 +118,12 @@ def ga():
         return '<!-- GA4 placeholder: set _build/config.json ga4_measurement_id (G-...) after Tony creates the web stream -->'
     return (f'<script async src="https://www.googletagmanager.com/gtag/js?id={gid}"></script>'
             f'<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag("js",new Date());gtag("config","{gid}");</script>')
+
+# Home and featured-vendor FAQs must be different (each has its own FAQPage); fail the build on any shared question.
+_norm = lambda s: re.sub(r'[^a-z0-9]+', ' ', s.lower()).strip()
+for _v in [x for x in PAGES if x['kind'] == 'vendor']:
+    _dup = {_norm(q) for q, _ in BYKEY['index']['faqs']} & {_norm(q) for q, _ in _v['faqs']}
+    if _dup: raise SystemExit(f'DUPLICATE FAQ between home and {_v["path"]}: {sorted(_dup)}')
 
 def jsonld(p):
     org = {"@type": "Organization", "@id": SITE + "/#org", "name": CFG['site_name'], "url": SITE + "/",
@@ -132,10 +143,16 @@ def jsonld(p):
                   "mainEntityOfPage": url(p), "url": url(p), "inLanguage": "en-US",
                   "datePublished": p.get('date_published') or None, "dateModified": p.get('date_modified') or None,
                   "author": {"@id": SITE + "/#org"}, "publisher": {"@id": SITE + "/#org"}})
-    st = [t for t in p.get('schema_types', []) if t in ('AboutPage', 'ContactPage', 'WebPage')]
-    if st or p['kind'] in ('page', 'form', 'legal'):
+    st = [t for t in p.get('schema_types', []) if t in ('AboutPage', 'ContactPage', 'WebPage', 'CollectionPage', 'ProfilePage')]
+    if st or p['kind'] in ('page', 'form', 'legal', 'directory', 'vendor'):
         g.append({"@type": st[0] if st else 'WebPage', "name": p['title'], "url": url(p), "description": p['description'],
                   "isPartOf": {"@id": SITE + "/#website"}, "about": {"@id": SITE + "/#org"}})
+    if p['kind'] == 'vendor' and p['vendor']:
+        g[-1]["mainEntity"] = {"@type": "Organization", "name": p['vendor']['name'], "url": p['vendor'].get('website'),
+                               "description": p['vendor'].get('tagline')}
+    if p['kind'] == 'directory':
+        g[-1]["mainEntity"] = {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": v['vendor']['name'], "url": url(v)}
+                               for i, v in enumerate(x for x in PAGES if x['kind'] == 'vendor' and x['vendor'])]}
     if 'HowTo' in p.get('schema_types', []):
         steps = [(m.group(1), m.group(2)) for m in re.finditer(r'^##\s+Step\s+(\d+):\s*(.+)$', p['raw'], re.M)]
         if steps:
@@ -232,7 +249,7 @@ def form(form_id):
 {f'<p class="fine">{E(CFG["email_notice"])}</p>' if full else ''}{'<p class="fine">We\'ll email you the checklist and occasional guides about billing staffing. Unsubscribe any time.</p>' if form_id == 'checklist' else ''}
 <button class="btn btn-cta" type="submit">{btn}{ico('arrow-right')}</button>
 <p class="form-msg" role="status" aria-live="polite"></p>
-<p class="fine">We'll email you within one business day. No patient information, please.</p>
+<p class="fine"><span class="em-note">We'll email you within one business day. No patient information, please. </span><span class="affil">{E(AFF['short'])} <a href="/about/#affiliation">Disclosure</a></span></p>
 </form>'''
 
 def ags_block(p):
@@ -255,7 +272,7 @@ def footer(p):
     return f'''{band}
 <footer class="site-footer"><div class="wrap">
 <div class="fcols"><div><h2 class="fh">Guides</h2><ul>{''.join(f'<li><a href="{BYKEY[k]["path"]}">{E(BYKEY[k]["label"])}</a></li>' for k in ['hire-remote-medical-billers', 'revenue-cycle-management-staffing', 'hipaa-outsourced-medical-billing', 'medical-billing-staffing-cost', 'behavioral-health-billing'])}</ul></div>{grp('revenue-cycle-management-staffing')}<div><h2 class="fh">Site</h2><ul>{links}</ul></div></div>
-<p class="disclosure"><strong>Disclosure:</strong> {E(DISC)} <a href="/about/">About &amp; disclosure</a></p>
+<p class="disclosure"><strong>Disclosure:</strong> {E(DISC)} {E(AFF['full'])} <a href="/about/#affiliation">About &amp; disclosure</a></p>
 <p class="fine">Please do not submit patient information through this site. Content is general information, not legal, compliance or financial advice. © {datetime.date.today().year} {E(CFG['site_name'])}</p>
 </div></footer>{sticky}
 <script src="/form-config.js" defer></script><script src="/form.js" defer></script></body></html>'''
@@ -308,6 +325,85 @@ def enhance(h):
     h = re.sub(r'<p><strong>Practical tip:</strong>(.*?)</p>', r'<p class="tip"><strong>Practical tip:</strong>\1</p>', h, flags=re.S)
     return h
 
+# ---------------- directory + featured vendor (LVNY hub/partner patterns) ----------------
+PAGE_ICON.update({'approved-vendors': 'store', 'how-we-vet-vendors': 'user-search', 'alliance-global-solutions': 'building-2'})
+
+def slot_note(p):
+    """Preview-only marker on pages whose copy is interim (copy_status: slot)."""
+    if not p.get('slot') or INDEX: return ''
+    return '<div class="slot-note" role="note"><strong>Copy slot.</strong> Interim wording; final copy arrives with the Alliance Global positioning drop. Not indexed.</div>'
+
+def affil_box(cls=''):
+    return f'<div class="affil-box {cls}" id="affiliation" role="note">{ico("handshake")}<p>{E(AFF["full"])}</p></div>'
+
+def vendors():
+    return [v for v in PAGES if v['kind'] == 'vendor' and v['vendor']]
+
+def vendor_card(v):
+    d = v['vendor']
+    sv = ''.join(f'<li>{ico("check")}{E(s)}</li>' for s in d.get('services', [])[:5])
+    loc = f'<p class="vc-meta">{ico("map-pin")}Staff location: {E(d["staff_location"])}</p>' if d.get('staff_location') else ''
+    return f"""<article class="vendor-card"><p class="vc-tag">{E(d.get('label') or 'Approved vendor')} · Billing &amp; RCM staff</p>
+<h3><a href="{v['path']}">{E(d['name'])}</a></h3><p class="vc-line">{E(d.get('tagline', ''))}</p>
+<ul class="vc-list">{sv}</ul>{loc}<p class="vc-meta">{ico("file-signature")}{E(d.get('baa', ''))}</p>
+<p class="vc-aff">{ico("handshake")}Affiliated: operates this site. <a href="/about/#affiliation">Disclosure</a></p>
+<a class="btn btn-sm vc-go" href="{v['path']}">View vendor profile{ico('arrow-right')}</a></article>"""
+
+def empty_slot():
+    # Plainly labeled empty state; must never look like a real vendor (Tony via CEO 2026-10-18)
+    return """<div class="vendor-empty"><p class="ve-h">More vetted vendors coming</p>
+<p>We add a vendor only after it passes <a href="/how-we-vet-vendors/">our vetting checks</a>. No other vendors are listed yet.</p></div>"""
+
+def directory_block(head='Approved vendor directory', lead=True):
+    cards = ''.join(vendor_card(v) for v in vendors()) + empty_slot()
+    intro = ('<p class="dir-lead">Vendors listed here passed <a href="/how-we-vet-vendors/">our vetting checks</a>. '
+             'Alliance Global Solutions, which operates this site, is the only approved vendor today.</p>') if lead else ''
+    return f'<section class="directory" id="directory"><h2>{E(head)}</h2>{intro}<div class="vendor-grid">{cards}</div></section>'
+
+def gallery_html():
+    off, team = GALLERY.get('office', []), GALLERY.get('team', [])
+    if not off and not team:
+        return '' if INDEX else '<section class="vp-gallery empty"><p class="slot-note"><strong>Photo slot.</strong> Real Alliance Global Solutions office and team photos will appear here.</p></section>'
+    def img(it, sizes, lazy=True):
+        ss = ', '.join(f'/img/ags/{it["stem"]}-{w}.webp {w}w' for w, _, _ in it['sizes'])
+        w0, h0 = it['sizes'][0][1], it['sizes'][0][2]
+        return (f'<img src="/img/ags/{it["stem"]}-{it["sizes"][0][0]}.webp" srcset="{ss}" sizes="{sizes}" alt="{E(it["alt"])}" '
+                f'width="{w0}" height="{h0}" {"loading=\"lazy\" " if lazy else ""}decoding="async">')
+    o = ''.join(f'<figure class="g-{"lead" if i == 0 else "item"}">{img(it, "(min-width:960px) 560px, 100vw" if i == 0 else "(min-width:960px) 280px, 50vw", lazy=i > 0)}'
+                f'{("<figcaption>" + E(it["caption"]) + "</figcaption>") if it.get("caption") else ""}</figure>' for i, it in enumerate(off))
+    tm = ''.join(f'<li>{img(it, "(min-width:960px) 160px, 30vw")}</li>' for it in team)
+    o_html = f'<div class="g-office g-n{min(len(off), 5)}">{o}</div>' if off else ''
+    t_html = f'<h3 class="g-h">The team</h3><ul class="g-team">{tm}</ul>' if team else ''
+    return f'<section class="vp-gallery" aria-labelledby="vp-photos"><h2 id="vp-photos">Inside Alliance Global Solutions</h2>{o_html}{t_html}<p class="g-note">Photos supplied by Alliance Global Solutions.</p></section>'
+
+def vendor_main(p):
+    d = p['vendor']
+    ts = d.get('team_size_range') or ''
+    ts_row = (f'<div><dt>{ico("users-round")}Team size range</dt><dd>{E(ts)}</dd></div>' if ts else
+              ('' if INDEX else f'<div class="slot"><dt>{ico("users-round")}Team size range</dt><dd><em>Slot: pending confirmation</em></dd></div>'))
+    facts = (f'<dl class="vp-facts"><div><dt>{ico("briefcase-medical")}Services</dt><dd>{E(", ".join(d.get("services", [])))}</dd></div>'
+             f'<div><dt>{ico("map-pin")}Staff location</dt><dd>{E(d.get("staff_location", ""))}</dd></div>'
+             f'<div><dt>{ico("file-signature")}HIPAA</dt><dd>{E(d.get("baa", ""))}</dd></div>{ts_row}'
+             f'<div><dt>{ico("handshake")}Listing</dt><dd>Affiliated vendor (operates this site). <a href="#affiliation">Disclosure</a></dd></div></dl>')
+    steps = ''.join(f'<li><p class="step-k">Step {i + 1}</p><h3>{E(s["t"])}</h3><p>{E(s.get("d", ""))}</p></li>' for i, s in enumerate(p['steps']))
+    body = convert(p['intro'])[0] if p.get('intro') else ''
+    if p['sections']: body += convert('\n'.join(x for x in p['sections'] if not x.startswith('<!--FAQ-->')))[0]
+    web = f'<a class="btn btn-ghost" href="{E(d["website"])}" rel="noopener" target="_blank">Visit website{ico("external-link")}</a>' if d.get('website') else ''
+    return f"""<main id="main" class="vendor-page">
+<section class="vp-hero"><div class="wrap">{crumbs(p)}{slot_note(p)}<div class="vp-grid">
+<div class="vp-id"><p class="eyebrow vp-eye">{ico("badge-check")}{E(d.get('label') or 'Featured vendor')} · Approved</p>
+<h1>{E(d['name'])}</h1><span class="rule ph-rule" aria-hidden="true"><i></i><i></i><i></i></span>
+<p class="vp-tag">{E(d.get('tagline', ''))}</p>
+<div class="vp-cta"><a class="btn btn-cta" href="/contact/">Request help{ico("arrow-right")}</a>{web}</div></div>
+<div class="vp-card">{facts}</div></div></div></section>
+<div class="wrap vp-body">{affil_box('vp-affil')}
+{gallery_html()}
+<section class="vp-about prose">{body}</section>
+{f'<section class="vp-steps" aria-labelledby="vp-how"><h2 id="vp-how">How working with {E(d["name"])} works</h2><ol class="steps-list">{steps}</ol></section>' if steps else ''}
+<section class="vp-cta-band"><div><h2>Talk to {E(d['name'])}</h2><p>Get a free, no-obligation staffing assessment. No patient information needed.</p></div><a class="btn btn-cta" href="/contact/">Get my free assessment{ico("arrow-right")}</a></section>
+{faq_html(p, 'Questions about ' + d['name']) if p['faqs'] else ''}
+{siblings(p)}</div></main>"""
+
 def aside_cta(p):
     # Stitch cost/RCM screens: help card under the TOC (desktop only); reuses the sticky-bar copy, no new claims
     return (f'<div class="aside-cta">{ico("clipboard-check")}<p><strong>Short on billing staff?</strong> Get a free, no-obligation staffing assessment. No patient info needed.</p>'
@@ -338,13 +434,15 @@ def page_main(p):
     elif p['faqs'] and p['key'] != 'faq' and not re.search(r'^##\s+.*FAQ', p['raw'], re.M | re.I):
         body += faq_html(p)
     body = enhance(body)
+    if p['key'] == 'about':   # affiliation disclosure (positioning change 2026-10-18): right under the operator disclosure heading
+        body = re.sub(r'(<h2 id="disclosure-who-operates-this-site">.*?</h2>)', lambda m: m.group(1) + affil_box(), body, count=1, flags=re.S) if 'disclosure-who-operates-this-site' in body else affil_box() + body
     disc = f'<p class="disclosure-inline">{ico("building-2")}<span>{E(DISC)}{(" " + E(BAA_LINE)) if p["key"] == "hipaa-outsourced-medical-billing" else ""}</span></p>'
     icon = PAGE_ICON.get(p['key'])
     badge = f'<span class="page-ic">{ico(icon)}</span>' if icon else ''
-    return f"""<main id="main"><div class="page-hero"><div class="wrap">{crumbs(p)}<div class="ph-row">{badge}<h1>{E(h1)}</h1></div><span class="rule ph-rule" aria-hidden="true"><i></i><i></i><i></i></span>
+    return f"""<main id="main"><div class="page-hero"><div class="wrap">{crumbs(p)}{slot_note(p)}<div class="ph-row">{badge}<h1>{E(h1)}</h1></div><span class="rule ph-rule" aria-hidden="true"><i></i><i></i><i></i></span>
 {byline(p)}{disc}</div></div>
 <div class="wrap page-grid{' has-toc' if toc else ''}">{('<aside class="toc-col"><div class="toc-stick">' + toc + aside_cta(p) + '</div></aside>') if toc else ''}<article class="prose">{body}</article></div>
-<div class="wrap">{children(p)}{siblings(p)}</div></main>"""
+<div class="wrap">{directory_block() if p['kind'] == 'directory' else children(p)}{siblings(p)}</div></main>"""
 
 TOPIC_ICON = {'who-this-site-helps': ['user-round-check', 'stethoscope', 'building-2', 'briefcase-medical', 'layers'],
   'common-billing-problems-we-write-about': ['file-x-2', 'hourglass', 'clock-alert', 'calendar-check', 'users-round'],
@@ -410,7 +508,7 @@ def home_main(p):
 <li>{ico('monitor-check')}<span>Dedicated staff who work in your systems</span></li>
 <li>{ico('circle-check-big')}<span>Free, no-obligation staffing assessment</span></li>
 </ul></div></section>
-{topics}{rest}
+{topics}<section class="band band-dir"><div class="wrap">{directory_block()}</div></section>{rest}
 </main>"""
 
 # ---------------- write ----------------
@@ -443,7 +541,7 @@ for p in PAGES:
     rel = p['path'].strip('/')
     d = ROOT / rel if rel else ROOT
     d.mkdir(parents=True, exist_ok=True)
-    main = home_main(p) if p['key'] == 'index' else page_main(p)
+    main = home_main(p) if p['key'] == 'index' else vendor_main(p) if p['kind'] == 'vendor' else page_main(p)
     (d / 'index.html').write_text(prefix(head(p) + nav(p['key']) + main + footer(p)))
     generated.append(rel.split('/')[0] if rel else 'index.html')
 

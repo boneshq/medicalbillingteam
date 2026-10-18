@@ -12,7 +12,7 @@
    "/medical-billing-staffing-cost/"
   ]
  },
- "built": "2026-10-18T12:50:46",
+ "built": "2026-10-18T12:59:57",
  "base_path": "/medicalbillingteam",
  "indexing_enabled": false,
  "form_backend_enabled": false,
@@ -33,6 +33,9 @@
   "/hipaa-outsourced-medical-billing/",
   "/medical-billing-staffing-cost/",
   "/behavioral-health-billing/",
+  "/approved-vendors/",
+  "/approved-vendors/alliance-global-solutions/",
+  "/how-we-vet-vendors/",
   "/how-it-works/",
   "/faq/",
   "/checklist/",
