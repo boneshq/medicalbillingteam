@@ -88,6 +88,9 @@ def load(p):
     if meta.get('pillar'):
         pk = [x['key'] for x in PAGES if x['path'] == meta['pillar']]
         if pk and pk[0] != p['key']: p['parent'] = pk[0]
+    # AG consistency fixes (2026-10-18): top-level hubs, no pillar parent in breadcrumb or nav highlight
+    if p['key'] in ('medical-billing-technology', 'approved-vendors'): p['parent'] = None
+    if p['key'] == 'medical-billing-technology': p['label'] = 'Medical Billing Technology'
     if meta.get('title'): p['title'] = meta['title']
     if meta.get('meta_description'): p['description'] = meta['meta_description']
     p['faqs'] = [(x['q'], x['a']) for x in (meta.get('faq') or []) if x.get('q') and x.get('a')]
@@ -578,7 +581,20 @@ def iconize_list(h, icons):
         return f'<li><span class="li-ic">{ico(n)}</span><span class="li-t">{m.group(1)}</span></li>'
     return re.sub(r'<li>(.*?)</li>', li, h, flags=re.S)
 
+HERO_H1 = 'Dedicated medical billing staff for practices, billing companies and treatment centers'
+HERO_SERVICES = [('RCM', 'revenue-cycle-management-staffing'), ('Credentialing', 'credentialing-services'),
+  ('Prior authorization', 'prior-authorization-specialist'), ('VOB for treatment centers', 'treatment-center-vob'),
+  ('Denial management', 'denial-management'), ('A/R follow-up', 'ar-specialist'), ('Medical coding', 'hire-remote-medical-coders'),
+  ('Virtual medical receptionists', 'virtual-medical-receptionist')]
+HERO_CHIPS = ['Dedicated staff who work in your systems', 'BAA signed before any PHI access', 'Teams from 2-3 to 50+', 'US-based management']
+
 def home_main(p):
+    global ROT, SVC, CHIPS
+    for _n, _k in HERO_SERVICES:
+        if not BYKEY[_k]['ready'] or BYKEY[_k].get('held'): raise SystemExit(f'HERO service link not live: {_k}')
+    ROT = ''.join(f'<span style="--i:{i}">{E(n)}</span>' for i, (n, _) in enumerate(HERO_SERVICES))
+    SVC = ''.join(f'<li style="animation-delay:{.2 + i * .05:.2f}s"><a href="{BYKEY[k]["path"]}">{E(n)}</a></li>' for i, (n, k) in enumerate(HERO_SERVICES))
+    CHIPS = ''.join(f'<li>{ico("circle-check-big")}<span>{E(c)}</span></li>' for c in HERO_CHIPS)
     if p['ready']:
         hero = convert(p['intro'])[0]
         secs = []
@@ -619,17 +635,16 @@ def home_main(p):
 <div class="tile"><span class="tile-ic">{ico('brain')}</span><h3><a href="/behavioral-health-billing/">Behavioral health billing</a></h3><p>Billing staff for behavioral health practices and treatment centers.</p></div>
 </div></div></section>"""
     return f"""<main id="main">
-<section class="hero">{p.get('hero_img', '')}<div class="wrap hero-grid">
-<div class="hero-h"><p class="eyebrow">For US medical practices &amp; billing companies</p><h1>{E(p.get('h1', p['title']))}</h1><span class="rule" aria-hidden="true"><i></i><i></i><i></i></span></div>
-<div class="hero-form form-card"><h2 class="form-title">Get your free staffing assessment</h2>{form("hero")}</div>
-<div class="hero-copy prose">{hero}<p class="disclosure-inline">{ico("building-2")}<span>{E(DISC)}</span></p></div>
+<section class="hero hero-v3">{p.get('hero_img', '')}<div class="wrap hero-grid">
+<div class="hero-h"><p class="eyebrow rv">For practices, billing companies &amp; treatment centers</p>
+<h1 class="rv" style="animation-delay:.05s">{E(HERO_H1)}</h1>
+<p class="rot-line rv" style="animation-delay:.12s"><span class="rot-pre">Staffing for</span> <span class="rot" aria-hidden="true">{ROT}</span><span class="sr-only">{E(", ".join(n for n, _ in HERO_SERVICES))}</span></p>
+<ul class="svc-pills" aria-label="Services">{SVC}</ul>
+<ul class="hero-chips rv" style="animation-delay:.5s" aria-label="What to expect">{CHIPS}</ul>
+<p class="hero-ctas rv" style="animation-delay:.58s"><a class="btn btn-cta" href="#assessment" data-cta="hero">Get matched with a vetted vendor{ico('arrow-right')}</a></p></div>
+<div class="hero-form form-card" id="get-matched"><h2 class="form-title">Get your free staffing assessment</h2>{form("hero")}</div>
 </div></section>
-<section class="trust" aria-label="At a glance"><div class="wrap"><ul class="trust-row">
-<li>{ico('file-signature')}<span>Alliance Global Solutions signs a BAA before any PHI access</span></li>
-<li>{ico('lock-keyhole')}<span>No patient information needed</span></li>
-<li>{ico('monitor-check')}<span>Dedicated staff who work in your systems</span></li>
-<li>{ico('circle-check-big')}<span>Free, no-obligation staffing assessment</span></li>
-</ul></div></section>
+<section class="band hero-intro"><div class="wrap narrow"><div class="hero-copy prose">{hero}<p class="disclosure-inline">{ico("building-2")}<span>{E(DISC)}</span></p></div></div></section>
 {topics}{rest}
 </main>"""
 
@@ -663,9 +678,10 @@ def prefix(h):
     return re.sub(r'\bsrcset="([^"]+)"', lambda m: 'srcset="' + re.sub(r'(^|,\s*)/(?!/)', rf'\1{BASE_PATH}/', m.group(1)) + '"', h)
 
 IMG = BYKEY['index']
-IMG['hero_img'] = ('<picture class="hero-bg" aria-hidden="true"><source media="(min-width:1300px)" srcset="/img/hero-office-dusk-1920.webp">'
-                   '<source media="(min-width:700px)" srcset="/img/hero-office-dusk-1280.webp">'
-                   '<img src="/img/hero-office-dusk-768.webp" alt="" width="768" height="429" fetchpriority="high" decoding="async"></picture>')
+IMG['hero_img'] = ('<picture class="hero-bg" aria-hidden="true"><img src="/img/ags/office-01-640.webp" '
+                   'srcset="/img/ags/office-01-640.webp 640w, /img/ags/office-01-1000.webp 1000w" sizes="100vw" alt="" width="1000" height="572" fetchpriority="high" decoding="async"></picture>')
+IMG['preload_img'] = ('<link rel="preload" as="image" href="/img/ags/office-01-640.webp" '
+                      'imagesrcset="/img/ags/office-01-640.webp 640w, /img/ags/office-01-1000.webp 1000w" imagesizes="100vw" fetchpriority="high">\n')
 IMG['hipaa_img'] = ('<img src="/img/hipaa-glass-shield-480.webp" srcset="/img/hipaa-glass-shield-480.webp 480w, /img/hipaa-glass-shield-800.webp 800w" '
                     'sizes="(min-width:960px) 420px, 100vw" alt="" width="480" height="643" loading="lazy" decoding="async">')
 for p in PAGES:
