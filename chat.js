@@ -118,7 +118,7 @@
       starting = null; if (j && j.ok && j.token) { S.token = j.token; S.t0 = Date.now(); save(); return true; } return false; }, function () { starting = null; return false; });
     return starting;
   }
-  function open() { hideTeaser(); panel.hidden = false; launch.setAttribute('aria-expanded', 'true'); S.open = 1; save(); render(); ensure(); if (!mq.matches) setTimeout(function () { (leadF.hidden ? ta : $('#mc-n')).focus({ preventScroll: true }); }, 30);   // no auto keyboard on phones }
+  function open() { hideTeaser(); panel.hidden = false; launch.setAttribute('aria-expanded', 'true'); S.open = 1; save(); render(); ensure(); if (!mq.matches) setTimeout(function () { (leadF.hidden ? ta : $('#mc-n')).focus({ preventScroll: true }); }, 30); /* no auto keyboard on phones */ }
   function close() { panel.hidden = true; launch.setAttribute('aria-expanded', 'false'); S.open = 0; save(); launch.focus({ preventScroll: true }); }
   launch.addEventListener('click', function () { panel.hidden ? open() : close(); });
   R.querySelectorAll('.mc-ask').forEach(function (b) { b.addEventListener('click', function (e) { e.preventDefault(); open(); }); });
