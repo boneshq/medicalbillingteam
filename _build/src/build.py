@@ -308,6 +308,11 @@ def enhance(h):
     h = re.sub(r'<p><strong>Practical tip:</strong>(.*?)</p>', r'<p class="tip"><strong>Practical tip:</strong>\1</p>', h, flags=re.S)
     return h
 
+def aside_cta(p):
+    # Stitch cost/RCM screens: help card under the TOC (desktop only); reuses the sticky-bar copy, no new claims
+    return (f'<div class="aside-cta">{ico("clipboard-check")}<p><strong>Short on billing staff?</strong> Get a free, no-obligation staffing assessment. No patient info needed.</p>'
+            f'<a class="btn btn-cta btn-sm" href="/contact/">Get my free assessment</a></div>')
+
 def page_main(p):
     h1 = p.get('h1', p['title'].split(' | ')[0])
     if p['key'] == 'contact':
@@ -327,7 +332,7 @@ def page_main(p):
         body = '<div class="draft-banner"><strong>DRAFT: for legal review.</strong> Not approved for publication. Bracketed items are placeholders.</div>' + body
     toc = ''
     if len(p['toc']) >= 4 and p['kind'] in ('pillar', 'cluster'):
-        toc = '<details class="toc" open><summary>On this page</summary><ol>' + ''.join(f'<li><a href="#{i}">{E(t)}</a></li>' for i, t in p['toc']) + '</ol></details>'
+        toc = f'<details class="toc" open><summary>{ico("list")}On this page</summary><ol>' + ''.join(f'<li><a href="#{i}">{E(t)}</a></li>' for i, t in p['toc']) + '</ol></details>'
     if '<!--FAQ-->' in body:
         body = body.replace('<!--FAQ-->', faq_html(p, p.get('faq_head') or 'FAQ'))
     elif p['faqs'] and p['key'] != 'faq' and not re.search(r'^##\s+.*FAQ', p['raw'], re.M | re.I):
@@ -336,9 +341,9 @@ def page_main(p):
     disc = f'<p class="disclosure-inline">{ico("building-2")}<span>{E(DISC)}{(" " + E(BAA_LINE)) if p["key"] == "hipaa-outsourced-medical-billing" else ""}</span></p>'
     icon = PAGE_ICON.get(p['key'])
     badge = f'<span class="page-ic">{ico(icon)}</span>' if icon else ''
-    return f"""<main id="main"><div class="page-hero"><div class="wrap">{crumbs(p)}<div class="ph-row">{badge}<h1>{E(h1)}</h1></div>
+    return f"""<main id="main"><div class="page-hero"><div class="wrap">{crumbs(p)}<div class="ph-row">{badge}<h1>{E(h1)}</h1></div><span class="rule ph-rule" aria-hidden="true"><i></i><i></i><i></i></span>
 {byline(p)}{disc}</div></div>
-<div class="wrap page-grid{' has-toc' if toc else ''}">{('<aside class="toc-col">' + toc + '</aside>') if toc else ''}<article class="prose">{body}</article></div>
+<div class="wrap page-grid{' has-toc' if toc else ''}">{('<aside class="toc-col"><div class="toc-stick">' + toc + aside_cta(p) + '</div></aside>') if toc else ''}<article class="prose">{body}</article></div>
 <div class="wrap">{children(p)}{siblings(p)}</div></main>"""
 
 TOPIC_ICON = {'who-this-site-helps': ['user-round-check', 'stethoscope', 'building-2', 'briefcase-medical', 'layers'],
@@ -497,3 +502,15 @@ status = {'ags_links_pending_prod_check': pending, 'built': datetime.datetime.no
           'stubs': [p['path'] for p in PAGES if not p['ready']]}
 (B / 'build-status.json').write_text(json.dumps(status, indent=1))
 print(json.dumps(status, indent=1))
+
+# CODE-DESK #14 (internal part): fail the build on any broken same-site link or asset reference.
+_broken = []
+for _f in ROOT.rglob('*.html'):
+    if any(s in _f.parts for s in ('_build', '.git', 'node_modules')): continue
+    for _u in re.findall(r'(?:href|src)="(' + re.escape(BASE_PATH) + r'/[^"#?]*)', _f.read_text()):
+        _rel = _u[len(BASE_PATH):].lstrip('/')
+        _t = ROOT / _rel
+        if not (_t.is_file() or (_t / 'index.html').is_file()): _broken.append(f'{_f.relative_to(ROOT)} -> {_u}')
+if _broken:
+    raise SystemExit('BROKEN INTERNAL LINKS:\n' + '\n'.join(sorted(set(_broken))))
+print('internal link check: OK')

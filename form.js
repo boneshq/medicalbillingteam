@@ -74,3 +74,5 @@
     });
   }
 })();
+// Mobile: collapse the long "On this page" list by default (content stays in the HTML)
+(function () { var t = document.querySelector('.toc'); if (t && window.innerWidth < 1080) t.removeAttribute('open'); })();

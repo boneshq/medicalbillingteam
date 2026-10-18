@@ -192,7 +192,7 @@ a.tile:hover,.tile:hover{border-color:var(--teal);transform:translateY(-2px);box
 .disclosure-inline{display:flex;gap:10px;align-items:flex-start;font-size:.82rem;color:var(--mute);border-left:2px solid var(--line-2);padding-left:12px;margin:14px 0 0;line-height:1.5;max-width:80ch}
 .disclosure-inline .ic{color:var(--teal);margin-top:2px}
 .page-grid{display:grid;gap:24px;padding-top:28px;padding-bottom:40px}
-@media(min-width:1080px){.page-grid.has-toc{grid-template-columns:250px minmax(0,1fr);gap:56px}.toc-col{position:relative}.toc-col .toc{position:sticky;top:88px;max-height:calc(100vh - 110px);overflow:auto}}
+@media(min-width:1080px){.page-grid.has-toc{grid-template-columns:250px minmax(0,1fr);gap:56px}.toc-col{position:relative}.toc-stick{position:sticky;top:88px}.toc-col .toc{max-height:calc(100vh - 330px);overflow:auto}.aside-cta{display:block}}
 .prose{max-width:74ch;min-width:0}
 .prose>:first-child{margin-top:0}
 .prose h2{margin-top:2.1em}.prose h3{margin-top:1.6em}
@@ -279,3 +279,11 @@ a.tile:hover,.tile:hover{border-color:var(--teal);transform:translateY(-2px);box
 @media(max-width:759px){.sticky-cta .s-m{font-size:.86rem;line-height:1.25;flex:1;min-width:0}.sticky-cta .btn{padding:10px 14px}}
 @media(max-width:430px){.sticky-cta .s-m{display:none}.sticky-cta .btn{flex:1}}
 .site-footer .disclosure a,.prose a,.op-note a{text-decoration:underline;text-underline-offset:3px}
+/* Stitch-derived (cost + RCM screens): signature rule under inner H1s, TOC icon, help card under TOC */
+.ph-rule{display:grid;margin:14px 0 4px}
+.toc summary .ic{width:16px;height:16px;margin-right:8px;color:var(--teal)}
+.aside-cta{display:none;margin-top:16px;background:var(--mint);border:1px solid #cfe9e5;border-radius:var(--r-sm);padding:16px}
+.aside-cta>.ic{width:22px;height:22px;color:var(--teal)}
+.aside-cta p{font-size:.9rem;line-height:1.5;margin:.5em 0 .9em;color:var(--ink-2)}.aside-cta strong{color:var(--navy)}
+.aside-cta .btn{width:100%;justify-content:center}
+@media(min-width:1080px){.aside-cta{display:block}}
