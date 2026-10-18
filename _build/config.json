@@ -124,5 +124,10 @@
     "full": "Medical Billing Team is operated by Alliance Global Solutions. That means we have a financial interest in Alliance Global Solutions, currently the only vendor on our approved vendor list. Requests you submit through this site may be referred to Alliance Global Solutions, and we benefit if you hire it. We hold Alliance Global Solutions to the same [published criteria](/how-we-vet-vendors/) we'd apply to any vendor, and we don't publish ratings, reviews or testimonials.",
     "short": "Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).",
     "referral": "Your request will be shared with Alliance Global Solutions, our affiliated approved vendor, so it can follow up."
-  }
+  },
+  "held_pages": [
+    "privacy",
+    "terms"
+  ],
+  "_held_note": "Go-live 2026-10-18: privacy/terms are legal drafts with bracketed placeholders (frontmatter: DO NOT PUBLISH UNTIL APPROVED). Not published, not linked, not in sitemap until counsel approves; then remove from held_pages."
 }

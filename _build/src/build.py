@@ -126,6 +126,7 @@ def load(p):
 for p in PAGES:
     load(p)
     if p['kind'] in ('utility',): p['ready'] = True
+    if p['key'] in CFG.get('held_pages', []): p['ready'] = False; p['held'] = True   # not published (go-live quality rule)
     if '<!--TECH-->' in p.get('body', ''):
         ids = [i for i, _ in p['toc']]
         at = ids.index('related-guides') if 'related-guides' in ids else len(p['toc'])
@@ -270,6 +271,10 @@ def inp(name, label, typ='text', required=True, ac='', hint='', maxl=150):
     h = f'<small>{E(hint)}</small>' if hint else ''
     return f'<label><span>{E(label)}{"" if required else " <i>(optional)</i>"}</span><input name="{name}" type="{typ}"{" required" if required else ""} maxlength="{maxl}"{f" autocomplete={chr(34)}{ac}{chr(34)}" if ac else ""}>{h}</label>'
 
+def tcpa_links():
+    l = [f'<a href="{BYKEY[k]["path"]}">{n}</a>' for k, n in (('privacy', 'Privacy Policy'), ('terms', 'Terms')) if BYKEY[k]['ready']]
+    return f' See our {" and ".join(l)}.' if l else ''
+
 FORM_ON = bool(CFG['form_backend'].get('apps_script_url'))   # flips to live automatically once apps_script_url is set
 
 def form(form_id):
@@ -289,7 +294,7 @@ def form(form_id):
         top = [name, email, practice, provs, phone] if form_id == 'hero' else [name, practice, provs, email, phone]
         mid, bottom = '', []
     tcpa = (f'<label class="check tcpa" hidden><input type="checkbox" name="tcpa_consent" value="yes"> '
-            f'<span>{E(CFG["tcpa_text"])} See our <a href="/privacy/">Privacy Policy</a> and <a href="/terms/">Terms</a>.</span></label>')
+            f'<span>{E(CFG["tcpa_text"])}{tcpa_links()}</span></label>')
     grid2 = ' grid-2' if full else ''
     fields = f'<div class="grid{grid2}">{"".join(top)}</div>{mid}' + (f'<div class="grid{grid2}">{"".join(bottom)}</div>' if bottom else '')
     btn = 'Send me the checklist' if form_id == 'checklist' else 'Request my assessment'
@@ -515,7 +520,7 @@ def page_main(p):
                 '<p>In the meantime: <a href="/checklist/">Medical Billing Health Checklist</a> · <a href="/hipaa-outsourced-medical-billing/">HIPAA guide for outsourced billing staff</a> · <a href="/revenue-cycle-management-staffing/">RCM staffing guide</a></p>')
     elif p.get('gated'):
         body = (convert(p['intro'])[0] + '<div class="gate form-card"><h2>Get the checklist</h2>' + form('checklist') +
-                ('' if bool(CFG['form_backend'].get('apps_script_url')) else '<p class="fine preview-note">Preview only: the form backend is off, so the gate can\'t unlock. <button type="button" class="linkbtn" data-unlock>Show the gated content</button> (preview reviewers only).</p>') +
+                ('' if (FORM_ON or INDEX) else '<p class="fine preview-note">Preview only: the form backend is off, so the gate can\'t unlock. <button type="button" class="linkbtn" data-unlock>Show the gated content</button> (preview reviewers only).</p>') +
                 '</div><div class="gated" id="unlocked" hidden>' + convert('\n'.join(p['sections']))[0] + '</div>')
     else:
         body = p['body'] if p['ready'] else stub(p)
@@ -638,8 +643,12 @@ for p in PAGES:
     rel = p['path'].strip('/')
     d = ROOT / rel if rel else ROOT
     d.mkdir(parents=True, exist_ok=True)
+    if p.get('held'): continue
     main = home_main(p) if p['key'] == 'index' else vendor_main(p) if p['kind'] == 'vendor' else page_main(p)
-    (d / 'index.html').write_text(prefix(head(p) + nav(p['key']) + main + footer(p)))
+    html_out = head(p) + nav(p['key']) + main + footer(p)
+    for _hp in [x['path'] for x in PAGES if x.get('held')]:   # unlink held (unpublished) pages, keep the words
+        html_out = re.sub(r'<a href="' + re.escape(_hp) + r'(?:#[^"]*)?"[^>]*>(.*?)</a>', r'\1', html_out)
+    (d / 'index.html').write_text(prefix(html_out))
     generated.append(rel.split('/')[0] if rel else 'index.html')
 
 # 404
@@ -676,6 +685,8 @@ for k in FULL_ORDER:
         body = re.sub(r'## Short form \(hero\).*?(?=## Who this site helps)', '', body, flags=re.S)
         body = re.sub(r'## Sticky CTA bar.*', '', body, flags=re.S)
     body = re.sub(r'\]\(/', '](https://medicalbillingteam.com/', body)
+    for _hp in [x['path'] for x in PAGES if x.get('held')]:
+        body = re.sub(r'\[([^\]]+)\]\(https://medicalbillingteam\.com' + re.escape(_hp) + r'[^)]*\)', r'\1', body)
     FT.append("\n---\n\nSource: https://medicalbillingteam.com%s\n\n" % slug + body.strip() + "\n")
 (ROOT / 'llms-full.txt').write_text(''.join(FT))
 (ROOT / '.nojekyll').write_text('')

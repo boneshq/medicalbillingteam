@@ -16,7 +16,7 @@
    "/approved-vendors/alliance-global-solutions/"
   ]
  },
- "built": "2026-10-18T13:26:54",
+ "built": "2026-10-18T13:31:19",
  "base_path": "",
  "indexing_enabled": true,
  "form_backend_enabled": false,
@@ -55,9 +55,10 @@
   "/faq/",
   "/checklist/",
   "/about/",
-  "/contact/",
+  "/contact/"
+ ],
+ "stubs": [
   "/privacy/",
   "/terms/"
- ],
- "stubs": []
+ ]
 }

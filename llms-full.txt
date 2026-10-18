@@ -566,7 +566,7 @@ Print this list and use it on every agency call, including with us.
 
 ## How this site handles your information
 
-Our forms never ask for patient information, and we ask you not to submit any. We collect only business contact and practice-level details. See our [Privacy Policy](https://medicalbillingteam.com/privacy/).
+Our forms never ask for patient information, and we ask you not to submit any. We collect only business contact and practice-level details. See our Privacy Policy.
 
 ## Next steps
 
@@ -3722,7 +3722,7 @@ Our content is general information. It is not legal, compliance, coding or finan
 
 ## Your information
 
-Our forms collect only business contact and practice-level information. **Please never submit patient information.** We explain what we collect and how we use it in our [Privacy Policy](https://medicalbillingteam.com/privacy/).
+Our forms collect only business contact and practice-level information. **Please never submit patient information.** We explain what we collect and how we use it in our Privacy Policy.
 
 ## Contact
 
