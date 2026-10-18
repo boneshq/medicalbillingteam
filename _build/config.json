@@ -83,9 +83,9 @@
   "preview_base_path": "",
   "form_backend": {
     "mode": "apps_script",
-    "apps_script_url": "",
+    "apps_script_url": "https://tuolsdkjnzrtqmmzxvoq.supabase.co/functions/v1/mbt-lead",
     "form_key": "mbt-public-v1",
-    "_note": "Lead form -> Google Apps Script web app -> 'MedicalBillingTeam Leads' Sheet (tony@ Drive). apps_script_url stays EMPTY until Tony deploys (see _build/apps-script/DEPLOY.md); while empty the form shows a clear 'not connected' message and sends nothing. The URL is PUBLIC by design (the browser must know where to POST) and will be served in /form-config.js once set. form_key is also PUBLIC; it is a junk filter, not a secret. Supabase is not used (Tony said no, 2026-10-18)."
+    "_note": "Lead form -> Supabase edge function mbt-lead (project afg-reddit-geo, verify-JWT off; same POST contract as the Apps Script web app it replaces) -> 'MedicalBillingTeam Leads' Sheet (tony@ Drive, shared Editor with workspace-gmail-agent SA only) + alert to tony@altfunding.com only. Tony option 1, 2026-10-18 1:47 PM ET. Source: alliance-global/medbill/form-backend. No Supabase table/database is used; the function stores nothing. Credentials live only in Supabase function secrets. The URL is PUBLIC by design (served in /form-config.js); blank it to put the form back on temporarily unavailable. form_key is also PUBLIC; it is a junk filter, not a secret."
   },
   "tcpa_text": "By checking this box, I agree that Alliance Global Solutions may call or text me at the number I provided about remote medical billing and revenue cycle staffing, including calls or texts made with an autodialer or prerecorded or artificial voice. Consent is not a condition of any purchase or of receiving the assessment. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help.",
   "tcpa_version": "2026-10-18-v1",
