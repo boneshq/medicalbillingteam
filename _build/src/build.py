@@ -774,6 +774,10 @@ else: (ROOT / 'llms-full.txt').write_text(outbound(''.join(FT)))
 _ci = chat_index((ROOT / 'llms-full.txt').read_text())
 (ROOT / 'chat-index.json').write_text(json.dumps({'generated': TODAY, 'source': 'llms-full.txt', 'chunks': _ci}, ensure_ascii=False, separators=(',', ':')))
 if CHAT.get('endpoint'): (ROOT / 'chat.js').write_text(chat_bundle())
+if CHAT.get('endpoint') and shutil.which('node'):   # never ship a widget that doesn't parse
+    import subprocess
+    _chk = subprocess.run(['node', '--check', str(ROOT / 'chat.js')], capture_output=True, text=True)
+    if _chk.returncode: raise SystemExit('chat.js SYNTAX ERROR:\n' + _chk.stderr[-800:])
 generated += ['chat-index.json', 'chat.js']
 (ROOT / '.nojekyll').write_text('')
 (ROOT / 'CNAME').write_text(CFG.get('custom_domain', 'medicalbillingteam.com') + '\n')   # go-live (Tony via CEO 1:22 PM ET); Pages settings/DNS handled elsewhere
