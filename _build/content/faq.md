@@ -11,7 +11,7 @@ faq:
   - q: "What roles can remote staff cover?"
     a: "Common roles include billing and claims specialists, A/R follow-up, denial follow-up, eligibility and benefits verification (VOB), prior authorization, payment posting, coding (with credentials), credentialing and admissions or intake support."
   - q: "Do you work with medical billing companies?"
-    a: "Yes. Billing companies often add dedicated remote staff as they take on new clients. In that case the staffing provider usually acts as a subcontractor business associate and signs a BAA with the billing company."
+    a: "Yes. Billing companies often add dedicated remote staff as they take on new clients."
   - q: "Is anyone 'HIPAA certified'?"
     a: "No. There is no official HIPAA certification for companies or individuals. HHS's Office for Civil Rights does not endorse or certify vendors. Ask about specific safeguards instead: a BAA, MFA, secure remote access, role-based access, training and incident response."
   - q: "Will the staffing provider sign a business associate agreement?"
@@ -52,7 +52,7 @@ A billing company usually takes over the function, often for a percentage of col
 Billing and claims, A/R follow-up, denial follow-up, eligibility/VOB, prior authorization, payment posting, coding (with credentials), credentialing and admissions or intake support. [RCM staffing guide →](/revenue-cycle-management-staffing/)
 
 **Do you work with medical billing companies?**
-Yes. The staffing provider usually acts as a subcontractor business associate and signs a BAA with the billing company.
+Yes.
 
 ## HIPAA and security
 
