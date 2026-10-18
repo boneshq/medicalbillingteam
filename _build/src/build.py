@@ -332,7 +332,7 @@ def page_main(p):
         body = '<div class="draft-banner"><strong>DRAFT: for legal review.</strong> Not approved for publication. Bracketed items are placeholders.</div>' + body
     toc = ''
     if len(p['toc']) >= 4 and p['kind'] in ('pillar', 'cluster'):
-        toc = f'<details class="toc" open><summary>{ico("list")}On this page</summary><ol>' + ''.join(f'<li><a href="#{i}">{E(t)}</a></li>' for i, t in p['toc']) + '</ol></details>'
+        toc = f'<details class="toc" open><summary>{ico("list")}On this page</summary><ol>' + ''.join(f'<li><a href="#{i}">{E(t)}</a></li>' for i, t in p['toc']) + '</ol></details><script>if(innerWidth<1080)document.currentScript.previousElementSibling.removeAttribute("open")</script>'
     if '<!--FAQ-->' in body:
         body = body.replace('<!--FAQ-->', faq_html(p, p.get('faq_head') or 'FAQ'))
     elif p['faqs'] and p['key'] != 'faq' and not re.search(r'^##\s+.*FAQ', p['raw'], re.M | re.I):
