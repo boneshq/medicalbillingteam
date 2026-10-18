@@ -16,6 +16,12 @@ OUT = B / 'static' / 'img' / 'ags'
 OUT.mkdir(parents=True, exist_ok=True)
 for old in OUT.glob('*.webp'): old.unlink()
 WIDTHS = {'office': (640, 1000), 'team': (320, 480)}
+# Hard guard (Tony via Alliance Global 2026-10-18): no portraits of individuals until consent/rights confirmed,
+# no stock, no logos, no '25+ years' badge composites. Any listed file matching these fails the run.
+BLOCK = re.compile(r'^(ph-|ags-staff-|ags-capture|ags-jonathan|ags-home-pic|stock-|logo-|ags-theme-|ags-allianceservicespic|ags-call-center|ags-screenshot)', re.I)
+if SEL.get('team'): sys.exit('ags-gallery: team portraits are blocked until Tony confirms consent and photo rights')
+_bad = [it['file'] for g in ('office', 'team') for it in SEL.get(g, []) if BLOCK.match(it['file'])]
+if _bad: sys.exit(f'ags-gallery: blocked file(s) in selection: {_bad}')
 res = {}
 for group in ('office', 'team'):
     res[group] = []

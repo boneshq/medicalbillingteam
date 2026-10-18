@@ -16,7 +16,7 @@ vendor:
   website: "https://www.allianceglobalsolutions.com/"
   staff_location: "Philippines"
   services: ["Billing specialists", "A/R follow-up", "Eligibility and insurance verification (VOB)", "Prior authorization", "Payment posting", "Denial follow-up", "Admissions and intake support"]  # roles as stated in AG about.md
-  team_size_range: ""   # SLOT: e.g. "1 to 25+ staff per client". Hidden on the live build while empty.
+  team_size_range: "From 2-3 dedicated staff to 50+"   # confirmed by Tony via Alliance Global, 2026-10-18 1:03 PM ET
   baa: "Alliance Global Solutions signs a BAA before any PHI access."
 steps:
   - t: "Tell us about your workload"

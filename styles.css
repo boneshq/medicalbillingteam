@@ -342,3 +342,4 @@ a.tile:hover,.tile:hover{border-color:var(--teal);transform:translateY(-2px);box
 .affil{display:inline}
 @media(max-width:599px){.hero-form .em-note{display:none}}
 .vendor-grid{align-items:start}
+@media(min-width:960px){.g-n4 figure:nth-child(4){grid-column:span 2}}

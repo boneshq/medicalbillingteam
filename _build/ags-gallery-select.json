@@ -1,21 +1,26 @@
 {
- "_note": "CODE DESK curation 2026-10-18 from /workspace/alliance-global/medbill/ags-images. Only REAL AGS office/team photos. EXCLUDED: logos, stock-* files, city/building stock, ph-107/ph-109/ph-165 (appear to be stock), illustration (theme-img2), hands/laptop stock (theme-cta-img), headset stock (screenshot-office-2021), '25+ years' badge composites (home-pic*, unverified claim), low-res captures, broken 146-byte files. Names are NOT used in alt text. Alliance Global to confirm consent/rights for each person shown.",
+ "_note": "CODE DESK curation, updated 2026-10-18 1:05 PM ET per Alliance Global/Tony: NO close-up portraits of individuals until Tony confirms consent and photo rights. Allowed set = About-page group photo + office/workspace shots only. office-02..04 have branded diagonal edges: SWAP PENDING (clean originals requested from Alliance Global). Excluded: all 9 team portraits (ph-148..154, ags-staff-*), ags-jonathan-solo (single-person shot), logos, stock-*, city/building stock, ph-107/109/165 (appear to be stock), illustration, hands/laptop + headset stock, home-pic* badge composites (unverified tenure claim), low-res captures, broken files. Build refuses any file not listed here.",
  "office": [
-  {"file": "ags-about-us-group-photo.jpg", "alt": "Alliance Global Solutions team group photo"},
-  {"file": "ags-service-data-entry.png", "alt": "Alliance Global Solutions staff member working at a desktop workstation"},
-  {"file": "ags-service-accounting.png", "alt": "Alliance Global Solutions staff member reviewing work on two monitors"},
-  {"file": "ags-service-it.png", "alt": "Alliance Global Solutions staff member at a multi-monitor workstation"},
-  {"file": "ags-jonathan-solo.png", "alt": "Alliance Global Solutions team member in the office"}
+  {
+   "file": "ags-about-us-group-photo.jpg",
+   "alt": "Alliance Global Solutions team group photo",
+   "source": "same image as AGS About page (wp-content/uploads/2021/11/AGS-Blog-Featured-Image-New-About-Us-Group-Photo-scaled.jpg)"
+  },
+  {
+   "file": "ags-service-data-entry.png",
+   "alt": "Alliance Global Solutions workstation with a staff member entering data",
+   "swap_pending": true
+  },
+  {
+   "file": "ags-service-accounting.png",
+   "alt": "Alliance Global Solutions workstation with two monitors",
+   "swap_pending": true
+  },
+  {
+   "file": "ags-service-it.png",
+   "alt": "Alliance Global Solutions multi-monitor workstation",
+   "swap_pending": true
+  }
  ],
- "team": [
-  {"file": "ph-148-gerald.png", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ph-149-riel.png", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ph-150-anjo.png", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ph-151-carl.png", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ph-152-iza.png", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ph-153-jerline-sambrano.png", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ph-154-maria.png", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ags-staff-reynalyn.jpg", "alt": "Alliance Global Solutions team member portrait"},
-  {"file": "ags-staff-verla.jpg", "alt": "Alliance Global Solutions team member portrait"}
- ]
+ "team": []
 }

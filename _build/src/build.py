@@ -29,6 +29,11 @@ BAA_LINE = 'Alliance Global Solutions signs a BAA before any PHI access.'  # app
 SPEC_SECTIONS = re.compile(r'^(short form|sticky cta|footer$|form fields|implementation notes|other ways to reach us|get the checklist)', re.I)
 FAQ_HEAD = re.compile(r'^(short )?faq$', re.I)
 BYLINE_RE = re.compile(r'^\*By the Medical Billing Team editors.*\*\s*$', re.M)
+COPY_FIXES = [  # minimal wording fixes applied on top of AG copy (approved via Alliance Global 2026-10-18 1:03 PM ET)
+    ("so if it adds agency staff, the agency becomes a **subcontractor business associate**, and HHS says a business associate must have a BAA with its subcontractor before disclosing PHI to it",
+     "so if it brings in staff from an outside agency, that agency generally becomes the billing company's **subcontractor business associate**. As a general rule, HHS says a business associate must have a BAA with its subcontractor before disclosing PHI to it"),
+]
+CLAIM_RE = re.compile(r'\b(25|twenty[- ]five)\s*\+?\s*(-\s*)?(years?|yrs?)\b', re.I)   # no tenure claims anywhere (Tony via AG 2026-10-18)
 BANNED = ['subcontractor business associate and signs a BAA with the billing company']  # unconfirmed claim (Tony via CEO 2026-10-18); build fails if it reappears
 MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December']
 def human(d):
@@ -39,6 +44,7 @@ def load(p):
     p.update(ready=False, body='', sections=[], toc=[], faqs=[], raw='', meta={})
     if not f.exists(): return
     txt = f.read_text()
+    for _a, _b in COPY_FIXES: txt = txt.replace(_a, _b)
     for b in BANNED:
         if b in txt: raise SystemExit(f'BLOCKED: unconfirmed claim in {f.name}: {b!r}')
     meta = {}
@@ -612,3 +618,14 @@ for _f in ROOT.rglob('*.html'):
 if _broken:
     raise SystemExit('BROKEN INTERNAL LINKS:\n' + '\n'.join(sorted(set(_broken))))
 print('internal link check: OK')
+
+# No "25 years" / "25+ years" claim anywhere in published output: copy, alt text, schema, llms files, scripts.
+_claims = []
+for _f in ROOT.rglob('*'):
+    if not _f.is_file() or any(s in _f.parts for s in ('_build', '.git', 'node_modules', 'scripts')): continue
+    if _f.suffix.lower() not in ('.html', '.txt', '.xml', '.js', '.json', '.svg', '.css', '.md'): continue
+    for _m in CLAIM_RE.finditer(_f.read_text(errors='ignore')): _claims.append(f'{_f.relative_to(ROOT)}: {_m.group(0)!r}')
+for _f in ROOT.rglob('*.webp'):   # image names (published) must not carry badge/tenure assets
+    if re.search(r'home-pic|years|badge', _f.name, re.I): _claims.append(f'{_f.relative_to(ROOT)}: image name')
+if _claims: raise SystemExit('BLOCKED TENURE CLAIM(S):\n' + '\n'.join(_claims))
+print('tenure-claim check (25 years / 25+ years): OK')

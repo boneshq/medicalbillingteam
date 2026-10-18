@@ -31,7 +31,7 @@
      624
     ]
    ],
-   "alt": "Alliance Global Solutions staff member working at a desktop workstation",
+   "alt": "Alliance Global Solutions workstation with a staff member entering data",
    "caption": ""
   },
   {
@@ -48,7 +48,7 @@
      624
     ]
    ],
-   "alt": "Alliance Global Solutions staff member reviewing work on two monitors",
+   "alt": "Alliance Global Solutions workstation with two monitors",
    "caption": ""
   },
   {
@@ -65,180 +65,9 @@
      624
     ]
    ],
-   "alt": "Alliance Global Solutions staff member at a multi-monitor workstation",
-   "caption": ""
-  },
-  {
-   "stem": "office-05",
-   "sizes": [
-    [
-     640,
-     640,
-     399
-    ],
-    [
-     1000,
-     1000,
-     624
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member in the office",
+   "alt": "Alliance Global Solutions multi-monitor workstation",
    "caption": ""
   }
  ],
- "team": [
-  {
-   "stem": "team-01",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-02",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-03",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-04",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-05",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-06",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-07",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-08",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  },
-  {
-   "stem": "team-09",
-   "sizes": [
-    [
-     320,
-     320,
-     400
-    ],
-    [
-     480,
-     480,
-     600
-    ]
-   ],
-   "alt": "Alliance Global Solutions team member portrait",
-   "caption": ""
-  }
- ]
+ "team": []
 }
