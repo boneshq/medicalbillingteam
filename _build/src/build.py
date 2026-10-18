@@ -374,7 +374,12 @@ if fb.get('supabase_anon_key'):
 generated.append('form-config.js')
 generated += ['sitemap.xml', 'robots.txt', 'llms.txt', 'llms-full.txt', '.nojekyll']
 gen_file.write_text(json.dumps(sorted(set(generated)), indent=1))
-status = {'built': datetime.datetime.now().isoformat(timespec='seconds'), 'base_path': BASE_PATH, 'indexing_enabled': INDEX,
+ver = set(CFG.get('ags_verified_200', []))
+pending = {}
+for p in PAGES:
+    for u in set(re.findall(r'https?://(?:www\.)?allianceglobalsolutions\.com[^)\s"]*', p.get('raw', ''))):
+        if u.replace('://allianceglobalsolutions', '://www.allianceglobalsolutions') not in ver: pending.setdefault(u, []).append(p['path'])
+status = {'ags_links_pending_prod_check': pending, 'built': datetime.datetime.now().isoformat(timespec='seconds'), 'base_path': BASE_PATH, 'indexing_enabled': INDEX,
           'form_backend_enabled': CFG['form_backend']['enabled'],
           'live_ready': [p['path'] for p in PAGES if p['ready'] and p['kind'] != 'utility'],
           'stubs': [p['path'] for p in PAGES if not p['ready']]}
