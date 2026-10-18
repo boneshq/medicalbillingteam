@@ -104,6 +104,7 @@ Credentialing specialists use tracking tools for documents, expirations and appl
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](/prior-authorization-specialist/)
 - [Virtual medical assistants for billing and front office](/virtual-medical-assistant/)
+- [revenue cycle management, explained](/what-is-revenue-cycle-management/)
 
 ## FAQ
 

@@ -77,6 +77,11 @@ If you decide to go ahead:
 
 **Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
 
+## Related guides
+
+- [medical billing staffing FAQ](/faq/)
+- [back to the Medical Billing Team home page](/)
+
 ## Technology
 
 Once staff are onboarded, many teams add automation for eligibility checks and claim status, plus AI assistants that help draft appeals or summarize payer policies, with a person reviewing the output. Any tool that touches PHI should be approved by your practice and covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)

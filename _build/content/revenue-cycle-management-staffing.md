@@ -146,7 +146,7 @@ Be wary of any vendor that guarantees a specific reduction in denials or A/R day
 
 A dedicated remote team tends to fit when you have steady, queue-based work (eligibility, posting, A/R, denials), systems that support secure remote access, and someone in-house who can own the process. It fits less well if your processes are undocumented or your billing system can't support remote access securely.
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines; you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/medical-billing/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](/contact/).
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff (US-based management and admin; staff in the Philippines, Colombia and other countries); you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/medical-billing/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](/contact/).
 
 **Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
 
@@ -166,6 +166,8 @@ RCM teams increasingly pair people with automation: eligibility bots, claim scru
 - [Virtual medical assistants for billing and front office](/virtual-medical-assistant/)
 - [Medical billing outsourcing: three models](/medical-billing-outsourcing/)
 - [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
+- [what revenue cycle management covers end to end](/what-is-revenue-cycle-management/)
+- [virtual medical receptionist role](/virtual-medical-receptionist/)
 
 ## FAQ
 

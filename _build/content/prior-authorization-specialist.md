@@ -122,6 +122,7 @@ CMS-0057-F requires impacted payers to support prior authorization APIs by Janua
 - [Medical credentialing services](/credentialing-services/)
 - [What an AR specialist does](/ar-specialist/)
 - [VOB for drug and alcohol treatment centers](/treatment-center-vob/)
+- [what is revenue cycle management?](/what-is-revenue-cycle-management/)
 
 ## FAQ
 

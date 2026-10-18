@@ -141,6 +141,17 @@ Keep the list in a shared tracker so nothing depends on one person's memory.
 
 **Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
 
+## Denial code guides
+
+Most denials trace back to a handful of CARC codes. Each guide covers what the code means, common causes and a fix-and-prevent checklist:
+
+- [CO-16: claim lacks information or has billing errors](/denial-codes/co-16/)
+- [CO-22: coordination of benefits denials](/denial-codes/co-22/)
+- [CO-29: timely filing limit expired](/denial-codes/co-29/)
+- [CO-97: bundled or included services](/denial-codes/co-97/)
+- [CO-197: missing precertification or authorization](/denial-codes/co-197/)
+- [CO-204: service not covered under the patient's plan](/denial-codes/co-204/)
+
 ## Technology
 
 Denial management is shifting upstream into denial prevention: claim scrubbing, denial-prediction models and payer-policy checks before care is delivered ([Fierce Healthcare](https://www.fiercehealthcare.com/health-tech/thoreau-backed-ensemble-penelope-health-partner-tackle-payer-denials-upstream)). Remits use standard X12 group and reason codes, so denials can be sorted automatically into work queues ([X12](https://x12.org/codes/claim-adjustment-reason-codes)). People still write appeals and fix root causes. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
@@ -151,6 +162,8 @@ Denial management is shifting upstream into denial prevention: claim scrubbing, 
 - [Eligibility verification and prior authorization](/eligibility-verification-prior-authorization/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [What an AR specialist does](/ar-specialist/)
+- [how denials fit into the revenue cycle](/what-is-revenue-cycle-management/)
+- [outsourced vs. in-house billing models](/medical-billing-outsourcing/)
 
 ## FAQ
 

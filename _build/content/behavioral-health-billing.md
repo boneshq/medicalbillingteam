@@ -125,7 +125,7 @@ Federal mental health parity rules generally require that limits on mental healt
 - **Outsourced billing companies** that specialize in behavioral health can take the whole function; confirm how they handle VOB speed and Part 2.
 - **Dedicated remote staff** can cover VOB, authorizations, claims and A/R in your systems, including evening and weekend admissions coverage if scheduled. Put a BAA and access controls in place first, and limit access to what each role needs ([HIPAA guide](/hipaa-outsourced-medical-billing/)).
 
-Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), is currently our only [approved vendor](/approved-vendors/). It specializes in medical billing, including VOB for drug and alcohol treatment centers and broader RCM, with dedicated staff in the Philippines and Colombia whom clients train on their own workflows while Alliance Global Solutions handles hiring and monitoring. It signs a business associate agreement with each client before any of its staff access protected health information. See its [featured vendor profile](/approved-vendors/alliance-global-solutions/) and our guide to [VOB for treatment centers](/treatment-center-vob/). If you're weighing options, request a [free staffing assessment](/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information.
+Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), is currently our only [approved vendor](/approved-vendors/). It specializes in medical billing, including VOB for drug and alcohol treatment centers and broader RCM, with US-based management and admin and dedicated staff in the Philippines, Colombia and other countries whom clients train on their own workflows while Alliance Global Solutions handles hiring and monitoring. It signs a business associate agreement with each client before any of its staff access protected health information. See its [featured vendor profile](/approved-vendors/alliance-global-solutions/) and our guide to [VOB for treatment centers](/treatment-center-vob/). If you're weighing options, request a [free staffing assessment](/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information. Its planned [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/) describes the billing roles it places.
 
 ## Checklist for behavioral health billing leaders
 
@@ -150,6 +150,8 @@ Behavioral health programs use automated eligibility checks and electronic prior
 - [HIPAA and outsourced billing staff](/hipaa-outsourced-medical-billing/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](/prior-authorization-specialist/)
+- [revenue cycle management fundamentals](/what-is-revenue-cycle-management/)
+- [medical billing outsourcing options](/medical-billing-outsourcing/)
 
 ## FAQ
 

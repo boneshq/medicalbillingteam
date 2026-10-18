@@ -72,7 +72,7 @@ Any vendor whose tool creates, receives, maintains or transmits PHI on your beha
 
 ## Getting help
 
-Alliance Global Solutions, which operates this site and is currently our only [approved vendor](/approved-vendors/), also helps clients set up AI assistant workflows alongside their dedicated staff. See its [featured vendor profile](/approved-vendors/alliance-global-solutions/). To talk through your setup, [request help](/contact/); your request may be referred to Alliance Global Solutions.
+Alliance Global Solutions, which operates this site and is currently our only [approved vendor](/approved-vendors/), also helps clients set up AI assistant workflows alongside their dedicated staff. See its [featured vendor profile](/approved-vendors/alliance-global-solutions/). To talk through your setup, [request help](/contact/); your request may be referred to Alliance Global Solutions. Its [administrative virtual assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) page describes the support roles that often work alongside these tools.
 
 ## Latest updates
 

@@ -118,6 +118,7 @@ Virtual medical assistants often work with scheduling automation, reminder syste
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](/prior-authorization-specialist/)
 - [Credentialing specialist role](/credentialing-specialist/)
+- [virtual medical receptionist services](/virtual-medical-receptionist/)
 
 ## FAQ
 

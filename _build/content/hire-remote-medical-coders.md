@@ -108,6 +108,7 @@ AI coding assistants suggest codes from clinical documentation, but coders still
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)
 - [What an AR specialist does](/ar-specialist/)
+- [where coding fits in revenue cycle management](/what-is-revenue-cycle-management/)
 
 ## FAQ
 

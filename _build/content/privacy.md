@@ -89,11 +89,16 @@ The Site is for business users and isn't directed to children under 13 [or 16].
 
 ## 11. International transfers
 
-Alliance Global Solutions staff may access information from outside the United States, including the Philippines and Colombia. [COUNSEL: confirm disclosure wording.]
+Alliance Global Solutions staff may access information from outside the United States, including the Philippines, Colombia and other countries. [COUNSEL: confirm disclosure wording.]
 
 ## 12. Changes
 
 We'll post updates here with a new effective date.
+
+## Related guides
+
+- [terms of use](/terms/)
+- [contact us](/contact/)
 
 ## 13. Contact
 

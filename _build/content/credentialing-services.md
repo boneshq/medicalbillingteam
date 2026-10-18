@@ -102,6 +102,9 @@ Credentialing automation tracks documents, license and malpractice expirations, 
 - [Credentialing specialist: role and workflow](/credentialing-specialist/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Prior authorization specialist and outsourcing](/prior-authorization-specialist/)
+- [how credentialing fits the revenue cycle](/what-is-revenue-cycle-management/)
+- [outsource medical billing and credentialing together](/medical-billing-outsourcing/)
+- [treatment center verification of benefits](/treatment-center-vob/)
 
 ## FAQ
 

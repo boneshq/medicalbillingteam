@@ -88,7 +88,7 @@ Treatment centers usually choose between a behavioral health billing company tha
 
 ## Getting help
 
-Alliance Global Solutions, which operates this site and is currently our only [approved vendor](/approved-vendors/), specializes in medical billing, especially drug and alcohol treatment billing, VOBs and RCM. Its staff work as the client's own dedicated employees, whom the client trains as it wishes, while Alliance Global Solutions handles hiring and monitoring. Its staff are based in the Philippines and Colombia, and its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+. References are available on request. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. Read its [featured vendor profile](/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). To talk through VOB and admissions coverage, [request help](/contact/); your request may be referred to Alliance Global Solutions.
+Alliance Global Solutions, which operates this site and is currently our only [approved vendor](/approved-vendors/), specializes in medical billing, especially drug and alcohol treatment billing, VOBs and RCM. Its staff work as the client's own dedicated employees, whom the client trains as it wishes, while Alliance Global Solutions handles hiring and monitoring. Management and admin are US-based, its staff are in the Philippines, Colombia and other countries, and its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+. References are available on request. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. Read its [featured vendor profile](/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). To talk through VOB and admissions coverage, [request help](/contact/); your request may be referred to Alliance Global Solutions. Its [call center and customer service staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/) page covers the phone-based roles that VOB calls rely on.
 
 ## Technology
 
@@ -100,6 +100,8 @@ Electronic eligibility checks can confirm active coverage quickly, but treatment
 - [Prior authorization specialist and outsourcing](/prior-authorization-specialist/)
 - [Insurance verification services](/eligibility-verification-prior-authorization/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [the revenue cycle from VOB to payment](/what-is-revenue-cycle-management/)
+- [payer enrollment and credentialing services](/credentialing-services/)
 
 ## FAQ
 

@@ -133,7 +133,7 @@ Everyone in the revenue cycle handles protected health information. Any outside 
 
 ## Getting help
 
-This site is operated by Alliance Global Solutions, currently our only [approved vendor](/approved-vendors/). It specializes in medical billing and RCM, and it signs a business associate agreement with each client before any of its staff access protected health information. Read its [featured vendor profile](/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). If you'd like a second opinion on your revenue cycle, [request help](/contact/); your request may be referred to Alliance Global Solutions.
+This site is operated by Alliance Global Solutions, currently our only [approved vendor](/approved-vendors/). It specializes in medical billing and RCM, and it signs a business associate agreement with each client before any of its staff access protected health information. Read its [featured vendor profile](/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). If you'd like a second opinion on your revenue cycle, [request help](/contact/); your request may be referred to Alliance Global Solutions. You can also review its [general staffing services](https://www.allianceglobalsolutions.com/services/).
 
 ## Technology
 
@@ -154,6 +154,8 @@ Technology touches every RCM stage: automated eligibility at intake, AI coding a
 - [Virtual medical assistant services](/virtual-medical-assistant/)
 - [Virtual medical receptionist](/virtual-medical-receptionist/)
 - [VOB for treatment centers](/treatment-center-vob/)
+- [credentialing specialist duties](/credentialing-specialist/)
+- [behavioral health billing company guide](/behavioral-health-billing/)
 
 ## FAQ
 

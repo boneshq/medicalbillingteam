@@ -71,7 +71,7 @@ Pricing should be explained in writing before you sign, with no percentage-of-co
 
 - We don't sell placements or rankings, and there is no paid tier.
 - We don't publish star ratings, reviews or testimonials.
-- We don't list vendors to make the page look bigger. Today the list has one vendor, [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), and it's the company that operates this site.
+- We don't list vendors to make the page look bigger. Today the list has one vendor, [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), and it's the company that operates this site. You can read the company's own [about page](https://www.allianceglobalsolutions.com/about-us/) to compare it with our criteria.
 - We don't verify every safeguard on your behalf. Do your own due diligence and get your own legal and compliance advice.
 
 ## How listing works

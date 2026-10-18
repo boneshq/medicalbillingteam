@@ -121,6 +121,10 @@ No. Please do not include any patient information in forms, emails or chat. Prac
 
 Use the unsubscribe link in any email, reply STOP to texts, or tell us on a call. We honor opt-out requests promptly.
 
+## Related guides
+
+- [medical billing resource home](/)
+
 ## Technology
 
 AI and automation now show up across billing, from claim scrubbing to electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Any tool vendor that handles PHI on your behalf is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)

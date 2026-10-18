@@ -101,6 +101,7 @@ A/R specialists now use automated claim-status checks and work-queue prioritizat
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [How to reduce A/R days](/reduce-ar-days/)
 - [Prior authorization specialist role](/prior-authorization-specialist/)
+- [where A/R sits in revenue cycle management](/what-is-revenue-cycle-management/)
 
 ## FAQ
 

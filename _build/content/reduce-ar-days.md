@@ -158,6 +158,7 @@ Automated claim-status checks and A/R prioritization tools can show which claims
 - [Medical billing staffing cost comparison](/medical-billing-staffing-cost/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [What an AR specialist does](/ar-specialist/)
+- [revenue cycle management basics](/what-is-revenue-cycle-management/)
 
 ## FAQ
 

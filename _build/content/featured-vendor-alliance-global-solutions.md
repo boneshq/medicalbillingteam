@@ -7,7 +7,7 @@ faq:
   - q: "How does the Alliance Global Solutions staffing model work?"
     a: "Alliance Global Solutions recruits, hires and monitors its staff, and assigns dedicated employees to each client rather than a shared pool. Clients interview their staff, train them on their own payers, software and rules, and direct the day-to-day work."
   - q: "Where are Alliance Global Solutions staff located?"
-    a: "Its staff are based in the Philippines and Colombia."
+    a: "Management and admin are US-based; staff are in the Philippines, Colombia and other countries."
   - q: "Does Alliance Global Solutions sign a BAA?"
     a: "Yes. Alliance Global Solutions signs a business associate agreement with each client before any of its staff access protected health information. It does not claim to be HIPAA certified, because no official certification exists."
   - q: "What size clients and teams does Alliance Global Solutions work with?"
@@ -16,7 +16,7 @@ faq:
     a: "It specializes in medical billing, including verification of benefits for drug and alcohol treatment centers and broader revenue cycle work. It also helps clients set up AI assistant workflows alongside their dedicated staff, with people reviewing the work."
 canonical: "https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/"
 primary_keyword: "alliance global solutions medical billing"
-secondary_keywords: ["remote medical billing staff", "treatment center vob staff", "dedicated rcm staff philippines"]
+secondary_keywords: ["remote medical billing staff", "treatment center vob staff", "dedicated offshore rcm staff"]
 search_intent: "navigational / commercial"
 audience: "practice owners, treatment centers, billing companies"
 conversion_destination: "/contact/"
@@ -29,7 +29,7 @@ review_cadence: "quarterly + on rule change"
 vendor_slots:  # Code Desk v2 template slots; body below carries the same copy
   name: "Alliance Global Solutions"
   tagline: "Dedicated remote medical billing and RCM staff, hired and monitored for you, trained on your workflows."
-  intro: "Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with staff in the Philippines and Colombia. It hires and monitors the staff, its clients train them on their own workflows, and it signs a business associate agreement with each client before any PHI access. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers. It also operates this site."
+  intro: "Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with US-based management and admin and staff in the Philippines, Colombia and other countries. It hires and monitors the staff, its clients train them on their own workflows, and it signs a business associate agreement with each client before any PHI access. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers. It also operates this site."
   team_size_range: "from 2-3 dedicated staff to 50+"
   affiliation_badge: "Affiliated: operates this site"
   references: "Available on request"
@@ -90,7 +90,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
-**Short answer:** Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with staff in the Philippines and Colombia. It hires and monitors the staff, its clients train them on their workflows, and it signs a business associate agreement with each client before any PHI access. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader RCM. It also operates this site, so read this profile as an affiliated listing.
+**Short answer:** Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with US-based management and admin and staff in the Philippines, Colombia and other countries. It hires and monitors the staff, its clients train them on their workflows, and it signs a business associate agreement with each client before any PHI access. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader RCM. It also operates this site, so read this profile as an affiliated listing.
 
 <!-- IMAGE SLOT hero: ags-about-us-group-photo.jpg (alt in frontmatter). Caption: "The Alliance Global Solutions team." No quote, testimonial or pull-quote anywhere near this image. -->
 
@@ -99,7 +99,7 @@ tech_section:  # reusable <TechSection> component; edit here
 ## At a glance
 
 - **What it provides:** dedicated remote employees for medical billing and revenue cycle work
-- **Where staff are based:** the Philippines and Colombia
+- **Where staff are based:** US-based management and admin; staff in the Philippines, Colombia and other countries
 - **Who hires and monitors staff:** Alliance Global Solutions
 - **Who trains staff on your workflows:** you, the client, in your own systems
 - **Clients:** from small outpatient centers to large billing companies that handle billing for multiple clients
@@ -133,7 +133,7 @@ Team size depends on the client, from 2-3 dedicated staff to 50+. A small outpat
 
 ## Where the team is
 
-Staff work from the Philippines and Colombia. Offshore access to PHI is allowed under HIPAA when the right agreements and safeguards are in place, but it calls for careful risk analysis ([HHS](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). See [offshore medical billers](/offshore-medical-billers/) for the questions to ask.
+Management and admin are US-based, and staff work from the Philippines, Colombia and other countries. Offshore access to PHI is allowed under HIPAA when the right agreements and safeguards are in place, but it calls for careful risk analysis ([HHS](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). See [offshore medical billers](/offshore-medical-billers/) for the questions to ask.
 
 <!-- IMAGE SLOT location: ags-home-banner.jpg (alt in frontmatter). Caption: "Bonifacio Global City, Metro Manila." Do not caption it as an AGS office. -->
 
@@ -147,7 +147,7 @@ Alliance Global Solutions also helps clients set up AI assistant workflows along
 
 ## Talk to Alliance Global Solutions
 
-You can read about its services on [Alliance Global Solutions' medical billing page](https://www.allianceglobalsolutions.com/medical-billing/) or its [main website](https://www.allianceglobalsolutions.com/). Or [request help](/contact/) and tell us what you need. No patient information, please. Requests from this site go to our team and may be referred to Alliance Global Solutions.
+You can read about its services on [Alliance Global Solutions' medical billing page](https://www.allianceglobalsolutions.com/medical-billing/) or its [main website](https://www.allianceglobalsolutions.com/). For more background, see [who Alliance Global Solutions is](https://www.allianceglobalsolutions.com/about-us/), its [full list of staffing services](https://www.allianceglobalsolutions.com/services/) and [profiles of its virtual staff](https://www.allianceglobalsolutions.com/virtual-assistants/). Role pages cover [remote accounting and A/R support](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/), [administrative assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) and [call center and patient-call staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/). You can also [contact Alliance Global Solutions directly](https://www.allianceglobalsolutions.com/contact/). Or [request help](/contact/) and tell us what you need. No patient information, please. Requests from this site go to our team and may be referred to Alliance Global Solutions.
 
 <!-- LOGO: logo-ags.png in the vendor header; logo-ags-icon.png for the card and Organization logo. -->
 
@@ -157,6 +157,7 @@ You can read about its services on [Alliance Global Solutions' medical billing p
 - [How we vet vendors](/how-we-vet-vendors/)
 - [VOB for treatment centers](/treatment-center-vob/)
 - [Revenue cycle management staffing](/revenue-cycle-management-staffing/)
+- [revenue cycle management guide](/what-is-revenue-cycle-management/)
 
 ## FAQ
 
@@ -166,7 +167,7 @@ Alliance Global Solutions recruits, hires and monitors its staff, and assigns de
 
 ### Where are Alliance Global Solutions staff located?
 
-Its staff are based in the Philippines and Colombia.
+Management and admin are US-based; staff are in the Philippines, Colombia and other countries.
 
 ### Does Alliance Global Solutions sign a BAA?
 

@@ -111,6 +111,11 @@ Whichever outsourcing model you choose, ask which tools touch your data: practic
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
 - [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)
+- [the full revenue cycle explained](/what-is-revenue-cycle-management/)
+- [medical credentialing services](/credentialing-services/)
+- [VOB for drug and alcohol treatment centers](/treatment-center-vob/)
+- [behavioral health billing services](/behavioral-health-billing/)
+- [denial management services](/denial-management/)
 
 ## FAQ
 

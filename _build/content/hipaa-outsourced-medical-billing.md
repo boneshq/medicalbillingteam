@@ -172,6 +172,8 @@ AI assistants and automation tools raise the same HIPAA question as staff: if a 
 - [Part 2 and behavioral health billing](/behavioral-health-billing/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
+- [what is revenue cycle management (RCM)?](/what-is-revenue-cycle-management/)
+- [outsourcing medical billing: three models](/medical-billing-outsourcing/)
 
 ## FAQ
 

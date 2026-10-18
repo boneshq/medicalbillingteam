@@ -79,7 +79,7 @@ The letters before the number are a claim adjustment **group code**. X12 says gr
 
 ## Who should work these denials
 
-Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](/denial-management/) and [what an AR specialist does](/ar-specialist/). If your team doesn't have the capacity, you can [request help](/contact/); requests may be referred to Alliance Global Solutions, which operates this site and is currently our only [approved vendor](/approved-vendors/).
+Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](/denial-management/) and [what an AR specialist does](/ar-specialist/). If your team doesn't have the capacity, you can [request help](/contact/); requests may be referred to [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site and is currently our only [approved vendor](/approved-vendors/). For A/R follow-up and denial rework capacity, see its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/) page.
 
 *This guide is general information, not coding or legal advice. Payer rules vary; check the payer's policy and the remark codes on your remittance.*
 
@@ -93,6 +93,7 @@ Claim scrubbers and billing automation can catch many bundling and modifier conf
 - [CO-16: missing information](/denial-codes/co-16/)
 - [CO-29: timely filing](/denial-codes/co-29/)
 - [What is revenue cycle management?](/what-is-revenue-cycle-management/)
+- [CO-204 non-covered service denials](/denial-codes/co-204/)
 
 ## FAQ
 

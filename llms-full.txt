@@ -2,6 +2,7 @@
 
 > Concatenated public guides from medicalbillingteam.com, generated 2026-10-18. Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; requests may be referred to it. Excludes forms, legal drafts and gated content.
 
+
 ---
 
 Source: https://medicalbillingteam.com/
@@ -45,15 +46,11 @@ We think a staffing model fits some practices well and others not at all. Our [c
 
 ## Approved vendors
 
-
-
 We list only vendors that meet our [published vetting criteria](https://medicalbillingteam.com/how-we-vet-vendors/), such as signing a BAA before any PHI access and never claiming to be "HIPAA certified." Today that's one company:
 
 **Alliance Global Solutions** (operates this site) provides dedicated remote medical billing and revenue cycle staff. Its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, and it handles a lot of their back-end work, including VOB for drug and alcohol treatment centers. It signs a business associate agreement with each client before any of its staff access protected health information. [Read the featured vendor profile →](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) · [See approved vendors →](https://medicalbillingteam.com/approved-vendors/) · [Visit Alliance Global Solutions](https://www.allianceglobalsolutions.com/)
 
 ## HIPAA comes first
-
-
 
 If anyone outside your practice will touch patient data, HIPAA is the first question, not the last. Before remote or offshore billing staff log in to anything, you should expect:
 
@@ -77,8 +74,6 @@ One more thing to know: **there is no official "HIPAA certification"** for compa
 ## Technology in medical billing
 
 AI and automation now touch most of the revenue cycle: claim scrubbing, denial prediction, eligibility checks and electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). People still own the queues and review the output. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [See technology in medical billing and the latest updates →](https://medicalbillingteam.com/medical-billing-technology/)
-
-
 
 ## Free resource: Medical Billing Health Checklist
 
@@ -119,6 +114,7 @@ See the [HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-bi
 [More questions →](https://medicalbillingteam.com/faq/)
 
 ---
+
 
 ---
 
@@ -226,7 +222,7 @@ Everyone in the revenue cycle handles protected health information. Any outside 
 
 ## Getting help
 
-This site is operated by Alliance Global Solutions, currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). It specializes in medical billing and RCM, and it signs a business associate agreement with each client before any of its staff access protected health information. Read its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). If you'd like a second opinion on your revenue cycle, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions.
+This site is operated by Alliance Global Solutions, currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). It specializes in medical billing and RCM, and it signs a business associate agreement with each client before any of its staff access protected health information. Read its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/). If you'd like a second opinion on your revenue cycle, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions. You can also review its [general staffing services](https://www.allianceglobalsolutions.com/services/).
 
 ## Technology
 
@@ -247,6 +243,8 @@ Technology touches every RCM stage: automated eligibility at intake, AI coding a
 - [Virtual medical assistant services](https://medicalbillingteam.com/virtual-medical-assistant/)
 - [Virtual medical receptionist](https://medicalbillingteam.com/virtual-medical-receptionist/)
 - [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/)
+- [credentialing specialist duties](https://medicalbillingteam.com/credentialing-specialist/)
+- [behavioral health billing company guide](https://medicalbillingteam.com/behavioral-health-billing/)
 
 ## FAQ
 
@@ -270,8 +268,6 @@ Verify eligibility before every visit, track authorizations, keep credentialing 
 
 Medical billing usually means creating, submitting and following up on claims. RCM is broader and includes front-end steps like eligibility, authorization and credentialing, plus reporting and process improvement.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -394,7 +390,7 @@ Be wary of any vendor that guarantees a specific reduction in denials or A/R day
 
 A dedicated remote team tends to fit when you have steady, queue-based work (eligibility, posting, A/R, denials), systems that support secure remote access, and someone in-house who can own the process. It fits less well if your processes are undocumented or your billing system can't support remote access securely.
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines, Colombia and other countries, with US-based management and admin; you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/medical-billing/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff (US-based management and admin; staff in the Philippines, Colombia and other countries); you can read about its [remote medical billing and RCM staff](https://www.allianceglobalsolutions.com/) on the company's own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -414,6 +410,8 @@ RCM teams increasingly pair people with automation: eligibility bots, claim scru
 - [Virtual medical assistants for billing and front office](https://medicalbillingteam.com/virtual-medical-assistant/)
 - [Medical billing outsourcing: three models](https://medicalbillingteam.com/medical-billing-outsourcing/)
 - [Offshore medical billers: pros, cons and safeguards](https://medicalbillingteam.com/offshore-medical-billers/)
+- [what revenue cycle management covers end to end](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [virtual medical receptionist role](https://medicalbillingteam.com/virtual-medical-receptionist/)
 
 ## FAQ
 
@@ -437,8 +435,6 @@ Benchmarks vary by specialty, payer mix and data source, and many industry bench
 
 Yes, if they hold the right credentials and specialty experience. Coding is a skilled role; ask for certification details and test candidates on your specialty's documentation before they code live claims.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -573,7 +569,7 @@ Our forms never ask for patient information, and we ask you not to submit any. W
 - Compare options in our [medical billing staffing cost guide](https://medicalbillingteam.com/medical-billing-staffing-cost/).
 - Read [how to hire remote and offshore medical billers](https://medicalbillingteam.com/hire-remote-medical-billers/).
 - Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. We don't claim to be "HIPAA certified" (no such certification exists), and you should still ask us the other questions on this page.
-- Ask us these questions directly with a [free staffing assessment](https://medicalbillingteam.com/contact/). This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/); you can also read how the company approaches [outsourced medical billing staffing](https://www.allianceglobalsolutions.com/medical-billing/) on its own site.
+- Ask us these questions directly with a [free staffing assessment](https://medicalbillingteam.com/contact/). This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/); you can also read how the company approaches [outsourced medical billing staffing](https://www.allianceglobalsolutions.com/) on its own site.
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -587,6 +583,8 @@ AI assistants and automation tools raise the same HIPAA question as staff: if a 
 - [Part 2 and behavioral health billing](https://medicalbillingteam.com/behavioral-health-billing/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](https://medicalbillingteam.com/offshore-medical-billers/)
+- [what is revenue cycle management (RCM)?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [outsourcing medical billing: three models](https://medicalbillingteam.com/medical-billing-outsourcing/)
 
 ## FAQ
 
@@ -612,6 +610,7 @@ It means making reasonable efforts to use, disclose and request only the minimum
 
 ---
 *Disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/). This page is general information, not legal advice.*
+
 
 ---
 
@@ -740,7 +739,7 @@ The [Medical Billing Health Checklist](https://medicalbillingteam.com/checklist/
 
 Many practices combine models: a local billing manager plus remote specialists for specific queues.
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff; you can read about its [dedicated medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) on its own site. If you want help working through the worksheet, request a [free staffing assessment](https://medicalbillingteam.com/contact/). We'll tell you if another model makes more sense.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff; you can read about its [dedicated medical billing staff](https://www.allianceglobalsolutions.com/) on its own site. If you want help working through the worksheet, request a [free staffing assessment](https://medicalbillingteam.com/contact/). We'll tell you if another model makes more sense.
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -777,8 +776,6 @@ It depends on your volume and needs. Percentage pricing scales with collections 
 
 Vacancies and turnover, overtime, aging A/R while positions are unfilled, write-offs from missed timely filing limits, and the time owners or managers spend doing billing themselves.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -828,11 +825,9 @@ Any vendor whose tool creates, receives, maintains or transmits PHI on your beha
 
 ## Getting help
 
-Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), also helps clients set up AI assistant workflows alongside their dedicated staff. See its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). To talk through your setup, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions.
+Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), also helps clients set up AI assistant workflows alongside their dedicated staff. See its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). To talk through your setup, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions. Its [administrative virtual assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) page describes the support roles that often work alongside these tools.
 
 ## Latest updates
-
-
 
 - **Oct 15, 2026: AHA prepares hospitals for the Jan. 1, 2027 prior authorization deadline.** The AHA launched a prior authorization resource site as major provisions of CMS-0057-F take effect Jan. 1, 2027. [Source: AHA](https://www.aha.org/news/headline/2026-10-15-aha-launches-new-website-prior-authorization)
 - **Oct 15, 2026: CMS official says parts of the WISeR AI prior-auth pilot "are not working."** CMS is also piloting AI to flag suspicious Medicaid billing before payment. [Source: Nextgov/FCW](https://www.nextgov.com/artificial-intelligence/2026/10/cms-hopes-quadruple-provider-suspensions-over-next-six-months-official-says/416640/)
@@ -867,8 +862,6 @@ If the vendor's tool creates, receives, maintains or transmits PHI on your behal
 
 The Latest updates section is refreshed regularly from a weekly news scan, with each item dated and linked to its source.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -932,7 +925,7 @@ Enrollment problems show up downstream as eligibility mismatches, [prior authori
 
 ## Getting help
 
-Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), provides remote credentialing staff among other roles. You can read about its [administrative virtual assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) or its [medical billing staffing services](https://www.allianceglobalsolutions.com/medical-billing/). To talk through your credentialing workload, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions. See [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
+Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), provides remote credentialing staff among other roles. You can read about its [administrative virtual assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) or its [medical billing staffing services](https://www.allianceglobalsolutions.com/). To talk through your credentialing workload, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions. See [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -945,6 +938,9 @@ Credentialing automation tracks documents, license and malpractice expirations, 
 - [Credentialing specialist: role and workflow](https://medicalbillingteam.com/credentialing-specialist/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Prior authorization specialist and outsourcing](https://medicalbillingteam.com/prior-authorization-specialist/)
+- [how credentialing fits the revenue cycle](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [outsource medical billing and credentialing together](https://medicalbillingteam.com/medical-billing-outsourcing/)
+- [treatment center verification of benefits](https://medicalbillingteam.com/treatment-center-vob/)
 
 ## FAQ
 
@@ -968,8 +964,6 @@ No. Credentialing verifies a provider's qualifications; enrollment adds the prov
 
 If its staff will access patient information, yes. Credentialing files also contain sensitive provider data, so require secure, limited access either way.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1036,7 +1030,7 @@ Credentialing files include sensitive provider information (such as Social Secur
 
 Front-end steps such as [prior authorization](https://medicalbillingteam.com/prior-authorization-specialist/) and [eligibility verification](https://medicalbillingteam.com/eligibility-verification-prior-authorization/) depend on providers being correctly enrolled, so connect credentialing to those teams.
 
-This site is operated by Alliance Global Solutions, which provides remote staff. You can read about its [administrative virtual assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) or its [medical billing staffing services](https://www.allianceglobalsolutions.com/medical-billing/). To talk through credentialing support, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
+This site is operated by Alliance Global Solutions, which provides remote staff. You can read about its [administrative virtual assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) or its [medical billing staffing services](https://www.allianceglobalsolutions.com/). To talk through credentialing support, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -1049,6 +1043,7 @@ Credentialing specialists use tracking tools for documents, expirations and appl
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](https://medicalbillingteam.com/prior-authorization-specialist/)
 - [Virtual medical assistants for billing and front office](https://medicalbillingteam.com/virtual-medical-assistant/)
+- [revenue cycle management, explained](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
 
 ## FAQ
 
@@ -1072,8 +1067,6 @@ Yes. Most work happens in payer portals, credentialing databases and email. Requ
 
 Common causes are a provider not yet enrolled with the payer, a wrong effective date, or the provider not linked to the correct group, tax ID or location.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1158,7 +1151,7 @@ PA work involves clinical information, so a BAA must be in place before any outs
 
 ## Getting help
 
-For high-volume specialties and treatment centers, a dedicated PA specialist often frees front-desk and clinical time (see our [behavioral health billing guide](https://medicalbillingteam.com/behavioral-health-billing/)). Alliance Global Solutions operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/); see its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). You can read about its [medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) or its [call center and customer service staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/). To talk through PA volume, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions.
+For high-volume specialties and treatment centers, a dedicated PA specialist often frees front-desk and clinical time (see our [behavioral health billing guide](https://medicalbillingteam.com/behavioral-health-billing/)). Alliance Global Solutions operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/); see its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). You can read about its [medical billing staff](https://www.allianceglobalsolutions.com/) or its [call center and customer service staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/). To talk through PA volume, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions.
 
 ## Technology
 
@@ -1170,6 +1163,7 @@ CMS-0057-F requires impacted payers to support prior authorization APIs by Janua
 - [Medical credentialing services](https://medicalbillingteam.com/credentialing-services/)
 - [What an AR specialist does](https://medicalbillingteam.com/ar-specialist/)
 - [VOB for drug and alcohol treatment centers](https://medicalbillingteam.com/treatment-center-vob/)
+- [what is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
 
 ## FAQ
 
@@ -1193,8 +1187,6 @@ For impacted payers, decisions within 72 hours for expedited requests and seven 
 
 Often. KFF data cited by the AMA shows 81.7% of Medicare Advantage PA denials that were appealed in 2023 were fully or partially overturned, though only 11.7% were appealed.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1313,6 +1305,8 @@ Electronic eligibility checks return coverage details in seconds, and CMS-0057-F
 - [VOB and authorizations in behavioral health](https://medicalbillingteam.com/behavioral-health-billing/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](https://medicalbillingteam.com/prior-authorization-specialist/)
+- [front-end steps of the revenue cycle](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [VOB for substance abuse treatment programs](https://medicalbillingteam.com/treatment-center-vob/)
 
 ## FAQ
 
@@ -1336,8 +1330,6 @@ In an AMA survey of 1,000 physicians, practices reported an average of 39 prior 
 
 Yes. Both are largely portal- and phone-based, so remote staff can do them well with access to your scheduling system, payer portals and clear rules, plus HIPAA safeguards such as a BAA, MFA and role-based access.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1400,7 +1392,7 @@ Treatment centers usually choose between a behavioral health billing company tha
 
 ## Getting help
 
-Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), specializes in medical billing, especially drug and alcohol treatment billing, VOBs and RCM. Its staff work as the client's own dedicated employees, whom the client trains as it wishes, while Alliance Global Solutions handles hiring and monitoring. Its management and admin are US-based, its staff are in the Philippines, Colombia and other countries, and its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+. References are available on request. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. Read its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/medical-billing/). To talk through VOB and admissions coverage, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions.
+Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/), specializes in medical billing, especially drug and alcohol treatment billing, VOBs and RCM. Its staff work as the client's own dedicated employees, whom the client trains as it wishes, while Alliance Global Solutions handles hiring and monitoring. Management and admin are US-based, its staff are in the Philippines, Colombia and other countries, and its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+. References are available on request. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. Read its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) or its [medical billing staffing page](https://www.allianceglobalsolutions.com/). To talk through VOB and admissions coverage, [request help](https://medicalbillingteam.com/contact/); your request may be referred to Alliance Global Solutions. Its [call center and customer service staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/) page covers the phone-based roles that VOB calls rely on.
 
 ## Technology
 
@@ -1412,6 +1404,8 @@ Electronic eligibility checks can confirm active coverage quickly, but treatment
 - [Prior authorization specialist and outsourcing](https://medicalbillingteam.com/prior-authorization-specialist/)
 - [Insurance verification services](https://medicalbillingteam.com/eligibility-verification-prior-authorization/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
+- [the revenue cycle from VOB to payment](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [payer enrollment and credentialing services](https://medicalbillingteam.com/credentialing-services/)
 
 ## FAQ
 
@@ -1435,8 +1429,6 @@ Staff who handle records of a federally assisted substance use disorder program 
 
 Yes. VOB work is phone- and portal-based. Remote staff need training on behavioral health benefits, HIPAA and Part 2, a BAA, and secure access.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1538,7 +1530,7 @@ Federal mental health parity rules generally require that limits on mental healt
 - **Outsourced billing companies** that specialize in behavioral health can take the whole function; confirm how they handle VOB speed and Part 2.
 - **Dedicated remote staff** can cover VOB, authorizations, claims and A/R in your systems, including evening and weekend admissions coverage if scheduled. Put a BAA and access controls in place first, and limit access to what each role needs ([HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/)).
 
-Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). It specializes in medical billing, including VOB for drug and alcohol treatment centers and broader RCM, with US-based management and admin and dedicated staff in the Philippines, Colombia and other countries whom clients train on their own workflows while Alliance Global Solutions handles hiring and monitoring. It signs a business associate agreement with each client before any of its staff access protected health information. See its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) and our guide to [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/). If you're weighing options, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information.
+Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). It specializes in medical billing, including VOB for drug and alcohol treatment centers and broader RCM, with US-based management and admin and dedicated staff in the Philippines, Colombia and other countries whom clients train on their own workflows while Alliance Global Solutions handles hiring and monitoring. It signs a business associate agreement with each client before any of its staff access protected health information. See its [featured vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/) and our guide to [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/). If you're weighing options, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll talk through your levels of care and payer mix. As always, please don't send patient information. Its planned [medical billing staffing page](https://www.allianceglobalsolutions.com/) describes the billing roles it places.
 
 ## Checklist for behavioral health billing leaders
 
@@ -1552,7 +1544,6 @@ Our operator, [Alliance Global Solutions](https://www.allianceglobalsolutions.co
 
 A note on scope: this guide covers billing operations, not clinical or legal requirements. Licensure, program certification and state rules vary, so check them with your state agencies and counsel.
 
-
 ## Technology
 
 Behavioral health programs use automated eligibility checks and electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Substance use disorder records may also fall under 42 CFR Part 2, so check how any AI tool handles that data before you use it. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
@@ -1563,6 +1554,8 @@ Behavioral health programs use automated eligibility checks and electronic prior
 - [HIPAA and outsourced billing staff](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](https://medicalbillingteam.com/prior-authorization-specialist/)
+- [revenue cycle management fundamentals](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [medical billing outsourcing options](https://medicalbillingteam.com/medical-billing-outsourcing/)
 
 ## FAQ
 
@@ -1586,8 +1579,6 @@ Yes, VOB and admissions support are phone- and portal-based and can be done remo
 
 Experience with behavioral health codes and payers, authorization and concurrent review tracking, knowledge of carve-out plans, understanding of Part 2 and psychotherapy notes rules, and strong documentation habits.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1651,7 +1642,7 @@ Signs you need more A/R capacity:
 
 A/R follow-up is well suited to remote work because it happens in portals, on the phone and in your practice management system. Options include an in-house hire, a billing company that takes over A/R (often for a percentage of collections), or a dedicated remote specialist who works your queue in your systems. The [staffing cost guide](https://medicalbillingteam.com/medical-billing-staffing-cost/) compares them. Whatever you choose, sign a BAA and set up role-based access first.
 
-This site is operated by Alliance Global Solutions, which provides remote staff. You can read about its [remote medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) or its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/). For a second opinion on your A/R workload, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
+This site is operated by Alliance Global Solutions, which provides remote staff. You can read about its [remote medical billing staff](https://www.allianceglobalsolutions.com/) or its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/). For a second opinion on your A/R workload, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -1664,6 +1655,7 @@ A/R specialists now use automated claim-status checks and work-queue prioritizat
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [How to reduce A/R days](https://medicalbillingteam.com/reduce-ar-days/)
 - [Prior authorization specialist role](https://medicalbillingteam.com/prior-authorization-specialist/)
+- [where A/R sits in revenue cycle management](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
 
 ## FAQ
 
@@ -1687,8 +1679,6 @@ CMS sets it at one calendar year from the date of service. Commercial payer limi
 
 Days in A/R, the percentage of A/R over 90 days, dollars resolved, aged A/R by payer, and a quality review of documented actions.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1758,7 +1748,7 @@ See our [HIPAA guide for outsourced billing staff](https://medicalbillingteam.co
 
 A freelancer can cover a small, steady volume, but you handle vetting, backup coverage and security. An agency or staffing provider handles employment, equipment, backup coverage and the BAA, and adds a margin. A full-service billing company may include coding in a percentage-of-collections fee. Compare total cost and control, not just the hourly rate.
 
-This site is operated by Alliance Global Solutions, which provides remote staff, including for coding-related roles. It signs a BAA with each client before any of its staff access protected health information. You can read about its [remote medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/) or [browse its virtual staff profiles](https://www.allianceglobalsolutions.com/virtual-assistants/). To talk through your coding volume, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
+This site is operated by Alliance Global Solutions, which provides remote staff, including for coding-related roles. It signs a BAA with each client before any of its staff access protected health information. You can read about its [remote medical billing staff](https://www.allianceglobalsolutions.com/) or [browse its virtual staff profiles](https://www.allianceglobalsolutions.com/virtual-assistants/). To talk through your coding volume, request a [free staffing assessment](https://medicalbillingteam.com/contact/).
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -1771,6 +1761,7 @@ AI coding assistants suggest codes from clinical documentation, but coders still
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Hiring remote and offshore medical billers](https://medicalbillingteam.com/hire-remote-medical-billers/)
 - [What an AR specialist does](https://medicalbillingteam.com/ar-specialist/)
+- [where coding fits in revenue cycle management](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
 
 ## FAQ
 
@@ -1794,8 +1785,6 @@ Agree on a regular audit sample with your coding lead. New coders are commonly a
 
 BLS reports a median of $51,140 a year ($24.59 an hour) in May 2025 for medical records specialists, the occupation group that includes coders.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -1841,7 +1830,7 @@ Start with one well-defined queue. Eligibility, payment posting and A/R follow-u
 | BAA | Must sign one | Agency signs | Vendor signs |
 | Cost basis | Hourly | Monthly/hourly per FTE | % of collections or per claim |
 
-Freelancers can work for small needs, but you carry the vetting, continuity and security risk. Agencies cost more than a freelancer's rate but handle employment, equipment, backfill and the business associate relationship. For general background on remote hiring, Alliance Global Solutions has published [tips on hiring a virtual assistant](https://www.allianceglobalsolutions.com/how-to-hire-the-best-virtual-assistant-for-your-company/); billing roles need the extra steps below.
+Freelancers can work for small needs, but you carry the vetting, continuity and security risk. Agencies cost more than a freelancer's rate but handle employment, equipment, backfill and the business associate relationship. For general background on remote hiring, Alliance Global Solutions publishes hiring guidance on [the Alliance Global Solutions blog](https://www.allianceglobalsolutions.com/blog/); billing roles need the extra steps below.
 
 ## Skills to look for
 
@@ -1929,10 +1918,9 @@ And be wary of "HIPAA certified" claims. There is no official HIPAA certificatio
 
 ## Next steps
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff from the Philippines, Colombia and other countries, with US-based management and admin. It signs a BAA with each client before any of its staff access protected health information. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](https://medicalbillingteam.com/contact/) here. Use the questions above with us, too.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff, with US-based management and admin and staff in the Philippines, Colombia and other countries. It signs a BAA with each client before any of its staff access protected health information. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](https://medicalbillingteam.com/contact/) here. Use the questions above with us, too.
 
 A final tip: write down what "good" looks like before you hire, meaning the queues, volumes, quality checks and hours. A clear role description makes it easier to interview and onboard, and to judge whether the hire is working.
-
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -1947,6 +1935,7 @@ Remote billers increasingly work alongside automation: claim scrubbers, eligibil
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](https://medicalbillingteam.com/offshore-medical-billers/)
 - [Hiring remote medical coders](https://medicalbillingteam.com/hire-remote-medical-coders/)
+- [remote front-desk and receptionist staff](https://medicalbillingteam.com/virtual-medical-receptionist/)
 
 ## FAQ
 
@@ -1970,8 +1959,6 @@ A signed BAA, unique logins with MFA, secure remote access through VDI or VPN, n
 
 Many offshore teams work schedules that overlap US business hours. Confirm the schedule in writing, because payer calls and same-day eligibility work depend on it.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2065,6 +2052,7 @@ Virtual medical assistants often work with scheduling automation, reminder syste
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](https://medicalbillingteam.com/prior-authorization-specialist/)
 - [Credentialing specialist role](https://medicalbillingteam.com/credentialing-specialist/)
+- [virtual medical receptionist services](https://medicalbillingteam.com/virtual-medical-receptionist/)
 
 ## FAQ
 
@@ -2088,8 +2076,6 @@ A virtual assistant handles broad administrative tasks; a biller focuses on clai
 
 List the most time-consuming administrative tasks, write procedures for two or three of them, agree on a schedule, sign a BAA, and check in daily for the first two weeks.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2190,8 +2176,6 @@ The role can work within HIPAA with a BAA, secure access, minimum necessary perm
 
 Answer rate, hold time, abandoned calls, appointments booked, scheduling accuracy and no-show trends.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2265,7 +2249,7 @@ Any outsourcing partner whose people access patient information on your behalf i
 - **Practice or billing company with a manager and growing volume:** dedicated remote staff gives capacity with control.
 - **Strong in-house biller, one area behind:** hybrid.
 
-This site is operated by Alliance Global Solutions, which offers the dedicated-staff model. It signs a BAA with each client before any of its staff access protected health information. You can read about its [outsourced medical billing staffing](https://www.allianceglobalsolutions.com/medical-billing/) and broader [staffing services](https://www.allianceglobalsolutions.com/services/). If you'd like help deciding, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll tell you if a billing company is the better fit.
+This site is operated by Alliance Global Solutions, which offers the dedicated-staff model. It signs a BAA with each client before any of its staff access protected health information. You can read about its [outsourced medical billing staffing](https://www.allianceglobalsolutions.com/) and broader [staffing services](https://www.allianceglobalsolutions.com/services/). If you'd like help deciding, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll tell you if a billing company is the better fit.
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -2278,6 +2262,11 @@ Whichever outsourcing model you choose, ask which tools touch your data: practic
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](https://medicalbillingteam.com/offshore-medical-billers/)
 - [Hiring remote and offshore medical billers](https://medicalbillingteam.com/hire-remote-medical-billers/)
+- [the full revenue cycle explained](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [medical credentialing services](https://medicalbillingteam.com/credentialing-services/)
+- [VOB for drug and alcohol treatment centers](https://medicalbillingteam.com/treatment-center-vob/)
+- [behavioral health billing services](https://medicalbillingteam.com/behavioral-health-billing/)
+- [denial management services](https://medicalbillingteam.com/denial-management/)
 
 ## FAQ
 
@@ -2301,8 +2290,6 @@ Yes. A hybrid model outsources specific queues such as A/R follow-up, denials, e
 
 It depends on your payers, specialty, documentation and processes. Be cautious of promises of a specific reduction made before anyone reviews your data.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2367,7 +2354,7 @@ Start with one well-defined queue, such as eligibility or A/R follow-up, with wr
 | Contract restrictions | Check carefully | Check | Usually fewer |
 | HIPAA safeguards needed | Same, plus overseas risk analysis | Same, plus cross-border review | Same |
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), which provides remote staff based in the Philippines, Colombia and other countries, with US-based management and admin. It signs a BAA with each client before any of its staff access protected health information. You can read about its [offshore medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/). If you're weighing an offshore team, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll also tell you when it isn't a fit.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), which provides remote staff with US-based management and admin and staff in the Philippines, Colombia and other countries. It signs a BAA with each client before any of its staff access protected health information. You can read about its [offshore medical billing staff](https://www.allianceglobalsolutions.com/). If you're weighing an offshore team, request a [free staffing assessment](https://medicalbillingteam.com/contact/); we'll also tell you when it isn't a fit.
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
@@ -2403,8 +2390,6 @@ Many teams work schedules that overlap US business hours so they can call payers
 
 No one is. There is no official HIPAA certification; HHS does not certify vendors. Ask for evidence of specific safeguards instead.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2521,6 +2506,17 @@ Keep the list in a shared tracker so nothing depends on one person's memory.
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
+## Denial code guides
+
+Most denials trace back to a handful of CARC codes. Each guide covers what the code means, common causes and a fix-and-prevent checklist:
+
+- [CO-16: claim lacks information or has billing errors](https://medicalbillingteam.com/denial-codes/co-16/)
+- [CO-22: coordination of benefits denials](https://medicalbillingteam.com/denial-codes/co-22/)
+- [CO-29: timely filing limit expired](https://medicalbillingteam.com/denial-codes/co-29/)
+- [CO-97: bundled or included services](https://medicalbillingteam.com/denial-codes/co-97/)
+- [CO-197: missing precertification or authorization](https://medicalbillingteam.com/denial-codes/co-197/)
+- [CO-204: service not covered under the patient's plan](https://medicalbillingteam.com/denial-codes/co-204/)
+
 ## Technology
 
 Denial management is shifting upstream into denial prevention: claim scrubbing, denial-prediction models and payer-policy checks before care is delivered ([Fierce Healthcare](https://www.fiercehealthcare.com/health-tech/thoreau-backed-ensemble-penelope-health-partner-tackle-payer-denials-upstream)). Remits use standard X12 group and reason codes, so denials can be sorted automatically into work queues ([X12](https://x12.org/codes/claim-adjustment-reason-codes)). People still write appeals and fix root causes. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
@@ -2531,6 +2527,8 @@ Denial management is shifting upstream into denial prevention: claim scrubbing, 
 - [Eligibility verification and prior authorization](https://medicalbillingteam.com/eligibility-verification-prior-authorization/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [What an AR specialist does](https://medicalbillingteam.com/ar-specialist/)
+- [how denials fit into the revenue cycle](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [outsourced vs. in-house billing models](https://medicalbillingteam.com/medical-billing-outsourcing/)
 
 ## FAQ
 
@@ -2554,8 +2552,6 @@ Benchmarks vary by specialty, payer mix and how the rate is calculated. Track yo
 
 Either can work. What matters is that a specific person owns the queue, has payer knowledge and time to do it, and feeds root causes back to the front desk and coders.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2607,7 +2603,7 @@ The letters before the number are a claim adjustment **group code**. X12 says gr
 
 ## Who should work these denials
 
-Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/).
+Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). For A/R follow-up and denial rework capacity, see its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/) page.
 
 *This guide is general information, not coding or legal advice. Payer rules vary; check the payer's policy and the remark codes on your remittance.*
 
@@ -2621,6 +2617,7 @@ Claim scrubbers and billing automation can catch many missing or invalid data er
 - [CO-22: coordination of benefits](https://medicalbillingteam.com/denial-codes/co-22/)
 - [CO-197: authorization absent](https://medicalbillingteam.com/denial-codes/co-197/)
 - [What is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [CO-29 timely filing denials](https://medicalbillingteam.com/denial-codes/co-29/)
 
 ## FAQ
 
@@ -2644,8 +2641,6 @@ Generally no. CO indicates a contractual obligation rather than patient responsi
 
 Scrub claims for required fields, verify demographics and insurance at every visit, keep provider identifiers current with payers, and track recurring remark codes.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2696,7 +2691,7 @@ The letters before the number are a claim adjustment **group code**. X12 says gr
 
 ## Who should work these denials
 
-Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/).
+Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). For A/R follow-up and denial rework capacity, see its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/) page.
 
 *This guide is general information, not coding or legal advice. Payer rules vary; check the payer's policy and the remark codes on your remittance.*
 
@@ -2710,6 +2705,7 @@ Claim scrubbers and billing automation can catch many coordination-of-benefits p
 - [CO-16: missing information](https://medicalbillingteam.com/denial-codes/co-16/)
 - [CO-204: not covered under the plan](https://medicalbillingteam.com/denial-codes/co-204/)
 - [What is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [CO-29 timely filing denials](https://medicalbillingteam.com/denial-codes/co-29/)
 
 ## FAQ
 
@@ -2733,8 +2729,6 @@ In a 2025 vendor survey of billing professionals, coordination of benefits was t
 
 Ask about other coverage at every visit, review eligibility responses for other-coverage flags, and keep COB order current in your system.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2785,7 +2779,7 @@ The letters before the number are a claim adjustment **group code**. X12 says gr
 
 ## Who should work these denials
 
-Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/).
+Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). For A/R follow-up and denial rework capacity, see its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/) page.
 
 *This guide is general information, not coding or legal advice. Payer rules vary; check the payer's policy and the remark codes on your remittance.*
 
@@ -2799,6 +2793,7 @@ Claim scrubbers and billing automation can catch many claims nearing the filing 
 - [CO-16: missing information](https://medicalbillingteam.com/denial-codes/co-16/)
 - [CO-97: bundled services](https://medicalbillingteam.com/denial-codes/co-97/)
 - [What is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [CO-22 coordination of benefits](https://medicalbillingteam.com/denial-codes/co-22/)
 
 ## FAQ
 
@@ -2822,8 +2817,6 @@ Generally no. A CO adjustment indicates a contractual obligation rather than pat
 
 Track payer filing limits, work clearinghouse rejections daily, follow up on A/R by age, and keep COB and credentialing delays from holding claims too long.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2872,7 +2865,7 @@ The letters before the number are a claim adjustment **group code**. X12 says gr
 
 ## Who should work these denials
 
-Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/).
+Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). For A/R follow-up and denial rework capacity, see its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/) page.
 
 *This guide is general information, not coding or legal advice. Payer rules vary; check the payer's policy and the remark codes on your remittance.*
 
@@ -2886,6 +2879,7 @@ Claim scrubbers and billing automation can catch many bundling and modifier conf
 - [CO-16: missing information](https://medicalbillingteam.com/denial-codes/co-16/)
 - [CO-29: timely filing](https://medicalbillingteam.com/denial-codes/co-29/)
 - [What is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [CO-204 non-covered service denials](https://medicalbillingteam.com/denial-codes/co-204/)
 
 ## FAQ
 
@@ -2909,8 +2903,6 @@ Generally no. A CO adjustment indicates a contractual obligation rather than pat
 
 Run code-pair edits before submission, train coders on payer bundling and modifier rules, and audit modifier use.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -2961,7 +2953,7 @@ The letters before the number are a claim adjustment **group code**. X12 says gr
 
 ## Who should work these denials
 
-Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/).
+Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). For A/R follow-up and denial rework capacity, see its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/) page.
 
 *This guide is general information, not coding or legal advice. Payer rules vary; check the payer's policy and the remark codes on your remittance.*
 
@@ -2975,6 +2967,7 @@ Claim scrubbers and billing automation can catch many missing authorizations by 
 - [CO-204: not covered under the plan](https://medicalbillingteam.com/denial-codes/co-204/)
 - [CO-16: missing information](https://medicalbillingteam.com/denial-codes/co-16/)
 - [What is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [CO-29 timely filing denials](https://medicalbillingteam.com/denial-codes/co-29/)
 
 ## FAQ
 
@@ -2998,8 +2991,6 @@ Often. KFF data cited by the AMA shows 81.7% of appealed Medicare Advantage PA d
 
 Keep a PA matrix by payer and service, build authorization into scheduling, track units and expirations, and make sure authorization numbers reach the claim.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3049,7 +3040,7 @@ The letters before the number are a claim adjustment **group code**. X12 says gr
 
 ## Who should work these denials
 
-Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to Alliance Global Solutions, which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/).
+Denials need an owner with payer knowledge and time to follow up before deadlines. See [denial management](https://medicalbillingteam.com/denial-management/) and [what an AR specialist does](https://medicalbillingteam.com/ar-specialist/). If your team doesn't have the capacity, you can [request help](https://medicalbillingteam.com/contact/); requests may be referred to [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site and is currently our only [approved vendor](https://medicalbillingteam.com/approved-vendors/). For A/R follow-up and denial rework capacity, see its [remote accounting staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/) page.
 
 *This guide is general information, not coding or legal advice. Payer rules vary; check the payer's policy and the remark codes on your remittance.*
 
@@ -3063,6 +3054,7 @@ Claim scrubbers and billing automation can catch many non-covered services throu
 - [CO-22: coordination of benefits](https://medicalbillingteam.com/denial-codes/co-22/)
 - [CO-197: authorization absent](https://medicalbillingteam.com/denial-codes/co-197/)
 - [What is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
+- [CO-97 bundling denials](https://medicalbillingteam.com/denial-codes/co-97/)
 
 ## FAQ
 
@@ -3086,8 +3078,6 @@ CO-204 means the plan doesn't cover the service. CO-22 means another payer may b
 
 Verify benefits for the specific service before it's provided, identify carve-outs, and give advance notice of non-covered services where rules allow.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3221,6 +3211,7 @@ Automated claim-status checks and A/R prioritization tools can show which claims
 - [Medical billing staffing cost comparison](https://medicalbillingteam.com/medical-billing-staffing-cost/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
 - [What an AR specialist does](https://medicalbillingteam.com/ar-specialist/)
+- [revenue cycle management basics](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
 
 ## FAQ
 
@@ -3244,8 +3235,6 @@ They work unpaid and underpaid claims by age and value, check claim status in pa
 
 Only under a written write-off policy after documented collection efforts, and with approval. Before writing off, check whether claims can still be corrected or appealed within the payer's limits.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3259,12 +3248,10 @@ Source: https://medicalbillingteam.com/approved-vendors/
 
 ## Current approved vendors
 
-
-
 ### Alliance Global Solutions
 **Affiliation: operates this site.**
 
-Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with US-based management and admin and staff in the Philippines, Colombia and other countries. It handles hiring and monitoring of staff, and its clients train those staff on their own workflows. Its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+, and it handles a lot of their back-end work. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader revenue cycle work. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information.
+Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with US-based management and admin and staff in the Philippines, Colombia and other countries. It handles hiring and monitoring of staff, and its clients train those staff on their own workflows. Its clients range from small outpatient centers to large billing companies that handle billing for multiple clients, with teams from 2-3 dedicated staff to 50+, and it handles a lot of their back-end work. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader revenue cycle work. Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. Learn [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/) or browse its [virtual staff profiles](https://www.allianceglobalsolutions.com/virtual-assistants/).
 
 - **Services:** [revenue cycle management staffing](https://medicalbillingteam.com/revenue-cycle-management-staffing/), [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/), [prior authorization](https://medicalbillingteam.com/prior-authorization-specialist/), [credentialing](https://medicalbillingteam.com/credentialing-services/), [medical coding](https://medicalbillingteam.com/hire-remote-medical-coders/), [A/R follow-up](https://medicalbillingteam.com/ar-specialist/) and [virtual medical assistants](https://medicalbillingteam.com/virtual-medical-assistant/)
 - **References:** available on request
@@ -3311,8 +3298,6 @@ Your request goes to our team and may be referred to Alliance Global Solutions, 
 
 Yes, if it meets our criteria and we can verify the details. We'll disclose any financial relationship on its listing.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3358,7 +3343,7 @@ Pricing should be explained in writing before you sign, with no percentage-of-co
 
 - We don't sell placements or rankings, and there is no paid tier.
 - We don't publish star ratings, reviews or testimonials.
-- We don't list vendors to make the page look bigger. Today the list has one vendor, [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), and it's the company that operates this site.
+- We don't list vendors to make the page look bigger. Today the list has one vendor, [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), and it's the company that operates this site. You can read the company's own [about page](https://www.allianceglobalsolutions.com/about-us/) to compare it with our criteria.
 - We don't verify every safeguard on your behalf. Do your own due diligence and get your own legal and compliance advice.
 
 ## How listing works
@@ -3402,8 +3387,6 @@ No. We check that a vendor signs BAAs and doesn't claim to be HIPAA certified, b
 
 At least once a year, and sooner if we learn of a material change.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3414,8 +3397,6 @@ Source: https://medicalbillingteam.com/approved-vendors/alliance-global-solution
 *By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](https://medicalbillingteam.com/about/#how-we-write-our-guides)*
 
 **Short answer:** Alliance Global Solutions provides dedicated remote staff for medical billing and revenue cycle work, with US-based management and admin and staff in the Philippines, Colombia and other countries. It hires and monitors the staff, its clients train them on their workflows, and it signs a business associate agreement with each client before any PHI access. It specializes in medical billing, including verification of benefits (VOB) for drug and alcohol treatment centers and broader RCM. It also operates this site, so read this profile as an affiliated listing.
-
-
 
 **Affiliation disclosure:** Medical Billing Team is operated by Alliance Global Solutions. That means we have a financial interest in Alliance Global Solutions, currently the only vendor on our approved vendor list. Requests you submit through this site may be referred to Alliance Global Solutions, and we benefit if you hire it. We hold Alliance Global Solutions to the same [published criteria](https://medicalbillingteam.com/how-we-vet-vendors/) we'd apply to any vendor, and we don't publish ratings, reviews or testimonials.
 
@@ -3452,13 +3433,9 @@ Team size depends on the client, from 2-3 dedicated staff to 50+. A small outpat
 - **Credentialing.** See [credentialing services](https://medicalbillingteam.com/credentialing-services/).
 - **Coding and front office.** See [medical coding](https://medicalbillingteam.com/hire-remote-medical-coders/) and [virtual medical assistants](https://medicalbillingteam.com/virtual-medical-assistant/).
 
-
-
 ## Where the team is
 
-Management and admin are US-based; staff work from the Philippines, Colombia and other countries. Offshore access to PHI is allowed under HIPAA when the right agreements and safeguards are in place, but it calls for careful risk analysis ([HHS](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). See [offshore medical billers](https://medicalbillingteam.com/offshore-medical-billers/) for the questions to ask.
-
-
+Management and admin are US-based, and staff work from the Philippines, Colombia and other countries. Offshore access to PHI is allowed under HIPAA when the right agreements and safeguards are in place, but it calls for careful risk analysis ([HHS](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). See [offshore medical billers](https://medicalbillingteam.com/offshore-medical-billers/) for the questions to ask.
 
 ## What to verify yourself
 
@@ -3470,9 +3447,7 @@ Alliance Global Solutions also helps clients set up AI assistant workflows along
 
 ## Talk to Alliance Global Solutions
 
-You can read about its services on [Alliance Global Solutions' medical billing page](https://www.allianceglobalsolutions.com/medical-billing/) or its [main website](https://www.allianceglobalsolutions.com/). Or [request help](https://medicalbillingteam.com/contact/) and tell us what you need. No patient information, please. Requests from this site go to our team and may be referred to Alliance Global Solutions.
-
-
+You can read about its services on [Alliance Global Solutions' medical billing page](https://www.allianceglobalsolutions.com/) or its [main website](https://www.allianceglobalsolutions.com/). For more background, see [who Alliance Global Solutions is](https://www.allianceglobalsolutions.com/about-us/), its [full list of staffing services](https://www.allianceglobalsolutions.com/services/) and [profiles of its virtual staff](https://www.allianceglobalsolutions.com/virtual-assistants/). Role pages cover [remote accounting and A/R support](https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/), [administrative assistants](https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/) and [call center and patient-call staff](https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/). You can also [contact Alliance Global Solutions directly](https://www.allianceglobalsolutions.com/contact/). Or [request help](https://medicalbillingteam.com/contact/) and tell us what you need. No patient information, please. Requests from this site go to our team and may be referred to Alliance Global Solutions.
 
 ## Related guides
 
@@ -3480,6 +3455,7 @@ You can read about its services on [Alliance Global Solutions' medical billing p
 - [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/)
 - [VOB for treatment centers](https://medicalbillingteam.com/treatment-center-vob/)
 - [Revenue cycle management staffing](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
+- [revenue cycle management guide](https://medicalbillingteam.com/what-is-revenue-cycle-management/)
 
 ## FAQ
 
@@ -3489,7 +3465,7 @@ Alliance Global Solutions recruits, hires and monitors its staff, and assigns de
 
 ### Where are Alliance Global Solutions staff located?
 
-Its management and admin are US-based, and its staff are in the Philippines, Colombia and other countries.
+Management and admin are US-based; staff are in the Philippines, Colombia and other countries.
 
 ### Does Alliance Global Solutions sign a BAA?
 
@@ -3503,8 +3479,6 @@ Clients range from small outpatient centers to large billing companies that hand
 
 It specializes in medical billing, including verification of benefits for drug and alcohol treatment centers and broader revenue cycle work. It also helps clients set up AI assistant workflows alongside their dedicated staff, with people reviewing the work.
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3560,6 +3534,11 @@ If you decide to go ahead:
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
+## Related guides
+
+- [medical billing staffing FAQ](https://medicalbillingteam.com/faq/)
+- [back to the Medical Billing Team home page](https://medicalbillingteam.com/)
+
 ## Technology
 
 Once staff are onboarded, many teams add automation for eligibility checks and claim status, plus AI assistants that help draft appeals or summarize payer policies, with a person reviewing the output. Any tool that touches PHI should be approved by your practice and covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
@@ -3584,8 +3563,6 @@ Yes. Many practices start with one role, such as eligibility verification or A/R
 
 [Request a free staffing assessment →](https://medicalbillingteam.com/contact/)
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3663,12 +3640,14 @@ No. Please do not include any patient information in forms, emails or chat. Prac
 
 Use the unsubscribe link in any email, reply STOP to texts, or tell us on a call. We honor opt-out requests promptly.
 
+## Related guides
+
+- [medical billing resource home](https://medicalbillingteam.com/)
+
 ## Technology
 
 AI and automation now show up across billing, from claim scrubbing to electronic prior authorization, which CMS-0057-F requires impacted payers to support through APIs by January 1, 2027 ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)). Any tool vendor that handles PHI on your behalf is generally a business associate and needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
 
----
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
 
 ---
 
@@ -3686,7 +3665,7 @@ Medical Billing Team is a resource for US medical practices and billing companie
 
 **This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. Alliance Global Solutions is currently the only vendor on our approved vendor list, and requests you submit here may be referred to it. We benefit financially if you hire it. We may contact you about our services if you request it.**
 
-That means we have a commercial interest in the topics we write about. Alliance Global Solutions provides dedicated remote staff, with US-based management and admin and staff in the Philippines, Colombia and other countries, for roles such as billing specialists, A/R follow-up, eligibility and insurance verification (VOB), prior authorization, payment posting, denial follow-up and admissions or intake support. You can learn more about the company on its own website: [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/).
+That means we have a commercial interest in the topics we write about. Alliance Global Solutions provides dedicated remote staff (US-based management and admin; staff in the Philippines, Colombia and other countries) for roles such as billing specialists, A/R follow-up, eligibility and insurance verification (VOB), prior authorization, payment posting, denial follow-up and admissions or intake support. You can learn more about the company on its own website: [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/).
 
 Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. We don't describe ourselves as "HIPAA certified," because there is no such certification.
 
@@ -3712,6 +3691,12 @@ This site works like a guide plus a short, vetted directory. We write the guides
 - **Who writes and reviews.** Guides are published under the Medical Billing Team editors byline. We don't invent author personas or credentials. When a named reviewer with medical billing experience checks a guide, their name and role will appear on it.
 - **How we use automation.** We use AI tools to help research and draft. Every statistic and regulatory statement is checked against the linked public source before publishing, and the sources are linked inline.
 
+## Related guides
+
+- [frequently asked questions about remote billing staff](https://medicalbillingteam.com/faq/)
+- [how the request and matching process works](https://medicalbillingteam.com/how-it-works/)
+- [Medical Billing Team home](https://medicalbillingteam.com/)
+
 ## Technology
 
 We cover how AI and automation are changing billing, from claim scrubbing to electronic prior authorization, on our [technology in medical billing](https://medicalbillingteam.com/medical-billing-technology/) hub, which we update with dated, sourced items. Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. We also use AI tools to help research and draft our guides, as described above.
@@ -3732,5 +3717,146 @@ Questions or corrections? [Contact us](https://medicalbillingteam.com/contact/).
 
 medicalbillingadvisor.com is a related domain. Once its redirect is set up, it will point to this site.
 
+
 ---
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).*
+
+Source: https://medicalbillingteam.com/checklist/
+
+# Medical Billing Health Checklist: a medical billing audit checklist
+
+A one-page self-audit to find where your revenue cycle is leaking. Built for practice owners, office managers, billing managers and billing companies. It takes about 15 minutes and you don't need any patient data to complete it.
+
+**Inside:**
+- 43 yes/no checks across front end, claims, denials, A/R, payment posting, reporting, staffing and HIPAA
+- A KPI worksheet with consistent definitions
+- A simple staffing cost comparison worksheet
+
+## Get the checklist (form)
+
+Fields: Name · Work email · Practice or company name · Number of providers · Phone (optional)
+
+> **Do not include any patient information.**
+
+TCPA checkbox (optional, unchecked, shown only if phone entered): same text as the home page short form.
+
+Email notice: "We'll email you the checklist and occasional guides about billing staffing. Unsubscribe any time."
+
+Button: **Send me the checklist**
+
+---
+
+## How to use it
+
+Answer each item **Yes**, **No** or **Not sure**. Every "No" or "Not sure" is a place to look first. This is a self-assessment, not an audit or legal review.
+
+## 1. Front end: scheduling, eligibility and authorizations
+
+- [ ] We verify eligibility and benefits before every visit, not just for new patients.
+- [ ] We re-check insurance cards and demographics at every visit.
+- [ ] We identify coordination of benefits (which plan is primary) before the visit.
+- [ ] We maintain a current prior authorization matrix by payer and service.
+- [ ] We track authorization expirations and visit limits.
+- [ ] We give the front desk an estimated patient responsibility to collect at check-in.
+- [ ] We identify behavioral health carve-outs during eligibility checks (if applicable).
+
+## 2. Charges and claims
+
+- [ ] Charges are entered within 1-2 business days of the date of service.
+- [ ] Claims are scrubbed before submission.
+- [ ] Clearinghouse and payer rejections are worked daily.
+- [ ] We track timely filing limits for each major payer.
+- [ ] Coding is done or reviewed by credentialed coders for our specialty.
+- [ ] We updated our systems for this year's code changes (ICD-10-CM changes Oct 1; CPT/HCPCS changes Jan 1, plus quarterly updates).
+
+## 3. Denials
+
+- [ ] Every denial lands in one queue with a named owner.
+- [ ] Denials are categorized by payer and reason.
+- [ ] Denials are worked at least weekly, by deadline and dollar value.
+- [ ] Appeals are tracked with deadlines and outcomes.
+- [ ] Top preventable denial reasons are reviewed monthly and fed back to the front desk and coders.
+
+## 4. Accounts receivable
+
+- [ ] We calculate days in A/R the same way every month.
+- [ ] We review A/R by aging bucket and by payer monthly.
+- [ ] A/R follow-up is prioritized by dollar value and age, not alphabetically.
+- [ ] Every touched claim has a documented action and next follow-up date.
+- [ ] We have a written write-off policy with approval levels.
+- [ ] Patient A/R has its own workflow (statements, reminders, payment plans).
+
+## 5. Payment posting
+
+- [ ] ERAs are posted daily and reconciled to bank deposits.
+- [ ] Zero-pay and partial-pay lines are flagged as denials.
+- [ ] We compare payments to contracted rates to catch underpayments.
+- [ ] Secondary claims go out promptly after primary payment.
+- [ ] Credit balances are reviewed and resolved regularly.
+
+## 6. Reporting
+
+- [ ] Leadership sees a monthly KPI report (see worksheet below).
+- [ ] We can see each staff member's queue and output.
+- [ ] We know our top 5 payers by A/R and by denials.
+
+## 7. Staffing and coverage
+
+- [ ] More than one person can do each critical billing task.
+- [ ] Billing staff have protected time (they aren't constantly pulled to the front desk).
+- [ ] Procedures for each queue are documented.
+- [ ] We have a plan for vacations, leave and turnover.
+- [ ] We've compared our fully loaded in-house cost with other options (see worksheet).
+
+## 8. HIPAA safeguards for vendors and remote staff
+
+- [ ] Every vendor or agency with PHI access has a signed BAA.
+- [ ] Every user has a unique login with multi-factor authentication.
+- [ ] Remote access uses a VPN or virtual desktop; local downloads are blocked.
+- [ ] Access is role-based and removed the same day someone leaves.
+- [ ] Our HIPAA risk analysis includes remote and offshore access.
+- [ ] Vendors must notify us of incidents within a defined timeframe.
+
+See the [HIPAA guide for outsourced billing staff](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/) for the full question list.
+
+## KPI worksheet
+
+| KPI | Definition | This month | Last month | 3 months ago |
+|---|---|---|---|---|
+| Days in A/R | Total A/R ÷ (charges for last 90 days ÷ 90) | | | |
+| A/R over 90 days (%) | A/R aged 91+ days ÷ total A/R | | | |
+| Denial rate | Denied claims ÷ claims submitted | | | |
+| Clean claim rate | Claims accepted on first submission ÷ claims submitted | | | |
+| Net collection rate | Payments ÷ (charges − contractual adjustments) | | | |
+| First-pass resolution | Claims paid/resolved on first submission ÷ claims submitted | | | |
+| Charge lag (days) | Average days from date of service to charge entry | | | |
+
+Benchmarks vary by specialty and source; track your trend. Definitions are explained in our [RCM staffing guide](https://medicalbillingteam.com/revenue-cycle-management-staffing/).
+
+## Staffing cost worksheet
+
+| Line | In-house (per FTE) | Billing company | Remote staff (per FTE) |
+|---|---|---|---|
+| Base cost | Wage × hours | Fee × monthly collections | Quoted rate |
+| Benefits & taxes | (BLS: benefits ≈ 30% of private-industry compensation costs, June 2026) | Included | Included in rate (confirm) |
+| Recruiting/training | | | |
+| Software seats | | | |
+| Equipment/remote access | | | |
+| Management time | | | |
+| **Monthly total** | | | |
+
+Source for the benefits share: [BLS Employer Costs for Employee Compensation](https://www.bls.gov/news.release/ecec.nr0.htm).
+
+## Scoring
+
+- **0-5 "No/Not sure":** solid foundation; focus on fine-tuning.
+- **6-15:** specific gaps; pick the section with the most "No" answers and fix it first.
+- **16+:** the revenue cycle likely needs more structure or capacity. Consider a [free staffing assessment](https://medicalbillingteam.com/contact/).
+
+(Scoring bands are a simple rule of thumb, not a validated benchmark.)
+
+## Technology
+
+When you run this audit, check which steps are already automated (eligibility checks, claim scrubbing, claim status) and which still depend on manual work. Large RCM vendors are moving payer-policy checks to the front end so requirements are visible before care is delivered ([Fierce Healthcare](https://www.fiercehealthcare.com/health-tech/thoreau-backed-ensemble-penelope-health-partner-tackle-payer-denials-upstream)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
+
+---
+*Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](https://medicalbillingteam.com/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/). This checklist is general information, not legal or compliance advice.*

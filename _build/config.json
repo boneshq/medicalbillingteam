@@ -3,7 +3,7 @@
   "canonical_base": "https://medicalbillingteam.com",
   "disclosure": "This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.",
   "llms_summary": "Practical guides on medical billing staffing, outsourced and offshore billing teams, revenue cycle management (RCM) staffing and HIPAA safeguards for US medical practices and billing companies.",
-  "ga4_measurement_id": "",
+  "ga4_measurement_id": "G-C7EWRCM4TV",
   "ai_crawlers": [
     "OAI-SearchBot",
     "ChatGPT-User",
@@ -129,5 +129,18 @@
     "privacy",
     "terms"
   ],
-  "_held_note": "Go-live 2026-10-18: privacy/terms are legal drafts with bracketed placeholders (frontmatter: DO NOT PUBLISH UNTIL APPROVED). Not published, not linked, not in sitemap until counsel approves; then remove from held_pages."
+  "_held_note": "Go-live 2026-10-18: privacy/terms are legal drafts with bracketed placeholders (frontmatter: DO NOT PUBLISH UNTIL APPROVED). Not published, not linked, not in sitemap until counsel approves; then remove from held_pages.",
+  "ags_link_fallback": {
+    "_note": "CODE-DESK #13/#49: AGS /medical-billing/ returns 404 (checked 2026-10-18 ~1:35 PM ET; AGS home 200). While enabled, the build points those links at the AGS home page. Set enabled=false once /medical-billing/ returns 200.",
+    "enabled": true,
+    "from": "https://www.allianceglobalsolutions.com/medical-billing/",
+    "to": "https://www.allianceglobalsolutions.com/"
+  },
+  "vendor_link_rel": {
+    "_note": "CODE-DESK #48: rel for outbound links to the vendor (allianceglobalsolutions.com). Plain followed for now; Tony may switch to 'sponsored noopener'.",
+    "hosts": [
+      "allianceglobalsolutions.com"
+    ],
+    "rel": "noopener"
+  }
 }

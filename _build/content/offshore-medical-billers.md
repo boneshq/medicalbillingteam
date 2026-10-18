@@ -90,7 +90,7 @@ Start with one well-defined queue, such as eligibility or A/R follow-up, with wr
 | Contract restrictions | Check carefully | Check | Usually fewer |
 | HIPAA safeguards needed | Same, plus overseas risk analysis | Same, plus cross-border review | Same |
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), which provides remote staff based in the Philippines. It signs a BAA with each client before any of its staff access protected health information. You can read about its [offshore medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/). If you're weighing an offshore team, request a [free staffing assessment](/contact/); we'll also tell you when it isn't a fit.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/), which provides remote staff with US-based management and admin and staff in the Philippines, Colombia and other countries. It signs a BAA with each client before any of its staff access protected health information. You can read about its [offshore medical billing staff](https://www.allianceglobalsolutions.com/medical-billing/). If you're weighing an offshore team, request a [free staffing assessment](/contact/); we'll also tell you when it isn't a fit.
 
 **Approved vendor:** [Alliance Global Solutions](/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](/approved-vendors/) and [how we vet vendors](/how-we-vet-vendors/).
 

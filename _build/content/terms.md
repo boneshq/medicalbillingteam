@@ -65,6 +65,12 @@ Site content is owned by [ENTITY] or its licensors. You may share links and brie
 
 We may update these terms by posting a new version with a new effective date.
 
+## Related guides
+
+- [contact us](/contact/)
+- [about this site and our affiliation](/about/)
+- [home page](/)
+
 ## 11. Contact
 
 [CONTACT EMAIL] · [POSTAL ADDRESS]

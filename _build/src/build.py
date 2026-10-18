@@ -648,6 +648,15 @@ for f in (B / 'static').iterdir():
     else: shutil.copy2(f, ROOT / f.name)
     generated.append(f.name)
 
+_FB = CFG.get('ags_link_fallback') or {}
+_VR = CFG.get('vendor_link_rel') or {}
+def outbound(h):
+    if _FB.get('enabled'): h = h.replace(_FB['from'], _FB['to'])
+    if _VR.get('hosts'):
+        hp = '|'.join(re.escape(x) for x in _VR['hosts'])
+        h = re.sub(r'(<a href="https?://(?:www\.)?(?:' + hp + r')[^"]*")([^>]*)>', lambda m: m.group(1) + re.sub(r'\s*rel="[^"]*"', '', m.group(2)) + f' rel="{_VR.get("rel", "noopener")}">' if 'rel=' in m.group(2) or True else m.group(0), h)
+    return h
+
 def prefix(h):
     if not BASE_PATH: return h
     h = re.sub(r'(\b(?:href|src|action|data-thanks)=")/(?!/)', rf'\1{BASE_PATH}/', h)
@@ -668,7 +677,7 @@ for p in PAGES:
     html_out = head(p) + nav(p['key']) + main + footer(p)
     for _hp in [x['path'] for x in PAGES if x.get('held')]:   # unlink held (unpublished) pages, keep the words
         html_out = re.sub(r'<a href="' + re.escape(_hp) + r'(?:#[^"]*)?"[^>]*>(.*?)</a>', r'\1', html_out)
-    (d / 'index.html').write_text(prefix(html_out))
+    (d / 'index.html').write_text(prefix(outbound(html_out)))
     generated.append(rel.split('/')[0] if rel else 'index.html')
 
 # 404
@@ -691,7 +700,7 @@ bots = CFG['ai_crawlers']
     + ''.join(f'User-agent: {b}\nAllow: /\n' for b in bots) + f'\nSitemap: {SITE}/sitemap.xml\n')
 
 # llms.txt: served verbatim from the copywriter's file (CODE-DESK #7)
-(ROOT / 'llms.txt').write_text(fix_copy((B / 'content' / 'llms.txt').read_text()))   # verbatim + location override
+(ROOT / 'llms.txt').write_text(outbound(fix_copy((B / 'content' / 'llms.txt').read_text())))   # verbatim + location override
 # llms-full.txt: regenerated from published markdown on every build (CODE-DESK #8; logic from medbill/gen/llmsfull.py)
 FULL_ORDER = ['index','what-is-revenue-cycle-management','revenue-cycle-management-staffing','hipaa-outsourced-medical-billing','medical-billing-staffing-cost','medical-billing-technology','credentialing-services','credentialing-specialist','prior-authorization-specialist','eligibility-verification-prior-authorization','treatment-center-vob','behavioral-health-billing','ar-specialist','hire-remote-medical-coders','hire-remote-medical-billers','virtual-medical-assistant','virtual-medical-receptionist','medical-billing-outsourcing','offshore-medical-billers','denial-management','denial-code-co-16','denial-code-co-22','denial-code-co-29','denial-code-co-97','denial-code-co-197','denial-code-co-204','reduce-ar-days','approved-vendors','how-we-vet-vendors','featured-vendor-alliance-global-solutions','how-it-works','faq','about']   # = medbill/gen/llmsfull.py order
 FT = ["# Medical Billing Team: full text\n\n> Concatenated public guides from medicalbillingteam.com, generated " + TODAY + ". Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; requests may be referred to it. Excludes forms, legal drafts and gated content.\n"]
@@ -708,7 +717,13 @@ for k in FULL_ORDER:
     for _hp in [x['path'] for x in PAGES if x.get('held')]:
         body = re.sub(r'\[([^\]]+)\]\(https://medicalbillingteam\.com' + re.escape(_hp) + r'[^)]*\)', r'\1', body)
     FT.append("\n---\n\nSource: https://medicalbillingteam.com%s\n\n" % slug + body.strip() + "\n")
-(ROOT / 'llms-full.txt').write_text(''.join(FT))
+_lf = B / 'content' / 'llms-full.txt'
+if _lf.exists():   # CODE-DESK #52: serve the copywriter's regenerated file; apply location override, held-page unlinks, AGS fallback
+    _txt = fix_copy(_lf.read_text())
+    for _hp in [x['path'] for x in PAGES if x.get('held')]:
+        _txt = re.sub(r'\[([^\]]+)\]\(https://medicalbillingteam\.com' + re.escape(_hp) + r'[^)]*\)', r'\1', _txt)
+    (ROOT / 'llms-full.txt').write_text(outbound(_txt))
+else: (ROOT / 'llms-full.txt').write_text(outbound(''.join(FT)))
 (ROOT / '.nojekyll').write_text('')
 (ROOT / 'CNAME').write_text(CFG.get('custom_domain', 'medicalbillingteam.com') + '\n')   # go-live (Tony via CEO 1:22 PM ET); Pages settings/DNS handled elsewhere
 generated.append('CNAME')
@@ -761,3 +776,17 @@ for _f in list(ROOT.rglob('*.html')) + [ROOT / 'llms.txt', ROOT / 'llms-full.txt
     for _m in LOC_OLD.finditer(_f.read_text(errors='ignore')): _loc.append(f'{_f.relative_to(ROOT)}: {_m.group(0)!r}')
 if _loc: raise SystemExit('OLD AGS LOCATION WORDING:\n' + '\n'.join(_loc))
 print('location override check: OK')
+
+# Link graph (CODE-DESK #46): each published page needs 3+ inbound and 3+ outbound contextual internal links (main content only).
+_out, _in = {}, {}
+_pub = {x['path']: x for x in PAGES if x['ready'] and not x.get('held') and x['kind'] != 'utility'}
+for _pth in _pub:
+    _h = (ROOT / _pth.strip('/') / 'index.html') if _pth != '/' else ROOT / 'index.html'
+    _m = re.search(r'<main id="main".*?</main>', _h.read_text(), re.S)
+    _links = {re.sub(r'#.*', '', u) for u in re.findall(r'href="(/[^"]*)"', _m.group(0) if _m else '')} - {_pth}
+    _links = {u for u in _links if u in _pub}
+    _out[_pth] = _links
+    for u in _links: _in.setdefault(u, set()).add(_pth)
+_weak = [f'{p_}: out {len(_out[p_])}, in {len(_in.get(p_, ()))}' for p_ in _pub if len(_out[p_]) < 3 or len(_in.get(p_, ())) < 3]
+print('link graph: min out', min(len(v) for v in _out.values()), 'min in', min(len(_in.get(k, ())) for k in _pub))
+if _weak: raise SystemExit('LINK GRAPH < 3:\n' + '\n'.join(_weak))

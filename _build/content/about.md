@@ -30,7 +30,7 @@ Medical Billing Team is a resource for US medical practices and billing companie
 
 **This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. Alliance Global Solutions is currently the only vendor on our approved vendor list, and requests you submit here may be referred to it. We benefit financially if you hire it. We may contact you about our services if you request it.**
 
-That means we have a commercial interest in the topics we write about. Alliance Global Solutions provides dedicated remote staff, based in the Philippines and Colombia, for roles such as billing specialists, A/R follow-up, eligibility and insurance verification (VOB), prior authorization, payment posting, denial follow-up and admissions or intake support. You can learn more about the company on its own website: [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/).
+That means we have a commercial interest in the topics we write about. Alliance Global Solutions provides dedicated remote staff (US-based management and admin; staff in the Philippines, Colombia and other countries) for roles such as billing specialists, A/R follow-up, eligibility and insurance verification (VOB), prior authorization, payment posting, denial follow-up and admissions or intake support. You can learn more about the company on its own website: [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/).
 
 Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. We don't describe ourselves as "HIPAA certified," because there is no such certification.
 
@@ -55,6 +55,12 @@ This site works like a guide plus a short, vetted directory. We write the guides
 - **Dates mean something.** Each guide shows its original publication date and the date of its last substantive update. We change the "Updated" date only when content meaningfully changes, not for a redesign or rebuild. Guides are reviewed at least quarterly and whenever CMS, HHS, payers or code sets change something they cover.
 - **Who writes and reviews.** Guides are published under the Medical Billing Team editors byline. We don't invent author personas or credentials. When a named reviewer with medical billing experience checks a guide, their name and role will appear on it.
 - **How we use automation.** We use AI tools to help research and draft. Every statistic and regulatory statement is checked against the linked public source before publishing, and the sources are linked inline.
+
+## Related guides
+
+- [frequently asked questions about remote billing staff](/faq/)
+- [how the request and matching process works](/how-it-works/)
+- [Medical Billing Team home](/)
 
 ## Technology
 

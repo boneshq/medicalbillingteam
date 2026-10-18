@@ -70,7 +70,7 @@ Start with one well-defined queue. Eligibility, payment posting and A/R follow-u
 | BAA | Must sign one | Agency signs | Vendor signs |
 | Cost basis | Hourly | Monthly/hourly per FTE | % of collections or per claim |
 
-Freelancers can work for small needs, but you carry the vetting, continuity and security risk. Agencies cost more than a freelancer's rate but handle employment, equipment, backfill and the business associate relationship. For general background on remote hiring, Alliance Global Solutions has published [tips on hiring a virtual assistant](https://www.allianceglobalsolutions.com/how-to-hire-the-best-virtual-assistant-for-your-company/); billing roles need the extra steps below.
+Freelancers can work for small needs, but you carry the vetting, continuity and security risk. Agencies cost more than a freelancer's rate but handle employment, equipment, backfill and the business associate relationship. For general background on remote hiring, Alliance Global Solutions publishes hiring guidance on [the Alliance Global Solutions blog](https://www.allianceglobalsolutions.com/blog/); billing roles need the extra steps below.
 
 ## Skills to look for
 
@@ -158,7 +158,7 @@ And be wary of "HIPAA certified" claims. There is no official HIPAA certificatio
 
 ## Next steps
 
-This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff from the Philippines. It signs a BAA with each client before any of its staff access protected health information. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](/contact/) here. Use the questions above with us, too.
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which places remote billing and RCM staff, with US-based management and admin and staff in the Philippines, Colombia and other countries. It signs a BAA with each client before any of its staff access protected health information. To talk through roles, you can [reach the team directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](/contact/) here. Use the questions above with us, too.
 
 A final tip: write down what "good" looks like before you hire, meaning the queues, volumes, quality checks and hours. A clear role description makes it easier to interview and onboard, and to judge whether the hire is working.
 
@@ -176,6 +176,7 @@ Remote billers increasingly work alongside automation: claim scrubbers, eligibil
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
 - [Hiring remote medical coders](/hire-remote-medical-coders/)
+- [remote front-desk and receptionist staff](/virtual-medical-receptionist/)
 
 ## FAQ
 

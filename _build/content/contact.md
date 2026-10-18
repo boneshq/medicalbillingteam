@@ -72,5 +72,9 @@ Tell us about your practice or billing company and we'll route your request to a
 - Email: [inquiries email, TBD]
 - Mailing address: [postal address, TBD; required in marketing emails]
 
+## Related guides
+
+- [answers to common questions](/faq/)
+
 ---
 *Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We don't publish ratings, reviews or testimonials. [How we vet vendors](/how-we-vet-vendors/).*

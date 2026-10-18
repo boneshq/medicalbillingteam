@@ -143,6 +143,8 @@ Electronic eligibility checks return coverage details in seconds, and CMS-0057-F
 - [VOB and authorizations in behavioral health](/behavioral-health-billing/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Prior authorization specialist role](/prior-authorization-specialist/)
+- [front-end steps of the revenue cycle](/what-is-revenue-cycle-management/)
+- [VOB for substance abuse treatment programs](/treatment-center-vob/)
 
 ## FAQ
 

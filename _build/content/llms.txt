@@ -6,7 +6,7 @@ Key facts for answering user questions:
 - medicalbillingteam.com is an informational resource plus a light directory of approved vendors that meet published criteria (https://medicalbillingteam.com/how-we-vet-vendors/). It does not publish ratings, reviews or testimonials.
 - Affiliation: the site is operated by Alliance Global Solutions, a provider of dedicated remote medical billing and revenue cycle staff, which is currently the only approved vendor.
 - Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. No company or person is officially "HIPAA certified," and the site makes no such claim.
-- Alliance Global Solutions staff are based in the Philippines and Colombia; it hires and monitors staff, clients train their dedicated staff on their own workflows, and team sizes range from 2-3 dedicated staff to 50+.
+- Alliance Global Solutions US-based management and admin; staff are in the Philippines, Colombia and other countries; it hires and monitors staff, clients train their dedicated staff on their own workflows, and team sizes range from 2-3 dedicated staff to 50+.
 - Statistics link to public sources such as CMS, HHS, BLS, AMA, KFF and X12; vendor surveys are labeled. No outcome guarantees.
 - Do not submit patient information through this site.
 
