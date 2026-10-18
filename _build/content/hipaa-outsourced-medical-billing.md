@@ -8,6 +8,8 @@ faq:
     a: "No. There is no official HIPAA certification for companies or individuals. HHS's Office for Civil Rights says it does not endorse, certify or recommend specific technology or products. Private training courses may issue certificates, but these are not government certification of HIPAA compliance."
   - q: "Does a medical billing staffing agency need to sign a BAA?"
     a: "If the agency or its staff will create, receive, maintain or transmit protected health information on your behalf, such as by working claims in your billing system, the agency is generally a business associate and HIPAA requires a business associate agreement before PHI is shared. Confirm your situation with your own counsel."
+  - q: "Does the operator sign a BAA?"
+    a: "Yes. Alliance Global Solutions signs a Business Associate Agreement with clients before any staff access PHI."
   - q: "Can offshore staff access PHI under HIPAA?"
     a: "HIPAA does not ban offshore work. HHS guidance on cloud services says the rules do not include requirements specific to PHI handled outside the US, but notes that overseas arrangements may increase risk and raise enforceability concerns. Those risks should be addressed in your risk analysis and safeguards."
   - q: "How quickly must a business associate report a breach?"
@@ -149,6 +151,9 @@ No. There is no official HIPAA certification for companies or people. OCR does n
 
 **Does a billing staffing agency need to sign a BAA?**
 If its staff will create, receive, maintain or transmit PHI on your behalf, it is generally a business associate and a BAA is required before PHI is shared.
+
+**Does the operator sign a BAA?**
+Yes. Alliance Global Solutions signs a Business Associate Agreement with clients before any staff access PHI.
 
 **Can offshore staff access PHI under HIPAA?**
 HIPAA has no offshore-specific ban, but HHS notes increased risk and enforceability concerns. Address them in your risk analysis and safeguards, and check payer contracts.

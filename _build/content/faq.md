@@ -16,6 +16,8 @@ faq:
     a: "No. There is no official HIPAA certification for companies or individuals. HHS's Office for Civil Rights does not endorse or certify vendors. Ask about specific safeguards instead: a BAA, MFA, secure remote access, role-based access, training and incident response."
   - q: "Will the staffing provider sign a business associate agreement?"
     a: "A provider whose staff will access protected health information on your behalf is generally a business associate, and a BAA should be signed before any access. Have your counsel review it."
+  - q: "Does the operator sign a BAA?"
+    a: "Yes. Alliance Global Solutions signs a Business Associate Agreement with clients before any staff access PHI."
   - q: "Is offshore billing allowed under HIPAA?"
     a: "HIPAA does not ban offshore work, but HHS notes that overseas arrangements can increase risk and raise enforceability questions. Address them in your risk analysis, and check payer and Medicaid contracts, some of which restrict offshore access."
   - q: "How much does remote billing staff cost?"
@@ -59,6 +61,9 @@ No. There is no official HIPAA certification, and HHS's Office for Civil Rights 
 
 **Will the staffing provider sign a BAA?**
 A provider whose staff access PHI on your behalf is generally a business associate ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)), and a BAA should be signed before any access.
+
+**Does the operator sign a BAA?**
+Yes. Alliance Global Solutions signs a Business Associate Agreement with clients before any staff access PHI.
 
 **Is offshore billing allowed under HIPAA?**
 HIPAA has no offshore ban, but HHS notes added risk and enforceability concerns. Check payer and Medicaid contracts too.
