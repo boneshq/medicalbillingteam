@@ -1,6 +1,6 @@
 ---
 title: "HIPAA and Outsourced Medical Billing Staff: A Guide"
-meta_description: "Why HIPAA matters when hiring outsourced or offshore medical billing staff: BAAs, minimum necessary, access controls, training, breaches and agency questions."
+meta_description: "HIPAA for outsourced or offshore medical billing staff: BAAs, minimum necessary, access controls, training, breaches and questions to ask agencies."
 slug: "/hipaa-outsourced-medical-billing/"
 schema_type: ["Article", "FAQPage"]
 faq:

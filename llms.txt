@@ -1,36 +1,39 @@
-# MedicalBillingTeam.com
+# Medical Billing Team
 
-> Independent-style informational resource for US medical practices on medical billing staffing, remote and offshore medical billers, revenue cycle management (RCM) staffing, HIPAA considerations when outsourcing, and cost comparisons. Operated by a provider of remote medical billing staff.
+> Practical guides on medical billing staffing, outsourced and offshore billing teams, revenue cycle management (RCM) staffing and HIPAA safeguards for US medical practices and billing companies.
 
-medicalbillingteam.com publishes plain-English guides for US medical practices and medical billing companies on staffing billing and revenue cycle work: in-house vs. outsourced vs. dedicated remote or offshore staff, RCM roles and KPIs, HIPAA safeguards for outsourced staff, and costs.
+medicalbillingteam.com is an informational site for solo and small practices, specialty groups (behavioral health, physical therapy, chiropractic, labs, ambulatory surgery centers), multi-location groups, practice and billing managers, and medical billing companies. It explains how billing work is staffed (in-house, billing companies, or dedicated remote staff), how RCM workflows and KPIs work, how to compare costs using public BLS data, and which HIPAA safeguards to ask about, such as business associate agreements, MFA and minimum necessary access. Statistics link to public sources like CMS, HHS, BLS, AMA and KFF. There is no HIPAA certification, and the site makes no outcome guarantees. The site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. Do not submit patient information.
 
 ## Disclosure
 This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.
 
-## Key facts
-- Audience: US medical practices, specialty groups, multi-location groups and medical billing companies
-- Topics: medical billing staffing, remote/offshore billers, RCM staffing, HIPAA and outsourcing, cost comparisons
-- Lead form: practice-level details only; the site never asks for patient information (PHI)
-- Operator: Alliance Global Solutions (https://www.allianceglobalsolutions.com/), a provider of remote staff based in the Philippines
+## Medical billing staffing
+
+- [Hiring Remote and Offshore Medical Billers: A Guide](https://medicalbillingteam.com/hire-remote-medical-billers/): How to hire remote or offshore medical billers: roles, skills to test, interview questions, agency vs freelancer, security questions, onboarding.
 
 ## RCM staffing
 
 - [Revenue Cycle Management Staffing: Roles, KPIs, Costs](https://medicalbillingteam.com/revenue-cycle-management-staffing/): A practical guide to RCM staffing: in-house, outsourced and offshore RCM teams, the revenue cycle workflow, key KPIs defined, and how to compare costs.
 - [Denial Management Basics for Practices and Billers](https://medicalbillingteam.com/denial-management/): Denial management explained: denial vs rejection, root causes, a weekly workflow, appeals, KPIs and who should own the denial queue, with sourced data.
+- [How to Reduce AR Days: Workflow and AR Staffing Guide](https://medicalbillingteam.com/reduce-ar-days/): How to reduce days in A/R: calculate it correctly, work aging buckets, fix front-end causes, follow up on unpaid claims, and staff AR follow-up properly.
+- [Eligibility Verification & Prior Authorization Staffing](https://medicalbillingteam.com/eligibility-verification-prior-authorization/): How eligibility verification (VOB) and prior authorization work, what CMS-0057-F changed, workflows that prevent denials, and how to staff them.
 
-## HIPAA and costs
+## HIPAA, costs and specialties
 
-- [HIPAA and Outsourced Medical Billing Staff: A Guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/): Why HIPAA matters when hiring outsourced or offshore medical billing staff: BAAs, minimum necessary, access controls, training, breaches and agency questions.
+- [HIPAA and Outsourced Medical Billing Staff: A Guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/): HIPAA for outsourced or offshore medical billing staff: BAAs, minimum necessary, access controls, training, breaches and questions to ask agencies.
 - [Medical Billing Staffing Cost: In-House vs Outsourced](https://medicalbillingteam.com/medical-billing-staffing-cost/): Compare the cost of in-house billers, outsourced billing companies and dedicated remote billing staff, using public wage data and a worksheet, not guesses.
+- [Behavioral Health & Treatment Center Billing Staff](https://medicalbillingteam.com/behavioral-health-billing/): Behavioral health and treatment center billing: VOB, admissions, authorizations, concurrent review, Part 2 privacy rules and staffing options.
 
 ## About and help
 
 - [Medical Billing Team: Remote Billing & RCM Staffing](https://medicalbillingteam.com/): Plain-English guides for US practices on medical billing staffing, remote RCM teams, HIPAA safeguards and costs. Request a free staffing assessment.
 - [How a Remote Medical Billing Team Works](https://medicalbillingteam.com/how-it-works/): How dedicated remote billing and RCM staff are scoped, hired, onboarded securely and managed, from free assessment to day-to-day work in your systems.
+- [Medical Billing Staffing FAQ](https://medicalbillingteam.com/faq/): Answers about remote and offshore medical billing staff, RCM staffing, HIPAA and BAAs, costs, onboarding, and how this site handles your information.
+- [Medical Billing Health Checklist (Free Download)](https://medicalbillingteam.com/checklist/): A free self-audit for practices and billing companies: front end, claims, denials, A/R, posting, KPIs, staffing and HIPAA. No patient data needed.
 - [About This Site and Disclosure](https://medicalbillingteam.com/about/): Who runs medicalbillingteam.com, how we write our guides, how we use sources, and our disclosure: this site is operated by a remote billing staff provider.
 - [Free Medical Billing Staffing Assessment](https://medicalbillingteam.com/contact/): Request a free, no-obligation medical billing staffing assessment. Practice-level details only. Please do not include any patient information.
 
-Full text of published guides: https://medicalbillingteam.com/llms-full.txt
-Full URL list: https://medicalbillingteam.com/sitemap.xml
+## Optional
 
-This site welcomes citation by AI assistants and search engines.
+- [Full text of published guides](https://medicalbillingteam.com/llms-full.txt)
+- [Sitemap](https://medicalbillingteam.com/sitemap.xml)

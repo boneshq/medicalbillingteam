@@ -59,3 +59,7 @@ a.card:hover{border-color:var(--brand)}
 .sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#0b4f8a;color:#fff;display:flex;gap:10px;align-items:center;justify-content:center;padding:10px 44px 10px 14px;font-size:.92rem;box-shadow:0 -4px 16px rgba(0,0,0,.15)}
 .sticky-cta[hidden]{display:none}.sticky-cta .btn{background:#fff;color:#0b4f8a}.sticky-cta .x{position:absolute;right:8px;background:none;border:0;color:#fff;font-size:1.4rem;cursor:pointer}
 .s-d{display:none}@media(min-width:760px){.s-d{display:inline}.s-m{display:none}}
+.draft-banner{background:#fde8e4;border:2px solid #a5331b;color:#5c1a0c;padding:10px 14px;border-radius:8px;margin:10px 0 18px}
+.gate{border:1px solid var(--line);border-radius:14px;padding:16px;margin:18px 0;background:var(--bg)}.gate h2{margin-top:0}
+.linkbtn{background:none;border:0;color:var(--brand);text-decoration:underline;cursor:pointer;font:inherit;padding:0}
+.kids small{font-weight:400;color:var(--mute)}

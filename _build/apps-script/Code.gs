@@ -11,7 +11,7 @@ var MIN_ELAPSED_MS = 3000;
 var FIELDS = ['received_at','form_id','name','role','practice_name','specialty','num_providers','monthly_collections',
   'billing_setup','help_areas','work_email','phone','tcpa_consent','tcpa_text_version','source_page','utm','user_agent',
   'elapsed_ms','is_test','status'];
-var ALLOWED_FORMS = { hero: 1, full: 1, footer: 1 };
+var ALLOWED_FORMS = { hero: 1, full: 1, footer: 1, checklist: 1 };
 
 function doPost(e) {
   var p = (e && e.parameter) || {};

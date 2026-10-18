@@ -20,7 +20,7 @@ TODAY = datetime.date.today().isoformat()
 BYKEY = {p['key']: p for p in PAGES}
 E = lambda s: html.escape(str(s or ''), quote=True)
 DISC = CFG['disclosure']
-SPEC_SECTIONS = re.compile(r'^(short form|sticky cta|footer$|form fields|implementation notes|other ways to reach us)', re.I)
+SPEC_SECTIONS = re.compile(r'^(short form|sticky cta|footer$|form fields|implementation notes|other ways to reach us|get the checklist)', re.I)
 
 def load(p):
     f = B / 'content' / f"{p['key']}.md"
@@ -34,6 +34,8 @@ def load(p):
         txt = txt[end + 4:].lstrip('\n')
     if str(meta.get('status', '')).lower() == 'stub' or not txt.strip(): return
     p['ready'] = True
+    p['draft'] = 'DRAFT' in str(meta.get('status', '')).upper()
+    p['gated'] = bool(meta.get('gated'))
     if meta.get('title'): p['title'] = meta['title']
     if meta.get('meta_description'): p['description'] = meta['meta_description']
     p['faqs'] = [(x['q'], x['a']) for x in (meta.get('faq') or []) if x.get('q') and x.get('a')]
@@ -59,7 +61,7 @@ def load(p):
 for p in PAGES:
     load(p)
     if p['kind'] in ('utility',): p['ready'] = True
-    p['indexable'] = p['ready'] and p['kind'] != 'utility'
+    p['indexable'] = p['ready'] and p['kind'] != 'utility' and not p.get('draft')
 
 def url(p): return SITE + p['path']
 
@@ -74,7 +76,7 @@ def ga():
 def jsonld(p):
     org = {"@type": "Organization", "@id": SITE + "/#org", "name": CFG['site_name'], "url": SITE + "/",
            "logo": SITE + "/logo.svg", "description": DISC,
-           "parentOrganization": {"@type": "Organization", "name": "Alliance Global Solutions", "url": "https://www.allianceglobalsolutions.com/"}}
+           "sameAs": ["https://www.allianceglobalsolutions.com/"], "parentOrganization": {"@type": "Organization", "name": "Alliance Global Solutions", "url": "https://www.allianceglobalsolutions.com/"}}
     site = {"@type": "WebSite", "@id": SITE + "/#website", "name": CFG['site_name'], "url": SITE + "/",
             "publisher": {"@id": SITE + "/#org"}, "inLanguage": "en-US"}
     g = [org, site]
@@ -89,6 +91,14 @@ def jsonld(p):
                   "mainEntityOfPage": url(p), "url": url(p), "inLanguage": "en-US",
                   "datePublished": TODAY, "dateModified": TODAY,
                   "author": {"@id": SITE + "/#org"}, "publisher": {"@id": SITE + "/#org"}})
+    st = [t for t in p.get('schema_types', []) if t in ('AboutPage', 'ContactPage', 'WebPage')]
+    if st or p['kind'] in ('page', 'form', 'legal'):
+        g.append({"@type": st[0] if st else 'WebPage', "name": p['title'], "url": url(p), "description": p['description'],
+                  "isPartOf": {"@id": SITE + "/#website"}, "about": {"@id": SITE + "/#org"}})
+    if 'HowTo' in p.get('schema_types', []):
+        steps = [(m.group(1), m.group(2)) for m in re.finditer(r'^##\s+Step\s+(\d+):\s*(.+)$', p['raw'], re.M)]
+        if steps:
+            g.append({"@type": "HowTo", "name": p.get('h1', p['title']), "step": [{"@type": "HowToStep", "position": int(n), "name": t} for n, t in steps]})
     if p['faqs']:
         g.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q,
                   "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in p['faqs']]})
@@ -163,29 +173,29 @@ def form(form_id):
         help_html = f'<fieldset class="chips"><legend>Where do you need help? <i>(optional)</i></legend>{boxes}</fieldset>'
     tcpa = (f'<label class="check tcpa" hidden><input type="checkbox" name="tcpa_consent" value="yes"> '
             f'<span>{E(CFG["tcpa_text"])} See our <a href="/privacy/">Privacy Policy</a> and <a href="/terms/">Terms</a>.</span></label>')
-    btn = 'Request my free assessment' if full else 'Request my assessment'
+    btn = 'Request my free assessment' if full else ('Send me the checklist' if form_id == 'checklist' else 'Request my assessment')
     return f'''<form class="lead-form lead-{form_id}" id="{'assessment' if form_id=='hero' else 'form-'+form_id}" method="post" novalidate
- data-tcpa-version="{E(CFG['tcpa_version'])}" data-thanks="/thank-you/">
+ data-tcpa-version="{E(CFG['tcpa_version'])}" data-thanks="{'#unlocked' if form_id == 'checklist' else '/thank-you/'}">
 <input type="hidden" name="form_id" value="{form_id}">
 <div class="hp" aria-hidden="true"><label>Leave this empty<input name="company_website" tabindex="-1" autocomplete="off"></label></div>
 <div class="grid{' grid-2' if full else ''}">{''.join(rows)}</div>
 {tcpa}{help_html}
 <p class="phi" role="note"><strong>Do not include any patient information.</strong> {E(CFG['phi_notice'].split('. ',1)[1])}</p>
-{f'<p class="fine">{E(CFG["email_notice"])}</p>' if full else ''}
+{f'<p class="fine">{E(CFG["email_notice"])}</p>' if full else ''}{'<p class="fine">We\'ll email you the checklist and occasional guides about billing staffing. Unsubscribe any time.</p>' if form_id == 'checklist' else ''}
 <button class="btn" type="submit">{btn}</button>
 <p class="form-msg" role="status" aria-live="polite"></p>
 <p class="fine">We'll email you within one business day. No patient information, please.</p>
 </form>'''
 
 def ags_block(p):
-    links = CFG['ags_links'].get(p['key']) or CFG['ags_links'].get('_default', [])
+    links = []
     if not links: return ''
     li = ''.join(f'<li><a href="{E(u)}" rel="noopener">{E(t)}</a></li>' for t, u in links)
     return f'<aside class="related-ext"><h2>About the staffing provider behind this site</h2><p>{E(CFG["ags_intro"])}</p><ul>{li}</ul></aside>'
 
 def footer(p):
     links = ''.join(f'<li><a href="{BYKEY[k]["path"]}">{E(BYKEY[k]["label"])}</a></li>' for k in
-        ['about', 'how-it-works', 'hipaa-outsourced-medical-billing', 'faq', 'checklist', 'contact', 'privacy', 'terms'])
+        ['about', 'how-it-works', 'hipaa-outsourced-medical-billing', 'medical-billing-staffing-cost', 'behavioral-health-billing', 'faq', 'checklist', 'contact', 'privacy', 'terms'])
     def grp(pk):
         kids = ''.join(f'<li><a href="{c["path"]}">{E(c["label"])}</a></li>' for c in PAGES if c['parent'] == pk)
         return f'<div><h3><a href="{BYKEY[pk]["path"]}">{E(BYKEY[pk]["label"])}</a></h3><ul>{kids}</ul></div>'
@@ -196,7 +206,7 @@ def footer(p):
 <a class="btn btn-sm" href="{'#assessment' if p['key']=='index' else '/contact/'}">Get started</a><button class="x" type="button" aria-label="Dismiss">×</button></div>'''
     return f'''{band}
 <footer class="site-footer"><div class="wrap">
-<div class="fcols">{grp('medical-billing-staffing')}{grp('revenue-cycle-management-staffing')}<div><h3>Site</h3><ul>{links}</ul></div></div>
+<div class="fcols">{grp('hire-remote-medical-billers')}{grp('revenue-cycle-management-staffing')}<div><h3>Site</h3><ul>{links}</ul></div></div>
 <p class="disclosure"><strong>Disclosure:</strong> {E(DISC)} <a href="/about/">About &amp; disclosure</a></p>
 <p class="fine">Please do not submit patient information through this site. Content is general information, not legal, compliance or financial advice. © {datetime.date.today().year} {E(CFG['site_name'])}</p>
 </div></footer>{sticky}
@@ -215,7 +225,7 @@ def crumbs(p):
 def children(p):
     kids = [c for c in PAGES if c['parent'] == p['key']]
     if not kids: return ''
-    cards = ''.join(f'<a class="card" href="{c["path"]}"><h3>{E(c["label"])}</h3><p>{E(c["description"])}</p></a>' for c in kids)
+    cards = ''.join(f'<a class="card" href="{c["path"]}"><h3>{E(c["label"])}{"" if c["ready"] else " <small>(coming soon)</small>"}</h3><p>{E(c["description"])}</p></a>' for c in kids)
     return f'<section class="kids"><h2>Guides in this section</h2><div class="cards">{cards}</div></section>'
 
 def siblings(p):
@@ -233,19 +243,23 @@ def page_main(p):
     elif p['key'] == 'thank-you':
         body = ('<p>Thank you. We\'ve received your request. A staffing specialist will email you, usually within one business day.</p>'
                 '<p>In the meantime: <a href="/checklist/">Medical Billing Health Checklist</a> · <a href="/hipaa-outsourced-medical-billing/">HIPAA guide for outsourced billing staff</a> · <a href="/revenue-cycle-management-staffing/">RCM staffing guide</a></p>')
+    elif p.get('gated'):
+        body = (convert(p['intro'])[0] + '<div class="gate"><h2>Get the checklist</h2>' + form('checklist') +
+                ('' if CFG['form_backend']['enabled'] else '<p class="fine preview-note">Preview only: the form backend is off, so the gate can\'t unlock. <button type="button" class="linkbtn" data-unlock>Show the gated content</button> (preview reviewers only).</p>') +
+                '</div><div class="gated" id="unlocked" hidden>' + convert('\n'.join(p['sections']))[0] + '</div>')
     else:
         body = p['body'] if p['ready'] else stub(p)
+    if p.get('draft'):
+        body = '<div class="draft-banner"><strong>DRAFT: for legal review.</strong> Not approved for publication. Bracketed items are placeholders.</div>' + body
     toc = ''
     if len(p['toc']) >= 4 and p['kind'] in ('pillar', 'cluster'):
         toc = '<details class="toc" open><summary>On this page</summary><ul>' + ''.join(f'<li><a href="#{i}">{E(t)}</a></li>' for i, t in p['toc'] if t.lower() != 'faq') + '</ul></details>'
     faq = ''
-    if p['faqs'] and not re.search(r'^##\s+FAQ', p['raw'], re.M | re.I):
+    if p['faqs'] and p['key'] != 'faq' and not re.search(r'^##\s+.*FAQ', p['raw'], re.M | re.I):
         faq = '<section class="faq"><h2>FAQ</h2>' + ''.join(f'<details><summary>{E(q)}</summary><p>{E(a)}</p></details>' for q, a in p['faqs']) + '</section>'
-    elif p['faqs']:
-        faq = '<section class="faq">' + ''.join(f'<details><summary>{E(q)}</summary><p>{E(a)}</p></details>' for q, a in p['faqs']) + '</section>'
     return f'''<main id="main" class="wrap narrow">{crumbs(p)}<article><h1>{E(h1)}</h1>
 <p class="disclosure-inline">{E(DISC)}</p>{toc}
-<div class="prose">{body}{faq}</div></article>{children(p)}{siblings(p)}{ags_block(p) if p['kind'] in ('pillar','cluster') or p['key']=='about' else ''}</main>'''
+<div class="prose">{body}{faq}</div></article>{children(p)}{siblings(p)}</main>'''
 
 def home_main(p):
     if p['ready']:
@@ -260,12 +274,13 @@ def home_main(p):
     else:
         hero = stub(p); rest = ''
     rcm = ''.join(f'<li><a href="{c["path"]}">{E(c["label"])}</a></li>' for c in PAGES if c['parent'] == 'revenue-cycle-management-staffing')
-    mbs = ''.join(f'<li><a href="{c["path"]}">{E(c["label"])}</a></li>' for c in PAGES if c['parent'] == 'medical-billing-staffing')
+    mbs = ''.join(f'<li><a href="{c["path"]}">{E(c["label"])}</a></li>' for c in PAGES if c['parent'] == 'hire-remote-medical-billers')
     topics = f'''<section class="band topics"><div class="wrap"><h2>Explore by topic</h2><div class="cards">
-<div class="card"><h3><a href="/medical-billing-staffing/">Medical billing staffing</a></h3><ul class="pills">{mbs}</ul></div>
+<div class="card"><h3><a href="/hire-remote-medical-billers/">Medical billing staffing</a></h3><p>Remote, offshore and outsourced billers.</p><ul class="pills">{mbs}</ul></div>
 <div class="card"><h3><a href="/revenue-cycle-management-staffing/">RCM staffing</a></h3><ul class="pills">{rcm}</ul></div>
 <div class="card"><h3><a href="/hipaa-outsourced-medical-billing/">HIPAA &amp; outsourcing</a></h3><p>BAAs, minimum necessary, access controls and what to ask any agency.</p></div>
 <div class="card"><h3><a href="/medical-billing-staffing-cost/">Cost comparisons</a></h3><p>In-house vs. billing company vs. dedicated remote staff.</p></div>
+<div class="card"><h3><a href="/behavioral-health-billing/">Behavioral health billing</a></h3><p>Billing staff for behavioral health practices and treatment centers.</p></div>
 </div></div></section>'''
     return f'''<main id="main">
 <section class="hero"><div class="wrap hero-grid">
@@ -274,7 +289,6 @@ def home_main(p):
 <div class="hero-copy prose">{hero}<p class="disclosure-inline">{E(DISC)}</p></div>
 </div></section>
 {topics}{rest}
-<section class="band"><div class="wrap narrow">{ags_block(p)}</div></section>
 </main>'''
 
 # ---------------- write ----------------
@@ -317,6 +331,7 @@ bots = CFG['ai_crawlers']
     + ''.join(f'User-agent: {b}\nAllow: /\n' for b in bots) + f'\nSitemap: {SITE}/sitemap.xml\n')
 
 def line(p): return f'- [{p["title"].split(" | ")[0]}]({url(p)}): {p["description"]}'
+L0 = None
 L = [f'# {CFG["site_name"]}', '', f'> {CFG["llms_summary"]}', '',
      'medicalbillingteam.com publishes plain-English guides for US medical practices and medical billing companies on staffing billing and revenue cycle work: in-house vs. outsourced vs. dedicated remote or offshore staff, RCM roles and KPIs, HIPAA safeguards for outsourced staff, and costs.', '',
      '## Disclosure', DISC, '',
@@ -324,15 +339,24 @@ L = [f'# {CFG["site_name"]}', '', f'> {CFG["llms_summary"]}', '',
      '- Topics: medical billing staffing, remote/offshore billers, RCM staffing, HIPAA and outsourcing, cost comparisons',
      '- Lead form: practice-level details only; the site never asks for patient information (PHI)',
      '- Operator: Alliance Global Solutions (https://www.allianceglobalsolutions.com/), a provider of remote staff based in the Philippines', '']
-groups = [('Medical billing staffing', lambda p: p['key'] == 'medical-billing-staffing' or p['parent'] == 'medical-billing-staffing'),
+groups = [('Medical billing staffing', lambda p: p['key'] == 'hire-remote-medical-billers' or p['parent'] == 'hire-remote-medical-billers'),
           ('RCM staffing', lambda p: p['key'] == 'revenue-cycle-management-staffing' or p['parent'] == 'revenue-cycle-management-staffing'),
-          ('HIPAA and costs', lambda p: p['key'] in ('hipaa-outsourced-medical-billing', 'medical-billing-staffing-cost')),
+          ('HIPAA, costs and specialties', lambda p: p['key'] in ('hipaa-outsourced-medical-billing', 'medical-billing-staffing-cost', 'behavioral-health-billing')),
           ('About and help', lambda p: p['key'] in ('index', 'how-it-works', 'faq', 'checklist', 'about', 'contact', 'privacy', 'terms'))]
 for g, fn in groups:
     rows = [line(p) for p in idx if fn(p)]
     if rows: L += [f'## {g}', ''] + rows + ['']
 L += ['Full text of published guides: ' + SITE + '/llms-full.txt', 'Full URL list: ' + SITE + '/sitemap.xml', '',
       'This site welcomes citation by AI assistants and search engines.', '']
+ls = B / 'content' / 'llms-summary.md'
+if ls.exists():
+    t = ls.read_text(); t = t[t.find('\n---', 4) + 4:] if t.startswith('---\n') else t
+    t = t.split('\n## Key pages')[0].strip()
+    L = [t, '', '## Disclosure', DISC, '']
+    for g, fn in groups:
+        rows = [line(p) for p in idx if fn(p)]
+        if rows: L += [f'## {g}', ''] + rows + ['']
+    L += ['## Optional', '', f'- [Full text of published guides]({SITE}/llms-full.txt)', f'- [Sitemap]({SITE}/sitemap.xml)', '']
 (ROOT / 'llms.txt').write_text('\n'.join(L))
 FT = [f'# {CFG["site_name"]} — full text of published pages', '', f'> {CFG["llms_summary"]}', '', f'Disclosure: {DISC}', '']
 for p in idx:

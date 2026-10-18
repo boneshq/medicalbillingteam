@@ -1,5 +1,5 @@
 {
- "built": "2026-10-18T12:02:40",
+ "built": "2026-10-18T12:07:13",
  "base_path": "/medicalbillingteam",
  "indexing_enabled": false,
  "form_backend_enabled": false,
@@ -7,28 +7,27 @@
   "/",
   "/revenue-cycle-management-staffing/",
   "/denial-management/",
+  "/reduce-ar-days/",
+  "/eligibility-verification-prior-authorization/",
+  "/hire-remote-medical-billers/",
   "/hipaa-outsourced-medical-billing/",
   "/medical-billing-staffing-cost/",
-  "/how-it-works/",
-  "/about/",
-  "/contact/"
- ],
- "stubs": [
-  "/medical-billing-staffing/",
-  "/hire-remote-medical-billers/",
-  "/outsourced-medical-billers/",
-  "/offshore-medical-billing/",
   "/behavioral-health-billing/",
-  "/medical-coders/",
-  "/ar-specialists/",
-  "/reduce-ar-days/",
-  "/credentialing/",
-  "/eligibility-verification-prior-authorization/",
-  "/virtual-medical-assistants/",
-  "/medical-billing-outsourcing/",
+  "/how-it-works/",
   "/faq/",
   "/checklist/",
+  "/about/",
+  "/contact/",
   "/privacy/",
   "/terms/"
+ ],
+ "stubs": [
+  "/hire-remote-medical-coders/",
+  "/ar-specialist/",
+  "/credentialing-specialist/",
+  "/prior-authorization-specialist/",
+  "/medical-billing-outsourcing/",
+  "/offshore-medical-billers/",
+  "/virtual-medical-assistant/"
  ]
 }

@@ -35,7 +35,12 @@
       };
       if (!C.enabled) { msg(f, 'Preview build: the form backend is not connected yet, so nothing was sent.', true); return; }
       f.dataset.busy = '1'; msg(f, 'Sending…');
-      var done = function () { try { window.gtag && gtag('event', 'generate_lead', { form_id: row.form_id }); } catch (x) {} location.href = f.dataset.thanks; };
+      var done = function () {
+        try { window.gtag && gtag('event', 'generate_lead', { form_id: row.form_id }); } catch (x) {}
+        var t = f.dataset.thanks || '';
+        if (t.charAt(0) === '#') { var g = document.querySelector(t); if (g) { g.hidden = false; f.hidden = true; g.scrollIntoView(); } return; }
+        location.href = t;
+      };
       var fail = function () { delete f.dataset.busy; msg(f, 'Sorry, something went wrong. Please try again in a minute.', true); };
       if (C.mode === 'supabase' && C.anonKey) {
         fetch(C.supabaseUrl + '/rest/v1/' + C.table, { method: 'POST',
@@ -47,6 +52,7 @@
       } else fail();
     });
   });
+  document.querySelectorAll('[data-unlock]').forEach(function (b) { b.addEventListener('click', function () { var g = document.getElementById('unlocked'); if (g) g.hidden = false; }); });
   var s = document.querySelector('.sticky-cta');
   if (s && !sessionStorage.getItem('mbt_cta_x')) {
     var onScroll = function () { var h = document.documentElement; if ((h.scrollTop + innerHeight) / h.scrollHeight > 0.4) { s.hidden = false; removeEventListener('scroll', onScroll); } };

@@ -112,6 +112,17 @@ A remote denial specialist works in your billing system and payer portals under 
 
 This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), a provider of remote billing staff. If your denial queue is growing faster than your team can work it, you can [contact the company directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](/contact/) here.
 
+## A weekly denial routine for small teams
+
+If you only have a few hours a week for denials, a fixed routine keeps them from piling up:
+
+1. **Monday:** pull new denials from ERAs and the clearinghouse into one list. Tag each by payer, reason code and dollar amount.
+2. **Tuesday-Wednesday:** correct and resubmit the quick fixes (demographics, coding errors, missing modifiers) and call payers on the unclear ones.
+3. **Thursday:** draft appeals for high-dollar or recurring denials, with supporting documentation and the payer's appeal deadline noted.
+4. **Friday:** review the week. What were the top three reasons? Which could the front desk, providers or coders prevent? Send one short note to the people who can fix the cause.
+
+Keep the list in a shared tracker so nothing depends on one person's memory.
+
 ## FAQ
 
 **What is the difference between a rejection and a denial?**

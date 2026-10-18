@@ -2,7 +2,7 @@
  "site_name": "MedicalBillingTeam.com",
  "canonical_base": "https://medicalbillingteam.com",
  "disclosure": "This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.",
- "llms_summary": "Independent-style informational resource for US medical practices on medical billing staffing, remote and offshore medical billers, revenue cycle management (RCM) staffing, HIPAA considerations when outsourcing, and cost comparisons. Operated by a provider of remote medical billing staff.",
+ "llms_summary": "Practical guides on medical billing staffing, outsourced and offshore billing teams, revenue cycle management (RCM) staffing and HIPAA safeguards for US medical practices and billing companies.",
  "ga4_measurement_id": "G-XXXXXXXXXX",
  "ai_crawlers": [
   "GPTBot",
@@ -86,103 +86,6 @@
    "Coding",
    "Credentialing",
    "Not sure yet"
-  ]
- },
- "ags_intro": "This site is operated by Alliance Global Solutions, which provides remote staff to US businesses.",
- "ags_links": {
-  "_default": [
-   [
-    "Alliance Global Solutions staffing services",
-    "https://www.allianceglobalsolutions.com/services/"
-   ],
-   [
-    "Contact Alliance Global Solutions",
-    "https://www.allianceglobalsolutions.com/contact/"
-   ]
-  ],
-  "ar-specialists": [
-   [
-    "Remote accounting staff",
-    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/"
-   ],
-   [
-    "Contact Alliance Global Solutions",
-    "https://www.allianceglobalsolutions.com/contact/"
-   ]
-  ],
-  "virtual-medical-assistants": [
-   [
-    "Remote administrative staff",
-    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/"
-   ],
-   [
-    "Remote call-center and customer service staff",
-    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/"
-   ]
-  ],
-  "offshore-medical-billing": [
-   [
-    "About Alliance Global Solutions",
-    "https://www.allianceglobalsolutions.com/about-us/"
-   ],
-   [
-    "Alliance Global Solutions staffing services",
-    "https://www.allianceglobalsolutions.com/services/"
-   ]
-  ],
-  "medical-billing-staffing-cost": [
-   [
-    "Remote accounting staff",
-    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/accounting/"
-   ],
-   [
-    "Alliance Global Solutions staffing services",
-    "https://www.allianceglobalsolutions.com/services/"
-   ]
-  ],
-  "eligibility-verification-prior-authorization": [
-   [
-    "Remote call-center and customer service staff",
-    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/call-center-customer-service/"
-   ],
-   [
-    "Remote administrative staff",
-    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/administrative/"
-   ]
-  ],
-  "hire-remote-medical-billers": [
-   [
-    "Remote data entry staff",
-    "https://www.allianceglobalsolutions.com/virtual-assistant-skills/data-entry/"
-   ],
-   [
-    "Careers at Alliance Global Solutions",
-    "https://www.allianceglobalsolutions.com/careers/"
-   ]
-  ],
-  "index": [
-   [
-    "Alliance Global Solutions staffing services",
-    "https://www.allianceglobalsolutions.com/services/"
-   ],
-   [
-    "Browse remote staff profiles",
-    "https://www.allianceglobalsolutions.com/virtual-assistants/"
-   ],
-   [
-    "Contact Alliance Global Solutions",
-    "https://www.allianceglobalsolutions.com/contact/"
-   ]
-  ],
-  "about": [
-   [
-    "About Alliance Global Solutions",
-    "https://www.allianceglobalsolutions.com/about-us/"
-   ],
-   [
-    "Careers at Alliance Global Solutions",
-    "https://www.allianceglobalsolutions.com/careers/"
-   ]
   ]
  },
  "indexing_enabled": false,
