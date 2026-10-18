@@ -1,0 +1,893 @@
+# MedicalBillingTeam.com — full text of published pages
+
+> Independent-style informational resource for US medical practices on medical billing staffing, remote and offshore medical billers, revenue cycle management (RCM) staffing, HIPAA considerations when outsourcing, and cost comparisons. Operated by a provider of remote medical billing staff.
+
+Disclosure: This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.
+
+
+---
+
+# Medical billing staff for US practices, without the hiring headache
+
+URL: https://medicalbillingteam.com/
+
+Claims pile up when one person is out. Denials sit unworked. Prior authorizations eat your front desk's afternoon. This site explains how practices and billing companies solve those problems, including when a dedicated remote billing team makes sense and when it doesn't.
+
+**Get a free staffing assessment.** Tell us a little about your practice and a billing staffing specialist will follow up. It takes about a minute.
+
+
+## Who this site helps
+
+- **Solo and small practices** where the office manager is also the biller, the scheduler and the person who calls payers.
+- **Specialty groups** such as behavioral health, physical therapy, chiropractic, labs and ambulatory surgery centers (ASCs), where payer rules and authorizations are specialty-specific.
+- **Multi-location groups** that need consistent billing processes across sites.
+- **Practice and billing managers** who need more hands on the A/R, denial or authorization queues without adding local headcount.
+- **Medical billing companies** that need to add trained staff as they win new clients.
+
+
+## Common billing problems we write about
+
+- **Denials that never get reworked.** In a vendor survey of billing professionals, 40% reported an increase in denials over the prior year ([Tebra, 2025](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)). Federal transparency data show HealthCare.gov insurers denied 20% of in-network claims in 2023 ([KFF](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/)).
+- **Aging A/R.** Claims nobody has followed up on after 30, 60 or 90 days.
+- **Prior authorization workload.** Physicians surveyed by the AMA reported an average of 39 prior authorization requests per physician per week, taking about 13 hours of physician and staff time ([AMA](https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior-auth-nearly-40-prior-authorizations-week-way)).
+- **Eligibility surprises.** Coverage changes discovered after the visit, not before.
+- **Hiring and turnover.** In the same vendor survey, 38% of billers said they struggle to find qualified candidates ([Tebra, 2025](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)).
+
+Read more: [Revenue cycle management staffing](/revenue-cycle-management-staffing/) · [Denial management](/denial-management/) · [How to reduce AR days](/reduce-ar-days/)
+
+
+## The remote billing team model, explained
+
+A remote billing team is not a software product and not a full billing takeover. It is dedicated people working your queues:
+
+- **They work in your systems.** Your practice management system, clearinghouse and payer portals, with access you grant and can revoke.
+- **They follow your rules.** Your fee schedules, your write-off policy, your escalation path.
+- **They are dedicated.** The same people every day, so they learn your payers and your providers.
+- **You keep control.** You own the process and the payer relationships. The staffing provider recruits, employs, trains and supports the staff.
+
+Typical roles include billing specialists, A/R follow-up specialists, eligibility and benefits verification (VOB) staff, prior authorization coordinators, payment posters, denial follow-up specialists and admissions or intake support.
+
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines. We think a staffing model fits some practices well and others not at all. Our [cost guide](/medical-billing-staffing-cost/) compares in-house, outsourced and remote options side by side.
+
+
+## HIPAA comes first
+
+
+
+If anyone outside your practice will touch patient data, HIPAA is the first question, not the last. Before remote or offshore billing staff log in to anything, you should expect:
+
+- **A business associate agreement (BAA)** with the agency, because a company that handles billing involving protected health information on your behalf is a business associate under HIPAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)).
+- **Minimum necessary, role-based access.** Staff see only what their job requires.
+- **Strong access controls:** unique logins, multi-factor authentication, secure remote access (VPN or virtual desktop) and no local downloads or printing.
+- **Documented training, risk analysis and a breach-reporting process.**
+
+One more thing to know: **there is no official "HIPAA certification"** for companies or staff. HHS's Office for Civil Rights states that it does not endorse, certify or recommend specific technology or products ([HHS](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). Be cautious of anyone who claims to be "HIPAA certified."
+
+[Read the full HIPAA guide for outsourced and offshore billing staff →](/hipaa-outsourced-medical-billing/)
+
+
+## How it works, in 3 steps
+
+1. **Tell us about your workload.** Use the short form above, or the [longer form](/contact/) if you want to share more. No patient information.
+2. **Free staffing assessment.** A specialist reviews your setup with you and suggests which roles, if any, could help. If remote staff aren't a fit, we'll say so.
+3. **Meet candidates and start.** If you go ahead, you interview candidates, sign the agreements (including a BAA), set up access and onboard staff to your workflows.
+
+[See how it works in detail →](/how-it-works/)
+
+
+## Free resource: Medical Billing Health Checklist
+
+A one-page self-audit covering front-end, claims, denials, A/R, payment posting and staffing. [Get the checklist →](/checklist/)
+
+
+## Short FAQ
+
+**What is a remote medical billing team?**
+Dedicated billing and RCM staff who work remotely in your systems and under your workflows. You direct the work; the staffing provider handles recruiting, employment and support.
+
+**Is this the same as hiring a billing company?**
+No. A billing company usually takes over the whole function. A staffing model gives you dedicated people and you keep control.
+
+**What does the free assessment involve?**
+A short conversation about your workload and gaps. No obligation, and no patient information needed.
+
+**Can remote staff work within HIPAA?**
+Yes, when the right agreements and safeguards are in place. There is no official HIPAA certification, so ask about the specific safeguards instead. See the [HIPAA guide](/hipaa-outsourced-medical-billing/).
+
+[More questions →](/faq/)
+
+## FAQ
+
+**What is a remote medical billing team?**
+It is one or more dedicated billing and revenue cycle staff who work remotely inside your systems, under your workflows, doing tasks such as eligibility checks, prior authorizations, claim follow-up, payment posting and denial work. You direct the work; a staffing provider handles recruiting, employment and supervision support.
+
+**Is this the same as outsourcing my billing to a billing company?**
+Not exactly. A billing company usually takes over the whole function, often for a percentage of collections. A staffing model gives you dedicated people who work your queues in your software, and you keep control of the process and your payer relationships.
+
+**What does the free staffing assessment involve?**
+A short call about your workload, specialty, current setup and gaps. We discuss which roles, if any, would make sense. There is no obligation, and we never need patient information for this conversation.
+
+**Do you need patient information to give me an assessment?**
+No. Please do not include any patient information in forms, emails or chat. Practice-level details, such as specialty, number of providers and a collections range, are enough.
+
+**Can remote staff work with HIPAA requirements?**
+Remote staff can work within HIPAA's rules when the right contracts and safeguards are in place, including a business associate agreement, role-based access and training. There is no official 'HIPAA certification' for any company or person. See our HIPAA guide for the questions to ask.
+
+
+---
+
+# Revenue cycle management staffing: roles, workflow, KPIs and costs
+
+URL: https://medicalbillingteam.com/revenue-cycle-management-staffing/
+
+*Last reviewed: October 18, 2026.*
+
+Revenue cycle management (RCM) is every step between a patient booking an appointment and your practice collecting the last dollar for that visit. When one step is understaffed, the effect shows up later, as denials, aging A/R and write-offs. This guide covers the RCM workflow, the roles behind it, the KPIs worth tracking and the three main ways practices and billing companies staff it: in-house, outsourced and dedicated remote or offshore teams.
+
+
+## What RCM staffing means
+
+RCM staffing is the work of putting trained people on each part of the revenue cycle. For a solo practice, that might be one person juggling everything. For a multi-location group or a billing company, it is a team with defined queues: eligibility, authorizations, coding, charge entry, claims, denials, A/R and posting.
+
+There are three common models:
+
+1. **In-house staff.** You recruit, employ, train and manage billing staff locally.
+2. **Outsourced RCM.** A billing or RCM company takes over the function, typically under a contract priced as a percentage of collections or per claim. You trade control for convenience.
+3. **Dedicated remote or offshore RCM staff.** A staffing provider recruits and employs staff, often in another country, who work full time in *your* systems and follow *your* processes. You keep control of the workflow and payer relationships.
+
+Many organizations mix models, for example keeping a local billing manager and coder while adding remote staff for eligibility, posting and A/R follow-up.
+
+
+## The RCM workflow, step by step
+
+### 1. Eligibility and benefits verification
+
+Before the visit, staff confirm active coverage, plan type, copays, deductibles, coordination of benefits and whether a referral or authorization is required. Errors here cause problems later: in a 2025 vendor survey of billing professionals, coordination of benefits issues were the most commonly cited denial reason (45% of respondents), followed by non-coverage (39%) ([Tebra](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)). Read more in our [eligibility verification and prior authorization guide](/eligibility-verification-prior-authorization/).
+
+### 2. Prior authorization
+
+Staff submit and track authorization requests, attach clinical documentation and follow up on pending decisions. The AMA's survey of 1,000 physicians found practices complete an average of 39 prior authorization requests per physician per week, and that 40% of physicians have staff who work exclusively on prior authorizations ([AMA](https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior-auth-nearly-40-prior-authorizations-week-way)). Under the CMS Interoperability and Prior Authorization final rule, impacted payers (Medicare Advantage, Medicaid and CHIP fee-for-service and managed care; FFE qualified health plans are excluded from this particular timeframe requirement) must send decisions within 72 hours for expedited requests and seven calendar days for standard requests, starting in 2026, and must give a specific reason for denials ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f)).
+
+### 3. Medical coding
+
+Certified coders assign CPT, HCPCS and ICD-10-CM codes from provider documentation. Code sets change on a schedule: ICD-10-CM updates generally take effect October 1 each year ([CMS](https://www.cms.gov/medicare/coding-billing/icd-10-codes)), and the AMA's CPT Editorial Panel maintains CPT ([AMA](https://www.ama-assn.org/practice-management/cpt/cpt-overview-and-code-approval)). Coding is skilled work; remote coders should hold recognized credentials and specialty experience.
+
+### 4. Charge entry
+
+Charges, modifiers, units, place of service and rendering provider are entered into the practice management system, often with a charge review step to catch missing documentation or mismatched codes before claims go out.
+
+### 5. Claims submission and scrubbing
+
+Claims are scrubbed for errors, submitted through a clearinghouse, and rejections (claims the payer or clearinghouse never accepted) are corrected quickly. Timely filing limits matter: Medicare generally requires claims within one calendar year of the date of service ([CMS Medicare Claims Processing Manual, Ch. 1, §70](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c01.pdf)), and commercial payer limits are often shorter.
+
+### 6. Denial management
+
+Denied claims are categorized by reason, corrected, resubmitted or appealed, and the root cause is fed back to the front end. HealthCare.gov insurers denied 20% of in-network claims in 2023 according to KFF's analysis of federal data, and consumers appealed fewer than 1% of denied claims ([KFF](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/)). That data covers one market segment, but it shows why someone needs to own the denial queue. See [denial management basics](/denial-management/).
+
+### 7. A/R follow-up
+
+A/R specialists work unpaid claims by age and dollar value, check status on payer portals, call payers and escalate. The goal is to resolve claims before they age past timely filing or appeal limits. See [how to reduce AR days](/reduce-ar-days/).
+
+### 8. Payment posting
+
+Payments from ERAs (835 files), paper EOBs, lockbox deposits and patient payments are posted and reconciled to the bank. Accurate posting is how you spot underpayments, incorrect adjustments and denials that arrive inside a "paid" remittance.
+
+### Supporting functions
+
+- **Credentialing and payer enrollment**, so providers can bill payers at all.
+- **Patient statements and patient A/R.**
+- **Reporting**, so the practice sees the KPIs below every month.
+
+
+## RCM roles you can staff
+
+| Role | What they do | Remote-friendly? |
+|---|---|---|
+| Eligibility / VOB specialist | Verifies coverage and benefits before visits | Yes |
+| Prior authorization coordinator | Submits and tracks authorizations | Yes |
+| Medical coder | Assigns CPT/HCPCS/ICD-10 codes | Yes, with credentials |
+| Charge entry specialist | Enters and reviews charges | Yes |
+| Billing / claims specialist | Scrubs and submits claims, works rejections | Yes |
+| Denial management specialist | Works denials and appeals | Yes |
+| A/R follow-up specialist | Works unpaid claims, calls payers | Yes |
+| Payment poster | Posts and reconciles payments | Yes |
+| Credentialing specialist | Manages enrollment and re-credentialing | Yes |
+| Billing manager | Owns process, reporting and escalation | Often local |
+
+
+## RCM KPIs, defined
+
+Definitions vary slightly between organizations. Pick one definition, document it, and use it consistently.
+
+- **Days in A/R:** total accounts receivable divided by average daily charges (for example, total charges over the last 90 days divided by 90). It estimates how long, on average, it takes to collect.
+- **Clean claim rate:** the share of claims accepted and processed on first submission without edits, rejections or requests for more information.
+- **Denial rate:** denied claims (or denied dollars) divided by total claims (or dollars) submitted in a period. Track by payer and reason code.
+- **Net collection rate:** payments collected divided by the amount you were contractually entitled to collect (charges minus contractual adjustments) for the period. It shows how much collectible revenue you actually captured.
+- **First-pass resolution rate:** the share of claims paid in full, or otherwise fully resolved, after the first submission with no further touches.
+- **A/R over 90 (or 120) days:** the share of A/R older than 90 or 120 days.
+
+**About benchmarks:** published benchmarks vary widely by specialty, payer mix and methodology, and many come from member-only surveys or vendor marketing. We don't publish a benchmark number unless we can cite a public source. Instead, trend your own numbers monthly and compare with specialty data you trust. The [Medical Billing Health Checklist](/checklist/) includes a simple KPI worksheet.
+
+
+## In-house vs outsourced vs dedicated remote RCM: how to compare costs
+
+We won't give you invented price ranges. Here is how to build a fair comparison with your own numbers.
+
+**In-house cost** is more than salary. Add wages, payroll taxes, benefits, paid leave, recruiting, training, software seats, equipment, workspace and management time. Public data help as a starting point: the BLS reports a May 2025 median hourly wage of $23.32 for billing and posting clerks ([BLS OEWS](https://www.bls.gov/news.release/ocwage.t01.htm)) and a median annual wage of $51,140 for medical records specialists, the BLS category that includes medical coders ([BLS OOH](https://www.bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm)). Benefits add materially on top: in private industry, benefits averaged 30.0% of employer compensation costs in June 2026 ([BLS ECEC](https://www.bls.gov/news.release/ecec.nr0.htm)). Then add the cost of vacancies, because unworked queues keep aging while you hire.
+
+**Outsourced RCM cost** is usually a percentage of collections, a per-claim fee, or a hybrid. Ask what is included (coding? credentialing? patient statements? appeals?), how "collections" is defined, minimums, setup fees and exit terms. Model the fee against your actual monthly collections.
+
+**Dedicated remote or offshore staff** are usually priced per full-time staff member per month or per hour. Compare that rate against fully loaded in-house cost for the same role, then add your own costs: management time, onboarding, software seats and secure remote access (for example, a VDI setup).
+
+**Non-cost factors** matter as much as price: control of the workflow, visibility into queues, turnover risk, coverage during absences, HIPAA safeguards, and how quickly you can add or remove capacity. Our [medical billing staffing cost guide](/medical-billing-staffing-cost/) walks through a worksheet.
+
+
+## Choosing an RCM staffing partner
+
+Whatever model you pick, ask:
+
+- Which roles can you staff, and what is the experience level for my specialty?
+- Will staff be dedicated to us, and who supervises them day to day?
+- How do you handle HIPAA: BAA, access controls, training, incident response? (See our [HIPAA guide](/hipaa-outsourced-medical-billing/).)
+- How will we measure performance, and what reporting do we get?
+- What happens if a staff member leaves?
+- What are the contract length, notice period and exit terms?
+
+Be wary of any vendor that guarantees a specific reduction in denials or A/R days before seeing your data. Results depend on your payers, specialty, documentation and starting point.
+
+
+## Where a remote RCM team fits
+
+A dedicated remote team tends to fit when you have steady, queue-based work (eligibility, posting, A/R, denials), systems that support secure remote access, and someone in-house who can own the process. It fits less well if your processes are undocumented or your billing system can't support remote access securely.
+
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff from the Philippines; you can see the company's broader [outsourcing services](https://www.allianceglobalsolutions.com/services/) on its own site. If you'd like a second opinion on your RCM staffing, request a [free staffing assessment](/contact/).
+
+
+## FAQ
+
+**What is revenue cycle management staffing?**
+Filling the roles that move an encounter from scheduling to payment: eligibility, authorization, coding, charge entry, claims, denials, A/R and posting.
+
+**What is the difference between outsourced RCM and an offshore RCM team?**
+Outsourced RCM hands the function to a vendor. An offshore RCM team is dedicated staff abroad working your queues under your direction.
+
+**Which RCM KPIs should a small practice track first?**
+Days in A/R, denial rate, clean claim rate and net collection rate.
+
+**Is there a standard benchmark for days in A/R?**
+Benchmarks vary by specialty and source. Trend your own numbers and compare with specialty data you trust.
+
+**Can remote RCM staff do medical coding?**
+Yes, with the right credentials and specialty experience. Test before live coding.
+
+## FAQ
+
+**What is revenue cycle management staffing?**
+It means filling the roles that move a patient encounter from scheduling to final payment: eligibility and benefits verification, prior authorization, coding, charge entry, claim submission, denial management, A/R follow-up and payment posting. You can staff these roles in-house, outsource the whole function, or add dedicated remote or offshore staff who work in your systems.
+
+**What is the difference between outsourced RCM and an offshore RCM team?**
+Outsourced RCM usually means a vendor runs the revenue cycle for you, often for a percentage of collections. An offshore RCM team is a staffing arrangement where dedicated staff abroad work your queues under your direction. Some vendors combine both.
+
+**Which RCM KPIs should a small practice track first?**
+Start with days in A/R, denial rate, clean claim rate and net collection rate. They are straightforward to calculate from most practice management systems and show where the cycle is slowing.
+
+**Is there a standard benchmark for days in A/R?**
+Benchmarks vary by specialty, payer mix and data source, and many industry benchmark reports are member-only. Track your own trend month to month and compare with specialty-specific data from sources you trust, rather than relying on a single generic number.
+
+**Can remote RCM staff do medical coding?**
+Yes, if they hold the right credentials and specialty experience. Coding is a skilled role; ask for certification details and test candidates on your specialty's documentation before they code live claims.
+
+
+---
+
+# Denial management basics: a practical guide for practices and billing teams
+
+URL: https://medicalbillingteam.com/denial-management/
+
+*Last reviewed: October 18, 2026.*
+
+Every practice gets denials. The difference between practices that lose revenue to them and practices that don't is usually not software. It's whether someone owns the denial queue, works it on a schedule and fixes the causes upstream. This guide covers the basics and where staffing fits in. It is part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
+
+
+## Why denials deserve a dedicated owner
+
+Public data show how common denials are. KFF's analysis of federal transparency data found HealthCare.gov insurers denied 20% of in-network claims in 2023 ([KFF](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/)). That covers one market segment, but the pattern is familiar to anyone who works claims. In a 2025 vendor survey of billing professionals, 40% reported that denials had increased over the previous year ([Tebra](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)).
+
+When nobody owns denials, they age quietly in a work queue until the appeal window closes.
+
+
+## Rejections vs denials
+
+- **Rejection:** the claim never entered the payer's adjudication system, usually because of a data or formatting error (wrong member ID format, missing NPI, invalid code). Fix and resubmit quickly. Rejections don't usually carry appeal rights because no decision was made.
+- **Denial:** the payer processed the claim and refused payment in whole or part. The remittance carries claim adjustment reason codes (CARCs) and often remittance advice remark codes (RARCs) explaining why. These are standard code sets used by all payers, as CMS describes in its Medicare Claims Processing Manual ([CMS, Ch. 1](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c01.pdf)).
+
+
+## Common root causes
+
+The same vendor survey asked billers about top denial reasons ([Tebra](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)):
+
+- coordination of benefits issues (45% of respondents);
+- non-coverage (39%);
+- prior authorization and referral issues (31%);
+- timely filing errors (26%);
+- inaccurate patient demographic information (25%).
+
+In KFF's federal data, insurers cited administrative reasons for 21% of in-network denials and lack of prior authorization or referral for 9%, while the largest category was "Other" at 34% ([KFF](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/)).
+
+Most of these trace back to the **front end**: eligibility checks, demographics capture and authorizations. That's why denial management and [eligibility and prior authorization](/eligibility-verification-prior-authorization/) work belong together.
+
+
+## A simple denial workflow
+
+### 1. Capture every denial
+
+Make sure denials from ERAs (835s), paper EOBs and payer portals all land in one queue. Payment posters are often the first to see a denial; they should flag it, not just post a zero.
+
+### 2. Categorize
+
+Tag each denial by payer, reason code group (eligibility, authorization, coding, timely filing, medical necessity, duplicate, bundling, other) and whether it is **preventable**.
+
+### 3. Prioritize
+
+Sort by appeal or corrected-claim deadline first, then dollar value. A small denial with a deadline next week beats a large one with three months left.
+
+### 4. Act
+
+- **Correct and resubmit** for fixable data errors (demographics, codes, modifiers).
+- **Appeal** when the claim was correct and the payer was wrong. Use the payer's form, cite the policy, attach documentation, and track the appeal date.
+- **Bill the right party** for coordination of benefits issues.
+- **Write off** only under your written write-off policy, with approval.
+
+### 5. Track and close the loop
+
+Log the outcome. Each month, review the top preventable reasons by payer and send fixes upstream: a front-desk script change, an authorization rule, a coding education note.
+
+
+## Appeals: the basics
+
+- Read the denial reason and the payer's policy before writing anything.
+- Know the deadline. Payer appeal windows differ, and Medicare has its own multi-level appeals process.
+- Include what the payer needs: claim details, the specific reason you disagree, policy citations and supporting documentation.
+- Follow up. An appeal that's never tracked is an appeal that's lost.
+
+Appeals can succeed. KFF reports that among Medicare Advantage prior authorization denials in 2023 that were appealed, 81.7% were fully or partially overturned, yet only 11.7% of denials were appealed (cited in [AMA](https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior-auth-nearly-40-prior-authorizations-week-way)). That's prior authorization data, not claims, but it shows the value of persistence.
+
+
+## Denial KPIs to track
+
+- **Denial rate:** denied claims (or dollars) ÷ claims (or dollars) submitted, by payer and reason.
+- **Preventable denial share:** denials in categories the practice controls.
+- **Days to work a denial:** from receipt to first action.
+- **Overturn rate:** successful appeals ÷ appeals filed.
+- **Denial write-offs:** dollars written off due to denials, per month.
+
+We don't publish a universal "good" denial rate, because public benchmarks vary by specialty and methodology. Trend your own numbers. Our [RCM KPI definitions](/revenue-cycle-management-staffing/) explain how to calculate each one consistently.
+
+
+## Who should do denial work?
+
+Denial work needs someone with payer knowledge, coding familiarity, patience on the phone and protected time. Options:
+
+- **Your existing biller**, if they actually have the hours. Often they don't.
+- **A dedicated denial management specialist**, in-house or remote, who works the queue daily.
+- **An outsourced billing company** that includes appeals in its scope (confirm this; some don't).
+
+A remote denial specialist works in your billing system and payer portals under your rules and write-off policy. If you're considering that route, read our [guide to hiring remote medical billers](/hire-remote-medical-billers/) and make sure HIPAA safeguards are in place first ([HIPAA guide](/hipaa-outsourced-medical-billing/)).
+
+
+## Preventing denials upstream
+
+- Verify eligibility and benefits before every visit, not just new patients.
+- Confirm authorization requirements by payer and service, and track expirations and visit limits.
+- Capture demographics and insurance cards accurately; re-verify at every visit.
+- Scrub claims before submission and fix rejections daily.
+- Give coders feedback on recurring coding denials.
+- Track timely filing deadlines per payer.
+
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), a provider of remote billing staff. If your denial queue is growing faster than your team can work it, you can [contact the company directly](https://www.allianceglobalsolutions.com/contact/) or request a [free staffing assessment](/contact/) here.
+
+
+## FAQ
+
+**What is the difference between a rejection and a denial?**
+A rejection was never accepted for processing; a denial was processed and not paid. Fix and resubmit rejections; correct, resubmit or appeal denials.
+
+**What are the most common causes of denials?**
+Eligibility and coordination of benefits, non-covered services, missing authorizations, timely filing, coding errors and demographics.
+
+**How often should denials be worked?**
+Daily or weekly, by deadline and dollar value.
+
+**What is a good denial rate?**
+It varies by specialty and method. Trend your own rate by payer and reason.
+
+**Should denial work be in-house or outsourced?**
+Either works if one person owns the queue and feeds root causes back upstream.
+
+## FAQ
+
+**What is the difference between a claim rejection and a denial?**
+A rejection means the claim was not accepted for processing, usually because of formatting or data errors caught by the clearinghouse or payer front end. A denial means the payer processed the claim and decided not to pay all or part of it. Rejections are corrected and resubmitted; denials are corrected, resubmitted or appealed.
+
+**What are the most common causes of claim denials?**
+Common categories include eligibility and coordination of benefits problems, non-covered services, missing prior authorization or referral, timely filing, coding errors and inaccurate patient demographics. In one 2025 vendor survey, billers most often cited coordination of benefits, non-coverage and prior authorization issues.
+
+**How often should denials be worked?**
+Daily or at least weekly, prioritized by dollar value and appeal deadline. Denials left for weeks risk missing appeal windows.
+
+**What is a good denial rate?**
+Benchmarks vary by specialty, payer mix and how the rate is calculated. Track your own denial rate by payer and reason each month and focus on the reasons you can prevent.
+
+**Should denial work be in-house or outsourced?**
+Either can work. What matters is that a specific person owns the queue, has payer knowledge and time to do it, and feeds root causes back to the front desk and coders.
+
+
+---
+
+# HIPAA and outsourced medical billing staff: what to check before anyone logs in
+
+URL: https://medicalbillingteam.com/hipaa-outsourced-medical-billing/
+
+*Last reviewed: October 18, 2026. General information, not legal advice. Talk to your own healthcare attorney or compliance adviser about your situation.*
+
+Billing work runs on patient data. Names, dates of birth, member IDs, diagnosis and procedure codes and payment details all sit on the screens your billing staff use every day. So when you bring in outsourced, remote or offshore billing staff through an agency, HIPAA is not a box to tick at the end. It shapes which agency you choose, how the contract is written, how access is set up and what happens if something goes wrong.
+
+This guide explains the main HIPAA concepts that apply when a staffing agency provides dedicated billing staff, and ends with a checklist of questions to ask any agency, including ours.
+
+
+## First, a myth: there is no "HIPAA certification"
+
+You will see agencies and freelancers describe themselves as "HIPAA certified." There is no such official credential. The HHS Office for Civil Rights (OCR), which enforces HIPAA, says plainly that it "does not endorse, certify, or recommend specific technology or products" ([HHS, Guidance on HIPAA & Cloud Computing](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). Training companies issue certificates of course completion, and independent auditors can assess security programs, but neither is a government HIPAA certification.
+
+What matters is evidence of specific safeguards: a signed business associate agreement, documented policies, training records, a current risk analysis and technical controls you can verify. We don't claim to be "HIPAA certified," and you shouldn't accept that claim from anyone.
+
+
+## Why an agency is usually a business associate
+
+HIPAA's rules apply directly to **covered entities** (health plans, clearinghouses and health care providers that conduct standard electronic transactions such as claims) and to their **business associates**. HHS defines a business associate generally as a person or organization, other than a member of the covered entity's workforce, that performs functions or services on behalf of a covered entity involving the use or disclosure of protected health information (PHI). HHS lists **billing, claims processing and practice management** among the examples ([HHS, Business Associates](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)).
+
+A staffing agency whose people work your claims, check eligibility or post payments in your systems is therefore typically a business associate. A billing company that serves practices is often itself a business associate, so if it adds agency staff, the agency becomes a **subcontractor business associate**, and HHS says a business associate must have a BAA with its subcontractor before disclosing PHI to it ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)).
+
+Business associates are not just contractually bound. Since the HITECH Act, they are directly liable for complying with the Security Rule's safeguards and certain Privacy Rule provisions ([HHS, Summary of the Security Rule](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)).
+
+
+## The business associate agreement (BAA)
+
+HIPAA permits you to share PHI with a business associate only after you obtain "satisfactory assurances," in the form of a BAA, that it will safeguard the information ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). According to HHS, a BAA must, among other things:
+
+- describe the permitted and required uses and disclosures of PHI;
+- state that the business associate will not use or further disclose PHI except as the agreement permits or the law requires;
+- require compliance with applicable Security Rule requirements;
+- require reporting of security incidents and breaches of unsecured PHI;
+- require that subcontractors agree to the same restrictions through their own BAAs; and
+- address return or destruction of PHI at the end of the relationship, where feasible.
+
+HHS publishes [sample business associate agreement provisions](https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html). Have your counsel review any BAA rather than relying on the agency's template alone.
+
+**Practical tip:** sign the BAA before you create a single login. No PHI should move during interviews or trials without one.
+
+
+## PHI handling and the "minimum necessary" standard
+
+The Privacy Rule asks covered entities and business associates to make reasonable efforts to use, disclose and request only the **minimum necessary** PHI for the purpose, and to restrict workforce access based on role ([HHS, Summary of the Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html)). For billing teams, minimum necessary in practice looks like:
+
+- A payment poster gets posting screens and remittance files, not full clinical charts.
+- An A/R follow-up specialist sees the claims and payer correspondence in their queue, not every patient in the system.
+- An eligibility specialist uses payer portals and scheduling data, not visit notes.
+- PHI is never pasted into personal email, chat apps, unapproved AI tools or spreadsheets on personal drives.
+
+Behavioral health and substance use disorder programs carry extra rules. Records covered by 42 CFR Part 2 have their own consent and redisclosure limits; HHS notes that compliance with the 2024 Part 2 final rule was required by February 16, 2026 ([HHS, Part 2](https://www.hhs.gov/hipaa/for-professionals/special-topics/hipaa-part-2/index.html)). See our [behavioral health billing guide](/behavioral-health-billing/).
+
+
+## Access controls to expect
+
+The Security Rule is "technology neutral." It requires access control, audit controls, integrity controls, person or entity authentication and transmission security, but lets each organization choose reasonable and appropriate measures based on its risks ([HHS](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)). For remote and offshore billing staff, these are common, sensible controls to ask about:
+
+- **Unique user IDs.** No shared logins, ever. Each person's activity should be traceable.
+- **Multi-factor authentication (MFA)** on your practice management system, clearinghouse, payer portals, email and the agency's own systems.
+- **Secure remote access.** A VPN, or better, a virtual desktop (VDI) so PHI stays on your servers or cloud and is only displayed remotely.
+- **No local downloads, printing or USB storage.** Endpoint controls that block saving files, screenshots where feasible, and removable media.
+- **Role-based access** mapped to each job, reviewed regularly, and removed the same day someone leaves.
+- **Managed, encrypted company devices** with current patches and endpoint protection, rather than personal computers.
+- **Activity logging and audit review.** Logs of who accessed what and when, reviewed on a schedule.
+- **Physical controls.** For office-based teams, controlled facility access and clean-desk rules; for home-based staff, private workspaces and screen-privacy rules.
+
+
+## Workforce training
+
+The Security Rule requires security awareness training for all workforce members and appropriate sanctions for people who violate policies ([HHS](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)). Ask the agency for:
+
+- HIPAA privacy and security training at onboarding and at least annually;
+- phishing and social-engineering awareness;
+- client-specific training on your policies, payer portals and escalation paths;
+- signed confidentiality agreements; and
+- training records you can review.
+
+
+## Audits and risk assessments
+
+Both covered entities and business associates must perform an accurate and thorough **risk analysis** of threats to electronic PHI, manage those risks, and periodically evaluate their safeguards ([HHS, Security Rule summary](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)). When you add an agency:
+
+- Update your own risk analysis to include the new remote access paths and locations.
+- Ask when the agency last completed its risk analysis and what it changed as a result.
+- Ask whether it has had an independent security assessment (for example, a third-party audit or penetration test) and whether it will share a summary.
+- Agree in writing on your right to request documentation. HHS notes that HIPAA does not expressly require vendors to allow customer audits, but customers may require additional assurances through the BAA or service agreement ([HHS, Cloud Computing FAQ 10](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)).
+
+
+## Breach notification
+
+Under the Breach Notification Rule, if a breach of unsecured PHI occurs at or by a business associate, the business associate must notify the covered entity **without unreasonable delay and no later than 60 days** after discovery, and provide, to the extent possible, the identity of affected individuals ([HHS, Breach Notification Rule](https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html)). The covered entity then has its own obligations to notify individuals, HHS and, for larger breaches, the media.
+
+Many practices negotiate a much shorter reporting window in the BAA. Ask the agency to walk you through its incident response plan: who detects an incident, who calls you, and how fast.
+
+
+## Offshore considerations
+
+HIPAA does not prohibit offshore work. In its cloud guidance, HHS says the HIPAA Rules "do not include requirements specific to protection of electronic protected health information (ePHI) processed or stored by a CSP or any other business associate outside of the United States," but warns that overseas outsourcing "may increase the risks and vulnerabilities to the information or present special considerations with respect to enforceability" ([HHS, Cloud Computing FAQ 9](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html)). Practical steps:
+
+- **Keep PHI onshore where possible.** With VDI, data stays in your US-hosted systems and offshore staff only view it.
+- **Know the legal entity.** Confirm which company signs the BAA, where it is incorporated, and whether a US entity is accountable.
+- **Check payer and state rules.** Some payer contracts, Medicaid programs and government plans restrict offshore access to member data. Check before you assign offshore staff to those accounts.
+- **Plan for continuity.** Ask about power, internet redundancy and backup work sites.
+- **Document it in your risk analysis**, including country-specific risks.
+
+
+## Questions to ask any billing staffing agency
+
+Print this list and use it on every agency call, including with us.
+
+1. Will you sign our BAA (or offer one our counsel can review) before any access to PHI?
+2. Which legal entity signs, and do you use any subcontractors who would touch PHI? Do they sign BAAs too?
+3. When did you last complete a HIPAA security risk analysis? What changed afterward?
+4. Have you had an independent security assessment? Can you share a summary?
+5. Do your staff use unique logins and MFA on every system?
+6. Do staff work through VDI or VPN? Can they download, print, screenshot or use USB storage?
+7. Are devices company-managed and encrypted? Who patches them?
+8. How do you enforce minimum necessary and role-based access?
+9. What background checks do you run on staff?
+10. What HIPAA training do staff complete, how often, and can we see records?
+11. Do staff work from an office, from home, or both? What physical safeguards apply?
+12. What is your incident response plan, and how fast will you notify us of a suspected incident?
+13. How do you remove access on the day someone leaves?
+14. How do you handle Part 2 records, if we have them?
+15. Do you claim to be "HIPAA certified"? (The right answer is that no such official certification exists.)
+
+
+## How this site handles your information
+
+Our forms never ask for patient information, and we ask you not to submit any. We collect only business contact and practice-level details. See our [Privacy Policy](/privacy/).
+
+
+## Next steps
+
+- Compare options in our [medical billing staffing cost guide](/medical-billing-staffing-cost/).
+- Read [how to hire remote and offshore medical billers](/hire-remote-medical-billers/).
+- Ask us these questions directly with a [free staffing assessment](/contact/). This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/); you can also reach the company through its [contact page](https://www.allianceglobalsolutions.com/contact/).
+
+
+## FAQ
+
+**Is there such a thing as HIPAA certification?**
+No. There is no official HIPAA certification for companies or people. OCR does not endorse or certify products or vendors.
+
+**Does a billing staffing agency need to sign a BAA?**
+If its staff will create, receive, maintain or transmit PHI on your behalf, it is generally a business associate and a BAA is required before PHI is shared.
+
+**Can offshore staff access PHI under HIPAA?**
+HIPAA has no offshore-specific ban, but HHS notes increased risk and enforceability concerns. Address them in your risk analysis and safeguards, and check payer contracts.
+
+**How quickly must a business associate report a breach?**
+Without unreasonable delay and no later than 60 days after discovery. Many BAAs require faster notice.
+
+**What does minimum necessary mean for billing staff?**
+Access only to the PHI each role needs, enforced by role-based permissions.
+
+## FAQ
+
+**Is there such a thing as HIPAA certification?**
+No. There is no official HIPAA certification for companies or individuals. HHS's Office for Civil Rights says it does not endorse, certify or recommend specific technology or products. Private training courses may issue certificates, but these are not government certification of HIPAA compliance.
+
+**Does a medical billing staffing agency need to sign a BAA?**
+If the agency or its staff will create, receive, maintain or transmit protected health information on your behalf, such as by working claims in your billing system, the agency is generally a business associate and HIPAA requires a business associate agreement before PHI is shared. Confirm your situation with your own counsel.
+
+**Can offshore staff access PHI under HIPAA?**
+HIPAA does not ban offshore work. HHS guidance on cloud services says the rules do not include requirements specific to PHI handled outside the US, but notes that overseas arrangements may increase risk and raise enforceability concerns. Those risks should be addressed in your risk analysis and safeguards.
+
+**How quickly must a business associate report a breach?**
+Under the Breach Notification Rule, a business associate must notify the covered entity without unreasonable delay and no later than 60 days after discovering a breach of unsecured PHI. Many BAAs set a shorter deadline.
+
+**What does minimum necessary mean for billing staff?**
+It means making reasonable efforts to use, disclose and request only the minimum PHI needed for the task. For billing staff, that usually means role-based access limited to the queues, screens and payers they actually work.
+
+
+---
+
+# Medical billing staffing cost: in-house vs outsourced vs remote staff
+
+URL: https://medicalbillingteam.com/medical-billing-staffing-cost/
+
+*Last reviewed: October 18, 2026.*
+
+"How much does it cost?" is the first question practices ask about billing help, and the honest answer is: it depends on your volume, specialty and what you're comparing. Instead of quoting price ranges we can't back up, this guide shows you how to compare three common models using your own numbers and public wage data.
+
+The three models:
+
+1. **In-house staff** you hire and employ.
+2. **Outsourced billing company** that runs billing for you.
+3. **Dedicated remote staff** from a staffing provider, working in your systems.
+
+For the bigger picture of roles and workflow, see our [revenue cycle management staffing guide](/revenue-cycle-management-staffing/).
+
+
+## Model 1: In-house billing staff
+
+### What you pay
+
+Salary is the visible part. The full cost includes:
+
+- **Wages.** The Bureau of Labor Statistics reports a May 2025 national median hourly wage of $23.32 for billing and posting clerks, with a mean annual wage of $51,070 ([BLS OEWS](https://www.bls.gov/news.release/ocwage.t01.htm)). For medical records specialists, the BLS category that includes medical coders, the May 2025 median was $51,140 per year ([BLS OOH](https://www.bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm)). Local wages vary widely, so check your metro area in BLS data.
+- **Benefits and payroll taxes.** In private industry, benefits averaged 30.0% of total employer compensation costs in June 2026, and wages the other 70.0% ([BLS ECEC](https://www.bls.gov/news.release/ecec.nr0.htm)).
+- **Recruiting and onboarding.** Job ads, interview time, background checks, training time before the person is productive.
+- **Software and equipment.** Practice management seats, clearinghouse fees attributable to the user, computer, phone, workspace.
+- **Supervision.** The hours a manager spends reviewing work and answering questions.
+
+### What it's good for
+
+Direct control, on-site collaboration with providers and front desk, and deep familiarity with your practice over time.
+
+### Watch-outs
+
+Single points of failure (one biller on vacation means nothing gets worked), recruiting difficulty, and turnover. In a 2025 vendor survey, 38% of billing professionals said they struggle to find qualified candidates and 28% cited rising wages they can't afford ([Tebra](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)).
+
+
+## Model 2: Outsourced billing company
+
+### How pricing usually works
+
+Billing companies commonly charge:
+
+- a **percentage of collections** (the most common model for practices);
+- a **per-claim** fee; or
+- a **flat monthly** fee, sometimes with minimums.
+
+We don't publish typical percentages because we haven't found a reliable public source for them, and quotes vary with specialty, volume and scope. Get at least two written quotes and compare them on the same basis.
+
+### Questions that change the real price
+
+- What does "collections" include? Patient payments? Capitation? Refunds netted out?
+- What is included: coding, credentialing, patient statements, patient calls, appeals, old A/R cleanup, reporting?
+- Are there setup fees, minimum monthly fees or fees for old A/R?
+- What are the contract term, termination notice and data return terms?
+- Who owns the payer relationships and portal logins?
+
+### What it's good for
+
+Practices that want to hand off the whole function and don't want to manage billing staff at all.
+
+### Watch-outs
+
+Less day-to-day visibility, less control over priorities, and cost that rises with your collections even if the workload doesn't.
+
+
+## Model 3: Dedicated remote billing staff
+
+### How pricing usually works
+
+Staffing providers typically charge a monthly or hourly rate per full-time staff member. You direct the work in your systems; the provider recruits, employs and supports the staff.
+
+### Your costs on top of the rate
+
+- **Management time** to assign work, review output and answer questions, especially in the first month.
+- **Onboarding** on your procedures and payers.
+- **Software seats** for each user.
+- **Secure remote access**, such as a virtual desktop (VDI) or VPN with multi-factor authentication. See our [HIPAA guide](/hipaa-outsourced-medical-billing/) for what to require.
+
+### What it's good for
+
+Practices and billing companies that want dedicated capacity and control without local hiring, especially for queue-based work: eligibility, prior authorization, payment posting, A/R follow-up and denials.
+
+### Watch-outs
+
+You still own the process. If your workflows aren't documented, remote staff will struggle, just as a new local hire would. Time-zone coverage, payer contract restrictions on offshore access and HIPAA safeguards all need to be settled up front.
+
+
+## A side-by-side comparison
+
+| Factor | In-house | Outsourced billing company | Dedicated remote staff |
+|---|---|---|---|
+| Pricing basis | Wages + benefits + overhead | % of collections, per claim or flat | Per staff member (monthly/hourly) |
+| Control of workflow | Full | Limited | Full (you direct) |
+| Who manages staff | You | Vendor | You direct; provider employs/supports |
+| Systems | Yours | Often vendor's or yours | Yours |
+| Coverage for absences | You arrange | Vendor | Provider can backfill (confirm in contract) |
+| Scales with | Headcount | Collections | Headcount |
+| HIPAA arrangement | Workforce member | Business associate (BAA) | Business associate (BAA) |
+
+
+## Worksheet: compare with your own numbers
+
+1. **Monthly workload.** Claims per month, eligibility checks per day, authorizations per week, open A/R by aging bucket.
+2. **Staff needed.** Roughly how many full-time people that workload requires (ask your billing lead).
+3. **In-house cost per FTE.** Local wage × hours + benefits (BLS: benefits ≈ 30% of private-industry compensation costs) + recruiting, software, equipment, supervision ÷ 12.
+4. **Outsourced cost.** Quoted percentage × average monthly collections + any minimums or add-on fees.
+5. **Remote staff cost.** Quoted monthly rate × FTEs + your software seats + remote access + management time.
+6. **Risk adjustments.** Cost of a vacancy month (unworked claims aging), turnover frequency, and the value of control and visibility to you.
+
+The [Medical Billing Health Checklist](/checklist/) includes this worksheet in printable form.
+
+
+## Hidden costs people forget
+
+- **Vacancies.** When a biller leaves, A/R keeps aging. Some claims can hit timely filing limits; Medicare generally allows one calendar year from the date of service ([CMS Claims Processing Manual, Ch. 1](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c01.pdf)) and many commercial payers allow less.
+- **Owner time.** Physicians and managers who "just help with billing" are an expensive labor source.
+- **Rework.** Denials that are corrected late cost more staff time than claims done right the first time. See [denial management basics](/denial-management/).
+- **Switching costs.** Data migration, contract exit fees and retraining when you change models.
+
+
+## Which model fits?
+
+- **Choose in-house** if you have steady volume, can recruit locally and want everything on-site.
+- **Choose an outsourced billing company** if you want to hand off the whole function and accept less control.
+- **Choose dedicated remote staff** if you want control and dedicated capacity, have documented workflows, and can support secure remote access.
+
+Many practices combine models: a local billing manager plus remote specialists for specific queues.
+
+This site is operated by [Alliance Global Solutions](https://www.allianceglobalsolutions.com/), which provides remote staff; you can review its [service lines](https://www.allianceglobalsolutions.com/services/) on its own site. If you want help working through the worksheet, request a [free staffing assessment](/contact/). We'll tell you if another model makes more sense.
+
+
+## FAQ
+
+**How much does outsourced medical billing cost?**
+Usually a percentage of collections, a per-claim fee or a monthly fee. Compare the fee applied to your actual collections against your fully loaded in-house cost.
+
+**What is the fully loaded cost of an in-house biller?**
+Wages plus taxes, benefits, leave, recruiting, training, software, equipment, workspace and supervision. Benefits averaged 30% of private-industry compensation costs in June 2026 (BLS).
+
+**Are remote billing staff cheaper than in-house staff?**
+Often the rate is lower, but compare total cost including your management time, onboarding, software and secure access.
+
+**Is a percentage-of-collections fee better than paying for staff?**
+It depends on volume and how much control you want.
+
+**What hidden costs should I include?**
+Vacancies, turnover, overtime, aging A/R, timely filing write-offs and owner time.
+
+## FAQ
+
+**How much does outsourced medical billing cost?**
+Billing companies commonly price as a percentage of collections, a per-claim fee or a monthly fee. The right comparison is the fee applied to your actual collections and claim volume, compared with your fully loaded in-house cost. Ask exactly what services are included and how collections are defined.
+
+**What is the fully loaded cost of an in-house medical biller?**
+Wages plus payroll taxes, benefits, paid leave, recruiting, training, software licenses, equipment, workspace and supervision time. BLS data show benefits averaged 30% of private-industry employer compensation costs in June 2026, so salary alone understates the cost.
+
+**Are remote medical billing staff cheaper than in-house staff?**
+Often the hourly rate is lower, but you should compare total cost, including your management time, onboarding, software seats and secure remote access, against the fully loaded cost of a local hire for the same role.
+
+**Is a percentage-of-collections fee better than paying for staff?**
+It depends on your volume and needs. Percentage pricing scales with collections and bundles management, but you give up some control. Staffing pricing is predictable and keeps control in-house, but you manage the process.
+
+**What hidden costs should I include?**
+Vacancies and turnover, overtime, aging A/R while positions are unfilled, write-offs from missed timely filing limits, and the time owners or managers spend doing billing themselves.
+
+
+---
+
+# How a remote medical billing team works
+
+URL: https://medicalbillingteam.com/how-it-works/
+
+A dedicated remote billing team is people, not software. Here is what the process looks like from the first conversation to day-to-day work.
+
+
+## Step 1: Tell us about your workload
+
+Use the [short form on the home page](/#assessment) or the [longer contact form](/contact/). We ask for practice-level details only: specialty, number of providers, a collections range and your current setup. **Never include patient information.**
+
+
+## Step 2: Free staffing assessment
+
+A billing staffing specialist talks with you, usually for 20 to 30 minutes, about:
+
+- which queues are falling behind (eligibility, authorizations, claims, denials, A/R, posting);
+- your systems, payers and specialty-specific rules;
+- whether your systems can support secure remote access;
+- the hours and coverage you need; and
+- whether a remote team is a sensible fit at all.
+
+If it isn't, for example because your processes are undocumented or your payer contracts restrict offshore access, we'll tell you.
+
+
+## Step 3: Meet candidates, sign agreements, onboard
+
+If you decide to go ahead:
+
+1. **Role definition.** We agree on tasks, hours, systems and how performance will be measured.
+2. **Candidate interviews.** You interview shortlisted candidates and choose who joins your team.
+3. **Agreements.** A services agreement and a **business associate agreement (BAA)** are signed before anyone receives access to protected health information. See our [HIPAA guide](/hipaa-outsourced-medical-billing/).
+4. **Secure access setup.** Unique logins, multi-factor authentication, role-based permissions and secure remote access (VDI or VPN), with no local downloads.
+5. **Training on your workflows.** Your procedures, payers, escalation rules and reporting.
+6. **Ramp-up.** Start with a defined queue, review work closely in the first weeks, then expand.
+
+
+## Day to day
+
+- Staff work your queues during agreed hours, often overlapping US business hours.
+- You set priorities and approve anything outside the agreed rules (write-offs, refunds, appeals strategy).
+- You get regular reporting on volumes worked and the KPIs you choose, such as days in A/R or denial rate. See [RCM KPIs, defined](/revenue-cycle-management-staffing/).
+- You can add roles or reduce capacity under the terms of your agreement.
+
+
+## What we don't do
+
+- We don't ask for patient information through this website.
+- We don't claim to be "HIPAA certified"; no such official certification exists.
+- We don't promise specific outcomes before understanding your data.
+
+[Request a free staffing assessment →](/contact/)
+
+## FAQ
+
+**Do remote staff use our software or theirs?**
+Yours. Dedicated staff work in your practice management system, clearinghouse and payer portals, with access you grant and can revoke at any time.
+
+**Who manages the remote staff day to day?**
+You direct the work and set priorities. The staffing provider handles employment, HR, equipment, attendance and support, and can help with supervision and reporting.
+
+**What do we need to have in place first?**
+A signed business associate agreement, a secure way for staff to reach your systems (ideally a virtual desktop or VPN with MFA), user accounts with role-based access, and documented procedures for the tasks you're assigning.
+
+**Can we start with one person?**
+Yes. Many practices start with one role, such as eligibility verification or A/R follow-up, and add more once the workflow is running smoothly.
+
+
+---
+
+# About this site
+
+URL: https://medicalbillingteam.com/about/
+
+Medical Billing Team is a resource for US medical practices and billing companies that are sorting out how to staff their billing and revenue cycle work. We write plain-English guides on topics like denial management, A/R follow-up, eligibility and prior authorization, HIPAA safeguards for outsourced staff and the real costs of different staffing models.
+
+
+## Disclosure: who operates this site
+
+**This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.**
+
+That means we have a commercial interest in the topics we write about. Alliance Global Solutions provides remote staff, based in the Philippines, for roles such as billing specialists, A/R follow-up, eligibility and insurance verification (VOB), prior authorization, payment posting, denial follow-up and admissions or intake support. You can learn more about the company on its own website: [about Alliance Global Solutions](https://www.allianceglobalsolutions.com/about-us/).
+
+We think you should know that before you read anything here, so this disclosure also appears in the footer of every page and next to our forms.
+
+
+## How we write our guides
+
+- **We explain options fairly**, including when in-house staff or a full-service billing company is a better fit than remote staff.
+- **We cite public sources.** Any statistic on this site links to a public source such as CMS, HHS, the Bureau of Labor Statistics, the AMA or KFF. Where we cite a vendor survey, we say so. If we can't find a reliable public source for a number, we leave the number out.
+- **We don't promise results.** Billing outcomes depend on your payers, specialty, documentation and processes. We don't claim that any staffing model will cut denials or A/R days by a set amount.
+- **No fake proof.** You won't find invented testimonials, star ratings, client logos or case studies here. If we ever publish a client story, it will be real, permission-based and clearly labeled.
+- **We are not "HIPAA certified," and neither is anyone else.** There is no official HIPAA certification. We explain what safeguards to look for in our [HIPAA guide](/hipaa-outsourced-medical-billing/).
+- **We review and update.** Each guide shows a "last reviewed" date. Billing rules change, and we update pages when CMS, payers or code sets change.
+
+
+## Not legal or financial advice
+
+Our content is general information. It is not legal, compliance, coding or financial advice. For decisions about HIPAA, contracts or reimbursement, talk to qualified advisers.
+
+
+## Your information
+
+Our forms collect only business contact and practice-level information. **Please never submit patient information.** We explain what we collect and how we use it in our [Privacy Policy](/privacy/).
+
+
+## Contact
+
+Questions or corrections? [Contact us](/contact/). If you spot an error in a guide, we want to fix it.
+
+---
+
+# Request a free staffing assessment
+
+URL: https://medicalbillingteam.com/contact/
+
+Tell us about your practice or billing company and a billing staffing specialist will follow up, usually within one business day. The assessment is free and there's no obligation. If remote staff aren't a good fit for you, we'll say so.
+
+> **Do not include any patient information.** This form is for business inquiries only. Please don't enter patient names, dates of birth, addresses, member or policy IDs, claim numbers, account numbers, diagnoses, treatment details or any other health information, in any field, including the comments box.

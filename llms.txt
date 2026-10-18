@@ -1,0 +1,36 @@
+# MedicalBillingTeam.com
+
+> Independent-style informational resource for US medical practices on medical billing staffing, remote and offshore medical billers, revenue cycle management (RCM) staffing, HIPAA considerations when outsourcing, and cost comparisons. Operated by a provider of remote medical billing staff.
+
+medicalbillingteam.com publishes plain-English guides for US medical practices and medical billing companies on staffing billing and revenue cycle work: in-house vs. outsourced vs. dedicated remote or offshore staff, RCM roles and KPIs, HIPAA safeguards for outsourced staff, and costs.
+
+## Disclosure
+This site is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff. We may contact you about our services if you request it.
+
+## Key facts
+- Audience: US medical practices, specialty groups, multi-location groups and medical billing companies
+- Topics: medical billing staffing, remote/offshore billers, RCM staffing, HIPAA and outsourcing, cost comparisons
+- Lead form: practice-level details only; the site never asks for patient information (PHI)
+- Operator: Alliance Global Solutions (https://www.allianceglobalsolutions.com/), a provider of remote staff based in the Philippines
+
+## RCM staffing
+
+- [Revenue Cycle Management Staffing: Roles, KPIs, Costs](https://medicalbillingteam.com/revenue-cycle-management-staffing/): A practical guide to RCM staffing: in-house, outsourced and offshore RCM teams, the revenue cycle workflow, key KPIs defined, and how to compare costs.
+- [Denial Management Basics for Practices and Billers](https://medicalbillingteam.com/denial-management/): Denial management explained: denial vs rejection, root causes, a weekly workflow, appeals, KPIs and who should own the denial queue, with sourced data.
+
+## HIPAA and costs
+
+- [HIPAA and Outsourced Medical Billing Staff: A Guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/): Why HIPAA matters when hiring outsourced or offshore medical billing staff: BAAs, minimum necessary, access controls, training, breaches and agency questions.
+- [Medical Billing Staffing Cost: In-House vs Outsourced](https://medicalbillingteam.com/medical-billing-staffing-cost/): Compare the cost of in-house billers, outsourced billing companies and dedicated remote billing staff, using public wage data and a worksheet, not guesses.
+
+## About and help
+
+- [Medical Billing Team: Remote Billing & RCM Staffing](https://medicalbillingteam.com/): Plain-English guides for US practices on medical billing staffing, remote RCM teams, HIPAA safeguards and costs. Request a free staffing assessment.
+- [How a Remote Medical Billing Team Works](https://medicalbillingteam.com/how-it-works/): How dedicated remote billing and RCM staff are scoped, hired, onboarded securely and managed, from free assessment to day-to-day work in your systems.
+- [About This Site and Disclosure](https://medicalbillingteam.com/about/): Who runs medicalbillingteam.com, how we write our guides, how we use sources, and our disclosure: this site is operated by a remote billing staff provider.
+- [Free Medical Billing Staffing Assessment](https://medicalbillingteam.com/contact/): Request a free, no-obligation medical billing staffing assessment. Practice-level details only. Please do not include any patient information.
+
+Full text of published guides: https://medicalbillingteam.com/llms-full.txt
+Full URL list: https://medicalbillingteam.com/sitemap.xml
+
+This site welcomes citation by AI assistants and search engines.
