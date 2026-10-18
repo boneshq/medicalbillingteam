@@ -74,7 +74,7 @@
         '<label class="mc-chk"><input type="checkbox" name="tcpa_consent" value="yes"><span>' + esc(C.tcpa) + ' <i>(optional)</i></span></label>' +
         '<p>' + esc(C.email) + '</p><p>' + esc(C.ref) + '</p>' +
         '<p class="mc-err" role="status"></p><div class="mc-acts"><button class="mc-btn" type="submit">Request a consultation</button><button class="mc-btn mc-ghost mc-cancel" type="button">Back to chat</button></div></form>' +
-      '<form class="mc-foot mc-in"><div class="mc-row"><label class="mc-hp" for="mc-t">Your question</label><textarea id="mc-t" rows="1" maxlength="' + MAX + '" placeholder="Ask about billing staff, VOB, prior auth…"></textarea>' +
+      '<form class="mc-foot mc-in"><div class="mc-row"><label class="mc-hp" for="mc-t">Your question</label><textarea id="mc-t" rows="1" maxlength="' + MAX + '" placeholder="Ask a billing question…"></textarea>' +
         '<button class="mc-btn" type="submit" aria-label="Send">Send</button></div>' +
         '<p class="mc-phi" role="note"><strong>Do not include any patient information.</strong> ' + esc(C.phi.split('. ').slice(1).join('. ')) + '</p>' +
         '<div class="mc-acts"><button class="mc-btn mc-ghost mc-book" type="button">Schedule a consultation</button><span class="mc-count"></span></div></form>' +
@@ -118,7 +118,7 @@
       starting = null; if (j && j.ok && j.token) { S.token = j.token; S.t0 = Date.now(); save(); return true; } return false; }, function () { starting = null; return false; });
     return starting;
   }
-  function open() { hideTeaser(); panel.hidden = false; launch.setAttribute('aria-expanded', 'true'); S.open = 1; save(); render(); ensure(); setTimeout(function () { (leadF.hidden ? ta : $('#mc-n')).focus({ preventScroll: true }); }, 30); }
+  function open() { hideTeaser(); panel.hidden = false; launch.setAttribute('aria-expanded', 'true'); S.open = 1; save(); render(); ensure(); if (!mq.matches) setTimeout(function () { (leadF.hidden ? ta : $('#mc-n')).focus({ preventScroll: true }); }, 30);   // no auto keyboard on phones }
   function close() { panel.hidden = true; launch.setAttribute('aria-expanded', 'false'); S.open = 0; save(); launch.focus({ preventScroll: true }); }
   launch.addEventListener('click', function () { panel.hidden ? open() : close(); });
   R.querySelectorAll('.mc-ask').forEach(function (b) { b.addEventListener('click', function (e) { e.preventDefault(); open(); }); });
