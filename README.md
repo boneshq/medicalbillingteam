@@ -17,7 +17,7 @@ No dependencies beyond Python 3 + PyYAML. No JS framework; one small `form.js`.
 - `indexing_enabled` (false): when false, every page carries `<meta name="robots" content="noindex,nofollow">`.
 - `preview_base_path` ("/medicalbillingteam"): set to "" at the custom-domain cutover.
 - `ga4_measurement_id`: placeholder until Tony creates the GA4 web stream.
-- `form_backend`: `mode` supabase|apps_script, `enabled` (false until a backend exists). See `_build/supabase/medbill_leads.sql` and `_build/apps-script/`.
+- `form_backend`: Google Apps Script web app → 'MedicalBillingTeam Leads' Sheet. `apps_script_url` is empty until Tony deploys (see `_build/apps-script/DEPLOY.md`); the URL and `form_key` are public by design. Supabase is not used.
 
 ## Content rules
 No fake reviews, testimonials, stats or claims. Every page shows the operator disclosure. Forms are non-PHI only, with a visible no-patient-information notice. Pages without real copy stay stubs.

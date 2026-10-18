@@ -91,13 +91,10 @@
  "indexing_enabled": false,
  "preview_base_path": "/medicalbillingteam",
  "form_backend": {
-  "mode": "supabase",
-  "enabled": false,
-  "supabase_url": "https://fhbczvfrsgkbpvammxip.supabase.co",
-  "supabase_anon_key": "",
-  "table": "medbill_leads",
+  "mode": "apps_script",
   "apps_script_url": "",
-  "_note": "enabled=false until the medbill_leads table + insert-only RLS exist (_build/supabase/medbill_leads.sql). Then paste the PUBLIC anon key (the one MSD's front end already ships; role=anon) into supabase_anon_key and set enabled=true. It is written only to /form-config.js with a secretscan:allow annotation. Never a service-role key."
+  "form_key": "mbt-public-v1",
+  "_note": "Lead form -> Google Apps Script web app -> 'MedicalBillingTeam Leads' Sheet (tony@ Drive). apps_script_url stays EMPTY until Tony deploys (see _build/apps-script/DEPLOY.md); while empty the form shows a clear 'not connected' message and sends nothing. The URL is PUBLIC by design (the browser must know where to POST) and will be served in /form-config.js once set. form_key is also PUBLIC; it is a junk filter, not a secret. Supabase is not used (Tony said no, 2026-10-18)."
  },
  "tcpa_text": "By checking this box, I agree that Alliance Global Solutions may call or text me at the number I provided about remote medical billing and revenue cycle staffing, including calls or texts made with an autodialer or prerecorded or artificial voice. Consent is not a condition of any purchase or of receiving the assessment. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help.",
  "tcpa_version": "2026-10-18-v1",

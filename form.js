@@ -33,7 +33,7 @@
         source_page: location.href.split('#')[0].slice(0, 500), utm: utm(), user_agent: navigator.userAgent.slice(0, 300),
         elapsed_ms: Date.now() - start, is_test: /[?&]mbt_test=1\b/.test(location.search)
       };
-      if (!C.enabled) { msg(f, 'Preview build: the form backend is not connected yet, so nothing was sent.', true); return; }
+      if (!C.enabled || !C.endpoint) { msg(f, 'Preview build: the form backend is not connected yet, so nothing was sent.', true); return; }
       f.dataset.busy = '1'; msg(f, 'Sending…');
       var done = function () {
         try { window.gtag && gtag('event', 'generate_lead', { form_id: row.form_id }); } catch (x) {}
@@ -42,14 +42,16 @@
         location.href = t;
       };
       var fail = function () { delete f.dataset.busy; msg(f, 'Sorry, something went wrong. Please try again in a minute.', true); };
-      if (C.mode === 'supabase' && C.anonKey) {
-        fetch(C.supabaseUrl + '/rest/v1/' + C.table, { method: 'POST',
-          headers: { apikey: C.anonKey, Authorization: 'Bearer ' + C.anonKey, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
-          body: JSON.stringify(row) }).then(function (r) { r.ok ? done() : fail(); }, fail);
-      } else if (C.mode === 'apps_script' && C.appsScriptUrl) {
-        var body = new URLSearchParams(); Object.keys(row).forEach(function (k) { var v = row[k]; body.append(k, typeof v === 'object' && v !== null ? JSON.stringify(v) : (v == null ? '' : String(v))); });
-        fetch(C.appsScriptUrl, { method: 'POST', mode: 'no-cors', body: body }).then(done, fail);
-      } else fail();
+      // Google Apps Script web app (form-urlencoded = CORS "simple" request, no preflight). The endpoint URL is public by design.
+      var body = new URLSearchParams(); body.append('form_key', C.formKey || '');
+      Object.keys(row).forEach(function (k) { var v = row[k]; body.append(k, typeof v === 'object' && v !== null ? JSON.stringify(v) : (v == null ? '' : String(v))); });
+      var errs = { possible_phi: 'This looks like it may contain patient information. Please remove it.',
+        missing_fields: 'Please complete the required fields. Remember: no patient information.',
+        rate_limited: "We already have a request from this email. We'll be in touch by email." };
+      fetch(C.endpoint, { method: 'POST', body: body, redirect: 'follow' })
+        .then(function (r) { return r.json(); })
+        .then(function (j) { if (j && j.ok) done(); else { delete f.dataset.busy; if (j && errs[j.error]) msg(f, errs[j.error], true); else fail(); } }, fail);
+      // An unreadable response (network error, non-JSON, CORS) shows the visible error; we never report success we can't confirm.
     });
   });
   document.querySelectorAll('[data-unlock]').forEach(function (b) { b.addEventListener('click', function () { var g = document.getElementById('unlocked'); if (g) g.hidden = false; }); });
