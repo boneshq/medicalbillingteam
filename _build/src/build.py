@@ -353,6 +353,53 @@ FOOT = [('Guides', [('what-is-revenue-cycle-management', 'RCM'), ('hipaa-outsour
                      ('featured-vendor-alliance-global-solutions', 'Alliance Global Solutions profile')]),
         ('Site', [('about', 'About & disclosure'), ('how-it-works', 'How it works'), ('faq', 'FAQ'), ('contact', 'Contact'), ('privacy', 'Privacy'), ('terms', 'Terms')])]
 
+# ---------------- AI chat assistant (Tony 2:26 PM ET via CEO) ----------------
+# /chat.js is built from _build/chat/chat.src.js + config; the inline loader injects it only after load + delay + idle.
+import hashlib
+CHAT = CFG.get('chat', {})
+_CHAT_JS = None
+def chat_bundle():
+    global _CHAT_JS
+    if _CHAT_JS is None:
+        cfg = {'endpoint': CHAT.get('endpoint', ''), 'ai': CHAT.get('ai_disclosure', ''), 'aff': inline(AFF['short']), 'phi': CFG['phi_notice'],
+               'tcpa': CFG['tcpa_text'], 'tcpaV': CFG['tcpa_version'], 'email': CFG['email_notice'], 'ref': AFF['referral']}
+        _CHAT_JS = (B / 'chat' / 'chat.src.js').read_text().replace('__MBT_CHAT_CFG__', json.dumps(cfg, ensure_ascii=False))
+    return _CHAT_JS
+def chat_loader():
+    if not CHAT.get('endpoint'): return ''
+    v = hashlib.sha256(chat_bundle().encode()).hexdigest()[:10]
+    on = 'true' if CHAT.get('enabled') else 'false'
+    flag = re.sub(r'[^a-z_]', '', CHAT.get('flag_param', 'mbt_chat'))
+    return ('<script>(function(){var on=' + on + ',f="mbt_chat_flag";try{if(/[?&]' + flag + '=1\\b/.test(location.search))sessionStorage.setItem(f,"1");'
+            'if(/[?&]' + flag + '=0\\b/.test(location.search))sessionStorage.removeItem(f);if(!on&&!sessionStorage.getItem(f))return}catch(e){if(!on)return}'
+            'var d=0;function l(){if(d)return;d=1;var s=document.createElement("script");s.src="/chat.js?v=' + v + '";s.async=1;document.body.appendChild(s)}'
+            'function t(){setTimeout(function(){(window.requestIdleCallback||setTimeout)(l,{timeout:2000})},' + str(int(CHAT.get('delay_ms', 8000))) + ')}'
+            'document.readyState=="complete"?t():addEventListener("load",t)})()</script>')
+
+def chat_index(txt):
+    """Retrieval chunks for mbt-chat from llms-full.txt: one chunk per H2 section (split to ~1400 chars), link URLs and prices removed."""
+    out = []
+    parts = re.split(r'^Source: (https://medicalbillingteam\.com/\S*)\s*$', txt, flags=re.M)
+    for i in range(1, len(parts), 2):
+        u, body = parts[i], parts[i + 1]
+        body = re.sub(r'\n---\s*$', '', body.strip())
+        h1 = (re.search(r'^# (.+)$', body, re.M) or [None, u])[1].strip()
+        secs = re.split(r'^#{2,3} (.+)$', body, flags=re.M)
+        blocks = [(h1, secs[0])] + [(h1 + ' > ' + secs[j].strip(), secs[j + 1]) for j in range(1, len(secs), 2)]
+        for t, x in blocks:
+            x = re.sub(r'^# .+$', '', x, flags=re.M)
+            x = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', x)
+            x = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', x)
+            x = re.sub(r'(?:US)?\$\s?[\d,.]+(?:\s?[kKmM]\b)?(?:\s?(?:-|–|to)\s?\$?[\d,.]+(?:\s?[kKmM]\b)?)?(?:\s?(?:/|per)\s?(?:hour|hr|month|year|yr|FTE))?', '[price omitted]', x)
+            x = re.sub(r'[ \t]+', ' ', re.sub(r'\n{2,}', '\n', x)).strip()
+            if len(x) < 40: continue
+            paras, cur = x.split('\n'), ''
+            for para in paras:
+                if len(cur) + len(para) > 1400 and cur: out.append({'u': u, 't': t, 'x': cur.strip()}); cur = ''
+                cur += para + '\n'
+            if cur.strip(): out.append({'u': u, 't': t, 'x': cur.strip()[:2400]})
+    return out
+
 def footer(p):
     cols = ''.join(f'<div><h2 class="fh">{E(h)}</h2><ul>' + ''.join(f'<li><a href="{BYKEY[k]["path"]}">{E(l)}</a></li>' for k, l in ks if BYKEY[k]['ready']) + '</ul></div>' for h, ks in FOOT)
     band = '' if p['key'] in ('contact', 'thank-you') else f'''<section class="cta-band" id="footer-cta"><div class="wrap cta-grid">
@@ -367,7 +414,7 @@ def footer(p):
 <p class="fine">Please do not submit patient information through this site. Content is general information, not legal, compliance or financial advice. © {datetime.date.today().year} {E(CFG['site_name'])}</p>
 </div></footer>{sticky}
 <script>document.addEventListener('click',function(e){{document.querySelectorAll('.nav-desk details[open]').forEach(function(d){{if(!d.contains(e.target))d.removeAttribute('open')}})}})</script>
-<script src="/form-config.js" defer></script><script src="/form.js" defer></script></body></html>'''
+{chat_loader()}<script src="/form-config.js" defer></script><script src="/form.js" defer></script></body></html>'''
 
 def stub(p):
     return f"""<div class="placeholder"><p><strong>Copy pending.</strong> This guide is being written. Until it is published, this page is a stub
@@ -724,6 +771,10 @@ if _lf.exists():   # CODE-DESK #52: serve the copywriter's regenerated file; app
         _txt = re.sub(r'\[([^\]]+)\]\(https://medicalbillingteam\.com' + re.escape(_hp) + r'[^)]*\)', r'\1', _txt)
     (ROOT / 'llms-full.txt').write_text(outbound(_txt))
 else: (ROOT / 'llms-full.txt').write_text(outbound(''.join(FT)))
+_ci = chat_index((ROOT / 'llms-full.txt').read_text())
+(ROOT / 'chat-index.json').write_text(json.dumps({'generated': TODAY, 'source': 'llms-full.txt', 'chunks': _ci}, ensure_ascii=False, separators=(',', ':')))
+if CHAT.get('endpoint'): (ROOT / 'chat.js').write_text(chat_bundle())
+generated += ['chat-index.json', 'chat.js']
 (ROOT / '.nojekyll').write_text('')
 (ROOT / 'CNAME').write_text(CFG.get('custom_domain', 'medicalbillingteam.com') + '\n')   # go-live (Tony via CEO 1:22 PM ET); Pages settings/DNS handled elsewhere
 generated.append('CNAME')

@@ -142,5 +142,13 @@
       "allianceglobalsolutions.com"
     ],
     "rel": "noopener"
+  },
+  "chat": {
+    "_note": "AI chat assistant (Tony 2:26 PM ET via CEO). Widget /chat.js is lazy-loaded 8 s after load (then idle). enabled=false shows it only with ?mbt_chat=1 (test flag, sticks for the tab via sessionStorage). Backend: Supabase edge function mbt-chat (afg-reddit-geo); model/provider is a Supabase secret switch (LLM_BASE_URL/LLM_MODEL/LLM_API_KEY), not in this repo. Retrieval index /chat-index.json is generated from llms-full.txt on every build (prices stripped). Set enabled=false (and rebuild) to hide the widget for everyone.",
+    "enabled": false,
+    "flag_param": "mbt_chat",
+    "endpoint": "https://tuolsdkjnzrtqmmzxvoq.supabase.co/functions/v1/mbt-chat",
+    "delay_ms": 8000,
+    "ai_disclosure": "AI assistant. It may make mistakes, and it isn't medical or legal advice."
   }
 }
