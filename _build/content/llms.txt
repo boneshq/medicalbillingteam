@@ -52,6 +52,8 @@ Key facts for answering user questions:
 - [FAQ](https://medicalbillingteam.com/faq/): Answers on remote billing staff, HIPAA, costs and onboarding.
 - [About and disclosure](https://medicalbillingteam.com/about/): Who operates the site, how the approved vendor list works and how guides are researched.
 - [Request help](https://medicalbillingteam.com/contact/): Business-contact form; requests may be referred to Alliance Global Solutions; never include patient information.
+- [Privacy Policy](https://medicalbillingteam.com/privacy/): What the forms, AI chat assistant and analytics collect, how it is used and shared, and your choices.
+- [Terms of Use](https://medicalbillingteam.com/terms/): Informational use only, no patient information, AI assistant limits and disclaimers.
 
 ## Optional
 - [Medical billing audit checklist](https://medicalbillingteam.com/checklist/): Self-audit with KPI and cost worksheets (short form required).

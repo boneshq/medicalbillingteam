@@ -78,9 +78,5 @@ Our forms collect only business contact and practice-level information. **Please
 
 Questions or corrections? [Contact us](/contact/). If you spot an error in a guide, we want to fix it.
 
-## Related domain
-
-medicalbillingadvisor.com is a related domain. Once its redirect is set up, it will point to this site.
-
 ---
 *Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*

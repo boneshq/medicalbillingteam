@@ -62,7 +62,7 @@
       '<button class="mc-btn mc-ask" type="button">Ask a question</button><p class="mc-small">' + esc(C.ai) + '</p></div>' +
     '<section class="mc-panel" role="dialog" aria-modal="false" aria-label="Medical Billing Team AI assistant" hidden>' +
       '<div class="mc-head"><b>Medical Billing Team assistant</b><span>AI assistant · answers from this site\'s guides</span><button class="mc-x mc-close" type="button" aria-label="Close chat">×</button></div>' +
-      '<div class="mc-disc"><p><strong>' + esc(C.ai) + '</strong></p><details><summary>Affiliation disclosure</summary><p>' + C.aff + '</p></details></div>' +
+      '<div class="mc-disc"><p><strong>' + esc(C.ai) + '</strong></p><details><summary>Affiliation disclosure</summary><p>' + C.aff + '</p></details><p class="mc-small">' + C.legal + '</p></div>' +
       '<div class="mc-log" aria-live="polite"></div>' +
       '<div class="mc-chips"></div>' +
       '<form class="mc-lead" novalidate hidden><b>Schedule a consultation</b><p>Leave your details and a person will follow up. ' + esc(C.phi) + '</p>' +
@@ -72,7 +72,7 @@
         '<label for="mc-p">Phone</label><input id="mc-p" name="phone" type="tel" autocomplete="tel" maxlength="30" required>' +
         '<label for="mc-o">Practice or company <i>(optional)</i></label><input id="mc-o" name="practice_name" type="text" autocomplete="organization" maxlength="150">' +
         '<label class="mc-chk"><input type="checkbox" name="tcpa_consent" value="yes"><span>' + esc(C.tcpa) + ' <i>(optional)</i></span></label>' +
-        '<p>' + esc(C.email) + '</p><p>' + esc(C.ref) + '</p>' +
+        '<p>' + esc(C.email) + '</p><p>' + esc(C.ref) + '</p><p>By submitting, you agree to our ' + C.legal + '.</p>' +
         '<p class="mc-err" role="status"></p><div class="mc-acts"><button class="mc-btn" type="submit">Request a consultation</button><button class="mc-btn mc-ghost mc-cancel" type="button">Back to chat</button></div></form>' +
       '<form class="mc-foot mc-in"><div class="mc-row"><label class="mc-hp" for="mc-t">Your question</label><textarea id="mc-t" rows="1" maxlength="' + MAX + '" placeholder="Ask a billing question…"></textarea>' +
         '<button class="mc-btn" type="submit" aria-label="Send">Send</button></div>' +
