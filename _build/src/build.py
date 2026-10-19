@@ -325,6 +325,7 @@ def form(form_id):
     if full: above += f'<p class="fine">{E(CFG["email_notice"])}</p><p class="fine"><strong>Reminder: do not include any patient information.</strong></p>'
     if form_id == 'checklist': above += '<p class="fine">We\'ll email you the checklist and occasional guides about billing staffing. Unsubscribe any time.</p>'
     above += f'<p class="referral" role="note">{ico("handshake")}<span>{E(AFF["referral"])}</span></p>'   # slots §4: directly above submit
+    above += f'<p class="fine legal">By submitting, you agree to our <a href="{BYKEY["terms"]["path"]}">Terms of Use</a> and <a href="{BYKEY["privacy"]["path"]}">Privacy Policy</a>.</p>'   # 2026-10-19 legal pages
     off = '' if FORM_ON else ('<p class="form-off" role="status"><strong>Online requests are temporarily unavailable.</strong> '
                               'Please try again shortly. Nothing you type here is sent or stored.</p>')
     under = ''
@@ -365,7 +366,8 @@ def chat_bundle():
     global _CHAT_JS
     if _CHAT_JS is None:
         cfg = {'endpoint': CHAT.get('endpoint', ''), 'ai': CHAT.get('ai_disclosure', ''), 'aff': inline(AFF['short']), 'phi': CFG['phi_notice'],
-               'tcpa': CFG['tcpa_text'], 'tcpaV': CFG['tcpa_version'], 'email': CFG['email_notice'], 'ref': AFF['referral']}
+               'tcpa': CFG['tcpa_text'], 'tcpaV': CFG['tcpa_version'], 'email': CFG['email_notice'], 'ref': AFF['referral'],
+               'legal': f'<a href="{BYKEY["terms"]["path"]}" target="_blank">Terms of Use</a> and <a href="{BYKEY["privacy"]["path"]}" target="_blank">Privacy Policy</a>'}
         _CHAT_JS = (B / 'chat' / 'chat.src.js').read_text().replace('__MBT_CHAT_CFG__', json.dumps(cfg, ensure_ascii=False))
     return _CHAT_JS
 def chat_loader():
