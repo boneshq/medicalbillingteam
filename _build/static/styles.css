@@ -32,6 +32,7 @@ p{margin:0 0 1em}
 .hdr{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-family:var(--serif);font-size:1.12rem;letter-spacing:-.015em;font-weight:500;white-space:nowrap}
 .brand b{font-weight:650;color:var(--teal)}.brand:hover{color:var(--ink)}
+.brand-logo{display:block;height:36px;width:auto;aspect-ratio:457/88}
 .nav{list-style:none;margin:0;padding:0}.nav a{text-decoration:none;color:var(--ink-2);font-size:.94rem;font-weight:500;padding:6px 2px;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
 .nav a:hover{color:var(--ink)}.nav a[aria-current]{color:var(--ink);border-bottom-color:var(--gold)}
 .nav-desk,.hdr-cta{display:none}
@@ -260,7 +261,7 @@ a.tile:hover,.tile:hover{border-color:var(--teal);transform:translateY(-2px);box
 .hdr .hdr-cta{display:none}
 @media(min-width:1000px){.hdr .hdr-cta{display:inline-flex}}
 @media(max-width:599px){
- .hdr{min-height:52px}.brand{font-size:1.05rem}
+ .hdr{min-height:52px}.brand{font-size:1.05rem}.brand-logo{height:30px}
  .hero-grid{padding:8px 16px 24px;gap:8px}
  .hero h1{font-size:1.24rem;max-width:none;line-height:1.14}
  .hero-form.form-card{padding:10px 12px 6px;border-radius:14px}

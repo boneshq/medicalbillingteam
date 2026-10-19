@@ -184,10 +184,14 @@ for _v in [x for x in PAGES if x['kind'] == 'vendor']:
     _dup = {_norm(q) for q, _ in BYKEY['index']['faqs']} & {_norm(q) for q, _ in _v['faqs']}
     if _dup: raise SystemExit(f'DUPLICATE FAQ between home and {_v["path"]}: {sorted(_dup)}')
 
+
+import hashlib as _hl
+def _av(name):   # short content hash for cache-busting static brand assets
+    return _hl.sha256((B / 'static' / name).read_bytes()).hexdigest()[:8]
 AGS_ID = 'https://www.allianceglobalsolutions.com/#organization'
 def jsonld(p):
     org = {"@type": "Organization", "@id": SITE + "/#org", "name": CFG['site_name'], "url": SITE + "/",
-           "logo": SITE + "/logo.svg", "description": DISC,
+           "logo": {"@type": "ImageObject", "url": SITE + "/icon-512.png?v=" + _av("icon-512.png"), "width": 512, "height": 512}, "description": DISC,
            "parentOrganization": {"@type": "Organization", "@id": AGS_ID, "name": "Alliance Global Solutions", "url": "https://www.allianceglobalsolutions.com/"}}
     site = {"@type": "WebSite", "@id": SITE + "/#website", "name": CFG['site_name'], "url": SITE + "/",
             "publisher": {"@id": SITE + "/#org"}, "inLanguage": "en-US"}
@@ -252,7 +256,11 @@ def head(p):
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{E(CFG['site_name'])}: remote billing and RCM staffing, explained for US practices">
 <meta name="theme-color" content="#0f2340">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.svg?v={_av('favicon.svg')}" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico?v={_av('favicon.ico')}" sizes="any">
+<link rel="icon" href="/favicon-32.png?v={_av('favicon-32.png')}" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon-180.png?v={_av('apple-touch-icon-180.png')}" sizes="180x180">
+<link rel="manifest" href="/site.webmanifest?v={_av('site.webmanifest')}">
 <link rel="preload" href="/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/hankengrotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
 {p.get('preload_img', '')}<link rel="stylesheet" href="/styles.css?v={ASSET_V}">
@@ -280,7 +288,7 @@ def nav(cur):
     bar = '' if INDEX else '<div class="staging-bar">Preview build: not indexed.</div>'
     return f'''<body class="pg-{cur}">{bar}<a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap hdr">
-<a class="brand" href="/"><img src="/logo.svg" alt="" width="30" height="30"><span>Medical Billing <b>Team</b></span></a>
+<a class="brand" href="/"><img class="brand-logo" src="/mbt-logo-horizontal.svg?v={_av('mbt-logo-horizontal.svg')}" alt="Medical Billing Team" width="457" height="88"></a>
 <nav class="nav-desk" aria-label="Main"><ul class="nav">{items}</ul></nav>
 <a class="btn btn-sm hdr-cta" href="/contact/">Free assessment</a>
 <details class="menu"><summary aria-label="Open menu"><span class="burger" aria-hidden="true"></span>Menu</summary><nav aria-label="Mobile"><ul class="nav">{items}<li><a class="m-cta" href="/contact/">Free assessment</a></li></ul></nav></details>
