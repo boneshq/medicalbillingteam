@@ -3,6 +3,7 @@
 # file); the list below covers the rest. No page has front matter, so every public
 # file is copied byte-for-byte; .github/workflows/pages-check.yml verifies both on
 # each PR. Copied to the repo root by _build/src/build.py.
+theme: null   # no default Pages theme: it would add /assets/css/style.css
 exclude:
   - README.md
   - docs
