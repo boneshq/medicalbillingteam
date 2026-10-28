@@ -2,6 +2,8 @@
 
 An unbranded informational resource site for US medical practices on medical billing and RCM staffing. Static HTML on **GitHub Pages** (main, /), the MSD pattern.
 
+**What gets published:** Pages runs Jekyll over the repo root, and `_config.yml` keeps internal files off the live site. `_build/`, `.github/`, `docs/`, `scripts/` and this README are never served. Don't add `.nojekyll`: it makes Pages publish every file in the repo. The `pages-check` workflow builds the site the way Pages does and fails a PR if an internal file would be published or a public file would change.
+
 - **Preview:** https://boneshq.github.io/medicalbillingteam/ (every page `noindex,nofollow` until Tony okays indexing)
 - **Canonical / production:** https://medicalbillingteam.com/ (DNS not cut over yet; see `docs/DNS-GSC-CUTOVER.md`)
 

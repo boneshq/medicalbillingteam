@@ -1,0 +1,26 @@
+# Builds the site exactly as GitHub Pages does (same Jekyll action and github-pages gem)
+# and fails if an internal file would be published, or if a public file goes missing or
+# is changed by the build. See scripts/pages-check.py. Read-only; no secrets.
+name: pages-check
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pages-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Build like GitHub Pages
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697  # v1.0.13
+        with:
+          source: ./
+          destination: ./_site
+      - name: Check what would be published
+        run: python3 scripts/pages-check.py _site
