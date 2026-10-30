@@ -42,7 +42,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 **Short answer:** CO-29 means the claim was received after the payer's filing deadline. X12 defines CARC 29 as "The time limit for filing has expired." For Medicare, the limit is one calendar year from the date of service. If you have proof the claim was filed on time (clearinghouse acceptance reports, prior submissions), appeal with that proof. Otherwise the amount is usually written off, so prevention matters most.
 
-This guide explains denial code CO-29: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-management/#denial-code-guides) series.
+This guide explains denial code CO-29: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-codes/) series.
 
 ## Official definition (X12 CARC 29)
 

@@ -422,3 +422,11 @@ blockquote.affil-box{margin:18px 0}blockquote.affil-box p{margin:0}
 @media(min-width:960px){.hero-v3 .hero-grid{grid-template-columns:1.15fr .85fr;grid-template-areas:"h f";grid-template-rows:auto;padding:56px 20px 64px;align-items:center;column-gap:48px}
 .hero-v3 .hero-h{gap:16px}.hero-chips li{font-size:.92rem}.svc-pills a{font-size:.9rem}}
 @media(prefers-reduced-motion:reduce){.rv,.svc-pills li{opacity:1;transform:none}.rot>span{opacity:0;transform:none}.rot>span:first-child{opacity:1}.hero-v3 .hero-bg img{transform:none}}
+
+/* Call CTA (2026-10-30) */
+.hdr-call{display:none;margin-right:8px;gap:.4em}.hdr-call .ic{width:18px;height:18px}@media(min-width:1000px){.hdr .hdr-call{display:inline-flex}}
+.m-call{display:flex;align-items:center;gap:.5em;font-weight:700}.m-call .ic{width:18px;height:18px}
+.cta-call{margin:.7em 0 0;font-size:1.05rem}.cta-call a{color:var(--white);font-weight:700;text-decoration:underline;text-underline-offset:3px}.cta-call .hrs{opacity:.8;font-size:.92rem;margin-left:.4em}
+.sticky-cta .s-call{background:var(--white);color:var(--navy);gap:.35em}.sticky-cta .s-call .ic{width:16px;height:16px}.sticky-cta .s-call:hover{background:var(--mint);color:var(--navy)}
+.call-card{display:flex;gap:14px;align-items:center;background:var(--mint);border-radius:14px;padding:16px 18px;margin:0 0 20px}.call-card .ic{width:26px;height:26px;flex:none;color:var(--navy)}.call-card p{margin:0}.call-card a{font-weight:700;color:var(--navy)}
+.prose a[href^='tel:']{white-space:nowrap}

@@ -42,7 +42,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 **Short answer:** CO-22 means the payer believes another plan should pay first under coordination of benefits (COB). X12 defines CARC 22 as "This care may be covered by another payer per coordination of benefits." To fix it, confirm the patient's other coverage and which plan is primary, update the payer and your system, bill the primary first, then send the secondary claim with the primary's payment information.
 
-This guide explains denial code CO-22: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-management/#denial-code-guides) series.
+This guide explains denial code CO-22: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-codes/) series.
 
 ## Official definition (X12 CARC 22)
 

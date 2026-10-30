@@ -25,6 +25,7 @@ PAGES = [
   P("reduce-ar-days", "/reduce-ar-days/", "Reduce A/R Days", "cluster", None, "How to Reduce AR Days", "A/R workflow."),
   # Denials
   P("denial-management", "/denial-management/", "Denial Management", "pillar", None, "Denial Management", "Denial management workflow and staffing."),
+  P("denial-codes", "/denial-codes/", "Denial Codes", "page", None, "Denial Codes Explained: CARC Guides for Billers", "Every denial code guide on this site, plus how to read CARC and RARC codes."),
   P("denial-code-co-16", "/denial-codes/co-16/", "CO-16", "cluster", None, "CO-16 Denial Code", "CO-16: missing or invalid information."),
   P("denial-code-co-22", "/denial-codes/co-22/", "CO-22", "cluster", None, "CO-22 Denial Code", "CO-22: coordination of benefits."),
   P("denial-code-co-29", "/denial-codes/co-29/", "CO-29", "cluster", None, "CO-29 Denial Code", "CO-29: timely filing."),
@@ -56,7 +57,7 @@ NAV = [
   ("Billing Staffing", "hire-remote-medical-billers"),
   ("RCM", ["what-is-revenue-cycle-management", "revenue-cycle-management-staffing"]),
   ("Services", ["credentialing-services", "prior-authorization-specialist", "eligibility-verification-prior-authorization", "treatment-center-vob", "hire-remote-medical-coders", "ar-specialist", "virtual-medical-assistant", "virtual-medical-receptionist"]),
-  ("Denials", ["denial-management", "denial-code-co-16", "denial-code-co-22", "denial-code-co-29", "denial-code-co-97", "denial-code-co-197", "denial-code-co-204"]),
+  ("Denials", ["denial-management", "denial-codes", "denial-code-co-16", "denial-code-co-22", "denial-code-co-29", "denial-code-co-97", "denial-code-co-197", "denial-code-co-204"]),
   ("HIPAA", "hipaa-outsourced-medical-billing"),
   ("Technology", "medical-billing-technology"),
   ("Approved Vendors", "approved-vendors"),

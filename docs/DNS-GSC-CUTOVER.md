@@ -1,5 +1,7 @@
 # medicalbillingteam.com: prepared DNS, GSC and cutover (NOTHING APPLIED)
 
+> **Status: completed 2026-10-18.** DNS points at GitHub Pages, HTTPS is enforced, `indexing_enabled` is true, the sitemap is submitted in GSC (`sc-domain:medicalbillingteam.com`) and the home page was indexed on 2026-10-19. Everything below is the runbook as executed; keep it for the next property.
+
 Prepared 2026-10-18 by Code Desk. Every step below is gated on **Tony's okay via CEO**.
 Registrar/DNS: GoDaddy (Tony's account). NS stay `ns19/ns20.domaincontrol.com`. No Cloudflare.
 

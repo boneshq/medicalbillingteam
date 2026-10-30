@@ -42,7 +42,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 **Short answer:** CO-197 means the payer found no required precertification, authorization, notification or pre-treatment approval for the service. X12 defines CARC 197 as "Precertification/authorization/notification/pre-treatment absent." First check whether an authorization actually exists and was left off the claim; if so, correct and resubmit. If none was obtained, ask about retro-authorization or appeal options, and fix the front-end process so it doesn't recur.
 
-This guide explains denial code CO-197: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-management/#denial-code-guides) series.
+This guide explains denial code CO-197: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-codes/) series.
 
 ## Official definition (X12 CARC 197)
 

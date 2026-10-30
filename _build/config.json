@@ -147,5 +147,15 @@
     "endpoint": "https://tuolsdkjnzrtqmmzxvoq.supabase.co/functions/v1/mbt-chat",
     "delay_ms": 8000,
     "ai_disclosure": "AI assistant. It may make mistakes, and it isn't medical or legal advice."
+  },
+  "phone": {
+    "_note": "Call CTA (Tony 2026-10-30): header button, mobile menu, sticky bar, footer band, contact card, Organization schema telephone. display/e164 both empty = no call CTA rendered anywhere. Put the CTM tracking number here (routes to Alliance Global Solutions); CTM DNI swaps it per traffic source on the page.",
+    "display": "",
+    "e164": "",
+    "hours": ""
+  },
+  "call_tracking": {
+    "_note": "CTM DNI/tracking snippet for account 601667. Injected once before </body> on every page when non-empty. Empty = nothing injected. tel: clicks always fire GA4 phone_call_click (see build.py footer script).",
+    "snippet": ""
   }
 }

@@ -143,7 +143,7 @@ Keep the list in a shared tracker so nothing depends on one person's memory.
 
 ## Denial code guides
 
-Most denials trace back to a handful of CARC codes. Each guide covers what the code means, common causes and a fix-and-prevent checklist:
+Most denials trace back to a handful of CARC codes. Each guide covers what the code means, common causes and a fix-and-prevent checklist. Start with [how to read denial codes](/denial-codes/) if CARC and RARC are new to you:
 
 - [CO-16: claim lacks information or has billing errors](/denial-codes/co-16/)
 - [CO-22: coordination of benefits denials](/denial-codes/co-22/)
