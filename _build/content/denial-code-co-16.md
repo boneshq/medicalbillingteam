@@ -42,7 +42,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 **Short answer:** CO-16 means the payer couldn't process the claim or line because information was missing or there was a submission or billing error. X12 defines CARC 16 as "Claim/service lacks information or has submission/billing error(s)." The fix is in the remark code (RARC) that must accompany it: it tells you exactly what's missing. Correct that item and resubmit, usually as a corrected or new claim per the payer's rules.
 
-This guide explains denial code CO-16: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-management/#denial-code-guides) series.
+This guide explains denial code CO-16: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-codes/) series.
 
 ## Official definition (X12 CARC 16)
 

@@ -22,6 +22,13 @@ BYKEY = {p['key']: p for p in PAGES}
 E = lambda s: html.escape(str(s or ''), quote=True)
 DISC = CFG['disclosure']
 AFF = CFG['affiliation']   # final wording: CODE-DESK-V2-SLOTS.md §4 (full / short / referral)
+PHONE = CFG.get('phone') or {}
+PHONE_ON = bool(PHONE.get('display') and PHONE.get('e164'))   # call CTA (Tony 2026-10-30); empty = no call CTA anywhere
+CALL_SNIPPET = (CFG.get('call_tracking') or {}).get('snippet', '')   # CTM DNI snippet, injected before </body>
+def call_link(cls='', icon=True, text=None, loc='body'):
+    if not PHONE_ON: return ''
+    return (f'<a class="{cls}" href="tel:{E(PHONE["e164"])}" data-cta="{loc}">' + (ico('phone-call') if icon else '') +
+            f'<span>{E(text or PHONE["display"])}</span></a>')
 GALLERY = json.loads((B / 'ags-gallery.json').read_text()) if (B / 'ags-gallery.json').exists() else {}
 ASSET_V = datetime.datetime.now().strftime('%Y%m%d%H%M')
 BAA_Q = 'Does the operator of this site sign a BAA?'  # distinct from the vendor-page FAQ question
@@ -193,6 +200,9 @@ def jsonld(p):
     org = {"@type": "Organization", "@id": SITE + "/#org", "name": CFG['site_name'], "url": SITE + "/",
            "logo": {"@type": "ImageObject", "url": SITE + "/icon-512.png?v=" + _av("icon-512.png"), "width": 512, "height": 512}, "description": DISC,
            "parentOrganization": {"@type": "Organization", "@id": AGS_ID, "name": "Alliance Global Solutions", "url": "https://www.allianceglobalsolutions.com/"}}
+    if PHONE_ON:
+        org["telephone"] = PHONE["e164"]
+        org["contactPoint"] = [{"@type": "ContactPoint", "telephone": PHONE["e164"], "contactType": "sales", "areaServed": "US", "availableLanguage": "en"}]
     site = {"@type": "WebSite", "@id": SITE + "/#website", "name": CFG['site_name'], "url": SITE + "/",
             "publisher": {"@id": SITE + "/#org"}, "inLanguage": "en-US"}
     g = [org, site]
@@ -272,7 +282,7 @@ NAV_LBL = {'what-is-revenue-cycle-management': 'What is RCM', 'revenue-cycle-man
   'credentialing-services': 'Credentialing', 'prior-authorization-specialist': 'Prior Authorization',
   'eligibility-verification-prior-authorization': 'Insurance Verification', 'treatment-center-vob': 'VOB for Treatment Centers',
   'hire-remote-medical-coders': 'Coding', 'ar-specialist': 'A/R', 'virtual-medical-assistant': 'Virtual Assistants',
-  'virtual-medical-receptionist': 'Virtual Receptionists', 'denial-management': 'Denial Management',
+  'virtual-medical-receptionist': 'Virtual Receptionists', 'denial-management': 'Denial Management', 'denial-codes': 'All denial codes',
   **{f'denial-code-co-{n}': f'CO-{n}' for n in (16, 22, 29, 97, 197, 204)}}
 
 def nav(cur):
@@ -290,8 +300,8 @@ def nav(cur):
 <header class="site-header"><div class="wrap hdr">
 <a class="brand" href="/"><img class="brand-logo" src="/mbt-logo-horizontal.svg?v={_av('mbt-logo-horizontal.svg')}" alt="Medical Billing Team" width="457" height="88"></a>
 <nav class="nav-desk" aria-label="Main"><ul class="nav">{items}</ul></nav>
-<a class="btn btn-sm hdr-cta" href="/contact/">Free assessment</a>
-<details class="menu"><summary aria-label="Open menu"><span class="burger" aria-hidden="true"></span>Menu</summary><nav aria-label="Mobile"><ul class="nav">{items}<li><a class="m-cta" href="/contact/">Free assessment</a></li></ul></nav></details>
+{call_link("btn btn-sm btn-ghost hdr-call", loc="header")}<a class="btn btn-sm hdr-cta" href="/contact/">Free assessment</a>
+<details class="menu"><summary aria-label="Open menu"><span class="burger" aria-hidden="true"></span>Menu</summary><nav aria-label="Mobile"><ul class="nav">{items}{("<li>" + call_link("m-call", loc="menu", text="Call " + PHONE["display"]) + "</li>") if PHONE_ON else ""}<li><a class="m-cta" href="/contact/">Free assessment</a></li></ul></nav></details>
 </div></header>'''
 
 F = CFG['form']
@@ -358,7 +368,7 @@ def ags_block(p):
     return f'<aside class="related-ext"><h2>About the staffing provider behind this site</h2><p>{E(CFG["ags_intro"])}</p><ul>{li}</ul></aside>'
 
 FOOT = [('Guides', [('what-is-revenue-cycle-management', 'RCM'), ('hipaa-outsourced-medical-billing', 'HIPAA'), ('medical-billing-staffing-cost', 'Costs'),
-                     ('medical-billing-technology', 'Technology'), ('denial-management', 'Denial Management')]),
+                     ('medical-billing-technology', 'Technology'), ('denial-management', 'Denial Management'), ('denial-codes', 'Denial codes')]),
         ('Services', [('credentialing-services', 'Credentialing'), ('prior-authorization-specialist', 'Prior Auth'), ('treatment-center-vob', 'VOB'),
                       ('hire-remote-medical-coders', 'Coding'), ('ar-specialist', 'A/R'), ('virtual-medical-assistant', 'Virtual Assistants')]),
         ('Vendors', [('approved-vendors', 'Approved vendors'), ('how-we-vet-vendors', 'How we vet vendors'),
@@ -416,10 +426,10 @@ def chat_index(txt):
 def footer(p):
     cols = ''.join(f'<div><h2 class="fh">{E(h)}</h2><ul>' + ''.join(f'<li><a href="{BYKEY[k]["path"]}">{E(l)}</a></li>' for k, l in ks if BYKEY[k]['ready']) + '</ul></div>' for h, ks in FOOT)
     band = '' if p['key'] in ('contact', 'thank-you') else f'''<section class="cta-band" id="footer-cta"><div class="wrap cta-grid">
-<div><h2>Short on billing staff?</h2><p>Get a free, no-obligation staffing assessment. No patient info needed.</p></div>
+<div><h2>Short on billing staff?</h2><p>Get a free, no-obligation staffing assessment. No patient info needed.</p>{('<p class="cta-call">Prefer to talk? Call ' + call_link('call-inline', icon=False, loc='footer-band') + ((' <span class="hrs">' + E(PHONE.get('hours')) + '</span>') if PHONE.get('hours') else '') + '</p>') if PHONE_ON else ''}</div>
 {form("footer")}</div></section>'''
     sticky = '' if p['key'] in ('contact', 'thank-you') else f'''<div class="sticky-cta" hidden><span class="s-m">Free billing staffing assessment</span><span class="s-d">Short on billing staff? Get a free, no-obligation staffing assessment. No patient info needed.</span>
-<a class="btn btn-sm" href="{'#assessment' if p['key']=='index' else '/contact/'}">Get my free assessment</a><button class="x" type="button" aria-label="Dismiss">×</button></div>'''
+{call_link('btn btn-sm s-call', text='Call', loc='sticky')}<a class="btn btn-sm" href="{'#assessment' if p['key']=='index' else '/contact/'}">Get my free assessment</a><button class="x" type="button" aria-label="Dismiss">×</button></div>'''
     return f'''{band}
 <footer class="site-footer"><div class="wrap">
 <div class="fcols">{cols}</div>
@@ -427,7 +437,8 @@ def footer(p):
 <p class="fine">Please do not submit patient information through this site. Content is general information, not legal, compliance or financial advice. © {datetime.date.today().year} {E(CFG['site_name'])}</p>
 </div></footer>{sticky}
 <script>document.addEventListener('click',function(e){{document.querySelectorAll('.nav-desk details[open]').forEach(function(d){{if(!d.contains(e.target))d.removeAttribute('open')}})}})</script>
-{chat_loader()}<script src="/form-config.js" defer></script><script src="/form.js" defer></script></body></html>'''
+<script>document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a&&window.gtag){{try{{gtag('event','phone_call_click',{{cta_location:a.getAttribute('data-cta')||'body',link_url:a.getAttribute('href'),page_path:location.pathname}})}}catch(x){{}}}}}})</script>
+{chat_loader()}<script src="/form-config.js" defer></script><script src="/form.js" defer></script>{CALL_SNIPPET}</body></html>'''
 
 def stub(p):
     return f"""<div class="placeholder"><p><strong>Copy pending.</strong> This guide is being written. Until it is published, this page is a stub
@@ -594,7 +605,9 @@ def page_main(p):
     if p['key'] == 'contact':
         intro = convert(p['intro'])[0] if p['ready'] else '<p>Tell us about your practice and a billing staffing specialist will follow up. No patient information.</p>'
         rest = convert('\n'.join(p['sections']))[0] if p['sections'] else ''
-        body = intro + '<div class="form-card form-card-full">' + form('full') + '</div>' + rest
+        call_card = (f'<div class="call-card">{ico("phone-call")}<p><strong>Prefer to talk?</strong> Call ' + call_link('call-inline', icon=False, loc='contact-card') +
+                     (f' ({E(PHONE["hours"])})' if PHONE.get('hours') else '') + '. Practice-level questions only, never patient information.</p></div>') if PHONE_ON else ''
+        body = intro + call_card + '<div class="form-card form-card-full">' + form('full') + '</div>' + rest
     elif p['key'] == 'thank-you':
         body = ('<p>Thank you. We\'ve received your request. Alliance Global Solutions, our affiliated approved vendor, will email you, usually within one business day.</p>'
                 '<p>In the meantime: <a href="/checklist/">Medical Billing Health Checklist</a> · <a href="/hipaa-outsourced-medical-billing/">HIPAA guide for outsourced billing staff</a> · <a href="/revenue-cycle-management-staffing/">RCM staffing guide</a></p>')
@@ -766,7 +779,7 @@ idx = [p for p in PAGES if p['indexable']]
 bots = CFG['ai_crawlers']
 (ROOT / 'robots.txt').write_text('# medicalbillingteam.com — open to all crawlers and AI assistants\n'
     '# (Preview/staging pages are kept out of indexes with <meta name="robots" content="noindex,nofollow">, not here.)\n'
-    '# Crawler access is allowed here on purpose; until cutover every page carries noindex via the indexing_enabled switch.\n'
+    '# Crawler access is allowed here on purpose. Every published page is indexable (indexing_enabled=true since the 2026-10-18 cutover); /thank-you/ is noindex.\n'
     'User-agent: *\nAllow: /\nDisallow: /thank-you/\n\n# AI training crawlers explicitly allowed (Tony, 2026-10-18)\n'
     + ''.join(f'User-agent: {b}\nAllow: /\n' for b in CFG['ai_training_crawlers'])
     + '\n# AI search / assistant and search-engine crawlers explicitly allowed\n'

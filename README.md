@@ -4,8 +4,8 @@ An unbranded informational resource site for US medical practices on medical bil
 
 **What gets published:** Pages runs Jekyll over the repo root, and `_config.yml` keeps internal files off the live site. `_build/`, `.github/`, `docs/`, `scripts/` and this README are never served. Don't add `.nojekyll`: it makes Pages publish every file in the repo. The `pages-check` workflow builds the site the way Pages does and fails a PR if an internal file would be published or a public file would change.
 
-- **Preview:** https://boneshq.github.io/medicalbillingteam/ (every page `noindex,nofollow` until Tony okays indexing)
-- **Canonical / production:** https://medicalbillingteam.com/ (DNS not cut over yet; see `docs/DNS-GSC-CUTOVER.md`)
+- **Production:** https://medicalbillingteam.com/ (live and indexable since the 2026-10-18 DNS/GSC cutover; record in `docs/DNS-GSC-CUTOVER.md`). `main` = production: merging deploys.
+- **Preview:** none. https://boneshq.github.io/medicalbillingteam/ now 301s to the custom domain. Preview a change locally (`python -m http.server --directory .`) or in a PR (`pages-check` builds it the way Pages does).
 
 ## Build
 ```
@@ -16,10 +16,12 @@ git add -A && git commit -m "..." && git push   # = deploy
 No dependencies beyond Python 3 + PyYAML. No JS framework; one small `form.js`.
 
 ## Switches (`_build/config.json`)
-- `indexing_enabled` (false): when false, every page carries `<meta name="robots" content="noindex,nofollow">`.
-- `preview_base_path` ("/medicalbillingteam"): set to "" at the custom-domain cutover.
-- `ga4_measurement_id`: placeholder until Tony creates the GA4 web stream.
-- `form_backend`: Google Apps Script web app → 'MedicalBillingTeam Leads' Sheet. `apps_script_url` is empty until Tony deploys (see `_build/apps-script/DEPLOY.md`); the URL and `form_key` are public by design. Supabase is not used.
+- `indexing_enabled` (true since 2026-10-18): when false, every page carries `<meta name="robots" content="noindex,nofollow">`.
+- `preview_base_path` ("" since the cutover): the GitHub Pages project-URL prefix for preview builds.
+- `ga4_measurement_id`: G-C7EWRCM4TV (GA4 property 559449061).
+- `form_backend`: the lead form posts to the Supabase Edge Function `mbt-lead` (project afg-reddit-geo), which writes the 'MedicalBillingTeam Leads' Sheet and emails tony@. The `mode` value is still `apps_script` for compatibility (same POST contract). The endpoint URL and `form_key` are public by design.
+- `phone` (added 2026-10-30): `display` + `e164` render the call CTA (header, mobile menu, sticky bar, footer band, contact card, Organization schema). Both empty = no call CTA. `tel:` clicks fire GA4 `phone_call_click` with `cta_location`.
+- `call_tracking.snippet`: CTM tracking/DNI script (account 601667), injected before `</body>` on every page when set.
 
 ## Content rules
 No fake reviews, testimonials, stats or claims. Every page shows the operator disclosure. Forms are non-PHI only, with a visible no-patient-information notice. Pages without real copy stay stubs.

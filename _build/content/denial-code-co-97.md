@@ -42,7 +42,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 **Short answer:** CO-97 means the payer considers the service bundled, meaning it's included in the payment for another service already processed. X12 defines CARC 97 as "The benefit for this service is included in the payment/allowance for another service/procedure that has already been adjudicated." Check payer bundling edits and documentation. If the service was truly separate and distinct, a correct modifier and supporting documentation may support a corrected claim or appeal.
 
-This guide explains denial code CO-97: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-management/#denial-code-guides) series.
+This guide explains denial code CO-97: the official definition, what usually causes it, how to fix it and how to prevent it. It's part of our [denial management](/denial-management/) guide and the [denial code guides](/denial-codes/) series.
 
 ## Official definition (X12 CARC 97)
 

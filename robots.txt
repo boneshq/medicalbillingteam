@@ -1,6 +1,6 @@
 # medicalbillingteam.com — open to all crawlers and AI assistants
 # (Preview/staging pages are kept out of indexes with <meta name="robots" content="noindex,nofollow">, not here.)
-# Crawler access is allowed here on purpose; until cutover every page carries noindex via the indexing_enabled switch.
+# Crawler access is allowed here on purpose. Every published page is indexable (indexing_enabled=true since the 2026-10-18 cutover); /thank-you/ is noindex.
 User-agent: *
 Allow: /
 Disallow: /thank-you/
