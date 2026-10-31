@@ -17,7 +17,7 @@
    "/approved-vendors/alliance-global-solutions/"
   ]
  },
- "built": "2026-10-30T19:44:49",
+ "built": "2026-10-30T20:06:30",
  "base_path": "",
  "indexing_enabled": true,
  "form_backend_enabled": true,
@@ -49,6 +49,8 @@
   "/hire-remote-medical-billers/",
   "/hipaa-outsourced-medical-billing/",
   "/medical-billing-staffing-cost/",
+  "/medical-billing-staffing-cost-by-state/",
+  "/medical-billing-outsourcing-statistics/",
   "/behavioral-health-billing/",
   "/approved-vendors/",
   "/approved-vendors/alliance-global-solutions/",

@@ -172,6 +172,8 @@ Remote billers increasingly work alongside automation: claim scrubbers, eligibil
 ## Related guides
 
 - [Medical billing staffing cost comparison](/medical-billing-staffing-cost/)
+- [Medical billing staffing cost by state](/medical-billing-staffing-cost-by-state/)
+- [Medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/)
 - [HIPAA and outsourced billing staff](/hipaa-outsourced-medical-billing/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)

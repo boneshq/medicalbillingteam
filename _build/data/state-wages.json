@@ -1,0 +1,1477 @@
+{
+ "meta": {
+  "oews": {
+   "dataset": "BLS Occupational Employment and Wage Statistics, May 2025 state estimates",
+   "release_date": "2026-05-15",
+   "url": "https://www.bls.gov/oes/tables.htm",
+   "retrieved": "2026-10-30",
+   "note": "Hourly median wage and employment per state and occupation, from the BLS Public Data API (same estimates as the OEWS state file)."
+  },
+  "ecec": {
+   "dataset": "BLS Employer Costs for Employee Compensation, June 2026, private industry, office and administrative support occupations",
+   "release_date": "2026-09-09",
+   "url": "https://www.bls.gov/news.release/ecec.nr0.htm",
+   "total_compensation_usd_per_hour": 36.73,
+   "wages_and_salaries_usd_per_hour": 25.22,
+   "benefits_pct": 31.3
+  },
+  "load_factor": 1.4564,
+  "hours_per_year": 2080,
+  "missing_states": [
+   "Nevada"
+  ],
+  "formula": "loaded hourly = state median hourly x load factor; loaded annual = loaded hourly x 2,080 hours, rounded to the nearest $100"
+ },
+ "occupations": [
+  {
+   "code": "43-3021",
+   "label": "Medical billers",
+   "bls_title": "Billing and Posting Clerks"
+  },
+  {
+   "code": "29-2072",
+   "label": "Medical coders",
+   "bls_title": "Medical Records Specialists"
+  },
+  {
+   "code": "43-6013",
+   "label": "Medical secretaries",
+   "bls_title": "Medical Secretaries and Administrative Assistants"
+  },
+  {
+   "code": "43-4051",
+   "label": "Customer service reps",
+   "bls_title": "Customer Service Representatives"
+  }
+ ],
+ "rows": [
+  {
+   "st": "US",
+   "name": "United States",
+   "43-3021": {
+    "median": 23.32,
+    "emp": 404060,
+    "loaded_hr": 33.96,
+    "loaded_yr": 70600
+   },
+   "29-2072": {
+    "median": 24.59,
+    "emp": 194720,
+    "loaded_hr": 35.81,
+    "loaded_yr": 74500
+   },
+   "43-6013": {
+    "median": 22.08,
+    "emp": 961610,
+    "loaded_hr": 32.16,
+    "loaded_yr": 66900
+   },
+   "43-4051": {
+    "median": 21.53,
+    "emp": 2595750,
+    "loaded_hr": 31.36,
+    "loaded_yr": 65200
+   }
+  },
+  {
+   "st": "AL",
+   "name": "Alabama",
+   "43-3021": {
+    "median": 19.0,
+    "emp": 3780,
+    "loaded_hr": 27.67,
+    "loaded_yr": 57600
+   },
+   "29-2072": {
+    "median": 21.06,
+    "emp": 2330,
+    "loaded_hr": 30.67,
+    "loaded_yr": 63800
+   },
+   "43-6013": {
+    "median": 17.76,
+    "emp": 16580,
+    "loaded_hr": 25.87,
+    "loaded_yr": 53800
+   },
+   "43-4051": {
+    "median": 18.46,
+    "emp": 33290,
+    "loaded_hr": 26.89,
+    "loaded_yr": 55900
+   }
+  },
+  {
+   "st": "AK",
+   "name": "Alaska",
+   "43-3021": {
+    "median": 25.08,
+    "emp": 370,
+    "loaded_hr": 36.53,
+    "loaded_yr": 76000
+   },
+   "29-2072": {
+    "median": 29.37,
+    "emp": 1070,
+    "loaded_hr": 42.77,
+    "loaded_yr": 89000
+   },
+   "43-6013": {
+    "median": 23.02,
+    "emp": 2520,
+    "loaded_hr": 33.53,
+    "loaded_yr": 69700
+   },
+   "43-4051": {
+    "median": 21.71,
+    "emp": 2410,
+    "loaded_hr": 31.62,
+    "loaded_yr": 65800
+   }
+  },
+  {
+   "st": "AZ",
+   "name": "Arizona",
+   "43-3021": {
+    "median": 22.95,
+    "emp": 8490,
+    "loaded_hr": 33.42,
+    "loaded_yr": 69500
+   },
+   "29-2072": {
+    "median": 22.9,
+    "emp": 3750,
+    "loaded_hr": 33.35,
+    "loaded_yr": 69400
+   },
+   "43-6013": {
+    "median": 22.03,
+    "emp": 18090,
+    "loaded_hr": 32.08,
+    "loaded_yr": 66700
+   },
+   "43-4051": {
+    "median": 21.97,
+    "emp": 87020,
+    "loaded_hr": 32.0,
+    "loaded_yr": 66600
+   }
+  },
+  {
+   "st": "AR",
+   "name": "Arkansas",
+   "43-3021": {
+    "median": 18.65,
+    "emp": 4390,
+    "loaded_hr": 27.16,
+    "loaded_yr": 56500
+   },
+   "29-2072": {
+    "median": 20.07,
+    "emp": 1920,
+    "loaded_hr": 29.23,
+    "loaded_yr": 60800
+   },
+   "43-6013": {
+    "median": 17.79,
+    "emp": 2190,
+    "loaded_hr": 25.91,
+    "loaded_yr": 53900
+   },
+   "43-4051": {
+    "median": 18.19,
+    "emp": 20680,
+    "loaded_hr": 26.49,
+    "loaded_yr": 55100
+   }
+  },
+  {
+   "st": "CA",
+   "name": "California",
+   "43-3021": {
+    "median": 27.05,
+    "emp": 41290,
+    "loaded_hr": 39.4,
+    "loaded_yr": 81900
+   },
+   "29-2072": {
+    "median": 29.71,
+    "emp": 18700,
+    "loaded_hr": 43.27,
+    "loaded_yr": 90000
+   },
+   "43-6013": {
+    "median": 26.2,
+    "emp": 115050,
+    "loaded_hr": 38.16,
+    "loaded_yr": 79400
+   },
+   "43-4051": {
+    "median": 23.83,
+    "emp": 176850,
+    "loaded_hr": 34.71,
+    "loaded_yr": 72200
+   }
+  },
+  {
+   "st": "CO",
+   "name": "Colorado",
+   "43-3021": {
+    "median": 25.32,
+    "emp": 8170,
+    "loaded_hr": 36.88,
+    "loaded_yr": 76700
+   },
+   "29-2072": {
+    "median": 28.37,
+    "emp": 1780,
+    "loaded_hr": 41.32,
+    "loaded_yr": 85900
+   },
+   "43-6013": {
+    "median": 22.56,
+    "emp": 11560,
+    "loaded_hr": 32.86,
+    "loaded_yr": 68300
+   },
+   "43-4051": {
+    "median": 22.86,
+    "emp": 38770,
+    "loaded_hr": 33.29,
+    "loaded_yr": 69300
+   }
+  },
+  {
+   "st": "CT",
+   "name": "Connecticut",
+   "43-3021": {
+    "median": 25.0,
+    "emp": 4170,
+    "loaded_hr": 36.41,
+    "loaded_yr": 75700
+   },
+   "29-2072": {
+    "median": 29.3,
+    "emp": 1120,
+    "loaded_hr": 42.67,
+    "loaded_yr": 88800
+   },
+   "43-6013": {
+    "median": 23.32,
+    "emp": 6480,
+    "loaded_hr": 33.96,
+    "loaded_yr": 70600
+   },
+   "43-4051": {
+    "median": 23.12,
+    "emp": 24490,
+    "loaded_hr": 33.67,
+    "loaded_yr": 70000
+   }
+  },
+  {
+   "st": "DE",
+   "name": "Delaware",
+   "43-3021": {
+    "median": 25.05,
+    "emp": 1270,
+    "loaded_hr": 36.48,
+    "loaded_yr": 75900
+   },
+   "29-2072": {
+    "median": 26.95,
+    "emp": 610,
+    "loaded_hr": 39.25,
+    "loaded_yr": 81600
+   },
+   "43-6013": {
+    "median": 21.39,
+    "emp": 4510,
+    "loaded_hr": 31.15,
+    "loaded_yr": 64800
+   },
+   "43-4051": {
+    "median": 23.17,
+    "emp": 7470,
+    "loaded_hr": 33.74,
+    "loaded_yr": 70200
+   }
+  },
+  {
+   "st": "DC",
+   "name": "District of Columbia",
+   "43-3021": {
+    "median": 30.93,
+    "emp": 530,
+    "loaded_hr": 45.05,
+    "loaded_yr": 93700
+   },
+   "29-2072": {
+    "median": 34.63,
+    "emp": 270,
+    "loaded_hr": 50.44,
+    "loaded_yr": 104900
+   },
+   "43-6013": {
+    "median": 23.64,
+    "emp": 1930,
+    "loaded_hr": 34.43,
+    "loaded_yr": 71600
+   },
+   "43-4051": {
+    "median": 23.2,
+    "emp": 7550,
+    "loaded_hr": 33.79,
+    "loaded_yr": 70300
+   }
+  },
+  {
+   "st": "FL",
+   "name": "Florida",
+   "43-3021": {
+    "median": 22.37,
+    "emp": 28560,
+    "loaded_hr": 32.58,
+    "loaded_yr": 67800
+   },
+   "29-2072": {
+    "median": 22.0,
+    "emp": 21490,
+    "loaded_hr": 32.04,
+    "loaded_yr": 66600
+   },
+   "43-6013": {
+    "median": 20.06,
+    "emp": 96000,
+    "loaded_hr": 29.22,
+    "loaded_yr": 60800
+   },
+   "43-4051": {
+    "median": 19.44,
+    "emp": 228000,
+    "loaded_hr": 28.31,
+    "loaded_yr": 58900
+   }
+  },
+  {
+   "st": "GA",
+   "name": "Georgia",
+   "43-3021": {
+    "median": 22.78,
+    "emp": 11450,
+    "loaded_hr": 33.18,
+    "loaded_yr": 69000
+   },
+   "29-2072": {
+    "median": 24.78,
+    "emp": 5930,
+    "loaded_hr": 36.09,
+    "loaded_yr": 75100
+   },
+   "43-6013": {
+    "median": 20.75,
+    "emp": 39380,
+    "loaded_hr": 30.22,
+    "loaded_yr": 62900
+   },
+   "43-4051": {
+    "median": 19.06,
+    "emp": 97850,
+    "loaded_hr": 27.76,
+    "loaded_yr": 57700
+   }
+  },
+  {
+   "st": "HI",
+   "name": "Hawaii",
+   "43-3021": {
+    "median": 24.63,
+    "emp": 1340,
+    "loaded_hr": 35.87,
+    "loaded_yr": 74600
+   },
+   "29-2072": {
+    "median": 30.37,
+    "emp": 400,
+    "loaded_hr": 44.23,
+    "loaded_yr": 92000
+   },
+   "43-6013": {
+    "median": 24.0,
+    "emp": 2160,
+    "loaded_hr": 34.95,
+    "loaded_yr": 72700
+   },
+   "43-4051": {
+    "median": 21.95,
+    "emp": 8010,
+    "loaded_hr": 31.97,
+    "loaded_yr": 66500
+   }
+  },
+  {
+   "st": "ID",
+   "name": "Idaho",
+   "43-3021": {
+    "median": 22.33,
+    "emp": 2850,
+    "loaded_hr": 32.52,
+    "loaded_yr": 67600
+   },
+   "29-2072": {
+    "median": 25.7,
+    "emp": 1490,
+    "loaded_hr": 37.43,
+    "loaded_yr": 77900
+   },
+   "43-6013": {
+    "median": 21.6,
+    "emp": 5120,
+    "loaded_hr": 31.46,
+    "loaded_yr": 65400
+   },
+   "43-4051": {
+    "median": 20.77,
+    "emp": 18770,
+    "loaded_hr": 30.25,
+    "loaded_yr": 62900
+   }
+  },
+  {
+   "st": "IL",
+   "name": "Illinois",
+   "43-3021": {
+    "median": 23.91,
+    "emp": 21010,
+    "loaded_hr": 34.82,
+    "loaded_yr": 72400
+   },
+   "29-2072": {
+    "median": 27.14,
+    "emp": 5740,
+    "loaded_hr": 39.53,
+    "loaded_yr": 82200
+   },
+   "43-6013": {
+    "median": 22.44,
+    "emp": 27560,
+    "loaded_hr": 32.68,
+    "loaded_yr": 68000
+   },
+   "43-4051": {
+    "median": 22.18,
+    "emp": 100970,
+    "loaded_hr": 32.3,
+    "loaded_yr": 67200
+   }
+  },
+  {
+   "st": "IN",
+   "name": "Indiana",
+   "43-3021": {
+    "median": 22.31,
+    "emp": 8060,
+    "loaded_hr": 32.49,
+    "loaded_yr": 67600
+   },
+   "29-2072": {
+    "median": 22.92,
+    "emp": 5860,
+    "loaded_hr": 33.38,
+    "loaded_yr": 69400
+   },
+   "43-6013": {
+    "median": 21.18,
+    "emp": 21180,
+    "loaded_hr": 30.85,
+    "loaded_yr": 64200
+   },
+   "43-4051": {
+    "median": 20.74,
+    "emp": 44630,
+    "loaded_hr": 30.21,
+    "loaded_yr": 62800
+   }
+  },
+  {
+   "st": "IA",
+   "name": "Iowa",
+   "43-3021": {
+    "median": 22.65,
+    "emp": 3660,
+    "loaded_hr": 32.99,
+    "loaded_yr": 68600
+   },
+   "29-2072": {
+    "median": 24.35,
+    "emp": 2250,
+    "loaded_hr": 35.46,
+    "loaded_yr": 73800
+   },
+   "43-6013": {
+    "median": 19.7,
+    "emp": 10560,
+    "loaded_hr": 28.69,
+    "loaded_yr": 59700
+   },
+   "43-4051": {
+    "median": 22.16,
+    "emp": 30100,
+    "loaded_hr": 32.27,
+    "loaded_yr": 67100
+   }
+  },
+  {
+   "st": "KS",
+   "name": "Kansas",
+   "43-3021": {
+    "median": 22.32,
+    "emp": 3890,
+    "loaded_hr": 32.51,
+    "loaded_yr": 67600
+   },
+   "29-2072": {
+    "median": 23.15,
+    "emp": 2030,
+    "loaded_hr": 33.72,
+    "loaded_yr": 70100
+   },
+   "43-6013": {
+    "median": 20.68,
+    "emp": 6470,
+    "loaded_hr": 30.12,
+    "loaded_yr": 62600
+   },
+   "43-4051": {
+    "median": 19.39,
+    "emp": 29200,
+    "loaded_hr": 28.24,
+    "loaded_yr": 58700
+   }
+  },
+  {
+   "st": "KY",
+   "name": "Kentucky",
+   "43-3021": {
+    "median": 21.92,
+    "emp": 5200,
+    "loaded_hr": 31.92,
+    "loaded_yr": 66400
+   },
+   "29-2072": {
+    "median": 23.28,
+    "emp": 4210,
+    "loaded_hr": 33.9,
+    "loaded_yr": 70500
+   },
+   "43-6013": {
+    "median": 18.63,
+    "emp": 26430,
+    "loaded_hr": 27.13,
+    "loaded_yr": 56400
+   },
+   "43-4051": {
+    "median": 18.61,
+    "emp": 38630,
+    "loaded_hr": 27.1,
+    "loaded_yr": 56400
+   }
+  },
+  {
+   "st": "LA",
+   "name": "Louisiana",
+   "43-3021": {
+    "median": 20.76,
+    "emp": 5970,
+    "loaded_hr": 30.23,
+    "loaded_yr": 62900
+   },
+   "29-2072": {
+    "median": 21.45,
+    "emp": 2600,
+    "loaded_hr": 31.24,
+    "loaded_yr": 65000
+   },
+   "43-6013": {
+    "median": 17.75,
+    "emp": 2970,
+    "loaded_hr": 25.85,
+    "loaded_yr": 53800
+   },
+   "43-4051": {
+    "median": 17.95,
+    "emp": 25780,
+    "loaded_hr": 26.14,
+    "loaded_yr": 54400
+   }
+  },
+  {
+   "st": "ME",
+   "name": "Maine",
+   "43-3021": {
+    "median": 23.0,
+    "emp": 1850,
+    "loaded_hr": 33.5,
+    "loaded_yr": 69700
+   },
+   "29-2072": {
+    "median": 25.04,
+    "emp": 1000,
+    "loaded_hr": 36.47,
+    "loaded_yr": 75900
+   },
+   "43-6013": {
+    "median": 22.59,
+    "emp": 4610,
+    "loaded_hr": 32.9,
+    "loaded_yr": 68400
+   },
+   "43-4051": {
+    "median": 22.67,
+    "emp": 7560,
+    "loaded_hr": 33.02,
+    "loaded_yr": 68700
+   }
+  },
+  {
+   "st": "MD",
+   "name": "Maryland",
+   "43-3021": {
+    "median": 25.1,
+    "emp": 5960,
+    "loaded_hr": 36.56,
+    "loaded_yr": 76000
+   },
+   "29-2072": {
+    "median": 26.07,
+    "emp": 2440,
+    "loaded_hr": 37.97,
+    "loaded_yr": 79000
+   },
+   "43-6013": {
+    "median": 23.0,
+    "emp": 17290,
+    "loaded_hr": 33.5,
+    "loaded_yr": 69700
+   },
+   "43-4051": {
+    "median": 20.59,
+    "emp": 37740,
+    "loaded_hr": 29.99,
+    "loaded_yr": 62400
+   }
+  },
+  {
+   "st": "MA",
+   "name": "Massachusetts",
+   "43-3021": {
+    "median": 26.98,
+    "emp": 7430,
+    "loaded_hr": 39.29,
+    "loaded_yr": 81700
+   },
+   "29-2072": {
+    "median": 29.02,
+    "emp": 3500,
+    "loaded_hr": 42.26,
+    "loaded_yr": 87900
+   },
+   "43-6013": {
+    "median": 24.18,
+    "emp": 22210,
+    "loaded_hr": 35.22,
+    "loaded_yr": 73200
+   },
+   "43-4051": {
+    "median": 23.61,
+    "emp": 49990,
+    "loaded_hr": 34.39,
+    "loaded_yr": 71500
+   }
+  },
+  {
+   "st": "MI",
+   "name": "Michigan",
+   "43-3021": {
+    "median": 22.54,
+    "emp": 12550,
+    "loaded_hr": 32.83,
+    "loaded_yr": 68300
+   },
+   "29-2072": {
+    "median": 23.13,
+    "emp": 4890,
+    "loaded_hr": 33.69,
+    "loaded_yr": 70100
+   },
+   "43-6013": {
+    "median": 19.76,
+    "emp": 27960,
+    "loaded_hr": 28.78,
+    "loaded_yr": 59900
+   },
+   "43-4051": {
+    "median": 21.13,
+    "emp": 71310,
+    "loaded_hr": 30.77,
+    "loaded_yr": 64000
+   }
+  },
+  {
+   "st": "MN",
+   "name": "Minnesota",
+   "43-3021": {
+    "median": 26.83,
+    "emp": 6300,
+    "loaded_hr": 39.08,
+    "loaded_yr": 81300
+   },
+   "29-2072": {
+    "median": 29.58,
+    "emp": 3150,
+    "loaded_hr": 43.08,
+    "loaded_yr": 89600
+   },
+   "43-6013": {
+    "median": 24.06,
+    "emp": 16860,
+    "loaded_hr": 35.04,
+    "loaded_yr": 72900
+   },
+   "43-4051": {
+    "median": 23.46,
+    "emp": 53340,
+    "loaded_hr": 34.17,
+    "loaded_yr": 71100
+   }
+  },
+  {
+   "st": "MS",
+   "name": "Mississippi",
+   "43-3021": {
+    "median": 19.8,
+    "emp": 3040,
+    "loaded_hr": 28.84,
+    "loaded_yr": 60000
+   },
+   "29-2072": {
+    "median": 19.95,
+    "emp": 2310,
+    "loaded_hr": 29.06,
+    "loaded_yr": 60400
+   },
+   "43-6013": {
+    "median": 17.45,
+    "emp": null,
+    "loaded_hr": 25.41,
+    "loaded_yr": 52900
+   },
+   "43-4051": {
+    "median": 17.49,
+    "emp": 20860,
+    "loaded_hr": 25.47,
+    "loaded_yr": 53000
+   }
+  },
+  {
+   "st": "MO",
+   "name": "Missouri",
+   "43-3021": {
+    "median": 22.48,
+    "emp": 8550,
+    "loaded_hr": 32.74,
+    "loaded_yr": 68100
+   },
+   "29-2072": {
+    "median": 24.4,
+    "emp": 3890,
+    "loaded_hr": 35.54,
+    "loaded_yr": 73900
+   },
+   "43-6013": {
+    "median": 21.14,
+    "emp": 12260,
+    "loaded_hr": 30.79,
+    "loaded_yr": 64000
+   },
+   "43-4051": {
+    "median": 21.24,
+    "emp": 50530,
+    "loaded_hr": 30.93,
+    "loaded_yr": 64300
+   }
+  },
+  {
+   "st": "MT",
+   "name": "Montana",
+   "43-3021": {
+    "median": 22.47,
+    "emp": 1890,
+    "loaded_hr": 32.73,
+    "loaded_yr": 68100
+   },
+   "29-2072": {
+    "median": 24.13,
+    "emp": 820,
+    "loaded_hr": 35.14,
+    "loaded_yr": 73100
+   },
+   "43-6013": {
+    "median": 21.03,
+    "emp": 4410,
+    "loaded_hr": 30.63,
+    "loaded_yr": 63700
+   },
+   "43-4051": {
+    "median": 21.77,
+    "emp": 4910,
+    "loaded_hr": 31.71,
+    "loaded_yr": 65900
+   }
+  },
+  {
+   "st": "NE",
+   "name": "Nebraska",
+   "43-3021": {
+    "median": 22.79,
+    "emp": 3310,
+    "loaded_hr": 33.19,
+    "loaded_yr": 69000
+   },
+   "29-2072": {
+    "median": 24.84,
+    "emp": 1640,
+    "loaded_hr": 36.18,
+    "loaded_yr": 75200
+   },
+   "43-6013": {
+    "median": 22.17,
+    "emp": 4110,
+    "loaded_hr": 32.29,
+    "loaded_yr": 67200
+   },
+   "43-4051": {
+    "median": 21.13,
+    "emp": 15340,
+    "loaded_hr": 30.77,
+    "loaded_yr": 64000
+   }
+  },
+  {
+   "st": "NH",
+   "name": "New Hampshire",
+   "43-3021": {
+    "median": 24.38,
+    "emp": 1480,
+    "loaded_hr": 35.51,
+    "loaded_yr": 73900
+   },
+   "29-2072": {
+    "median": 23.66,
+    "emp": 930,
+    "loaded_hr": 34.46,
+    "loaded_yr": 71700
+   },
+   "43-6013": {
+    "median": 23.27,
+    "emp": 3680,
+    "loaded_hr": 33.89,
+    "loaded_yr": 70500
+   },
+   "43-4051": {
+    "median": 22.74,
+    "emp": 12750,
+    "loaded_hr": 33.12,
+    "loaded_yr": 68900
+   }
+  },
+  {
+   "st": "NJ",
+   "name": "New Jersey",
+   "43-3021": {
+    "median": 24.88,
+    "emp": 14910,
+    "loaded_hr": 36.24,
+    "loaded_yr": 75400
+   },
+   "29-2072": {
+    "median": 24.16,
+    "emp": 4450,
+    "loaded_hr": 35.19,
+    "loaded_yr": 73200
+   },
+   "43-6013": {
+    "median": 23.39,
+    "emp": 20980,
+    "loaded_hr": 34.07,
+    "loaded_yr": 70900
+   },
+   "43-4051": {
+    "median": 22.95,
+    "emp": 59690,
+    "loaded_hr": 33.42,
+    "loaded_yr": 69500
+   }
+  },
+  {
+   "st": "NM",
+   "name": "New Mexico",
+   "43-3021": {
+    "median": 22.17,
+    "emp": 2050,
+    "loaded_hr": 32.29,
+    "loaded_yr": 67200
+   },
+   "29-2072": {
+    "median": 27.63,
+    "emp": 1400,
+    "loaded_hr": 40.24,
+    "loaded_yr": 83700
+   },
+   "43-6013": {
+    "median": 21.27,
+    "emp": 4590,
+    "loaded_hr": 30.98,
+    "loaded_yr": 64400
+   },
+   "43-4051": {
+    "median": 18.77,
+    "emp": 16950,
+    "loaded_hr": 27.34,
+    "loaded_yr": 56900
+   }
+  },
+  {
+   "st": "NY",
+   "name": "New York",
+   "43-3021": {
+    "median": 25.64,
+    "emp": 32770,
+    "loaded_hr": 37.34,
+    "loaded_yr": 77700
+   },
+   "29-2072": {
+    "median": 29.67,
+    "emp": 9080,
+    "loaded_hr": 43.21,
+    "loaded_yr": 89900
+   },
+   "43-6013": {
+    "median": 22.94,
+    "emp": 57720,
+    "loaded_hr": 33.41,
+    "loaded_yr": 69500
+   },
+   "43-4051": {
+    "median": 23.08,
+    "emp": 141090,
+    "loaded_hr": 33.61,
+    "loaded_yr": 69900
+   }
+  },
+  {
+   "st": "NC",
+   "name": "North Carolina",
+   "43-3021": {
+    "median": 22.67,
+    "emp": 7000,
+    "loaded_hr": 33.02,
+    "loaded_yr": 68700
+   },
+   "29-2072": {
+    "median": 23.86,
+    "emp": 6760,
+    "loaded_hr": 34.75,
+    "loaded_yr": 72300
+   },
+   "43-6013": {
+    "median": 21.24,
+    "emp": 56840,
+    "loaded_hr": 30.93,
+    "loaded_yr": 64300
+   },
+   "43-4051": {
+    "median": 19.35,
+    "emp": 89510,
+    "loaded_hr": 28.18,
+    "loaded_yr": 58600
+   }
+  },
+  {
+   "st": "ND",
+   "name": "North Dakota",
+   "43-3021": {
+    "median": 23.34,
+    "emp": 660,
+    "loaded_hr": 33.99,
+    "loaded_yr": 70700
+   },
+   "29-2072": {
+    "median": 22.25,
+    "emp": 520,
+    "loaded_hr": 32.4,
+    "loaded_yr": 67400
+   },
+   "43-6013": {
+    "median": 21.82,
+    "emp": 1120,
+    "loaded_hr": 31.78,
+    "loaded_yr": 66100
+   },
+   "43-4051": {
+    "median": 21.48,
+    "emp": 5750,
+    "loaded_hr": 31.28,
+    "loaded_yr": 65100
+   }
+  },
+  {
+   "st": "OH",
+   "name": "Ohio",
+   "43-3021": {
+    "median": 22.31,
+    "emp": 19480,
+    "loaded_hr": 32.49,
+    "loaded_yr": 67600
+   },
+   "29-2072": {
+    "median": 24.52,
+    "emp": 7440,
+    "loaded_hr": 35.71,
+    "loaded_yr": 74300
+   },
+   "43-6013": {
+    "median": 21.29,
+    "emp": 29110,
+    "loaded_hr": 31.01,
+    "loaded_yr": 64500
+   },
+   "43-4051": {
+    "median": 21.93,
+    "emp": 85930,
+    "loaded_hr": 31.94,
+    "loaded_yr": 66400
+   }
+  },
+  {
+   "st": "OK",
+   "name": "Oklahoma",
+   "43-3021": {
+    "median": 21.69,
+    "emp": 4460,
+    "loaded_hr": 31.59,
+    "loaded_yr": 65700
+   },
+   "29-2072": {
+    "median": 25.7,
+    "emp": 2480,
+    "loaded_hr": 37.43,
+    "loaded_yr": 77900
+   },
+   "43-6013": {
+    "median": 18.43,
+    "emp": 8430,
+    "loaded_hr": 26.84,
+    "loaded_yr": 55800
+   },
+   "43-4051": {
+    "median": 18.58,
+    "emp": 34460,
+    "loaded_hr": 27.06,
+    "loaded_yr": 56300
+   }
+  },
+  {
+   "st": "OR",
+   "name": "Oregon",
+   "43-3021": {
+    "median": 24.93,
+    "emp": 5030,
+    "loaded_hr": 36.31,
+    "loaded_yr": 75500
+   },
+   "29-2072": {
+    "median": 28.37,
+    "emp": 2560,
+    "loaded_hr": 41.32,
+    "loaded_yr": 85900
+   },
+   "43-6013": {
+    "median": 24.1,
+    "emp": 16840,
+    "loaded_hr": 35.1,
+    "loaded_yr": 73000
+   },
+   "43-4051": {
+    "median": 22.81,
+    "emp": 19440,
+    "loaded_hr": 33.22,
+    "loaded_yr": 69100
+   }
+  },
+  {
+   "st": "PA",
+   "name": "Pennsylvania",
+   "43-3021": {
+    "median": 22.55,
+    "emp": 15800,
+    "loaded_hr": 32.84,
+    "loaded_yr": 68300
+   },
+   "29-2072": {
+    "median": 22.52,
+    "emp": 6970,
+    "loaded_hr": 32.8,
+    "loaded_yr": 68200
+   },
+   "43-6013": {
+    "median": 21.6,
+    "emp": 27600,
+    "loaded_hr": 31.46,
+    "loaded_yr": 65400
+   },
+   "43-4051": {
+    "median": 21.46,
+    "emp": 94340,
+    "loaded_hr": 31.25,
+    "loaded_yr": 65000
+   }
+  },
+  {
+   "st": "RI",
+   "name": "Rhode Island",
+   "43-3021": {
+    "median": 25.44,
+    "emp": 980,
+    "loaded_hr": 37.05,
+    "loaded_yr": 77100
+   },
+   "29-2072": {
+    "median": 30.75,
+    "emp": 650,
+    "loaded_hr": 44.78,
+    "loaded_yr": 93200
+   },
+   "43-6013": {
+    "median": 22.53,
+    "emp": 2350,
+    "loaded_hr": 32.81,
+    "loaded_yr": 68300
+   },
+   "43-4051": {
+    "median": 22.86,
+    "emp": 7890,
+    "loaded_hr": 33.29,
+    "loaded_yr": 69300
+   }
+  },
+  {
+   "st": "SC",
+   "name": "South Carolina",
+   "43-3021": {
+    "median": 21.75,
+    "emp": 5550,
+    "loaded_hr": 31.68,
+    "loaded_yr": 65900
+   },
+   "29-2072": {
+    "median": 26.1,
+    "emp": 2750,
+    "loaded_hr": 38.01,
+    "loaded_yr": 79100
+   },
+   "43-6013": {
+    "median": 19.31,
+    "emp": 15630,
+    "loaded_hr": 28.12,
+    "loaded_yr": 58500
+   },
+   "43-4051": {
+    "median": 18.69,
+    "emp": 51000,
+    "loaded_hr": 27.22,
+    "loaded_yr": 56600
+   }
+  },
+  {
+   "st": "SD",
+   "name": "South Dakota",
+   "43-3021": {
+    "median": 22.2,
+    "emp": 770,
+    "loaded_hr": 32.33,
+    "loaded_yr": 67300
+   },
+   "29-2072": {
+    "median": 24.81,
+    "emp": 900,
+    "loaded_hr": 36.13,
+    "loaded_yr": 75200
+   },
+   "43-6013": {
+    "median": 22.03,
+    "emp": 80,
+    "loaded_hr": 32.08,
+    "loaded_yr": 66700
+   },
+   "43-4051": {
+    "median": 19.54,
+    "emp": 6120,
+    "loaded_hr": 28.46,
+    "loaded_yr": 59200
+   }
+  },
+  {
+   "st": "TN",
+   "name": "Tennessee",
+   "43-3021": {
+    "median": 22.27,
+    "emp": 7990,
+    "loaded_hr": 32.43,
+    "loaded_yr": 67500
+   },
+   "29-2072": {
+    "median": 23.45,
+    "emp": 4440,
+    "loaded_hr": 34.15,
+    "loaded_yr": 71000
+   },
+   "43-6013": {
+    "median": 19.2,
+    "emp": 41810,
+    "loaded_hr": 27.96,
+    "loaded_yr": 58200
+   },
+   "43-4051": {
+    "median": 20.59,
+    "emp": 59730,
+    "loaded_hr": 29.99,
+    "loaded_yr": 62400
+   }
+  },
+  {
+   "st": "TX",
+   "name": "Texas",
+   "43-3021": {
+    "median": 22.07,
+    "emp": 31150,
+    "loaded_hr": 32.14,
+    "loaded_yr": 66900
+   },
+   "29-2072": {
+    "median": 23.49,
+    "emp": 17210,
+    "loaded_hr": 34.21,
+    "loaded_yr": 71200
+   },
+   "43-6013": {
+    "median": 20.63,
+    "emp": 78740,
+    "loaded_hr": 30.05,
+    "loaded_yr": 62500
+   },
+   "43-4051": {
+    "median": 19.44,
+    "emp": 337170,
+    "loaded_hr": 28.31,
+    "loaded_yr": 58900
+   }
+  },
+  {
+   "st": "UT",
+   "name": "Utah",
+   "43-3021": {
+    "median": 22.34,
+    "emp": 4000,
+    "loaded_hr": 32.54,
+    "loaded_yr": 67700
+   },
+   "29-2072": {
+    "median": 25.42,
+    "emp": 1910,
+    "loaded_hr": 37.02,
+    "loaded_yr": 77000
+   },
+   "43-6013": {
+    "median": 21.31,
+    "emp": 5260,
+    "loaded_hr": 31.04,
+    "loaded_yr": 64600
+   },
+   "43-4051": {
+    "median": 20.74,
+    "emp": 44490,
+    "loaded_hr": 30.21,
+    "loaded_yr": 62800
+   }
+  },
+  {
+   "st": "VT",
+   "name": "Vermont",
+   "43-3021": {
+    "median": 24.39,
+    "emp": 890,
+    "loaded_hr": 35.52,
+    "loaded_yr": 73900
+   },
+   "29-2072": {
+    "median": 27.67,
+    "emp": null,
+    "loaded_hr": 40.3,
+    "loaded_yr": 83800
+   },
+   "43-6013": {
+    "median": 23.17,
+    "emp": 2390,
+    "loaded_hr": 33.74,
+    "loaded_yr": 70200
+   },
+   "43-4051": {
+    "median": 22.84,
+    "emp": 2870,
+    "loaded_hr": 33.26,
+    "loaded_yr": 69200
+   }
+  },
+  {
+   "st": "VA",
+   "name": "Virginia",
+   "43-3021": {
+    "median": 22.87,
+    "emp": 7500,
+    "loaded_hr": 33.31,
+    "loaded_yr": 69300
+   },
+   "29-2072": {
+    "median": 25.62,
+    "emp": 4630,
+    "loaded_hr": 37.31,
+    "loaded_yr": 77600
+   },
+   "43-6013": {
+    "median": 22.2,
+    "emp": 27600,
+    "loaded_hr": 32.33,
+    "loaded_yr": 67300
+   },
+   "43-4051": {
+    "median": 20.54,
+    "emp": 59850,
+    "loaded_hr": 29.91,
+    "loaded_yr": 62200
+   }
+  },
+  {
+   "st": "WA",
+   "name": "Washington",
+   "43-3021": {
+    "median": 26.96,
+    "emp": 11960,
+    "loaded_hr": 39.26,
+    "loaded_yr": 81700
+   },
+   "29-2072": {
+    "median": 29.94,
+    "emp": 5010,
+    "loaded_hr": 43.6,
+    "loaded_yr": 90700
+   },
+   "43-6013": {
+    "median": 27.93,
+    "emp": 10960,
+    "loaded_hr": 40.68,
+    "loaded_yr": 84600
+   },
+   "43-4051": {
+    "median": 24.2,
+    "emp": 39760,
+    "loaded_hr": 35.24,
+    "loaded_yr": 73300
+   }
+  },
+  {
+   "st": "WV",
+   "name": "West Virginia",
+   "43-3021": {
+    "median": 18.89,
+    "emp": 2180,
+    "loaded_hr": 27.51,
+    "loaded_yr": 57200
+   },
+   "29-2072": {
+    "median": 22.77,
+    "emp": 1260,
+    "loaded_hr": 33.16,
+    "loaded_yr": 69000
+   },
+   "43-6013": {
+    "median": 18.48,
+    "emp": 1550,
+    "loaded_hr": 26.91,
+    "loaded_yr": 56000
+   },
+   "43-4051": {
+    "median": 18.48,
+    "emp": 9860,
+    "loaded_hr": 26.91,
+    "loaded_yr": 56000
+   }
+  },
+  {
+   "st": "WI",
+   "name": "Wisconsin",
+   "43-3021": {
+    "median": 23.19,
+    "emp": 7790,
+    "loaded_hr": 33.77,
+    "loaded_yr": 70200
+   },
+   "29-2072": {
+    "median": 28.98,
+    "emp": 2870,
+    "loaded_hr": 42.21,
+    "loaded_yr": 87800
+   },
+   "43-6013": {
+    "median": 23.26,
+    "emp": 7760,
+    "loaded_hr": 33.88,
+    "loaded_yr": 70500
+   },
+   "43-4051": {
+    "median": 22.58,
+    "emp": 50840,
+    "loaded_hr": 32.89,
+    "loaded_yr": 68400
+   }
+  },
+  {
+   "st": "WY",
+   "name": "Wyoming",
+   "43-3021": {
+    "median": 21.58,
+    "emp": 580,
+    "loaded_hr": 31.43,
+    "loaded_yr": 65400
+   },
+   "29-2072": {
+    "median": 26.06,
+    "emp": 280,
+    "loaded_hr": 37.95,
+    "loaded_yr": 78900
+   },
+   "43-6013": {
+    "median": 21.36,
+    "emp": 1110,
+    "loaded_hr": 31.11,
+    "loaded_yr": 64700
+   },
+   "43-4051": {
+    "median": 20.35,
+    "emp": 2110,
+    "loaded_hr": 29.64,
+    "loaded_yr": 61600
+   }
+  }
+ ]
+}

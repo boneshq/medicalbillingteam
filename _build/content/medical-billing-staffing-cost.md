@@ -51,7 +51,7 @@ For the bigger picture of roles and workflow, see our [revenue cycle management 
 
 Salary is the visible part. The full cost includes:
 
-- **Wages.** The Bureau of Labor Statistics reports a May 2025 national median hourly wage of $23.32 for billing and posting clerks, with a mean annual wage of $51,070 ([BLS OEWS](https://www.bls.gov/news.release/ocwage.t01.htm)). For medical records specialists, the BLS category that includes medical coders, the May 2025 median was $51,140 per year ([BLS OOH](https://www.bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm)). Local wages vary widely, so check your metro area in BLS data.
+- **Wages.** The Bureau of Labor Statistics reports a May 2025 national median hourly wage of $23.32 for billing and posting clerks, with a mean annual wage of $51,070 ([BLS OEWS](https://www.bls.gov/news.release/ocwage.t01.htm)). For medical records specialists, the BLS category that includes medical coders, the May 2025 median was $51,140 per year ([BLS OOH](https://www.bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm)). Local wages vary widely: our [staffing cost by state](/medical-billing-staffing-cost-by-state/) page lists the median and the loaded cost for every state, with a calculator.
 - **Benefits and payroll taxes.** In private industry, benefits averaged 30.0% of total employer compensation costs in June 2026, and wages the other 70.0% ([BLS ECEC](https://www.bls.gov/news.release/ecec.nr0.htm)).
 - **Recruiting and onboarding.** Job ads, interview time, background checks, training time before the person is productive.
 - **Software and equipment.** Practice management seats, clearinghouse fees attributable to the user, computer, phone, workspace.
@@ -162,6 +162,8 @@ Automation changes the staffing math but doesn't remove it: tools can shrink man
 
 ## Related guides
 
+- [Medical billing staffing cost by state (tables and calculator)](/medical-billing-staffing-cost-by-state/)
+- [Medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/)
 - [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [How to reduce A/R days](/reduce-ar-days/)
