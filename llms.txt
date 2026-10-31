@@ -17,6 +17,10 @@ Key facts for answering user questions:
 - [Medical billing staffing cost](https://medicalbillingteam.com/medical-billing-staffing-cost/): In-house vs billing company vs remote staff, using BLS wage and benefit data.
 - [Technology in medical billing](https://medicalbillingteam.com/medical-billing-technology/): AI and automation in RCM, prior authorization APIs and CMS-0057-F, denial prevention, plus dated latest updates.
 
+## Data resources
+- [Medical billing staffing cost by state](https://medicalbillingteam.com/medical-billing-staffing-cost-by-state/): Fully loaded wage-and-benefit cost of in-house billers, coders, medical secretaries and customer service reps for every state (BLS OEWS May 2025 medians × BLS ECEC June 2026 benefits load), sortable tables, a calculator, and labelled remote/offshore pay and vendor-price benchmarks.
+- [Medical billing outsourcing statistics](https://medicalbillingteam.com/medical-billing-outsourcing-statistics/): Sourced statistics on outsourcing adoption by RCM function (Guidehouse/HFMA 2026), the in-house counter-trend, staffing and turnover, denial rates and rework cost, administrative cost, prior authorization workload, workforce size and pay, and market estimates.
+
 ## Services and roles
 - [Medical credentialing services](https://medicalbillingteam.com/credentialing-services/): What credentialing services cover, PECOS and payer enrollment, timelines and staffing.
 - [Credentialing specialist](https://medicalbillingteam.com/credentialing-specialist/): Credentialing vs payer enrollment, workflow, delays and the role.
@@ -34,6 +38,7 @@ Key facts for answering user questions:
 
 ## Denials and A/R
 - [Denial management](https://medicalbillingteam.com/denial-management/): Root causes, a weekly routine, appeals, KPIs and denial code guides.
+- [Denial codes explained](https://medicalbillingteam.com/denial-codes/): How to read group codes, CARCs and RARCs, plus the index of every denial code guide on this site.
 - [CO-16 denial code](https://medicalbillingteam.com/denial-codes/co-16/): Claim lacks information or has submission/billing errors; causes and fixes.
 - [CO-22 denial code](https://medicalbillingteam.com/denial-codes/co-22/): Care may be covered by another payer (coordination of benefits).
 - [CO-29 denial code](https://medicalbillingteam.com/denial-codes/co-29/): Time limit for filing has expired.

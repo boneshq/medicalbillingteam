@@ -121,7 +121,7 @@ Use our free [medical billing audit checklist](/checklist/) to find where to sta
 
 ## Who does RCM? In-house, outsourced or dedicated staff
 
-- **In-house team:** full control; you carry hiring, training, turnover and coverage. BLS reports a median wage of $23.32 an hour for billing and posting clerks (May 2025) ([BLS](https://www.bls.gov/news.release/ocwage.t01.htm)), before benefits.
+- **In-house team:** full control; you carry hiring, training, turnover and coverage. BLS reports a median wage of $23.32 an hour for billing and posting clerks (May 2025) ([BLS](https://www.bls.gov/news.release/ocwage.t01.htm)), before benefits; our [cost by state](/medical-billing-staffing-cost-by-state/) page shows the loaded figure for each state.
 - **RCM company (outsourced RCM services):** runs most or all of the cycle, often for a percentage of collections. See [medical billing outsourcing](/medical-billing-outsourcing/).
 - **Dedicated remote staff:** people who work only on your account, in your systems, under your direction. See [offshore medical billing](/offshore-medical-billers/) and [hiring a medical billing virtual assistant](/hire-remote-medical-billers/).
 
@@ -142,6 +142,7 @@ Technology touches every RCM stage: automated eligibility at intake, AI coding a
 ## Related guides
 
 - [Revenue cycle management staffing (roles, KPIs, costs)](/revenue-cycle-management-staffing/)
+- [Medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/)
 - [Denial management](/denial-management/)
 - [Days in AR: how to calculate and reduce it](/reduce-ar-days/)
 - [Insurance verification services](/eligibility-verification-prior-authorization/)

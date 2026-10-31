@@ -36,6 +36,9 @@ PAGES = [
   P("hire-remote-medical-billers", "/hire-remote-medical-billers/", "Billing Staffing", "pillar", None, "Hiring Remote and Offshore Medical Billers", "Remote and offshore medical billers."),
   P("hipaa-outsourced-medical-billing", "/hipaa-outsourced-medical-billing/", "HIPAA Guide", "pillar", None, "HIPAA and Outsourced Medical Billing Staff", "HIPAA for outsourced billing staff."),
   P("medical-billing-staffing-cost", "/medical-billing-staffing-cost/", "Cost Comparison", "pillar", None, "Medical Billing Staffing Cost", "In-house vs outsourced vs remote."),
+  # Data resources (MBT-002): sourced datasets presented as tables, charts and a calculator
+  P("medical-billing-staffing-cost-by-state", "/medical-billing-staffing-cost-by-state/", "Cost by State", "cluster", None, "Medical Billing Staffing Cost by State", "Fully loaded in-house cost per state vs remote and offshore, with a calculator."),
+  P("medical-billing-outsourcing-statistics", "/medical-billing-outsourcing-statistics/", "Outsourcing Statistics", "cluster", None, "Medical Billing Outsourcing Statistics", "Who outsources what, denial rates, staffing and cost, every figure sourced."),
   P("behavioral-health-billing", "/behavioral-health-billing/", "Behavioral Health Billing", "pillar", None, "Behavioral Health Billing", "Behavioral health billing staff."),
   # Vendors (guide + approved vendors model)
   P("approved-vendors", "/approved-vendors/", "Approved Vendors", "directory", None, "Approved Vendors", "Vetted medical billing and RCM staffing vendors."),
@@ -59,6 +62,7 @@ NAV = [
   ("Services", ["credentialing-services", "prior-authorization-specialist", "eligibility-verification-prior-authorization", "treatment-center-vob", "hire-remote-medical-coders", "ar-specialist", "virtual-medical-assistant", "virtual-medical-receptionist"]),
   ("Denials", ["denial-management", "denial-codes", "denial-code-co-16", "denial-code-co-22", "denial-code-co-29", "denial-code-co-97", "denial-code-co-197", "denial-code-co-204"]),
   ("HIPAA", "hipaa-outsourced-medical-billing"),
+  ("Data", ["medical-billing-staffing-cost-by-state", "medical-billing-outsourcing-statistics", "medical-billing-staffing-cost"]),
   ("Technology", "medical-billing-technology"),
   ("Approved Vendors", "approved-vendors"),
   ("FAQ", "faq"),

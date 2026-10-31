@@ -73,7 +73,7 @@ Keep billing in-house and outsource specific queues: A/R follow-up, denials, eli
 | Management time needed | Low | Medium | Medium |
 | Exit difficulty | Contract-dependent | Usually simpler | Usually simpler |
 
-Run your own numbers with the worksheet in our [staffing cost guide](/medical-billing-staffing-cost/). It uses public BLS wage and benefit data for the in-house baseline.
+Run your own numbers with the worksheet in our [staffing cost guide](/medical-billing-staffing-cost/). It uses public BLS wage and benefit data for the in-house baseline, and our [cost by state](/medical-billing-staffing-cost-by-state/) page gives that baseline for every state with a calculator. For how many organizations outsource each billing function, see our [outsourcing statistics](/medical-billing-outsourcing-statistics/).
 
 ## Questions to ask any outsourcing partner
 

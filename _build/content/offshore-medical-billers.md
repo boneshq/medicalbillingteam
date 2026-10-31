@@ -42,7 +42,7 @@ Offshore billing teams are common in US healthcare, and they're also a source of
 ## Why practices and billing companies go offshore
 
 - **Hiring difficulty.** In a 2025 vendor survey, 38% of billing professionals said they struggle to find qualified candidates, and 28% cited unaffordable wages ([Tebra](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)).
-- **Cost structure.** US billing and posting clerks had a median wage of $23.32 an hour in May 2025 ([BLS](https://www.bls.gov/news.release/ocwage.t01.htm)), before benefits, which average 30% of private-industry compensation costs ([BLS](https://www.bls.gov/news.release/ecec.nr0.htm)). Offshore staff are typically priced lower per hour, but compare total cost with our [staffing cost worksheet](/medical-billing-staffing-cost/).
+- **Cost structure.** US billing and posting clerks had a median wage of $23.32 an hour in May 2025 ([BLS](https://www.bls.gov/news.release/ocwage.t01.htm)), before benefits, which average 30% of private-industry compensation costs ([BLS](https://www.bls.gov/news.release/ecec.nr0.htm)). Offshore staff are typically priced lower per hour, but compare total cost with our [staffing cost worksheet](/medical-billing-staffing-cost/), and see the loaded in-house figure for your own state next to labelled offshore pay and vendor prices in [medical billing staffing cost by state](/medical-billing-staffing-cost-by-state/).
 - **Coverage.** A dedicated offshore person can keep queues moving when local staff are out, and some schedules cover hours your office doesn't.
 
 ## Work that suits offshore billers
@@ -101,6 +101,7 @@ Offshore teams often use the same automation as onshore teams: eligibility bots,
 ## Related guides
 
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
+- [Medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/)
 - [Medical billing outsourcing: three models](/medical-billing-outsourcing/)
 - [Hiring remote medical coders](/hire-remote-medical-coders/)
 

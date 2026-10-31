@@ -159,6 +159,7 @@ Denial management is shifting upstream into denial prevention: claim scrubbing, 
 ## Related guides
 
 - [How to reduce A/R days](/reduce-ar-days/)
+- [Medical billing outsourcing statistics (denial rates, rework cost)](/medical-billing-outsourcing-statistics/)
 - [Eligibility verification and prior authorization](/eligibility-verification-prior-authorization/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [What an AR specialist does](/ar-specialist/)

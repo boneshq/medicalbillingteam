@@ -122,7 +122,7 @@ def load(p):
     txt = re.sub(r'<!--\s*VENDOR TEASER.*?-->', '<!--VTEASER-->', txt, flags=re.S)
     txt = re.sub(r'<!--\s*LATEST-UPDATES.*?-->', '<!--UPDATES-->', txt, flags=re.S)
     txt = re.sub(r'<!--\s*HOME TEASER.*?-->', '<!--TEASER-->', txt, flags=re.S)
-    txt = re.sub(r'<!--(?!(?:IMG:[\w-]+|VCARD|VTEASER|UPDATES|TEASER)-->).*?-->', '', txt, flags=re.S)   # build notes
+    txt = re.sub(r'<!--(?!(?:IMG:[\w-]+|VCARD|VTEASER|UPDATES|TEASER|STATE-TABLE|STATE-ROLES|STATE-CALC)-->).*?-->', '', txt, flags=re.S)   # build notes
     if p['tech']:   # #38: Technology section renders from frontmatter; body duplicate replaced by the component marker
         txt, n = re.subn(r'^## Technology\s*\n.*?(?=^## |\Z)', '<!--TECH-->\n\n', txt, count=1, flags=re.M | re.S)
         if not n: txt = re.sub(r'(^## Related guides)', '<!--TECH-->\n\n\\1', txt, count=1, flags=re.M)
@@ -368,6 +368,7 @@ def ags_block(p):
     return f'<aside class="related-ext"><h2>About the staffing provider behind this site</h2><p>{E(CFG["ags_intro"])}</p><ul>{li}</ul></aside>'
 
 FOOT = [('Guides', [('what-is-revenue-cycle-management', 'RCM'), ('hipaa-outsourced-medical-billing', 'HIPAA'), ('medical-billing-staffing-cost', 'Costs'),
+                     ('medical-billing-staffing-cost-by-state', 'Cost by state'), ('medical-billing-outsourcing-statistics', 'Outsourcing statistics'),
                      ('medical-billing-technology', 'Technology'), ('denial-management', 'Denial Management'), ('denial-codes', 'Denial codes')]),
         ('Services', [('credentialing-services', 'Credentialing'), ('prior-authorization-specialist', 'Prior Auth'), ('treatment-center-vob', 'VOB'),
                       ('hire-remote-medical-coders', 'Coding'), ('ar-specialist', 'A/R'), ('virtual-medical-assistant', 'Virtual Assistants')]),
@@ -558,16 +559,82 @@ def updates_html(items, teaser=False):
     tail = ('<p class="tech-more"><a href="/medical-billing-technology/#latest-updates">More technology updates' + ico('arrow-right') + '</a></p>') if teaser else ''
     return f'<ul class="updates{" updates-teaser" if teaser else ""}">{li}</ul>{tail}'
 
+# ---------------- state wage data (MBT-002): _build/data/state-wages.json, written by the private repo's data/make_state_wages.py ----------------
+_sw = B / 'data' / 'state-wages.json'
+STATE = json.loads(_sw.read_text(encoding='utf-8')) if _sw.exists() else {}
+_usd = lambda n: '${:,.0f}'.format(n)
+_hr = lambda n: '${:,.2f}'.format(n)
+
+def state_table_html():
+    """Table 1: medical billers (BLS 43-3021) by state: median wage, loaded wage cost, vs US, employment."""
+    if not STATE: return ''
+    us = next(r for r in STATE['rows'] if r['st'] == 'US')['43-3021']
+    rows = ''
+    for r in STATE['rows']:
+        o = r['43-3021']; diff = (o['median'] / us['median'] - 1) * 100
+        vs = 'US median' if r['st'] == 'US' else f'{diff:+.0f}%'
+        cls = ' class="us-row"' if r['st'] == 'US' else ''
+        rows += (f'<tr{cls}><td>{E(r["name"])}</td><td data-v="{o["median"]}">{_hr(o["median"])}</td><td data-v="{o["loaded_hr"]}">{_hr(o["loaded_hr"])}</td>'
+                 f'<td data-v="{o["loaded_yr"]}">{_usd(o["loaded_yr"])}</td><td data-v="{diff:.1f}">{vs}</td><td data-v="{o["emp"]}">{o["emp"]:,}</td></tr>')
+    return ('<div class="table-wrap"><table class="sortable" id="state-biller-table"><thead><tr><th>State</th><th>Median hourly wage</th><th>Loaded hourly cost</th>'
+            '<th>Loaded annual cost</th><th>Wage vs US median</th><th>Employed</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
+            '<p class="fig-src">Medical billers = BLS occupation 43-3021, Billing and Posting Clerks. Wage and employment: BLS OEWS May 2025 state estimates (released May 15, 2026). '
+            f'Loaded cost = median hourly wage × {STATE["meta"]["load_factor"]} (BLS ECEC June 2026, private-industry office and administrative support: ${STATE["meta"]["ecec"]["total_compensation_usd_per_hour"]} total compensation per $'
+            f'{STATE["meta"]["ecec"]["wages_and_salaries_usd_per_hour"]} of wages) × 2,080 hours, rounded to the nearest $100. Click a column heading to sort.</p>')
+
+def state_roles_html():
+    """Table 2: loaded annual wage cost for the four occupations by state."""
+    if not STATE: return ''
+    occ = STATE['occupations']
+    head = ''.join(f'<th>{E(o["label"])}<br><small>{E(o["code"])}</small></th>' for o in occ)
+    rows = ''
+    for r in STATE['rows']:
+        cls = ' class="us-row"' if r['st'] == 'US' else ''
+        rows += f'<tr{cls}><td>{E(r["name"])}</td>' + ''.join(f'<td data-v="{r[o["code"]]["loaded_yr"]}">{_usd(r[o["code"]]["loaded_yr"])}</td>' for o in occ) + '</tr>'
+    return (f'<div class="table-wrap"><table class="sortable" id="state-roles-table"><thead><tr><th>State</th>{head}</tr></thead><tbody>{rows}</tbody></table></div>'
+            '<p class="fig-src">Loaded annual wage cost per full-time employee (median hourly wage × load factor × 2,080 hours), same sources and formula as the table above. '
+            'BLS titles: 43-3021 Billing and Posting Clerks; 29-2072 Medical Records Specialists (includes medical coders); 43-6013 Medical Secretaries and Administrative Assistants; 43-4051 Customer Service Representatives. Click a column heading to sort.</p>')
+
+def state_calc_html():
+    if not STATE: return ''
+    m = STATE['meta']
+    data = {r['st']: {'n': r['name'], **{o['code']: [r[o['code']]['median'], r[o['code']]['loaded_yr']] for o in STATE['occupations']}} for r in STATE['rows']}
+    occ_opts = ''.join(f'<option value="{o["code"]}">{E(o["label"])} ({E(o["bls_title"])})</option>' for o in STATE['occupations'])
+    st_opts = ''.join(f'<option value="{r["st"]}"{" selected" if r["st"] == "US" else ""}>{E(r["name"])}</option>' for r in STATE['rows'])
+    js = json.dumps({'d': data, 'lf': m['load_factor'], 'h': m['hours_per_year']}, separators=(',', ':'))
+    return f'''<div class="calc" id="cost-calculator">
+<div class="calc-grid">
+<label>State<select id="c-st">{st_opts}</select></label>
+<label>Role<select id="c-occ">{occ_opts}</select></label>
+<label>Number of full-time staff<input id="c-n" type="number" min="1" max="500" step="1" value="1" inputmode="numeric"></label>
+<label>Quoted remote staff rate, $ per person per month <small>(optional, from a vendor quote)</small><input id="c-q" type="number" min="0" step="50" placeholder="e.g. 1800" inputmode="decimal"></label>
+<label>Your add-ons per remote person per month, $ <small>(software seat, remote access, management time)</small><input id="c-a" type="number" min="0" step="50" value="0" inputmode="decimal"></label>
+</div>
+<div class="calc-out" id="c-out" aria-live="polite"></div>
+<p class="fig-src">Formula: state median hourly wage (BLS OEWS May 2025) × {m['load_factor']} benefits load (BLS ECEC June 2026, office and administrative support) × 2,080 hours × staff count. The in-house figure covers wages and employer-paid benefits only; add recruiting, software, equipment, workspace and supervision yourself. The remote figure is your quote plus your add-ons; it is only as good as the quote.</p>
+</div>
+<script>(function(){{var D={js};var $=function(i){{return document.getElementById(i)}};var f0=function(n){{return '$'+Math.round(n).toLocaleString('en-US')}};
+function go(){{var st=$('c-st').value,oc=$('c-occ').value,n=Math.max(1,parseInt($('c-n').value||'1',10)),q=parseFloat($('c-q').value),a=parseFloat($('c-a').value)||0;var r=D.d[st],w=r[oc][0],yr=r[oc][1];var lh=w*D.lf;var tot=yr*n;
+var h='<p><strong>'+r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.split(' (')[0].toLowerCase()+':</strong> median wage '+'$'+w.toFixed(2)+'/hr, loaded '+'$'+lh.toFixed(2)+'/hr, about <strong>'+f0(yr)+' per year</strong> per full-time employee in wages and benefits.</p>';
+if(n>1)h+='<p>'+n+' staff: about <strong>'+f0(tot)+' per year</strong>.</p>';
+if(q>0){{var ry=(q+a)*12*n;var d=tot-ry;h+='<p>Remote staff at $'+q.toLocaleString('en-US')+' per person per month'+(a>0?' plus $'+a.toLocaleString('en-US')+' add-ons':'')+': about <strong>'+f0(ry)+' per year</strong> for '+n+'. That is '+(d>=0?'<strong>'+f0(d)+' less</strong>':'<strong>'+f0(-d)+' more</strong>')+' than the in-house wage-and-benefit cost ('+Math.abs(Math.round(d/tot*100))+'%). Compare on the same scope before deciding.</p>'}}
+$('c-out').innerHTML=h}}
+['c-st','c-occ','c-n','c-q','c-a'].forEach(function(i){{$(i).addEventListener('input',go);$(i).addEventListener('change',go)}});go();
+document.querySelectorAll('table.sortable th').forEach(function(th,i){{th.setAttribute('role','button');th.tabIndex=0;var run=function(){{var tb=th.closest('table').tBodies[0],rows=Array.from(tb.rows),asc=th.getAttribute('aria-sort')!=='ascending';th.closest('tr').querySelectorAll('th').forEach(function(x){{x.removeAttribute('aria-sort')}});th.setAttribute('aria-sort',asc?'ascending':'descending');
+rows.sort(function(a,b){{var x=a.cells[i],y=b.cells[i];var xv=x.dataset.v!==undefined?parseFloat(x.dataset.v):x.textContent,yv=y.dataset.v!==undefined?parseFloat(y.dataset.v):y.textContent;if(typeof xv==='number'&&typeof yv==='number')return asc?xv-yv:yv-xv;return asc?String(xv).localeCompare(String(yv)):String(yv).localeCompare(String(xv))}});rows.forEach(function(r){{tb.appendChild(r)}})}};th.addEventListener('click',run);th.addEventListener('keydown',function(e){{if(e.key==='Enter'||e.key===' '){{e.preventDefault();run()}}}})}});
+}})();</script>'''
+
 def components(h, p):
     h = h.replace('<!--TECH-->', tech_html(p))
     h = h.replace('<!--UPDATES-->', updates_html(UPDATES))
     h = h.replace('<!--TEASER-->', updates_html(UPDATES[:3], teaser=True))
+    h = h.replace('<!--STATE-TABLE-->', state_table_html()).replace('<!--STATE-ROLES-->', state_roles_html()).replace('<!--STATE-CALC-->', state_calc_html())
     vs = vendors()
     if vs:
         if '<!--VCARD-->' in h: h = vendor_card_html(h, vs[0])
         if '<!--VTEASER-->' in h: h = vendor_teaser_html(h, vs[0])
     h = re.sub(r'<!--IMG:([\w-]+)-->', lambda m: image_slot(m.group(1)), h)
-    return re.sub(r'<!--(?:VCARD|VTEASER|UPDATES|TEASER|TECH)-->', '', h)
+    return re.sub(r'<!--(?:VCARD|VTEASER|UPDATES|TEASER|TECH|STATE-TABLE|STATE-ROLES|STATE-CALC)-->', '', h)
 
 def vendor_main(p):
     d = p['vendor']
@@ -788,7 +855,7 @@ bots = CFG['ai_crawlers']
 # llms.txt: served verbatim from the copywriter's file (CODE-DESK #7)
 (ROOT / 'llms.txt').write_text(outbound(fix_copy((B / 'content' / 'llms.txt').read_text())))   # verbatim + location override
 # llms-full.txt: regenerated from published markdown on every build (CODE-DESK #8; logic from medbill/gen/llmsfull.py)
-FULL_ORDER = ['index','what-is-revenue-cycle-management','revenue-cycle-management-staffing','hipaa-outsourced-medical-billing','medical-billing-staffing-cost','medical-billing-technology','credentialing-services','credentialing-specialist','prior-authorization-specialist','eligibility-verification-prior-authorization','treatment-center-vob','behavioral-health-billing','ar-specialist','hire-remote-medical-coders','hire-remote-medical-billers','virtual-medical-assistant','virtual-medical-receptionist','medical-billing-outsourcing','offshore-medical-billers','denial-management','denial-code-co-16','denial-code-co-22','denial-code-co-29','denial-code-co-97','denial-code-co-197','denial-code-co-204','reduce-ar-days','approved-vendors','how-we-vet-vendors','featured-vendor-alliance-global-solutions','how-it-works','faq','about']   # = medbill/gen/llmsfull.py order
+FULL_ORDER = ['index','what-is-revenue-cycle-management','revenue-cycle-management-staffing','hipaa-outsourced-medical-billing','medical-billing-staffing-cost','medical-billing-staffing-cost-by-state','medical-billing-outsourcing-statistics','medical-billing-technology','credentialing-services','credentialing-specialist','prior-authorization-specialist','eligibility-verification-prior-authorization','treatment-center-vob','behavioral-health-billing','ar-specialist','hire-remote-medical-coders','hire-remote-medical-billers','virtual-medical-assistant','virtual-medical-receptionist','medical-billing-outsourcing','offshore-medical-billers','denial-management','denial-codes','denial-code-co-16','denial-code-co-22','denial-code-co-29','denial-code-co-97','denial-code-co-197','denial-code-co-204','reduce-ar-days','approved-vendors','how-we-vet-vendors','featured-vendor-alliance-global-solutions','how-it-works','faq','about']   # = medbill/gen/llmsfull.py order
 FT = ["# Medical Billing Team: full text\n\n> Concatenated public guides from medicalbillingteam.com, generated " + TODAY + ". Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; requests may be referred to it. Excludes forms, legal drafts and gated content.\n"]
 for k in FULL_ORDER:
     f = B / 'content' / f'{k}.md'
