@@ -565,22 +565,31 @@ STATE = json.loads(_sw.read_text(encoding='utf-8')) if _sw.exists() else {}
 _usd = lambda n: '${:,.0f}'.format(n)
 _hr = lambda n: '${:,.2f}'.format(n)
 
+def _pct_ready():
+    """True once every row carries 25th/75th percentile wages for every occupation (MBT-005 refresh)."""
+    return bool(STATE) and all(r[o['code']].get('p25') and r[o['code']].get('p75') for r in STATE['rows'] for o in STATE['occupations'])
+
 def state_table_html():
-    """Table 1: medical billers (BLS 43-3021) by state: median wage, loaded wage cost, vs US, employment."""
+    """Table 1: medical billers (BLS 43-3021) by state: median wage, 25th-75th percentile range, loaded wage cost, vs US, employment."""
     if not STATE: return ''
     us = next(r for r in STATE['rows'] if r['st'] == 'US')['43-3021']
+    pct = _pct_ready()
     rows = ''
     for r in STATE['rows']:
         o = r['43-3021']; diff = (o['median'] / us['median'] - 1) * 100
         vs = 'US median' if r['st'] == 'US' else f'{diff:+.0f}%'
         cls = ' class="us-row"' if r['st'] == 'US' else ''
-        rows += (f'<tr{cls}><td>{E(r["name"])}</td><td data-v="{o["median"]}">{_hr(o["median"])}</td><td data-v="{o["loaded_hr"]}">{_hr(o["loaded_hr"])}</td>'
-                 f'<td data-v="{o["loaded_yr"]}">{_usd(o["loaded_yr"])}</td><td data-v="{diff:.1f}">{vs}</td><td data-v="{o["emp"]}">{o["emp"]:,}</td></tr>')
-    return ('<div class="table-wrap"><table class="sortable" id="state-biller-table"><thead><tr><th>State</th><th>Median hourly wage</th><th>Loaded hourly cost</th>'
+        rng = f'<td data-v="{o["p75"]}">{_hr(o["p25"])} to {_hr(o["p75"])}</td>' if pct else ''
+        emp = f'{o["emp"]:,}' if o.get('emp') is not None else 'n/a'
+        rows += (f'<tr{cls}><td>{E(r["name"])}</td><td data-v="{o["median"]}">{_hr(o["median"])}</td>{rng}<td data-v="{o["loaded_hr"]}">{_hr(o["loaded_hr"])}</td>'
+                 f'<td data-v="{o["loaded_yr"]}">{_usd(o["loaded_yr"])}</td><td data-v="{diff:.1f}">{vs}</td><td data-v="{o["emp"] or 0}">{emp}</td></tr>')
+    rng_h = '<th>25th to 75th percentile wage</th>' if pct else ''
+    rng_src = ' The 25th to 75th percentile range is the middle half of billers in the state, from the same release; it is the usual proxy for entry-level to experienced pay.' if pct else ''
+    return (f'<div class="table-wrap"><table class="sortable" id="state-biller-table"><thead><tr><th>State</th><th>Median hourly wage</th>{rng_h}<th>Loaded hourly cost</th>'
             '<th>Loaded annual cost</th><th>Wage vs US median</th><th>Employed</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
             '<p class="fig-src">Medical billers = BLS occupation 43-3021, Billing and Posting Clerks. Wage and employment: BLS OEWS May 2025 state estimates (released May 15, 2026). '
             f'Loaded cost = median hourly wage × {STATE["meta"]["load_factor"]} (BLS ECEC June 2026, private-industry office and administrative support: ${STATE["meta"]["ecec"]["total_compensation_usd_per_hour"]} total compensation per $'
-            f'{STATE["meta"]["ecec"]["wages_and_salaries_usd_per_hour"]} of wages) × 2,080 hours, rounded to the nearest $100. Click a column heading to sort.</p>')
+            f'{STATE["meta"]["ecec"]["wages_and_salaries_usd_per_hour"]} of wages) × 2,080 hours, rounded to the nearest $100.{rng_src} Click a column heading to sort.</p>')
 
 def state_roles_html():
     """Table 2: loaded annual wage cost for the four occupations by state."""
@@ -598,28 +607,35 @@ def state_roles_html():
 def state_calc_html():
     if not STATE: return ''
     m = STATE['meta']
-    data = {r['st']: {'n': r['name'], **{o['code']: [r[o['code']]['median'], r[o['code']]['loaded_yr']] for o in STATE['occupations']}} for r in STATE['rows']}
+    pct = _pct_ready()
+    # per state and occupation: [median hourly, loaded annual at the median, 25th percentile hourly, 75th percentile hourly]
+    data = {r['st']: {'n': r['name'], **{o['code']: [r[o['code']]['median'], r[o['code']]['loaded_yr']] + ([r[o['code']]['p25'], r[o['code']]['p75']] if pct else [])
+                                         for o in STATE['occupations']}} for r in STATE['rows']}
     occ_opts = ''.join(f'<option value="{o["code"]}">{E(o["label"])} ({E(o["bls_title"])})</option>' for o in STATE['occupations'])
     st_opts = ''.join(f'<option value="{r["st"]}"{" selected" if r["st"] == "US" else ""}>{E(r["name"])}</option>' for r in STATE['rows'])
     js = json.dumps({'d': data, 'lf': m['load_factor'], 'h': m['hours_per_year']}, separators=(',', ':'))
+    xp = ('<label>Experience level <small>(BLS wage percentile as the proxy)</small><select id="c-x"><option value="1" selected>Typical (state median)</option>'
+          '<option value="0">Entry-level (25th percentile)</option><option value="2">Experienced (75th percentile)</option></select></label>') if pct else '<input type="hidden" id="c-x" value="1">'
+    xp_src = ' Entry-level and experienced use the 25th and 75th percentile wages from the same release in place of the median.' if pct else ''
     return f'''<div class="calc" id="cost-calculator">
 <div class="calc-grid">
 <label>State<select id="c-st">{st_opts}</select></label>
 <label>Role<select id="c-occ">{occ_opts}</select></label>
+{xp}
 <label>Number of full-time staff<input id="c-n" type="number" min="1" max="500" step="1" value="1" inputmode="numeric"></label>
 <label>Quoted remote staff rate, $ per person per month <small>(optional, from a vendor quote)</small><input id="c-q" type="number" min="0" step="50" placeholder="e.g. 1800" inputmode="decimal"></label>
 <label>Your add-ons per remote person per month, $ <small>(software seat, remote access, management time)</small><input id="c-a" type="number" min="0" step="50" value="0" inputmode="decimal"></label>
 </div>
 <div class="calc-out" id="c-out" aria-live="polite"></div>
-<p class="fig-src">Formula: state median hourly wage (BLS OEWS May 2025) × {m['load_factor']} benefits load (BLS ECEC June 2026, office and administrative support) × 2,080 hours × staff count. The in-house figure covers wages and employer-paid benefits only; add recruiting, software, equipment, workspace and supervision yourself. The remote figure is your quote plus your add-ons; it is only as good as the quote.</p>
+<p class="fig-src">Formula: state hourly wage at the chosen level (median by default; BLS OEWS May 2025) × {m['load_factor']} benefits load (BLS ECEC June 2026, office and administrative support) × 2,080 hours × staff count.{xp_src} The in-house figure covers wages and employer-paid benefits only; add recruiting, software, equipment, workspace and supervision yourself. The remote figure is your quote plus your add-ons; it is only as good as the quote.</p>
 </div>
-<script>(function(){{var D={js};var $=function(i){{return document.getElementById(i)}};var f0=function(n){{return '$'+Math.round(n).toLocaleString('en-US')}};
-function go(){{var st=$('c-st').value,oc=$('c-occ').value,n=Math.max(1,parseInt($('c-n').value||'1',10)),q=parseFloat($('c-q').value),a=parseFloat($('c-a').value)||0;var r=D.d[st],w=r[oc][0],yr=r[oc][1];var lh=w*D.lf;var tot=yr*n;
-var h='<p><strong>'+r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.split(' (')[0].toLowerCase()+':</strong> median wage '+'$'+w.toFixed(2)+'/hr, loaded '+'$'+lh.toFixed(2)+'/hr, about <strong>'+f0(yr)+' per year</strong> per full-time employee in wages and benefits.</p>';
+<script>(function(){{var D={js};var $=function(i){{return document.getElementById(i)}};var f0=function(n){{return '$'+Math.round(n).toLocaleString('en-US')}};var XL=['25th percentile wage','median wage','75th percentile wage'];
+function go(){{var st=$('c-st').value,oc=$('c-occ').value,x=parseInt($('c-x').value,10),n=Math.max(1,parseInt($('c-n').value||'1',10)),q=parseFloat($('c-q').value),a=parseFloat($('c-a').value)||0;var r=D.d[st],o=r[oc];if(x!==1&&o.length<4)x=1;var w=x===0?o[2]:x===2?o[3]:o[0];var lh=w*D.lf;var yr=x===1?o[1]:Math.round(w*D.lf*D.h/100)*100;var tot=yr*n;
+var h='<p><strong>'+r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.split(' (')[0].toLowerCase()+':</strong> '+XL[x]+' '+'$'+w.toFixed(2)+'/hr, loaded '+'$'+lh.toFixed(2)+'/hr, about <strong>'+f0(yr)+' per year</strong> per full-time employee in wages and benefits.</p>';
 if(n>1)h+='<p>'+n+' staff: about <strong>'+f0(tot)+' per year</strong>.</p>';
 if(q>0){{var ry=(q+a)*12*n;var d=tot-ry;h+='<p>Remote staff at $'+q.toLocaleString('en-US')+' per person per month'+(a>0?' plus $'+a.toLocaleString('en-US')+' add-ons':'')+': about <strong>'+f0(ry)+' per year</strong> for '+n+'. That is '+(d>=0?'<strong>'+f0(d)+' less</strong>':'<strong>'+f0(-d)+' more</strong>')+' than the in-house wage-and-benefit cost ('+Math.abs(Math.round(d/tot*100))+'%). Compare on the same scope before deciding.</p>'}}
 $('c-out').innerHTML=h}}
-['c-st','c-occ','c-n','c-q','c-a'].forEach(function(i){{$(i).addEventListener('input',go);$(i).addEventListener('change',go)}});go();
+['c-st','c-occ','c-x','c-n','c-q','c-a'].forEach(function(i){{$(i).addEventListener('input',go);$(i).addEventListener('change',go)}});go();
 document.querySelectorAll('table.sortable th').forEach(function(th,i){{th.setAttribute('role','button');th.tabIndex=0;var run=function(){{var tb=th.closest('table').tBodies[0],rows=Array.from(tb.rows),asc=th.getAttribute('aria-sort')!=='ascending';th.closest('tr').querySelectorAll('th').forEach(function(x){{x.removeAttribute('aria-sort')}});th.setAttribute('aria-sort',asc?'ascending':'descending');
 rows.sort(function(a,b){{var x=a.cells[i],y=b.cells[i];var xv=x.dataset.v!==undefined?parseFloat(x.dataset.v):x.textContent,yv=y.dataset.v!==undefined?parseFloat(y.dataset.v):y.textContent;if(typeof xv==='number'&&typeof yv==='number')return asc?xv-yv:yv-xv;return asc?String(xv).localeCompare(String(yv)):String(yv).localeCompare(String(xv))}});rows.forEach(function(r){{tb.appendChild(r)}})}};th.addEventListener('click',run);th.addEventListener('keydown',function(e){{if(e.key==='Enter'||e.key===' '){{e.preventDefault();run()}}}})}});
 }})();</script>'''
