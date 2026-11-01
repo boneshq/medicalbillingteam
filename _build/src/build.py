@@ -850,9 +850,15 @@ def prefix(h):
     return re.sub(r'\bsrcset="([^"]+)"', lambda m: 'srcset="' + re.sub(r'(^|,\s*)/(?!/)', rf'\1{BASE_PATH}/', m.group(1)) + '"', h)
 
 IMG = BYKEY['index']
-IMG['hero_img'] = ('<picture class="hero-bg" aria-hidden="true"><img src="/img/ags/office-01-640.webp" '
+# Hero backdrop (decorative, opacity .38 under a gradient). Phones (<=599px) get a 340x572 centre crop of the same photo
+# (MBT-006): with object-fit cover a phone only ever shows that strip, and sizes=100vw x DPR made them download the 1000w file
+# (47 KB) as the LCP image. The two preloads are media-gated so each viewport fetches exactly one file.
+IMG['hero_img'] = ('<picture class="hero-bg" aria-hidden="true">'
+                   '<source media="(max-width:599px)" srcset="/img/ags/office-01-m.webp" width="340" height="572">'
+                   '<img src="/img/ags/office-01-640.webp" '
                    'srcset="/img/ags/office-01-640.webp 640w, /img/ags/office-01-1000.webp 1000w" sizes="100vw" alt="" width="1000" height="572" fetchpriority="high" decoding="async"></picture>')
-IMG['preload_img'] = ('<link rel="preload" as="image" href="/img/ags/office-01-640.webp" '
+IMG['preload_img'] = ('<link rel="preload" as="image" href="/img/ags/office-01-m.webp" media="(max-width:599px)" fetchpriority="high">\n'
+                      '<link rel="preload" as="image" href="/img/ags/office-01-640.webp" media="(min-width:600px)" '
                       'imagesrcset="/img/ags/office-01-640.webp 640w, /img/ags/office-01-1000.webp 1000w" imagesizes="100vw" fetchpriority="high">\n')
 IMG['hipaa_img'] = ('<img src="/img/hipaa-glass-shield-480.webp" srcset="/img/hipaa-glass-shield-480.webp 480w, /img/hipaa-glass-shield-800.webp 800w" '
                     'sizes="(min-width:960px) 420px, 100vw" alt="" width="480" height="643" loading="lazy" decoding="async">')
