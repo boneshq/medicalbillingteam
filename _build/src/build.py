@@ -910,7 +910,7 @@ print(json.dumps(status, indent=1))
 _broken = []
 for _f in ROOT.rglob('*.html'):
     if any(s in _f.parts for s in ('_build', '.git', 'node_modules')): continue
-    for _u in re.findall(r'(?:href|src)="(' + re.escape(BASE_PATH) + r'/[^"#?]*)', _f.read_text()):
+    for _u in re.findall(r'(?:href|src)="(' + re.escape(BASE_PATH) + r'/(?!/)[^"#?]*)', _f.read_text()):   # (?!/) skips protocol-relative //host URLs (e.g. the CTM script)
         _rel = _u[len(BASE_PATH):].lstrip('/')
         _t = ROOT / _rel
         if not (_t.is_file() or (_t / 'index.html').is_file()): _broken.append(f'{_f.relative_to(ROOT)} -> {_u}')

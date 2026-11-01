@@ -150,12 +150,12 @@
   },
   "phone": {
     "_note": "Call CTA (Tony 2026-10-30): header button, mobile menu, sticky bar, footer band, contact card, Organization schema telephone. display/e164 both empty = no call CTA rendered anywhere. Put the CTM tracking number here (routes to Alliance Global Solutions); CTM DNI swaps it per traffic source on the page.",
-    "display": "",
-    "e164": "",
+    "display": "(888) 447-1809",
+    "e164": "+18884471809",
     "hours": ""
   },
   "call_tracking": {
     "_note": "CTM DNI/tracking snippet for account 601667. Injected once before </body> on every page when non-empty. Empty = nothing injected. tel: clicks always fire GA4 phone_call_click (see build.py footer script).",
-    "snippet": ""
+    "snippet": "<script async src=\"https://601667.tctm.co/t.js\" referrerpolicy=\"no-referrer-when-downgrade\"></script>"
   }
 }
