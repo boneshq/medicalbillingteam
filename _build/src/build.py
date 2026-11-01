@@ -317,9 +317,11 @@ def tcpa_links():
     return f' See our {" and ".join(l)}.' if l else ''
 
 FORM_ON = bool(CFG['form_backend'].get('apps_script_url'))   # flips to live automatically once apps_script_url is set
+CMP_ON = FORM_ON and bool(CFG['form_backend'].get('comparison_form'))   # cost-by-state "Email me this comparison" (needs form_id=comparison on the backend)
 
 def form(form_id):
     full = form_id == 'full'
+    cmp = form_id == 'comparison'   # calculator capture (MBT-005): no phone field, practice optional; the calculator choices travel in source_page
     name = inp('name', 'Your name', ac='name', maxl=100)
     practice = inp('practice_name', 'Practice or company name', ac='organization')
     provs = sel('num_providers', 'Number of providers', F['providers'])
@@ -331,17 +333,22 @@ def form(form_id):
         boxes = ''.join(f'<label class="chip"><input type="checkbox" name="help_areas" value="{E(x)}"> {E(x)}</label>' for x in F['help_areas'])
         mid = f'<fieldset class="chips"><legend>Where do you need help? <i>(optional)</i></legend>{boxes}</fieldset>'
         bottom = [email, phone]
+    elif cmp:  # name, work email, role, optional practice; no phone, so no TCPA checkbox
+        top = [name, email, sel('role', 'Your role', F['roles']), inp('practice_name', 'Practice or company name', required=False, ac='organization')]
+        mid, bottom = '', []
     else:      # index.md hero order: name, work email, practice, providers, phone
         top = [name, email, practice, provs, phone] if form_id == 'hero' else [name, practice, provs, email, phone]
         mid, bottom = '', []
-    tcpa = (f'<label class="check tcpa" hidden><input type="checkbox" name="tcpa_consent" value="yes"> '
-            f'<span>{E(CFG["tcpa_text"])}{tcpa_links()}</span></label>')
-    grid2 = ' grid-2' if full else ''
+    tcpa = '' if cmp else (f'<label class="check tcpa" hidden><input type="checkbox" name="tcpa_consent" value="yes"> '
+                           f'<span>{E(CFG["tcpa_text"])}{tcpa_links()}</span></label>')
+    grid2 = ' grid-2' if full or cmp else ''
     fields = f'<div class="grid{grid2}">{"".join(top)}</div>{mid}' + (f'<div class="grid{grid2}">{"".join(bottom)}</div>' if bottom else '')
-    btn = 'Send me the checklist' if form_id == 'checklist' else 'Request my assessment'
+    btn = 'Send me the checklist' if form_id == 'checklist' else 'Email me this comparison' if cmp else 'Request my assessment'
     above = f'<p class="phi" role="note"><strong>Do not include any patient information.</strong> {E(CFG["phi_notice"].split(". ",1)[1])}</p>'
     if full: above += f'<p class="fine">{E(CFG["email_notice"])}</p><p class="fine"><strong>Reminder: do not include any patient information.</strong></p>'
     if form_id == 'checklist': above += '<p class="fine">We\'ll email you the checklist and occasional guides about billing staffing. Unsubscribe any time.</p>'
+    if cmp: above += ('<p class="fine">We\'ll email you this comparison, with its figures and sources, within one business day. There is no phone field, so nobody calls unless you ask.</p>'
+                      f'<p class="fine">{E(CFG["email_notice"])}</p>')
     above += f'<p class="referral" role="note">{ico("handshake")}<span>{E(AFF["referral"])}</span></p>'   # slots §4: directly above submit
     above += f'<p class="fine legal">By submitting, you agree to our <a href="{BYKEY["terms"]["path"]}">Terms of Use</a> and <a href="{BYKEY["privacy"]["path"]}">Privacy Policy</a>.</p>'   # 2026-10-19 legal pages
     off = '' if FORM_ON else ('<p class="form-off" role="status"><strong>Online requests are temporarily unavailable.</strong> '
@@ -351,7 +358,7 @@ def form(form_id):
     if form_id != 'footer':   # #35: short disclosure under forms (the footer form sits directly above the footer disclosure)
         under += f'<p class="fine affil">{inline(AFF["short"])}</p>'
     return f'''<form class="lead-form lead-{form_id}{'' if FORM_ON else ' is-off'}" id="{'assessment' if form_id=='hero' else 'form-'+form_id}" method="post" action="#" novalidate
- data-tcpa-version="{E(CFG['tcpa_version'])}" data-thanks="{'#unlocked' if form_id == 'checklist' else '/thank-you/'}">
+ data-tcpa-version="{E(CFG['tcpa_version'])}" data-thanks="{'#unlocked' if form_id == 'checklist' else '#comparison-sent' if cmp else '/thank-you/'}">
 <input type="hidden" name="form_id" value="{form_id}">
 <div class="hp" aria-hidden="true"><label>Leave this empty<input name="company_website" tabindex="-1" autocomplete="off"></label></div>
 {fields}{tcpa}
@@ -617,6 +624,10 @@ def state_calc_html():
     xp = ('<label>Experience level <small>(BLS wage percentile as the proxy)</small><select id="c-x"><option value="1" selected>Typical (state median)</option>'
           '<option value="0">Entry-level (25th percentile)</option><option value="2">Experienced (75th percentile)</option></select></label>') if pct else '<input type="hidden" id="c-x" value="1">'
     xp_src = ' Entry-level and experienced use the 25th and 75th percentile wages from the same release in place of the median.' if pct else ''
+    cap = ''   # lead capture under the result (MBT-005, roadmap 1.5): the chosen state/role/level/headcount/quote travel as the form's data-source deep link
+    if CMP_ON:
+        cap = (f'<div class="calc-capture" id="calc-capture"><h3>Email me this comparison</h3><p class="cap-sum" id="c-sum"></p>{form("comparison")}'
+               '<div class="calc-sent" id="comparison-sent" hidden role="status"><p><strong>Got it.</strong> We\'ll email this comparison to you within one business day: <span id="c-sum2"></span></p></div></div>')
     return f'''<div class="calc" id="cost-calculator">
 <div class="calc-grid">
 <label>State<select id="c-st">{st_opts}</select></label>
@@ -627,6 +638,7 @@ def state_calc_html():
 <label>Your add-ons per remote person per month, $ <small>(software seat, remote access, management time)</small><input id="c-a" type="number" min="0" step="50" value="0" inputmode="decimal"></label>
 </div>
 <div class="calc-out" id="c-out" aria-live="polite"></div>
+{cap}
 <p class="fig-src">Formula: state hourly wage at the chosen level (median by default; BLS OEWS May 2025) × {m['load_factor']} benefits load (BLS ECEC June 2026, office and administrative support) × 2,080 hours × staff count.{xp_src} The in-house figure covers wages and employer-paid benefits only; add recruiting, software, equipment, workspace and supervision yourself. The remote figure is your quote plus your add-ons; it is only as good as the quote.</p>
 </div>
 <script>(function(){{var D={js};var $=function(i){{return document.getElementById(i)}};var f0=function(n){{return '$'+Math.round(n).toLocaleString('en-US')}};var XL=['25th percentile wage','median wage','75th percentile wage'];
@@ -634,7 +646,14 @@ function go(){{var st=$('c-st').value,oc=$('c-occ').value,x=parseInt($('c-x').va
 var h='<p><strong>'+r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.split(' (')[0].toLowerCase()+':</strong> '+XL[x]+' '+'$'+w.toFixed(2)+'/hr, loaded '+'$'+lh.toFixed(2)+'/hr, about <strong>'+f0(yr)+' per year</strong> per full-time employee in wages and benefits.</p>';
 if(n>1)h+='<p>'+n+' staff: about <strong>'+f0(tot)+' per year</strong>.</p>';
 if(q>0){{var ry=(q+a)*12*n;var d=tot-ry;h+='<p>Remote staff at $'+q.toLocaleString('en-US')+' per person per month'+(a>0?' plus $'+a.toLocaleString('en-US')+' add-ons':'')+': about <strong>'+f0(ry)+' per year</strong> for '+n+'. That is '+(d>=0?'<strong>'+f0(d)+' less</strong>':'<strong>'+f0(-d)+' more</strong>')+' than the in-house wage-and-benefit cost ('+Math.abs(Math.round(d/tot*100))+'%). Compare on the same scope before deciding.</p>'}}
-$('c-out').innerHTML=h}}
+$('c-out').innerHTML=h;
+var s=r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.split(' (')[0].toLowerCase()+', '+['entry-level (25th percentile)','typical (median)','experienced (75th percentile)'][x]+', '+n+' full-time: about '+f0(tot)+' per year in-house (wages and benefits)'+(q>0?' vs about '+f0((q+a)*12*n)+' per year remote at your quote':'')+'.';
+var e1=$('c-sum'),e2=$('c-sum2');if(e1)e1.textContent="You'll get: "+s+' Figures and BLS sources included.';if(e2)e2.textContent=s;
+var u=new URLSearchParams();if(st!=='US')u.set('st',st);if(oc!==O0)u.set('occ',oc);if(x!==1)u.set('x',x);if(n>1)u.set('n',n);if(q>0)u.set('q',q);if(a>0)u.set('a',a);var qs=u.toString();
+var fm=$('form-comparison');if(fm)fm.dataset.source=location.origin+location.pathname+(qs?'?'+qs:'')}}
+var O0=$('c-occ').options[0].value,P=new URLSearchParams(location.search);
+function sv(i,v){{var e=$(i);if(!e||v==null||v==='')return;if(e.tagName==='SELECT'){{for(var k=0;k<e.options.length;k++)if(e.options[k].value===v){{e.value=v;break}}}}else if(isFinite(parseFloat(v))&&parseFloat(v)>=0)e.value=v}}
+sv('c-st',P.get('st'));sv('c-occ',P.get('occ'));sv('c-x',P.get('x'));sv('c-n',P.get('n'));sv('c-q',P.get('q'));sv('c-a',P.get('a'));
 ['c-st','c-occ','c-x','c-n','c-q','c-a'].forEach(function(i){{$(i).addEventListener('input',go);$(i).addEventListener('change',go)}});go();
 document.querySelectorAll('table.sortable th').forEach(function(th,i){{th.setAttribute('role','button');th.tabIndex=0;var run=function(){{var tb=th.closest('table').tBodies[0],rows=Array.from(tb.rows),asc=th.getAttribute('aria-sort')!=='ascending';th.closest('tr').querySelectorAll('th').forEach(function(x){{x.removeAttribute('aria-sort')}});th.setAttribute('aria-sort',asc?'ascending':'descending');
 rows.sort(function(a,b){{var x=a.cells[i],y=b.cells[i];var xv=x.dataset.v!==undefined?parseFloat(x.dataset.v):x.textContent,yv=y.dataset.v!==undefined?parseFloat(y.dataset.v):y.textContent;if(typeof xv==='number'&&typeof yv==='number')return asc?xv-yv:yv-xv;return asc?String(xv).localeCompare(String(yv)):String(yv).localeCompare(String(xv))}});rows.forEach(function(r){{tb.appendChild(r)}})}};th.addEventListener('click',run);th.addEventListener('keydown',function(e){{if(e.key==='Enter'||e.key===' '){{e.preventDefault();run()}}}})}});
