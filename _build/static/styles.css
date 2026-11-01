@@ -441,6 +441,8 @@ blockquote.affil-box{margin:18px 0}blockquote.affil-box p{margin:0}
 .calc-grid{display:grid;gap:14px;grid-template-columns:1fr}.calc label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:.9rem;color:var(--ink)}.calc label small{font-weight:400;color:var(--mute)}
 .calc select,.calc input{font:inherit;font-size:1rem;padding:10px 12px;border:1px solid var(--line-2);border-radius:var(--r-sm);background:var(--paper);color:var(--ink);width:100%}.calc select:focus,.calc input:focus{outline:2px solid var(--blue);outline-offset:1px}
 .calc-out{margin-top:16px;padding:14px 16px;background:var(--mint);border-radius:var(--r-sm);font-size:1rem}.calc-out p{margin:0 0 .5em}.calc-out p:last-child{margin:0}
+.calc-capture{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line)}.calc-capture h3{margin:0 0 4px;font-size:1.12rem}.cap-sum{margin:0 0 12px;font-size:.92rem;color:var(--ink-2)}
+.calc-capture .lead-form .btn{width:auto;min-width:240px}.calc-capture .lead-form label{display:block}.calc-sent{margin-top:14px;padding:14px 16px;background:var(--mint);border-radius:var(--r-sm)}.calc-sent p{margin:0}
 .prose table.sortable th{cursor:pointer;user-select:none;white-space:nowrap}.prose table.sortable th:hover{background:var(--navy-2)}.prose table.sortable th[aria-sort]::after{content:" ↑";opacity:.8}.prose table.sortable th[aria-sort="descending"]::after{content:" ↓"}
 .prose tr.us-row td{background:var(--sky);font-weight:600}.prose td[data-v]{font-variant-numeric:tabular-nums;white-space:nowrap}
 @media(min-width:640px){.stat-grid{grid-template-columns:repeat(2,1fr)}.calc-grid{grid-template-columns:repeat(2,1fr)}}

@@ -33,7 +33,7 @@
         billing_setup: d.get('billing_setup') || null, help_areas: d.getAll('help_areas'),
         work_email: (d.get('work_email') || '').trim().toLowerCase(), phone: (d.get('phone') || '').trim() || null,
         tcpa_consent: d.get('tcpa_consent') === 'yes', tcpa_text_version: d.get('tcpa_consent') === 'yes' ? f.dataset.tcpaVersion : null,
-        source_page: location.href.split('#')[0].slice(0, 500), utm: utm(), user_agent: navigator.userAgent.slice(0, 300),
+        source_page: (f.dataset.source || location.href.split('#')[0]).slice(0, 500), utm: utm(), user_agent: navigator.userAgent.slice(0, 300),   // data-source: a form's own deep link (cost-by-state calculator choices), never personal data
         elapsed_ms: Date.now() - start, is_test: /[?&]mbt_test=1\b/.test(location.search)
       };
       if (!C.enabled || !C.endpoint) { msg(f, 'Online requests are temporarily unavailable. Please try again shortly. Nothing was sent.', true); return; }
