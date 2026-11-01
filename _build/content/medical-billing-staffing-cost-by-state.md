@@ -14,14 +14,14 @@ faq:
   - q: "How much cheaper are offshore medical billers?"
     a: "It depends on what you compare. Worker pay in the Philippines and India runs a few hundred dollars a month in the self-reported data on this page, but a client does not pay worker pay. Vendor-published prices for a dedicated full-time biller in India or the Philippines run from about $900 to $2,000 a month in Connext's published ranges; a vendor's price includes its overhead and margin, so it is the number to compare with the loaded in-house cost. Compare a vendor's all-in monthly price, plus your own software, access and management costs, with the loaded in-house cost for your state."
   - q: "Can I compare staff with the same experience level?"
-    a: "Only partly for now. The BLS state medians cover workers of all experience levels, and the 25th and 75th percentile wages that would act as an experience proxy are not yet on this page. The India figures from Payscale are split into early-career (1 to 4 years) and mid-career (5 to 9 years) bands, which gives one like-for-like view. We will add the US percentiles when the BLS state file is loaded."
+    a: "Partly. BLS does not publish wages by years of experience, so this page uses the 25th and 75th percentile wages from the same May 2025 release as the proxy: the middle half of billers nationally earn between $20.60 and $28.02 an hour, so an experienced biller at the 75th percentile costs about 36% more than an entry-level one at the 25th. The calculator lets you pick either level for any state. On the offshore side, the India figures from Payscale are split into early-career (1 to 4 years) and mid-career (5 to 9 years) bands, a 51% step, which gives one like-for-like view."
 canonical: "https://medicalbillingteam.com/medical-billing-staffing-cost-by-state/"
 primary_keyword: "medical billing staffing cost by state"
 search_intent: "commercial"
 audience: "practice owners, administrators, billing company owners"
 conversion_destination: "/contact/"
 date_published: "2026-10-30"
-date_modified: "2026-10-30"
+date_modified: "2026-11-01"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""
 review_cadence: "on each BLS OEWS (May, released the following spring) and ECEC (quarterly) release"
@@ -29,7 +29,7 @@ review_cadence: "on each BLS OEWS (May, released the following spring) and ECEC 
 
 # Medical billing staffing cost by state: fully loaded in-house cost vs remote and offshore staff
 
-*By the Medical Billing Team editors · Published October 30, 2026 · Updated October 30, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 30, 2026 · Updated November 1, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
 **Short answer:** A full-time in-house medical biller costs about $70,600 a year in wages and employer-paid benefits at the US median, and between about $56,500 (Arkansas) and $93,700 (District of Columbia) depending on the state. That is the May 2025 BLS median hourly wage for billing and posting clerks ($23.32 nationally), multiplied by the BLS benefits load for office and administrative support staff (1.4564, June 2026) and 2,080 hours. The tables below give that figure for every state and four billing-office roles, the calculator runs it for your headcount, and the last section puts labelled remote and offshore pay and vendor prices next to it.
 
@@ -42,23 +42,23 @@ This page exists because "what does a biller cost" has a different answer in Jac
 - **Hours:** 2,080 a year, the BLS convention for a year-round, full-time job.
 - **Not included:** recruiting, training time, practice management and clearinghouse seats, equipment, workspace and the manager's time. Our [staffing cost worksheet](/medical-billing-staffing-cost/#worksheet-compare-with-your-own-numbers) adds those. The loaded figure here is a floor, not the whole cost.
 - **Occupations:** BLS has no "medical biller" line. We use 43-3021 Billing and Posting Clerks for billers, 29-2072 Medical Records Specialists (the category that includes medical coders) for coders, 43-6013 Medical Secretaries and Administrative Assistants for front-office and billing-office support, and 43-4051 Customer Service Representatives for patient-account and call-handling roles.
-- **Gaps:** Nevada is missing from this first release because the BLS API pull that built the dataset was cut off by the daily request limit; it will be added on the next refresh. The 10th, 25th, 75th and 90th percentile wages, which would serve as an experience proxy, are missing for the same reason.
+- **Experience proxy:** the 25th and 75th percentile hourly wages from the same release, added November 1, 2026, bracket the middle half of workers in each state; the first table shows the range for billers and the calculator can price either level. The 10th and 90th percentiles are not loaded yet.
 
 ## Fully loaded cost of a medical biller by state
 
-Highest wages for billers (BLS 43-3021, May 2025) are in the District of Columbia ($30.93 an hour, about $93,700 a year loaded), California ($27.05, $81,900), Massachusetts ($26.98, $81,700), Washington ($26.96, $81,700) and Minnesota ($26.83, $81,300). Lowest are Arkansas ($18.65, $56,500), West Virginia ($18.89, $57,200), Alabama ($19.00, $57,600), Mississippi ($19.80, $60,000) and Louisiana ($20.76, $62,900). The most billers work in California (41,290), New York (32,770), Texas (31,150), Florida (28,560) and Illinois (21,010).
+Highest wages for billers (BLS 43-3021, May 2025) are in the District of Columbia ($30.93 an hour, about $93,700 a year loaded), California ($27.05, $81,900), Massachusetts ($26.98, $81,700), Washington ($26.96, $81,700) and Minnesota ($26.83, $81,300). Lowest are Arkansas ($18.65, $56,500), West Virginia ($18.89, $57,200), Alabama ($19.00, $57,600), Mississippi ($19.80, $60,000) and Louisiana ($20.76, $62,900). The most billers work in California (41,290), New York (32,770), Texas (31,150), Florida (28,560) and Illinois (21,010). Nationally the middle half of billers earn between $20.60 and $28.02 an hour (the 25th and 75th percentiles). In the District of Columbia, Massachusetts and Minnesota even the 25th percentile is at or above the national median of $23.32; in Alabama, Arkansas, Mississippi and West Virginia the 75th percentile is at or below it.
 
 <!--STATE-TABLE-->
 
 ## Loaded annual cost for four billing-office roles by state
 
-Nationally in May 2025 the median hourly wage was $23.32 for billers (loaded about $70,600 a year), $24.59 for medical records specialists including coders ($74,500), $22.08 for medical secretaries ($66,900) and $21.53 for customer service representatives ($65,200). Medical records specialists (the coder category) out-earn billers in 44 of the 50 states and districts on this page; the gap in median hourly wage is widest in Wisconsin ($5.79), Hawaii ($5.74), New Mexico ($5.46) and Rhode Island ($5.31).
+Nationally in May 2025 the median hourly wage was $23.32 for billers (loaded about $70,600 a year), $24.59 for medical records specialists including coders ($74,500), $22.08 for medical secretaries ($66,900) and $21.53 for customer service representatives ($65,200). Medical records specialists (the coder category) out-earn billers in 45 of the 51 states and districts on this page (50 states plus the District of Columbia); the gap in median hourly wage is widest in Wisconsin ($5.79), Hawaii ($5.74), New Mexico ($5.46) and Rhode Island ($5.31).
 
 <!--STATE-ROLES-->
 
 ## Calculator: your state, your role, your headcount
 
-Pick a state and a role, enter how many full-time people you need, and, if you have a quote for dedicated remote staff, enter the vendor's monthly price per person plus what you would add for software seats, secure access and management time. The result shows the loaded in-house wage-and-benefit cost and the difference. It uses only the figures on this page.
+Pick a state, a role and an experience level (the state median, or the 25th or 75th percentile wage as the entry-level or experienced proxy), enter how many full-time people you need, and, if you have a quote for dedicated remote staff, enter the vendor's monthly price per person plus what you would add for software seats, secure access and management time. The result shows the loaded in-house wage-and-benefit cost and the difference. It uses only the figures on this page.
 
 <!--STATE-CALC-->
 
@@ -99,9 +99,9 @@ The Payscale Philippines certified medical coder page (PHP 420,000 a year, about
 
 We found no government wage survey for medical billers in the Philippines (the Philippine Statistics Authority's Occupational Wages Survey page would not load), none for Mexico, and no worker-side pay data for Colombia. If you have a primary source, [tell us](/contact/) and we will add it.
 
-### Experience: what can and cannot be matched yet
+### Experience: matching levels on both sides
 
-The India Payscale data is the only series here with experience bands: a billing specialist with 1 to 4 years earns about $2,785 a year, one with 5 to 9 years about $4,198, a 51% step. The BLS state medians have no experience split; the OEWS 25th and 75th percentile wages are the usual proxy, and we will add them when the state file is loaded. Until then, remember that the state median mixes every experience level, and ask a vendor which experience level its quoted price covers.
+The India Payscale data is the only offshore series here with experience bands: a billing specialist with 1 to 4 years earns about $2,785 a year, one with 5 to 9 years about $4,198, a 51% step. BLS publishes no years-of-experience split, so on the US side we use the OEWS 25th and 75th percentile wages as the proxy for entry-level and experienced staff. Nationally a biller at the 25th percentile earns $20.60 an hour (about $62,400 a year loaded) and one at the 75th percentile $28.02 (about $84,900), a 36% step; for medical records specialists, the coder category, the step is wider, $20.91 to $31.17, or 49%. The spread varies by state: the 75th percentile biller wage is 1.48 times the 25th in the District of Columbia but 1.18 times in Montana. When you compare, pick the same level on both sides: the calculator's experience setting against the band a vendor's quote covers, and ask the vendor which it is.
 
 ## How to read the gap honestly
 
@@ -113,7 +113,7 @@ The India Payscale data is the only series here with experience bands: a billing
 
 ## How we built this page
 
-The wage and employment table is pulled from the BLS Public Data API (OEWS series, May 2025 estimates) and the benefits load from the ECEC June 2026 release; both are republished here without adjustment except the arithmetic shown. Offshore rows were read on the cited pages on October 30, 2026, not from search snippets, and vendor figures are labelled as such. We excluded figures we could not trace to a page we could read. This page is refreshed when BLS publishes the next OEWS (May 2026 estimates) and each ECEC quarter; the "Updated" date above changes when it is. For the industry-wide picture, including how many organizations outsource each billing function, see our [medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/).
+The wage and employment table is pulled from the BLS Public Data API (OEWS series, May 2025 estimates) and the benefits load from the ECEC June 2026 release; both are republished here without adjustment except the arithmetic shown. Nevada and the 25th and 75th percentile wages were added from the same API on November 1, 2026. Offshore rows were read on the cited pages on October 30, 2026, not from search snippets, and vendor figures are labelled as such. We excluded figures we could not trace to a page we could read. This page is refreshed when BLS publishes the next OEWS (May 2026 estimates) and each ECEC quarter; the "Updated" date above changes when it is. For the industry-wide picture, including how many organizations outsource each billing function, see our [medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/).
 
 Cite as: Medical Billing Team, "Medical billing staffing cost by state", medicalbillingteam.com, retrieved [date]. Please link to the BLS source as well.
 
@@ -147,7 +147,7 @@ It depends on what you compare. Worker pay in the Philippines and India runs a f
 
 ### Can I compare staff with the same experience level?
 
-Only partly for now. The BLS state medians cover workers of all experience levels, and the 25th and 75th percentile wages that would act as an experience proxy are not yet on this page. The India figures from Payscale are split into early-career (1 to 4 years) and mid-career (5 to 9 years) bands, which gives one like-for-like view. We will add the US percentiles when the BLS state file is loaded.
+Partly. BLS does not publish wages by years of experience, so this page uses the 25th and 75th percentile wages from the same May 2025 release as the proxy: the middle half of billers nationally earn between $20.60 and $28.02 an hour, so an experienced biller at the 75th percentile costs about 36% more than an entry-level one at the 25th. The calculator lets you pick either level for any state. On the offshore side, the India figures from Payscale are split into early-career (1 to 4 years) and mid-career (5 to 9 years) bands, a 51% step, which gives one like-for-like view.
 
 ---
 *Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We may contact you about our services if you request it. [How we vet vendors](/how-we-vet-vendors/).*
