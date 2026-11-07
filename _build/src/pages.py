@@ -8,6 +8,8 @@ def P(key, path, label, kind, parent, title, description):
 PAGES = [
   P("index", "/", "Home", "home", None, "Medical Billing Team: Remote Billing & RCM Staffing", "Guides for US practices on medical billing staffing, RCM, HIPAA and costs."),
   # RCM hub + staffing pillar (parents come from frontmatter `pillar` at build time)
+  P("medical-billing-staffing-agency", "/medical-billing-staffing-agency/", "Staffing Agency", "page", None, "Medical Billing Staffing Agency: Compare Your Options", "Compare staffing agencies, billing companies and direct hires, and scope a dedicated remote billing team."),
+  P("medical-billing-rfp-template", "/medical-billing-rfp-template/", "RFP & Scorecard", "page", None, "Medical Billing RFP Template & Vendor Scorecard", "A free medical billing RFP template and weighted vendor scorecard for practices and billing companies."),
   P("what-is-revenue-cycle-management", "/what-is-revenue-cycle-management/", "What Is RCM", "pillar", None, "What Is Revenue Cycle Management?", "The revenue cycle explained."),
   P("revenue-cycle-management-staffing", "/revenue-cycle-management-staffing/", "RCM Staffing", "pillar", None, "Revenue Cycle Management Staffing", "RCM staffing: workflow, roles, KPIs and costs."),
   P("medical-billing-technology", "/medical-billing-technology/", "Technology", "pillar", None, "Technology in Medical Billing", "AI, automation and what's changing."),
@@ -57,7 +59,7 @@ PAGES = [
 
 # Header nav per POSITIONING-CHANGES.md: (label, key) or (label, [keys]) for a dropdown
 NAV = [
-  ("Billing Staffing", "hire-remote-medical-billers"),
+  ("Billing Staffing", ["medical-billing-staffing-agency", "hire-remote-medical-billers", "medical-billing-rfp-template"]),
   ("RCM", ["what-is-revenue-cycle-management", "revenue-cycle-management-staffing"]),
   ("Services", ["credentialing-services", "prior-authorization-specialist", "eligibility-verification-prior-authorization", "treatment-center-vob", "hire-remote-medical-coders", "ar-specialist", "virtual-medical-assistant", "virtual-medical-receptionist"]),
   ("Denials", ["denial-management", "denial-codes", "denial-code-co-16", "denial-code-co-22", "denial-code-co-29", "denial-code-co-97", "denial-code-co-197", "denial-code-co-204"]),

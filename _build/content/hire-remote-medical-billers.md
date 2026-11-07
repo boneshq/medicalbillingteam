@@ -21,7 +21,7 @@ search_intent: "commercial-transactional"
 audience: "practice owners and billing companies"
 conversion_destination: "/contact/"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
@@ -32,7 +32,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 # Hiring remote and offshore medical billers: what to look for
 
-*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated November 7, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
 **Short answer:** To hire a medical billing virtual assistant or other remote biller, define the queue first and test candidates with a practical exercise on fictional data. Then choose between a freelancer, where you handle vetting and security, and an agency, which handles employment, equipment, backup coverage and the BAA. Before anyone logs in, require a BAA, MFA, secure remote access and role-based access.
 
@@ -171,6 +171,8 @@ Remote billers increasingly work alongside automation: claim scrubbers, eligibil
 
 ## Related guides
 
+- [Compare medical billing staffing agencies and service models](/medical-billing-staffing-agency/)
+- [Medical billing RFP template and vendor scorecard](/medical-billing-rfp-template/)
 - [Medical billing staffing cost comparison](/medical-billing-staffing-cost/)
 - [Medical billing staffing cost by state](/medical-billing-staffing-cost-by-state/)
 - [Medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/)

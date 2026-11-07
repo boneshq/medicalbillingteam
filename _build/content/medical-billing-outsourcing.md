@@ -21,7 +21,7 @@ audience: "practice owners and administrators"
 conversion_destination: "/contact/"
 pillar: "/revenue-cycle-management-staffing/"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
@@ -32,7 +32,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 # Medical billing outsourcing: three models and how to choose
 
-*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated November 7, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
 **Short answer:** There are three main ways to outsource medical billing. A full-service billing company runs the whole function, usually for a percentage of collections. A staffing model gives you dedicated remote billers who work in your systems under your direction. A hybrid outsources specific queues, such as A/R or prior authorization. The right choice depends on how much control you want, your volume and your specialty.
 
@@ -108,6 +108,8 @@ Whichever outsourcing model you choose, ask which tools touch your data: practic
 
 ## Related guides
 
+- [Medical billing staffing agency: what to compare before hiring](/medical-billing-staffing-agency/)
+- [Use the medical billing RFP template to compare proposals](/medical-billing-rfp-template/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)
 - [Offshore medical billers: pros, cons and safeguards](/offshore-medical-billers/)
 - [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)

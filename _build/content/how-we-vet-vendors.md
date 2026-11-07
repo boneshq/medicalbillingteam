@@ -22,7 +22,7 @@ audience: "practice owners, billing managers, billing companies"
 conversion_destination: "/contact/"
 pillar: "/approved-vendors/"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
@@ -33,7 +33,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 # How we vet medical billing and RCM staffing vendors
 
-*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated November 7, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
 **Short answer:** Before we list a vendor, it has to sign a business associate agreement (BAA) with each client before any PHI access, give staff the minimum access they need, work in the client's systems under the client's workflows, show experience with US payers and billing tasks, provide references on request, and never claim to be "HIPAA certified." We also tell you plainly that this site is operated by Alliance Global Solutions, currently the only vendor on our list.
 
@@ -92,6 +92,10 @@ Vendors increasingly pair staff with automation, from eligibility bots to AI ass
 - [HIPAA and outsourced medical billing](/hipaa-outsourced-medical-billing/)
 - [Medical billing outsourcing: three models](/medical-billing-outsourcing/)
 - [About this site and how it's funded](/about/)
+
+## Apply the criteria to your own shortlist
+
+Our [medical billing RFP template and vendor scorecard](/medical-billing-rfp-template/) turns these checks into a reusable scope brief, evidence requests and a suggested scoring worksheet. It is free to copy and does not rank vendors. Compare the responsibilities of an agency, a managed billing service and a direct hire in the [medical billing staffing agency guide](/medical-billing-staffing-agency/).
 
 ## FAQ
 
