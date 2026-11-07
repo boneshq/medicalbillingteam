@@ -8,6 +8,8 @@ def P(key, path, label, kind, parent, title, description):
 PAGES = [
   P("index", "/", "Home", "home", None, "Medical Billing Team: Remote Billing & RCM Staffing", "Guides for US practices on medical billing staffing, RCM, HIPAA and costs."),
   # RCM hub + staffing pillar (parents come from frontmatter `pillar` at build time)
+  P("outsourced-medical-billing-staffing-pricing", "/pricing/", "Pricing & Estimator", "page", None, "Outsourced Medical Billing Staff Pricing | AGS Cost Estimator", "Estimate a budget for dedicated AGS outsourced staff by role, hours and headcount, then request a scoped quote."),
+  P("medical-billing-company-staffing", "/medical-billing-company-staffing/", "Staff for Billing Companies", "page", None, "Outsourced Staff for Medical Billing Companies | AGS", "Add dedicated billing support capacity for your client accounts with Alliance Global Solutions."),
   P("medical-billing-staffing-agency", "/medical-billing-staffing-agency/", "Staffing Agency", "page", None, "Medical Billing Staffing Agency: Compare Your Options", "Compare staffing agencies, billing companies and direct hires, and scope a dedicated remote billing team."),
   P("medical-billing-rfp-template", "/medical-billing-rfp-template/", "RFP & Scorecard", "page", None, "Medical Billing RFP Template & Vendor Scorecard", "A free medical billing RFP template and weighted vendor scorecard for practices and billing companies."),
   P("what-is-revenue-cycle-management", "/what-is-revenue-cycle-management/", "What Is RCM", "pillar", None, "What Is Revenue Cycle Management?", "The revenue cycle explained."),
@@ -59,13 +61,11 @@ PAGES = [
 
 # Header nav per POSITIONING-CHANGES.md: (label, key) or (label, [keys]) for a dropdown
 NAV = [
-  ("Billing Staffing", ["medical-billing-staffing-agency", "hire-remote-medical-billers", "medical-billing-rfp-template"]),
+  ("Billing Staffing", ["medical-billing-staffing-agency", "medical-billing-company-staffing", "hire-remote-medical-billers", "medical-billing-rfp-template"]),
+  ("Pricing", "outsourced-medical-billing-staffing-pricing"),
   ("RCM", ["what-is-revenue-cycle-management", "revenue-cycle-management-staffing"]),
   ("Services", ["credentialing-services", "prior-authorization-specialist", "eligibility-verification-prior-authorization", "treatment-center-vob", "hire-remote-medical-coders", "ar-specialist", "virtual-medical-assistant", "virtual-medical-receptionist"]),
   ("Denials", ["denial-management", "denial-codes", "denial-code-co-16", "denial-code-co-22", "denial-code-co-29", "denial-code-co-97", "denial-code-co-197", "denial-code-co-204"]),
-  ("HIPAA", "hipaa-outsourced-medical-billing"),
-  ("Data", ["medical-billing-staffing-cost-by-state", "medical-billing-outsourcing-statistics", "medical-billing-staffing-cost"]),
-  ("Technology", "medical-billing-technology"),
-  ("Approved Vendors", "approved-vendors"),
-  ("FAQ", "faq"),
+  ("Resources", ["medical-billing-staffing-cost-by-state", "medical-billing-staffing-cost", "medical-billing-rfp-template", "hipaa-outsourced-medical-billing", "medical-billing-outsourcing-statistics", "medical-billing-technology", "faq"]),
+  ("About AGS", "featured-vendor-alliance-global-solutions"),
 ]

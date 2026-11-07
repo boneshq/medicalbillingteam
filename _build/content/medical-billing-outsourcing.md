@@ -108,6 +108,8 @@ Whichever outsourcing model you choose, ask which tools touch your data: practic
 
 ## Related guides
 
+- [AGS outsourced staff pricing and estimator](/pricing/)
+- [Outsourced capacity for medical billing companies](/medical-billing-company-staffing/)
 - [Medical billing staffing agency: what to compare before hiring](/medical-billing-staffing-agency/)
 - [Use the medical billing RFP template to compare proposals](/medical-billing-rfp-template/)
 - [Revenue cycle management staffing (main guide)](/revenue-cycle-management-staffing/)

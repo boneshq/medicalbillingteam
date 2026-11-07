@@ -1,6 +1,6 @@
 # medicalbillingteam.com
 
-An unbranded informational resource site for US medical practices on medical billing and RCM staffing. Static HTML on **GitHub Pages** (main, /), the MSD pattern.
+A client-acquisition site for Alliance Global Solutions outsourcing, serving medical billing companies, practices and treatment-center operators. Role-based staffing pages, practical buying resources and pricing tools should lead qualified companies to an AGS staffing inquiry. Keep job-seeker intent separate. Static HTML on **GitHub Pages** (main, /).
 
 **What gets published:** Pages runs Jekyll over the repo root, and `_config.yml` keeps internal files off the live site. `_build/`, `.github/`, `docs/`, `scripts/` and this README are never served. Don't add `.nojekyll`: it makes Pages publish every file in the repo. The `pages-check` workflow builds the site the way Pages does and fails a PR if an internal file would be published or a public file would change.
 
@@ -13,11 +13,13 @@ _build/sync-content.sh            # pull copy from /workspace/alliance-global/me
 python3 _build/src/build.py       # writes the site to the repo root; prints live-ready vs stub pages
 git add -A && git commit -m "..." && git push   # = deploy
 ```
-No dependencies beyond Python 3 + PyYAML. No JS framework; one small `form.js`.
+No dependencies beyond Python 3 + PyYAML. No JS framework; lightweight scripts support forms, calculators and chat.
 
 After building, run `python scripts/seo-check.py` to validate canonical URLs, sitemap metadata, structured data, internal anchors and current guide coverage in the chat reference files. CI runs the same check. The full-text export and chat index are generated from the current published content and state-wage data; `_build/content/llms-full.txt` is a historical input and is no longer used. These files support the site's assistant; they are not a Google ranking requirement.
 
 GA4 runs only on the production hostname and is disabled when `?mbt_test=1` is present. Use that flag on production QA pages, and use localhost for previews.
+
+The `/pricing/` estimator reads only the anonymous public aggregate in `_build/data/ags-pricing.json`. Keep raw invoices, client identities, invoice links and research records outside this public repository. Update rates only from verified client billing with the role, currency, unit and observation period established; employee pay and intercompany transfers are not client prices. Unverified specialist roles must stay quote-only. Run `node scripts/test-outsourcing-estimator.cjs` and `python scripts/test-outsourcing-estimator.py` when changing pricing calculations or the renderer. Monthly budgets use hourly rates × weekly hours × 52 ÷ 12 × headcount, not four weeks per month.
 
 ## Switches (`_build/config.json`)
 - `indexing_enabled` (true since 2026-10-18): when false, every page carries `<meta name="robots" content="noindex,nofollow">`.

@@ -1,6 +1,6 @@
 ---
-title: "Virtual Medical Receptionist: Tasks, Setup, HIPAA"
-meta_description: "What a virtual medical receptionist does, how it differs from an answering service, call workflows, HIPAA setup and how to start. Request help today."
+title: "Hire a Virtual Medical Receptionist | AGS Staffing"
+meta_description: "Outsource front-desk calls and scheduling with dedicated AGS staff. Define coverage, systems and responsibilities, then request a medical receptionist quote."
 slug: "/virtual-medical-receptionist/"
 schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
@@ -22,22 +22,35 @@ audience: "solo and small practices, office managers, multi-location groups"
 conversion_destination: "/contact/"
 pillar: "/revenue-cycle-management-staffing/"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
 tech_section:  # reusable <TechSection> component; edit here
-  body: "Many practices pair a virtual receptionist with automated reminders, online scheduling and AI call or chat tools for after-hours triage, with staff handling anything the tools can't. If a phone or chat vendor handles PHI on your behalf, it generally needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
+  body: "Many practices pair a virtual receptionist with automated reminders, online scheduling and AI call or chat tools for after-hours message routing, with staff handling anything the tools can't. If a phone or chat vendor handles PHI on your behalf, it generally needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff."
   link: "/medical-billing-technology/"
 ---
 
-# Virtual medical receptionist: what the role covers and how to set it up
+# Hire a virtual medical receptionist for your practice
 
-*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated November 7, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
 **Short answer:** A virtual medical receptionist is a remote staff member who answers and returns patient calls, schedules and confirms appointments, updates demographics and insurance details, and routes messages, working in your phone system and practice management software. Unlike a generic answering service, a dedicated virtual receptionist learns your schedule rules and scripts. Because the role handles patient information, set up a BAA and secure access first.
 
 Front-desk phones are where small practices feel staffing gaps first: missed calls, long holds and staff pulled away from patients in the office. A virtual medical receptionist can take that load off. This guide explains what the role does, what it shouldn't do, and how to set it up. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series, because accurate front-desk data is where clean claims start.
+
+## Scope your outsourced front-desk coverage
+
+Alliance Global Solutions provides dedicated staff for virtual medical reception, including phones, scheduling and intake support. AGS operates this site. [Submit your contact details to request a receptionist staffing quote](/contact/), then prepare the details below for a follow-up conversation about the role and coverage you need.
+
+- **Schedule:** your time zone, required hours, peak periods and any overflow or after-hours requirement to confirm.
+- **Workload:** approximate call volume, typical call reasons and the appointment work you want to assign.
+- **Systems:** phone platform, scheduling software and required access or licenses.
+- **Rules:** scheduling templates, caller-verification steps and escalation contacts.
+- **Skills:** language requirements and relevant practice or scheduling experience.
+- **Ownership:** the person who will train the receptionist and review calls and scheduling quality.
+
+Use the [outsourcing pricing estimator](/pricing/) to understand the displayed staffing benchmarks and budgeting method. A medical receptionist's specialist scope, schedule and skills require a written quote; do not assume a general administrative rate covers them. Keep the follow-up brief to business requirements, without patient details or call recordings.
 
 ## What a virtual medical receptionist does
 
@@ -96,7 +109,7 @@ Alliance Global Solutions operates this site and is currently our only [approved
 
 ## Technology
 
-Many practices pair a virtual receptionist with automated reminders, online scheduling and AI call or chat tools for after-hours triage, with staff handling anything the tools can't. If a phone or chat vendor handles PHI on your behalf, it generally needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
+Many practices pair a virtual receptionist with automated reminders, online scheduling and AI call or chat tools for after-hours message routing, with staff handling anything the tools can't. If a phone or chat vendor handles PHI on your behalf, it generally needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](/medical-billing-technology/)
 
 ## Related guides
 

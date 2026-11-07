@@ -99,6 +99,8 @@ Ask for a written ownership map covering the agency contact, your supervisor and
 
 ## Talk through your staffing requirement
 
+Start with the [AGS staffing cost estimator](/pricing/) for a budget scenario. If you manage billing for other practices, our [medical billing company staffing page](/medical-billing-company-staffing/) explains how to scope added capacity around your client accounts.
+
 [Request an assessment from the AGS team](/contact/) or review the [AGS vendor profile](/approved-vendors/alliance-global-solutions/). Start with the business problem: the work that is falling behind, your existing management capacity and the hours you need covered. The team can confirm whether its current staffing offer fits your requirements.
 
 ## FAQ

@@ -171,6 +171,8 @@ Remote billers increasingly work alongside automation: claim scrubbers, eligibil
 
 ## Related guides
 
+- [AGS outsourced staff pricing and team cost estimator](/pricing/)
+- [Dedicated outsourced staff for medical billing companies](/medical-billing-company-staffing/)
 - [Compare medical billing staffing agencies and service models](/medical-billing-staffing-agency/)
 - [Medical billing RFP template and vendor scorecard](/medical-billing-rfp-template/)
 - [Medical billing staffing cost comparison](/medical-billing-staffing-cost/)
