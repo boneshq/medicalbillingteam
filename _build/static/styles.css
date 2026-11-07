@@ -447,3 +447,5 @@ blockquote.affil-box{margin:18px 0}blockquote.affil-box p{margin:0}
 .prose tr.us-row td{background:var(--sky);font-weight:600}.prose td[data-v]{font-variant-numeric:tabular-nums;white-space:nowrap}
 @media(min-width:640px){.stat-grid{grid-template-columns:repeat(2,1fr)}.calc-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:960px){.stat-grid{grid-template-columns:repeat(4,1fr)}.stat-grid.three{grid-template-columns:repeat(3,1fr)}}
+
+.hero-guides{color:#e4edf7;font-size:.95rem;line-height:1.7}.hero-guides a{color:#fff;text-decoration:underline;text-underline-offset:3px}.hero-guides a:hover,.hero-guides a:focus-visible{color:#f6c453}

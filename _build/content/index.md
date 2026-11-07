@@ -1,6 +1,6 @@
 ---
-title: "Medical Billing Team: Billing & RCM Staffing Guides"
-meta_description: "Plain-English guides for US practices on medical billing staffing, RCM, HIPAA and costs, plus vetted approved vendors. Request a free staffing assessment."
+title: "Medical Billing Staffing & RCM Teams | Medical Billing Team"
+meta_description: "Compare dedicated remote medical billing staff, outsourcing models and costs. Use our state cost calculator and vendor scorecard, or request a staffing assessment."
 slug: "/"
 schema_type: ["WebSite", "Organization", "FAQPage"]  # Organization = Medical Billing Team (publisher), with parentOrganization/sponsor = Alliance Global Solutions  # FAQPage optional: Google retired FAQ rich results May 2026; keep only if it matches visible FAQ
 canonical: "https://medicalbillingteam.com/"
@@ -24,7 +24,7 @@ search_intent: "commercial"
 audience: "practice owners, managers, billing companies"
 conversion_destination: "/#assessment"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "semiannual"
@@ -34,9 +34,15 @@ review_cadence: "semiannual"
 
 # Medical billing staff for US practices, without the hiring headache
 
-Claims pile up when one person is out. Denials sit unworked. Prior authorizations eat your front desk's afternoon. This site explains how practices and billing companies solve those problems, including when a dedicated remote billing team makes sense and when it doesn't. When you want help, we route your request to a [vetted, approved vendor](/approved-vendors/).
+Claims pile up when one person is out. Denials sit unworked. Prior authorizations eat your front desk's afternoon. Compare the staffing models, costs and safeguards before you hire. Medical Billing Team is operated by Alliance Global Solutions, a provider of dedicated remote billing staff and our currently sole [approved vendor](/approved-vendors/).
 
-**Get a free staffing assessment.** Tell us a little about your practice and we'll connect you with a vetted billing staffing vendor. It takes about a minute.
+**Get a free staffing assessment.** Tell us about your practice or billing company to discuss your workload with Alliance Global Solutions. Start with the [medical billing staffing agency guide](/medical-billing-staffing-agency/) if you are still comparing options.
+
+## Compare costs and providers before you hire
+
+- **Build a budget:** use the [medical billing staffing cost calculator by state](/medical-billing-staffing-cost-by-state/) to compare wage and benefit costs across four roles with your vendor quote.
+- **Make quotes comparable:** use our free [medical billing RFP template and vendor scorecard](/medical-billing-rfp-template/) to define the work, ask for evidence and score the responses.
+- **Choose the service model:** compare a [staffing agency, billing company and direct hire](/medical-billing-staffing-agency/) before deciding who will own the queues and supervise the work.
 
 ## Short form (hero)
 

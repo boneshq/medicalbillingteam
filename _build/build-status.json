@@ -1,6 +1,7 @@
 {
  "ags_links_pending_prod_check": {
   "https://www.allianceglobalsolutions.com/medical-billing/": [
+   "/medical-billing-staffing-agency/",
    "/what-is-revenue-cycle-management/",
    "/revenue-cycle-management-staffing/",
    "/credentialing-services/",
@@ -17,12 +18,14 @@
    "/approved-vendors/alliance-global-solutions/"
   ]
  },
- "built": "2026-11-01T09:56:19",
+ "built": "2026-11-07T11:01:18",
  "base_path": "",
  "indexing_enabled": true,
  "form_backend_enabled": true,
  "live_ready": [
   "/",
+  "/medical-billing-staffing-agency/",
+  "/medical-billing-rfp-template/",
   "/what-is-revenue-cycle-management/",
   "/revenue-cycle-management-staffing/",
   "/medical-billing-technology/",

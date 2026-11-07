@@ -30,7 +30,8 @@ def call_link(cls='', icon=True, text=None, loc='body'):
     return (f'<a class="{cls}" href="tel:{E(PHONE["e164"])}" data-cta="{loc}">' + (ico('phone-call') if icon else '') +
             f'<span>{E(text or PHONE["display"])}</span></a>')
 GALLERY = json.loads((B / 'ags-gallery.json').read_text()) if (B / 'ags-gallery.json').exists() else {}
-ASSET_V = datetime.datetime.now().strftime('%Y%m%d%H%M')
+# Unchanged CSS retains its cache key across content-only releases.
+ASSET_V = __import__('hashlib').sha256((B / 'static' / 'styles.css').read_bytes()).hexdigest()[:12]
 BAA_Q = 'Does the operator of this site sign a BAA?'  # distinct from the vendor-page FAQ question
 BAA_LINE = 'Alliance Global Solutions signs a BAA before any PHI access.'  # approved copy addition (Tony via Alliance Global, 2026-10-18); HIPAA page disclosure only
 SPEC_SECTIONS = re.compile(r'^(short form|sticky cta|footer$|form fields|implementation notes|other ways to reach us|get the checklist)', re.I)
@@ -179,11 +180,14 @@ def url(p): return SITE + p['path']
 def ga():
     gid = (CFG.get('ga4_measurement_id') or '').strip()
     if not re.fullmatch(r'G-[A-Z0-9]{4,}', gid) or 'XXXX' in gid: return ''   # renders nothing until Tony's measurement ID is set
-    return ('<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());'
+    return ('<script>window.dataLayer=window.dataLayer||[];'
+            'window.mbtAnalyticsEnabled=/^(www\\.)?medicalbillingteam\\.com$/.test(location.hostname)&&new URLSearchParams(location.search).get("mbt_test")!=="1";'
+            'function gtag(){if(window.mbtAnalyticsEnabled)dataLayer.push(arguments)}'
+            'if(window.mbtAnalyticsEnabled){gtag("js",new Date());'
             f'gtag("config","{gid}");(function(){{var d=0;function l(){{if(d)return;d=1;var s=document.createElement("script");s.async=1;'
             f's.src="https://www.googletagmanager.com/gtag/js?id={gid}";document.head.appendChild(s)}}'
             '["pointerdown","keydown","scroll","touchstart","focusin"].forEach(function(e){addEventListener(e,l,{once:1,passive:1})});'
-            'addEventListener("load",function(){(window.requestIdleCallback||setTimeout)(l,{timeout:4000})})})()</script>')
+            'addEventListener("load",function(){if(window.requestIdleCallback)requestIdleCallback(l,{timeout:4000});else setTimeout(l,4000)})})()}</script>')
 
 # Home and featured-vendor FAQs must be different (each has its own FAQPage); fail the build on any shared question.
 _norm = lambda s: re.sub(r'[^a-z0-9]+', ' ', s.lower()).strip()
@@ -379,7 +383,7 @@ FOOT = [('Guides', [('what-is-revenue-cycle-management', 'RCM'), ('hipaa-outsour
                      ('medical-billing-technology', 'Technology'), ('denial-management', 'Denial Management'), ('denial-codes', 'Denial codes')]),
         ('Services', [('credentialing-services', 'Credentialing'), ('prior-authorization-specialist', 'Prior Auth'), ('treatment-center-vob', 'VOB'),
                       ('hire-remote-medical-coders', 'Coding'), ('ar-specialist', 'A/R'), ('virtual-medical-assistant', 'Virtual Assistants')]),
-        ('Vendors', [('approved-vendors', 'Approved vendors'), ('how-we-vet-vendors', 'How we vet vendors'),
+        ('Vendors', [('medical-billing-staffing-agency', 'Staffing agency guide'), ('medical-billing-rfp-template', 'RFP & vendor scorecard'), ('approved-vendors', 'Approved vendors'), ('how-we-vet-vendors', 'How we vet vendors'),
                      ('featured-vendor-alliance-global-solutions', 'Alliance Global Solutions profile')]),
         ('Site', [('about', 'About & disclosure'), ('how-it-works', 'How it works'), ('faq', 'FAQ'), ('contact', 'Contact'), ('privacy', 'Privacy'), ('terms', 'Terms')])]
 
@@ -441,7 +445,7 @@ def footer(p):
     return f'''{band}
 <footer class="site-footer"><div class="wrap">
 <div class="fcols">{cols}</div>
-<p class="disclosure" id="disclosure"><strong>Affiliation disclosure:</strong> {inline(AFF['short'])}</p>
+<p class="disclosure" id="{'site-disclosure' if p['key'] in ('approved-vendors', 'how-we-vet-vendors') else 'disclosure'}"><strong>Affiliation disclosure:</strong> {inline(AFF['short'])}</p>
 <p class="fine">Please do not submit patient information through this site. Content is general information, not legal, compliance or financial advice. © {datetime.date.today().year} {E(CFG['site_name'])}</p>
 </div></footer>{sticky}
 <script>document.addEventListener('click',function(e){{document.querySelectorAll('.nav-desk details[open]').forEach(function(d){{if(!d.contains(e.target))d.removeAttribute('open')}})}})</script>
@@ -591,7 +595,7 @@ def state_table_html():
         rows += (f'<tr{cls}><td>{E(r["name"])}</td><td data-v="{o["median"]}">{_hr(o["median"])}</td>{rng}<td data-v="{o["loaded_hr"]}">{_hr(o["loaded_hr"])}</td>'
                  f'<td data-v="{o["loaded_yr"]}">{_usd(o["loaded_yr"])}</td><td data-v="{diff:.1f}">{vs}</td><td data-v="{o["emp"] or 0}">{emp}</td></tr>')
     rng_h = '<th>25th to 75th percentile wage</th>' if pct else ''
-    rng_src = ' The 25th to 75th percentile range is the middle half of billers in the state, from the same release; it is the usual proxy for entry-level to experienced pay.' if pct else ''
+    rng_src = ' The 25th to 75th percentile range is the middle half of billers in the state, from the same release; it describes the wage distribution, not years of experience.' if pct else ''
     return (f'<div class="table-wrap"><table class="sortable" id="state-biller-table"><thead><tr><th>State</th><th>Median hourly wage</th>{rng_h}<th>Loaded hourly cost</th>'
             '<th>Loaded annual cost</th><th>Wage vs US median</th><th>Employed</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
             '<p class="fig-src">Medical billers = BLS occupation 43-3021, Billing and Posting Clerks. Wage and employment: BLS OEWS May 2025 state estimates (released May 15, 2026). '
@@ -621,9 +625,9 @@ def state_calc_html():
     occ_opts = ''.join(f'<option value="{o["code"]}">{E(o["label"])} ({E(o["bls_title"])})</option>' for o in STATE['occupations'])
     st_opts = ''.join(f'<option value="{r["st"]}"{" selected" if r["st"] == "US" else ""}>{E(r["name"])}</option>' for r in STATE['rows'])
     js = json.dumps({'d': data, 'lf': m['load_factor'], 'h': m['hours_per_year']}, separators=(',', ':'))
-    xp = ('<label>Experience level <small>(BLS wage percentile as the proxy)</small><select id="c-x"><option value="1" selected>Typical (state median)</option>'
-          '<option value="0">Entry-level (25th percentile)</option><option value="2">Experienced (75th percentile)</option></select></label>') if pct else '<input type="hidden" id="c-x" value="1">'
-    xp_src = ' Entry-level and experienced use the 25th and 75th percentile wages from the same release in place of the median.' if pct else ''
+    xp = ('<label>Wage scenario <small>(BLS percentiles, not years of experience)</small><select id="c-x"><option value="1" selected>Median (50th percentile)</option>'
+          '<option value="0">Lower wage (25th percentile)</option><option value="2">Higher wage (75th percentile)</option></select></label>') if pct else '<input type="hidden" id="c-x" value="1">'
+    xp_src = ' Lower and higher wage scenarios use the 25th and 75th percentiles from the same release. They do not identify experience levels.' if pct else ''
     cap = ''   # lead capture under the result (MBT-005, roadmap 1.5): the chosen state/role/level/headcount/quote travel as the form's data-source deep link
     if CMP_ON:
         cap = (f'<div class="calc-capture" id="calc-capture"><h3>Email me this comparison</h3><p class="cap-sum" id="c-sum"></p>{form("comparison")}'
@@ -647,7 +651,7 @@ var h='<p><strong>'+r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.s
 if(n>1)h+='<p>'+n+' staff: about <strong>'+f0(tot)+' per year</strong>.</p>';
 if(q>0){{var ry=(q+a)*12*n;var d=tot-ry;h+='<p>Remote staff at $'+q.toLocaleString('en-US')+' per person per month'+(a>0?' plus $'+a.toLocaleString('en-US')+' add-ons':'')+': about <strong>'+f0(ry)+' per year</strong> for '+n+'. That is '+(d>=0?'<strong>'+f0(d)+' less</strong>':'<strong>'+f0(-d)+' more</strong>')+' than the in-house wage-and-benefit cost ('+Math.abs(Math.round(d/tot*100))+'%). Compare on the same scope before deciding.</p>'}}
 $('c-out').innerHTML=h;
-var s=r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.split(' (')[0].toLowerCase()+', '+['entry-level (25th percentile)','typical (median)','experienced (75th percentile)'][x]+', '+n+' full-time: about '+f0(tot)+' per year in-house (wages and benefits)'+(q>0?' vs about '+f0((q+a)*12*n)+' per year remote at your quote':'')+'.';
+var s=r.n+', '+$('c-occ').options[$('c-occ').selectedIndex].text.split(' (')[0].toLowerCase()+', '+['lower wage (25th percentile)','median wage','higher wage (75th percentile)'][x]+', '+n+' full-time: about '+f0(tot)+' per year in-house (wages and benefits)'+(q>0?' vs about '+f0((q+a)*12*n)+' per year remote at your quote':'')+'.';
 var e1=$('c-sum'),e2=$('c-sum2');if(e1)e1.textContent="You'll get: "+s+' Figures and BLS sources included.';if(e2)e2.textContent=s;
 var u=new URLSearchParams();if(st!=='US')u.set('st',st);if(oc!==O0)u.set('occ',oc);if(x!==1)u.set('x',x);if(n>1)u.set('n',n);if(q>0)u.set('q',q);if(a>0)u.set('a',a);var qs=u.toString();
 var fm=$('form-comparison');if(fm)fm.dataset.source=location.origin+location.pathname+(qs?'?'+qs:'')}}
@@ -772,7 +776,7 @@ def home_main(p):
         secs = []
         for s in p['sections']:
             if s.startswith('<!--FAQ-->'):
-                secs.append(f'<section class="band band-faq" id="short-faq"><div class="wrap narrow">{faq_html(p, p.get("faq_head") or "FAQ")}</div></section>'); continue
+                secs.append(f'<section class="band band-faq" id="section-short-faq"><div class="wrap narrow">{faq_html(p, p.get("faq_head") or "FAQ")}</div></section>'); continue
             h = re.match(r'##\s+(.+)', s).group(1)
             hid = re.sub(r'[^a-z0-9]+', '-', h.lower()).strip('-')
             inner = components(convert(s)[0], p)
@@ -783,15 +787,15 @@ def home_main(p):
                     inner = inner[:first_ul] + '<ul class="feature-list">' + iconize_list(inner[first_ul + 4:end - 5], TOPIC_ICON[hid]) + '</ul>' + inner[end:]
             if 'hipaa' in hid:
                 inner = re.sub(r'<p><a href="([^"]+)">(Read the full HIPAA guide[^<]*)</a></p>', r'<p><a class="btn btn-light" href="\1">\2</a></p>', inner)
-                secs.append(f'<section class="hipaa-band" id="{hid}"><div class="wrap hipaa-grid"><div class="hipaa-art">{p.get("hipaa_img", "")}<span class="shield">{ico("shield-check", "ic big")}</span></div><div class="prose">{inner}</div></div></section>')
+                secs.append(f'<section class="hipaa-band" id="section-{hid}"><div class="wrap hipaa-grid"><div class="hipaa-art">{p.get("hipaa_img", "")}<span class="shield">{ico("shield-check", "ic big")}</span></div><div class="prose">{inner}</div></div></section>')
             elif hid.startswith('how-it-works'):
-                secs.append(f'<section class="band band-steps" id="{hid}"><div class="wrap narrow prose">{inner}</div></section>')
+                secs.append(f'<section class="band band-steps" id="section-{hid}"><div class="wrap narrow prose">{inner}</div></section>')
             elif hid.startswith('free-resource'):
-                secs.append(f'<section class="band band-resource" id="{hid}"><div class="wrap"><div class="resource-card"><span class="res-ic">{ico("clipboard-check", "ic big")}</span><div class="prose">{inner}</div></div></div></section>')
+                secs.append(f'<section class="band band-resource" id="section-{hid}"><div class="wrap"><div class="resource-card"><span class="res-ic">{ico("clipboard-check", "ic big")}</span><div class="prose">{inner}</div></div></div></section>')
             else:
                 cls = 'band band-alt' if len(secs) % 2 else 'band'
                 width = 'mid' if hid in ('who-this-site-helps', 'common-billing-problems-we-write-about') else 'narrow'
-                secs.append(f'<section class="{cls}" id="{hid}"><div class="wrap {width} prose">{inner}</div></section>')
+                secs.append(f'<section class="{cls}" id="section-{hid}"><div class="wrap {width} prose">{inner}</div></section>')
         rest = ''.join(secs)
     else:
         hero = stub(p); rest = ''
@@ -813,7 +817,7 @@ def home_main(p):
 <p class="rot-line rv" style="animation-delay:.12s"><span class="rot-pre">Staffing for</span> <span class="rot" aria-hidden="true">{ROT}</span><span class="sr-only">{E(", ".join(n for n, _ in HERO_SERVICES))}</span></p>
 <ul class="svc-pills" aria-label="Services">{SVC}</ul>
 <ul class="hero-chips rv" style="animation-delay:.5s" aria-label="What to expect">{CHIPS}</ul>
-<p class="hero-ctas rv" style="animation-delay:.58s"><a class="btn btn-cta" href="#assessment" data-cta="hero">Get matched with a vetted vendor{ico('arrow-right')}</a></p></div>
+<p class="hero-ctas rv" style="animation-delay:.58s"><a class="btn btn-cta" href="#assessment" data-cta="hero">Get my staffing assessment{ico('arrow-right')}</a></p><p class="hero-guides"><a href="/medical-billing-staffing-agency/">Compare staffing options</a> · <a href="/medical-billing-rfp-template/">Use the free vendor scorecard</a></p></div>
 <div class="hero-form form-card" id="get-matched"><h2 class="form-title">Get your free staffing assessment</h2>{form("hero")}</div>
 </div></section>
 <section class="band hero-intro"><div class="wrap narrow"><div class="hero-copy prose">{hero}<p class="disclosure-inline">{ico("building-2")}<span>{E(DISC)}</span></p></div></div></section>
@@ -824,7 +828,9 @@ def home_main(p):
 gen_file = B / 'generated.json'
 old = json.loads(gen_file.read_text()) if gen_file.exists() else []
 for rel in old:
-    t = ROOT / rel
+    t = (ROOT / rel).resolve()
+    if not t.is_relative_to(ROOT.resolve()) or t == ROOT.resolve():
+        raise SystemExit(f'Generated output outside site root: {rel}')
     if t.is_dir(): shutil.rmtree(t)
     elif t.exists(): t.unlink()
 generated = []
@@ -895,14 +901,31 @@ bots = CFG['ai_crawlers']
 
 # llms.txt: served verbatim from the copywriter's file (CODE-DESK #7)
 (ROOT / 'llms.txt').write_text(outbound(fix_copy((B / 'content' / 'llms.txt').read_text())))   # verbatim + location override
-# llms-full.txt: regenerated from published markdown on every build (CODE-DESK #8; logic from medbill/gen/llmsfull.py)
-FULL_ORDER = ['index','what-is-revenue-cycle-management','revenue-cycle-management-staffing','hipaa-outsourced-medical-billing','medical-billing-staffing-cost','medical-billing-staffing-cost-by-state','medical-billing-outsourcing-statistics','medical-billing-technology','credentialing-services','credentialing-specialist','prior-authorization-specialist','eligibility-verification-prior-authorization','treatment-center-vob','behavioral-health-billing','ar-specialist','hire-remote-medical-coders','hire-remote-medical-billers','virtual-medical-assistant','virtual-medical-receptionist','medical-billing-outsourcing','offshore-medical-billers','denial-management','denial-codes','denial-code-co-16','denial-code-co-22','denial-code-co-29','denial-code-co-97','denial-code-co-197','denial-code-co-204','reduce-ar-days','approved-vendors','how-we-vet-vendors','featured-vendor-alliance-global-solutions','how-it-works','faq','about']   # = medbill/gen/llmsfull.py order
+# Derive retrieval content from the same current sources as the HTML, never a frozen export.
+FULL_ORDER = [p['key'] for p in PAGES if p['indexable'] and not p.get('held')
+              and not p.get('gated') and p['kind'] not in ('form', 'legal', 'utility')
+              and p['key'] != 'checklist']
 FT = ["# Medical Billing Team: full text\n\n> Concatenated public guides from medicalbillingteam.com, generated " + TODAY + ". Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; requests may be referred to it. Excludes forms, legal drafts and gated content.\n"]
 for k in FULL_ORDER:
     f = B / 'content' / f'{k}.md'
     if not f.exists() or not BYKEY[k]['ready']: continue
     src = fix_copy(f.read_text()); fm, body = src.split('---', 2)[1], src.split('---', 2)[2]
     slug = re.search(r'^slug:\s*"?([^"\n]+)"?', fm, re.M).group(1)
+    if '<!--STATE-TABLE-->' in body and STATE:
+        rows = ['| State | Median hourly wage | 25th percentile | 75th percentile | Loaded annual wage and benefit cost |',
+                '|---|---:|---:|---:|---:|']
+        for r in STATE['rows']:
+            o = r['43-3021']
+            rows.append(f'| {r["name"]} | {_hr(o["median"])} | {_hr(o["p25"])} | {_hr(o["p75"])} | {_usd(o["loaded_yr"])} |')
+        body = body.replace('<!--STATE-TABLE-->', '\n'.join(rows))
+    if '<!--STATE-ROLES-->' in body and STATE:
+        rows = ['| State | ' + ' | '.join(o['label'] for o in STATE['occupations']) + ' |',
+                '|---|' + '---:|' * len(STATE['occupations'])]
+        for r in STATE['rows']:
+            rows.append('| ' + r['name'] + ' | ' + ' | '.join(_usd(r[o['code']]['loaded_yr']) for o in STATE['occupations']) + ' |')
+        body = body.replace('<!--STATE-ROLES-->', '\n'.join(rows))
+    body = body.replace('<!--STATE-CALC-->', 'Use the [interactive staffing calculator](/medical-billing-staffing-cost-by-state/#calculator-your-state-your-role-your-headcount) to compare state, role, wage percentile and headcount. Loaded annual cost = hourly wage × benefits load factor × 2,080 hours × headcount. Wage percentiles are not measured experience levels.')
+    body = BYLINE_RE.sub(f'*By the Medical Billing Team editors · Published {BYKEY[k]["date_published"]} · Updated {BYKEY[k]["date_modified"]}*', body)
     body = re.sub(r'<!--.*?-->', '', body, flags=re.S)
     if k == 'index':
         body = re.sub(r'## Short form \(hero\).*?(?=## Who this site helps)', '', body, flags=re.S)
@@ -910,14 +933,9 @@ for k in FULL_ORDER:
     body = re.sub(r'\]\(/', '](https://medicalbillingteam.com/', body)
     for _hp in [x['path'] for x in PAGES if x.get('held')]:
         body = re.sub(r'\[([^\]]+)\]\(https://medicalbillingteam\.com' + re.escape(_hp) + r'[^)]*\)', r'\1', body)
-    FT.append("\n---\n\nSource: https://medicalbillingteam.com%s\n\n" % slug + body.strip() + "\n")
-_lf = B / 'content' / 'llms-full.txt'
-if _lf.exists():   # CODE-DESK #52: serve the copywriter's regenerated file; apply location override, held-page unlinks, AGS fallback
-    _txt = fix_copy(_lf.read_text())
-    for _hp in [x['path'] for x in PAGES if x.get('held')]:
-        _txt = re.sub(r'\[([^\]]+)\]\(https://medicalbillingteam\.com' + re.escape(_hp) + r'[^)]*\)', r'\1', _txt)
-    (ROOT / 'llms-full.txt').write_text(outbound(_txt))
-else: (ROOT / 'llms-full.txt').write_text(outbound(''.join(FT)))
+    body = '\n'.join(line.rstrip() for line in body.splitlines())
+    FT.append("\n---\n\nSource: https://medicalbillingteam.com%s\n\n" % slug + 'Updated: ' + BYKEY[k]['date_modified'] + '\n\n' + body.strip() + "\n")
+(ROOT / 'llms-full.txt').write_text(outbound(''.join(FT)))
 _ci = chat_index((ROOT / 'llms-full.txt').read_text())
 (ROOT / 'chat-index.json').write_text(json.dumps({'generated': TODAY, 'source': 'llms-full.txt', 'chunks': _ci}, ensure_ascii=False, separators=(',', ':')))
 if CHAT.get('endpoint'): (ROOT / 'chat.js').write_text(chat_bundle())

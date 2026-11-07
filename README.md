@@ -15,6 +15,10 @@ git add -A && git commit -m "..." && git push   # = deploy
 ```
 No dependencies beyond Python 3 + PyYAML. No JS framework; one small `form.js`.
 
+After building, run `python scripts/seo-check.py` to validate canonical URLs, sitemap metadata, structured data, internal anchors and current guide coverage in the chat reference files. CI runs the same check. The full-text export and chat index are generated from the current published content and state-wage data; `_build/content/llms-full.txt` is a historical input and is no longer used. These files support the site's assistant; they are not a Google ranking requirement.
+
+GA4 runs only on the production hostname and is disabled when `?mbt_test=1` is present. Use that flag on production QA pages, and use localhost for previews.
+
 ## Switches (`_build/config.json`)
 - `indexing_enabled` (true since 2026-10-18): when false, every page carries `<meta name="robots" content="noindex,nofollow">`.
 - `preview_base_path` ("" since the cutover): the GitHub Pages project-URL prefix for preview builds.

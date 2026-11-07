@@ -24,6 +24,7 @@ def convert(src):
     lines = src.replace('\r\n', '\n').split('\n')
     out, i, toc = [], 0, []
     para = []
+    heading_ids = set()
     def flush():
         if para:
             out.append('<p>' + inline(' '.join(para)) + '</p>'); para.clear()
@@ -37,7 +38,11 @@ def convert(src):
         if m:
             flush(); lvl = len(m.group(1)); txt = m.group(2).strip().rstrip('#').strip()
             lvl = max(lvl, 2)  # page template owns the single H1
-            hid = slugify(txt)
+            base_id = slugify(txt)
+            hid, suffix = base_id, 2
+            while hid in heading_ids:
+                hid = f'{base_id}-{suffix}'; suffix += 1
+            heading_ids.add(hid)
             if lvl == 2: toc.append((hid, txt))
             out.append(f'<h{lvl} id="{hid}">{inline(txt)}</h{lvl}>'); i += 1; continue
         if re.match(r'^(-{3,}|\*{3,})$', s):
@@ -59,6 +64,7 @@ def convert(src):
         lm = re.match(r'^([-*+]|\d+[.)])\s+(.*)$', s)
         if lm:
             flush(); ordered = lm.group(1)[0].isdigit(); items = []
+            start = int(lm.group(1).rstrip('.)')) if ordered else 1
             while i < len(lines):
                 mm = re.match(r'^\s*([-*+]|\d+[.)])\s+(.*)$', lines[i])
                 if mm: items.append(mm.group(2)); i += 1
@@ -69,7 +75,8 @@ def convert(src):
             def item(x):
                 x = re.sub(r'^\[( |x)\]\s*', lambda m: '☐ ' if m.group(1) == ' ' else '☑ ', x)
                 return f'<li>{inline(x)}</li>'
-            out.append(f'<{tag}>' + ''.join(item(x) for x in items) + f'</{tag}>'); continue
+            start_attr = f' start="{start}"' if ordered and start != 1 else ''
+            out.append(f'<{tag}{start_attr}>' + ''.join(item(x) for x in items) + f'</{tag}>'); continue
         para.append(s); i += 1
     flush()
     return '\n'.join(out), toc
