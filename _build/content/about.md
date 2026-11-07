@@ -9,7 +9,7 @@ search_intent: "navigational"
 audience: "all visitors"
 conversion_destination: "/contact/"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "semiannual"
@@ -20,11 +20,11 @@ tech_section:  # reusable <TechSection> component; edit here
 
 # About this site
 
-*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated November 7, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
-**Short answer:** medicalbillingteam.com is an informational resource about medical billing and revenue cycle staffing, with a short list of [approved vendors](/approved-vendors/) that meet our [published criteria](/how-we-vet-vendors/). It is operated by Alliance Global Solutions, a provider of remote billing staff and currently the only approved vendor, so requests you send may be referred to it. Our guides cite public sources and make no outcome promises.
+**Short answer:** Medical Billing Team helps companies plan and buy dedicated outsourcing staff from Alliance Global Solutions, the operator of this site. We serve medical billing companies, practices and treatment-center operators. Explore [staffing for billing companies](/medical-billing-company-staffing/), use the [pricing estimator](/pricing/), and request a scoped staffing quote. Our buying guides cite public sources and make no outcome promises.
 
-Medical Billing Team is a resource for US medical practices and billing companies that are sorting out how to staff their billing and revenue cycle work. We write plain-English guides on topics like denial management, A/R follow-up, eligibility and prior authorization, HIPAA safeguards for outsourced staff and the real costs of different staffing models.
+Our purpose is to connect businesses that need outsourced capacity with the AGS team. The guides explain roles, costs and operating responsibilities so prospective clients can make an informed decision. This is an affiliated commercial site; we do not present ourselves as an independent ranking service.
 
 ## Disclosure: who operates this site
 
@@ -38,7 +38,7 @@ We think you should know that before you read anything here, so this disclosure 
 
 ## How the approved vendor list works
 
-This site works like a guide plus a short, vetted directory. We write the guides; when you ask for help, we route your request to an approved vendor.
+The existing vendor pages document our operator and the criteria we publish. Your staffing inquiry goes to Alliance Global Solutions, currently the only listed provider.
 
 - **Published criteria.** A vendor must meet every item on [how we vet vendors](/how-we-vet-vendors/), including signing a BAA with each client before any PHI access, dedicated staff working in the client's systems, US billing experience and references on request.
 - **One vendor today, by design.** Our [approved vendor list](/approved-vendors/) has one company, Alliance Global Solutions, and it operates this site. We won't pad the list with vendors we can't stand behind, and we don't sell placements.

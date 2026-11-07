@@ -1,6 +1,6 @@
 # Medical Billing Team: full text
 
-> Concatenated public guides from medicalbillingteam.com, generated 2026-11-07. Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; requests may be referred to it. Excludes forms, legal drafts and gated content.
+> Concatenated public guides from medicalbillingteam.com, generated 2026-11-07. Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; staffing requests go to its team. Excludes forms, legal drafts and gated content.
 
 ---
 
@@ -8,15 +8,17 @@ Source: https://medicalbillingteam.com/
 
 Updated: 2026-11-07
 
-# Medical billing staff for US practices, without the hiring headache
+# Outsourced billing staff for your company, backed by AGS
 
-Claims pile up when one person is out. Denials sit unworked. Prior authorizations eat your front desk's afternoon. Compare the staffing models, costs and safeguards before you hire. Medical Billing Team is operated by Alliance Global Solutions, a provider of dedicated remote billing staff and our currently sole [approved vendor](https://medicalbillingteam.com/approved-vendors/).
+Add dedicated outsourced staff to the billing work your company already manages. Alliance Global Solutions recruits and supports remote staff; your team sets priorities and trains them on your systems and workflows. This site is operated by AGS to help medical billing companies, practices and treatment-center operators plan a team and request a quote.
 
-**Get a free staffing assessment.** Tell us about your practice or billing company to discuss your workload with Alliance Global Solutions. Start with the [medical billing staffing agency guide](https://medicalbillingteam.com/medical-billing-staffing-agency/) if you are still comparing options.
+**Plan your AGS team.** Start with the [outsourced staffing cost estimator](https://medicalbillingteam.com/pricing/) or see how we support [medical billing companies adding capacity](https://medicalbillingteam.com/medical-billing-company-staffing/). Request a follow-up with AGS to discuss your role, workload and coverage needs for a scoped staffing quote. [Meet Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/).
 
-## Compare costs and providers before you hire
+## Budget and scope your outsourced team
 
-- **Build a budget:** use the [medical billing staffing cost calculator by state](https://medicalbillingteam.com/medical-billing-staffing-cost-by-state/) to compare wage and benefit costs across four roles with your vendor quote.
+- **Estimate your AGS budget:** use the [outsourced staff pricing and estimator](https://medicalbillingteam.com/pricing/) to plan around the role, number of people and hours you need.
+- **Add capacity for client accounts:** explore [outsourced staff for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/) and define which queues your new team will handle.
+- **Compare with hiring locally:** use the [medical billing staffing cost calculator by state](https://medicalbillingteam.com/medical-billing-staffing-cost-by-state/) for an in-house wage-and-benefit baseline.
 - **Make quotes comparable:** use our free [medical billing RFP template and vendor scorecard](https://medicalbillingteam.com/medical-billing-rfp-template/) to define the work, ask for evidence and score the responses.
 - **Choose the service model:** compare a [staffing agency, billing company and direct hire](https://medicalbillingteam.com/medical-billing-staffing-agency/) before deciding who will own the queues and supervise the work.
 
@@ -120,13 +122,218 @@ We publish our criteria, including signing a BAA before any PHI access, dedicate
 
 ### How do I get started, and do you need patient information?
 
-Use the short form on this page or the longer contact form. Practice-level details such as specialty and number of providers are enough. Never send patient information. Your request may be referred to Alliance Global Solutions, our affiliated approved vendor.
+Use the short form on this page or the longer contact form. Practice-level details such as specialty and number of providers are enough. Never send patient information. Your staffing request goes to Alliance Global Solutions, the operator of this site.
 
 See the [HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/), [cost guide](https://medicalbillingteam.com/medical-billing-staffing-cost/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/) for detail.
 
 [More questions →](https://medicalbillingteam.com/faq/)
 
 ---
+
+---
+
+Source: https://medicalbillingteam.com/pricing/
+
+Updated: 2026-11-07
+
+# Outsourced medical billing staffing prices and team cost estimator
+
+*By the Medical Billing Team editors · Published 2026-11-07 · Updated 2026-11-07*
+**Short answer:** Reviewed AGS invoices for October 1–15, 2026 show medical billing base rates of **$8.50–$12.64 per hour**. At 40 hours per week, that models **$1,473.33–$2,190.93 per person per average month**, before overtime and other charges. These are historical observations from a limited sample, not a current quote. Build your budget from the roles, hours and headcount your team needs. Use the estimator below to explore a planning range, then [request a written AGS quote](#footer-cta) for your actual requirements. Dedicated staffing prices cover a different responsibility from a full-service billing company's percentage-of-collections fee.
+
+Medical Billing Team is operated by Alliance Global Solutions. This page is for businesses considering our outsourced staffing services. [How the dedicated-team model works](https://medicalbillingteam.com/how-it-works/).
+
+## Estimate your outsourced staffing budget
+
+### AGS staffing budget ranges
+
+Currency: USD. Reviewed: 2026-11-07. Invoice observation period: October 1–15, 2026.
+Base hourly charges from five AGS client invoice schedules, with 54 included staff rows. Limited historical sample; role coverage varies and most roles have one observed rate. Overtime and other charges are excluded.
+
+| Position | Hourly budget range | Average monthly budget for one person | Scope and limitations |
+|---|---|---|---|
+| Medical billing support | $8.50–$12.64 / hour | $1,473.33–$2,190.93 | Medical Billing Specialist: 7 staff rows across 2 invoices; scope and experience differ by engagement. |
+| Verification of benefits (VOB) | $8.50 / hour | $1,473.33 | VOB Specialist: 26 staff rows in 1 invoice; one observed rate, not a market range. |
+| Medical collections support | $8.50 / hour | $1,473.33 | Medical Collections Specialist: 12 staff rows in 1 invoice; does not price every A/R or denial workflow. |
+| Authorization and appeal resolution | $8.50 / hour | $1,473.33 | Combined Authorization and Appeal Resolution Specialist: 4 staff rows in 1 invoice; confirm your task mix. |
+| Appointment setting | $9.00 / hour | $1,560.00 | Appointment Setter: 2 staff rows in 1 invoice; does not establish a full medical receptionist rate. |
+| Customer service support | $10.63 / hour | $1,842.53 | Customer Service Representative: 3 staff rows across 2 invoices; confirm healthcare-specific requirements. |
+| Virtual medical receptionist | Scoped quote required | Contact AGS | Receptionist scope extends beyond appointment setting; request a role-specific quote. |
+| Medical coding | Scoped quote required | Contact AGS | The reviewed invoices do not establish a coding rate; credentials and scope need a quote. |
+| Other or specialized role | Scoped quote required | Contact AGS | Describe your required work, experience and coverage in the follow-up discussion. |
+
+Monthly examples use 40 hours/week. Monthly budget = hourly rate × hours/week × 52 ÷ 12 × staff count. An average month has about 4.33 weeks; actual invoices reflect their billing periods and agreed terms. Hours are a budget scenario, not confirmation of part-time availability or minimum engagement.
+
+Budget estimate, not a binding quote. Historical billed ranges are not guaranteed current prices or a market-wide benchmark. Role, experience, workload, coverage, contract terms and separately agreed charges can change the final price. Confirm scope and inclusions with AGS.
+
+[Use the AGS staffing estimator or request a quote](https://medicalbillingteam.com/pricing/#outsourcing-estimator).
+
+The result is a budgeting aid, not a binding offer, service availability confirmation or promise of savings. Review the rate card's scope and assumptions before using the total. A historical billed charge does not establish the price for a new engagement with different requirements.
+
+## Choose the work before choosing the role
+
+A title alone can hide different workloads. Specify the queue, systems, required experience, coverage hours and who will review the work. That makes the estimate more useful when you speak with AGS.
+
+| If you need help with… | Describe this in your quote request |
+|---|---|
+| Billing and claim processing | Included tasks, expected volume, systems and exception handling |
+| [A/R follow-up](https://medicalbillingteam.com/ar-specialist/) | Age bands, payer mix, follow-up expectations and documentation rules |
+| [Denial work](https://medicalbillingteam.com/denial-management/) | Common reasons, correction versus appeal scope and approval authority |
+| [Eligibility or VOB](https://medicalbillingteam.com/eligibility-verification-prior-authorization/) | Required checks, coverage schedule and how unanswered questions are escalated |
+| [Prior authorization](https://medicalbillingteam.com/prior-authorization-specialist/) | Submission, tracking and follow-up scope, plus clinical escalation ownership |
+| Front-office support | Call, scheduling or administrative tasks and hours of coverage |
+
+These are examples to discuss, not interchangeable pricing categories. The staffing team must confirm the proposed role, candidate requirements and service scope. For a billing company hiring across multiple queues, see [outsourced staff for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/).
+
+## Read the estimate correctly
+
+Keep the billing unit visible. An hourly rate, a weekly invoice total and a monthly staffing fee cannot be compared without the hours, number of staff and covered period.
+
+- **Hourly planning cost:** the selected rate multiplied by billable hours and headcount.
+- **Monthly planning cost:** use the monthly conversion stated beside the estimate. It is an average-budget assumption, not a promise that each month's bill is identical.
+- **Mixed teams:** calculate each role separately, then add the role totals.
+- **Your full operating budget:** add the costs your organization retains after checking the proposal.
+
+Do not treat a staff member's pay as the client service price. For a domestic-hiring comparison, the [state wage and benefit calculator](https://medicalbillingteam.com/medical-billing-staffing-cost-by-state/) provides a separate in-house baseline. Its BLS wage figures are not AGS rates.
+
+## What can change your final price?
+
+The written proposal should confirm the role requirements and schedule, what AGS will provide, what your team will provide, and the commercial terms. Use this checklist to make any differences from the estimate explicit.
+
+| Item to confirm | What to ask |
+|---|---|
+| Role and experience | Which tasks and skills does the quoted position cover? |
+| Hours and coverage | What counts as billable time, and how are holidays or extra hours handled? |
+| Tools and access | Who supplies and pays for each required system or seat? |
+| Training and oversight | What support is included, and what time must our managers provide? |
+| Continuity | What are the leave, replacement and coverage arrangements? |
+| Term and changes | What minimum commitment, notice period or adjustment process applies? |
+| Other charges | Are setup, taxes, reimbursements or other agreed charges applicable? |
+
+For a side-by-side provider review, use the [medical billing RFP template and vendor scorecard](https://medicalbillingteam.com/medical-billing-rfp-template/). For choosing the operating model, use the [staffing agency guide](https://medicalbillingteam.com/medical-billing-staffing-agency/).
+
+## Get a quote for your actual team
+
+[Request an AGS staffing quote](#footer-cta) by submitting your contact details. Your selected estimator role, headcount and hours carry over automatically. Prepare your systems, approximate workload and other scope requirements for the follow-up conversation so the team can confirm the assumptions behind your estimate.
+
+**Business information only.** Do not submit patient names, claim files, insurance IDs or other patient information through this site. Any later production access needs the appropriate agreements and your approved access process; read the [outsourced billing HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/) when preparing that discussion.
+
+## FAQ
+
+### Is the staffing estimator a quote from AGS?
+
+No. It is a planning estimate for the roles and hours you select. Final pricing requires a written AGS proposal that confirms role requirements, schedule, headcount, included services and commercial terms.
+
+### Why can two billing roles have different prices?
+
+Required experience, task complexity, schedule, supervision and engagement terms can differ. Define the work and required skills before comparing prices, and ask which assumptions the written quote uses.
+
+### Does a monthly estimate mean every month will have the same invoice?
+
+No. A monthly planning conversion is not an invoice schedule. Actual charges depend on the agreement and applicable billable hours, adjustments and other agreed charges. Check the estimator's displayed assumptions and the final proposal.
+
+### What other costs should we budget for?
+
+Confirm responsibility for software and clearinghouse seats, secure access, equipment, onboarding, training, quality review and management time. Also ask about overtime, holidays, coverage, minimum commitments and exit terms. Do not assume these are included or charged separately without the quote.
+
+### Is this the same as percentage-of-collections medical billing?
+
+No. This page estimates the cost of dedicated staff. A managed billing service may price an agreed function as a percentage of collections or under another fee model. Compare scope and responsibility as well as the number.
+
+---
+
+Source: https://medicalbillingteam.com/medical-billing-company-staffing/
+
+Updated: 2026-11-07
+
+# Outsourced staff for medical billing companies ready to add capacity
+
+*By the Medical Billing Team editors · Published 2026-11-07 · Updated 2026-11-07*
+**Short answer:** Alliance Global Solutions supplies dedicated staff for medical billing companies that need more capacity in their own workflows. AGS handles hiring and monitoring; your team trains the staff on your systems and directs their work. Start with the queue or coverage gap you need to solve, then build a staffing scope and budget around it.
+
+**Adding clients or carrying a backlog?** [Submit your contact details to start an AGS staffing discussion](https://medicalbillingteam.com/contact/). Prepare the roles, approximate workload and hours you need for the follow-up conversation. Medical Billing Team is operated by AGS; inquiries here reach our staffing team. Share business information only, never patient records or claim files.
+
+## Add capacity where your operating plan needs it
+
+A new client can create more work before you can justify another local hire. A vacancy can leave follow-up queues unattended. A growing billing company may also need its experienced US staff to spend more time on client communication, quality review and complex exceptions.
+
+Describe that operating problem in the brief. Avoid starting with an arbitrary number of billers and hoping the workload fits. The [AGS medical billing service](https://www.allianceglobalsolutions.com/medical-billing/) includes dedicated back-office staffing for billing companies; the assessment determines the proposed roles and responsibilities for your business.
+
+| Your situation | Work to scope first | Information to bring |
+|---|---|---|
+| You are onboarding another practice | Recurring work the new account will add | Expected weekly volume, systems and training owner |
+| Older insurance A/R is accumulating | Follow-up queues by payer, age and next action | Aggregate queue counts and reasons work is stalled |
+| Denials compete with daily production | Review, correction and escalation work | Common reasons, authority limits and review process |
+| Experienced billers are doing routine tasks | Work that can be documented and assigned | Task list, handling time and exception rules |
+| One person's absence disrupts service | Coverage-sensitive work | Required schedule, dependencies and coverage expectations |
+
+These are scoping examples, not promises of a specific turnaround or result. Explore [A/R staffing](https://medicalbillingteam.com/ar-specialist/), [denial-management staffing](https://medicalbillingteam.com/denial-management/) and [revenue-cycle staffing](https://medicalbillingteam.com/revenue-cycle-management-staffing/) for the work involved.
+
+## Keep ownership of your client process
+
+Before onboarding, put the handoffs in writing. A useful ownership map has three columns: the work assigned to the dedicated staff, decisions your supervisor retains, and issues that go to the AGS contact.
+
+| Define this | Put it in the operating brief |
+|---|---|
+| Queue ownership | Which accounts, payers and tasks are included, and which are excluded |
+| Decision authority | Who can change codes, approve appeals, adjust balances or authorize write-offs |
+| Client communication | Who speaks for your billing company and which issues require your approval |
+| Quality review | Who checks samples, how errors are corrected and when work is escalated |
+| Access | Approved systems, individual permissions and the process for removing access |
+
+If you require confidentiality, restrictions on contacting your clients, or a particular branding arrangement, make those explicit contract requirements. Do not assume that a general staffing agreement includes them. Our [RFP template and vendor scorecard](https://medicalbillingteam.com/medical-billing-rfp-template/) provides a reusable way to record the scope and compare evidence.
+
+## Budget the team, not just an hourly rate
+
+Use the [outsourced staffing pricing estimator](https://medicalbillingteam.com/pricing/) to work through roles, hours and headcount. Then add costs your company retains, such as software seats, access setup, training and supervisory time. A staff-hour estimate does not tell you how many claims will be paid.
+
+For each proposed role, ask:
+
+- What work will this person own during the agreed hours?
+- What training and review time will our current staff need to provide?
+- Which charges are included in the quote, and which are separate?
+- What happens during leave, turnover or a change in workload?
+- What term, notice period and exit obligations apply?
+
+Compare that scope with your in-house alternative using the [staffing cost comparison](https://medicalbillingteam.com/medical-billing-staffing-cost/). Keep service fees, employee wages and percentage-of-collections charges separate so the comparison remains meaningful.
+
+## Plan access before production work begins
+
+AGS states that it signs a BAA before staff access PHI. Your organization should also review its own client agreements and proposed subcontracting arrangement. HHS explains that business associates and relevant subcontractors have agreement obligations when they handle PHI. [HHS business associate guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html).
+
+Use aggregate counts and fictional examples during initial scoping. Any later access to production information belongs in your approved systems and authorization process. The [outsourced billing HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/) lists questions to bring to your compliance lead.
+
+## Give the first assignment a measurable starting point
+
+Record the opening queue, incoming work, completed actions, blocked items and quality-review method. Keep those definitions consistent between reporting periods. Reconcile changes in backlog before attributing them to staff performance; new arrivals, payer responses and practice documentation all affect the result.
+
+A proposed rollout can use three checkpoints: agreement on scope, completion of access and training, and a review of actual work against the agreed definitions. Discuss timing with AGS; this is a planning framework, not a fixed onboarding schedule.
+
+## Tell us what your billing company needs next
+
+[Submit your contact details to request a staffing proposal](https://medicalbillingteam.com/contact/) or [review the AGS service profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). For the follow-up conversation, prepare your systems, approximate queue size, roles, coverage hours and who will supervise the work. That brief will help us discuss staffing fit and the next steps.
+
+## FAQ
+
+### Can Alliance Global Solutions staff a medical billing company?
+
+Yes. AGS provides dedicated staff for medical billing companies as well as practices and treatment centers. Tell us which work you want to assign, your systems, coverage hours and supervision needs so the team can confirm a suitable scope.
+
+### Who manages the outsourced staff's daily work?
+
+AGS hires and monitors the staff. Your billing company trains them on its systems, payers and rules and directs the work. Agree on the responsibility for quality review, exceptions and escalation before starting.
+
+### Can we use our existing billing systems?
+
+The dedicated staffing model is built around your workflows. Identify the systems, licenses, permissions and training required during scoping. Confirm that your contracts and access policies permit the proposed arrangement before granting access.
+
+### Can we start with a specific A/R or denial queue?
+
+Bring the queue, approximate volume, age bands and required coverage to the assessment. AGS can discuss the staffing scope, candidate needs and engagement terms. A defined queue is useful for scoping, but it is not a promise of a particular minimum team or short-term contract.
+
+### Will outsourcing guarantee higher collections?
+
+No. Staffing adds capacity for agreed work. Collections also depend on payer decisions, documentation, contract terms and your operating processes. Evaluate completed work and quality alongside payment results using consistent definitions.
 
 ---
 
@@ -203,6 +410,8 @@ Choose a manageable queue and record the starting backlog. Agree on how quality 
 Ask for a written ownership map covering the agency contact, your supervisor and the person authorized to approve exceptions. Use the first review to identify training gaps and process problems before expanding the assignment. Avoid accepting a promised collections increase without a defined baseline, time period and explanation of what the provider controls.
 
 ## Talk through your staffing requirement
+
+Start with the [AGS staffing cost estimator](https://medicalbillingteam.com/pricing/) for a budget scenario. If you manage billing for other practices, our [medical billing company staffing page](https://medicalbillingteam.com/medical-billing-company-staffing/) explains how to scope added capacity around your client accounts.
 
 [Request an assessment from the AGS team](https://medicalbillingteam.com/contact/) or review the [AGS vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). Start with the business problem: the work that is falling behind, your existing management capacity and the hours you need covered. The team can confirm whether its current staffing offer fits your requirements.
 
@@ -1594,14 +1803,28 @@ Days in A/R, the percentage of A/R over 90 days, dollars resolved, aged A/R by p
 
 Source: https://medicalbillingteam.com/virtual-medical-assistant/
 
-Updated: 2026-10-18
+Updated: 2026-11-07
 
-# Virtual medical assistants for billing and front-office work
+# Hire a virtual medical assistant for administrative and billing support
 
-*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-10-18*
+*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-11-07*
 **Short answer:** A virtual medical assistant is a remote staff member who handles administrative work for a practice, such as eligibility checks, prior authorization follow-up, appointment reminders, data entry, payment posting and inbox management. A virtual assistant is not a clinical medical assistant and shouldn't do clinical tasks. Because the role touches patient data, require a BAA and secure access before day one.
 
 "Virtual medical assistant" is a broad term. In practice it usually means remote administrative help for an overloaded front desk or billing team. This guide covers what a virtual assistant can and can't do, how the role fits with billing, and how to set it up safely. It's part of our [revenue cycle management staffing](https://medicalbillingteam.com/revenue-cycle-management-staffing/) series.
+
+## Turn your task list into an outsourcing brief
+
+Alliance Global Solutions operates this site and supplies dedicated remote staff. To discuss an administrative role for your practice or billing team, [submit your contact details to request an AGS staffing quote](https://medicalbillingteam.com/contact/). Prepare a short brief for the follow-up conversation:
+
+- **Priority tasks:** the first two or three queues to assign, with clear exclusions.
+- **Volume:** approximate weekly incoming work and any existing backlog.
+- **Working hours:** the time zone and overlap your team needs.
+- **Systems and skills:** software used, relevant payer or administrative experience, and any language requirement.
+- **Training and review:** who will teach your procedures, answer questions and approve exceptions.
+
+The [outsourcing pricing estimator](https://medicalbillingteam.com/pricing/) shows the available staffing benchmarks and their assumptions. Specialized medical work needs its own scope and written quote; a general virtual-assistant rate is not evidence of pricing for coding, authorization or other specialist work. If claims and denials dominate your task list, compare the [dedicated medical billing staffing model](https://medicalbillingteam.com/medical-billing-staffing-agency/) before choosing the role.
+
+Keep the initial inquiry and follow-up brief to business requirements. Do not share patient records, claim files or screenshots containing patient information during this scoping discussion.
 
 ## What a virtual medical assistant can do
 
@@ -1714,14 +1937,27 @@ List the most time-consuming administrative tasks, write procedures for two or t
 
 Source: https://medicalbillingteam.com/virtual-medical-receptionist/
 
-Updated: 2026-10-18
+Updated: 2026-11-07
 
-# Virtual medical receptionist: what the role covers and how to set it up
+# Hire a virtual medical receptionist for your practice
 
-*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-10-18*
+*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-11-07*
 **Short answer:** A virtual medical receptionist is a remote staff member who answers and returns patient calls, schedules and confirms appointments, updates demographics and insurance details, and routes messages, working in your phone system and practice management software. Unlike a generic answering service, a dedicated virtual receptionist learns your schedule rules and scripts. Because the role handles patient information, set up a BAA and secure access first.
 
 Front-desk phones are where small practices feel staffing gaps first: missed calls, long holds and staff pulled away from patients in the office. A virtual medical receptionist can take that load off. This guide explains what the role does, what it shouldn't do, and how to set it up. It's part of our [revenue cycle management staffing](https://medicalbillingteam.com/revenue-cycle-management-staffing/) series, because accurate front-desk data is where clean claims start.
+
+## Scope your outsourced front-desk coverage
+
+Alliance Global Solutions provides dedicated staff for virtual medical reception, including phones, scheduling and intake support. AGS operates this site. [Submit your contact details to request a receptionist staffing quote](https://medicalbillingteam.com/contact/), then prepare the details below for a follow-up conversation about the role and coverage you need.
+
+- **Schedule:** your time zone, required hours, peak periods and any overflow or after-hours requirement to confirm.
+- **Workload:** approximate call volume, typical call reasons and the appointment work you want to assign.
+- **Systems:** phone platform, scheduling software and required access or licenses.
+- **Rules:** scheduling templates, caller-verification steps and escalation contacts.
+- **Skills:** language requirements and relevant practice or scheduling experience.
+- **Ownership:** the person who will train the receptionist and review calls and scheduling quality.
+
+Use the [outsourcing pricing estimator](https://medicalbillingteam.com/pricing/) to understand the displayed staffing benchmarks and budgeting method. A medical receptionist's specialist scope, schedule and skills require a written quote; do not assume a general administrative rate covers them. Keep the follow-up brief to business requirements, without patient details or call recordings.
 
 ## What a virtual medical receptionist does
 
@@ -1780,7 +2016,7 @@ Alliance Global Solutions operates this site and is currently our only [approved
 
 ## Technology
 
-Many practices pair a virtual receptionist with automated reminders, online scheduling and AI call or chat tools for after-hours triage, with staff handling anything the tools can't. If a phone or chat vendor handles PHI on your behalf, it generally needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
+Many practices pair a virtual receptionist with automated reminders, online scheduling and AI call or chat tools for after-hours message routing, with staff handling anything the tools can't. If a phone or chat vendor handles PHI on your behalf, it generally needs a BAA ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
 
 ## Related guides
 
@@ -1896,6 +2132,8 @@ Whichever outsourcing model you choose, ask which tools touch your data: practic
 
 ## Related guides
 
+- [AGS outsourced staff pricing and estimator](https://medicalbillingteam.com/pricing/)
+- [Outsourced capacity for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/)
 - [Medical billing staffing agency: what to compare before hiring](https://medicalbillingteam.com/medical-billing-staffing-agency/)
 - [Use the medical billing RFP template to compare proposals](https://medicalbillingteam.com/medical-billing-rfp-template/)
 - [Revenue cycle management staffing (main guide)](https://medicalbillingteam.com/revenue-cycle-management-staffing/)
@@ -3124,6 +3362,8 @@ Remote billers increasingly work alongside automation: claim scrubbers, eligibil
 
 ## Related guides
 
+- [AGS outsourced staff pricing and team cost estimator](https://medicalbillingteam.com/pricing/)
+- [Dedicated outsourced staff for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/)
 - [Compare medical billing staffing agencies and service models](https://medicalbillingteam.com/medical-billing-staffing-agency/)
 - [Medical billing RFP template and vendor scorecard](https://medicalbillingteam.com/medical-billing-rfp-template/)
 - [Medical billing staffing cost comparison](https://medicalbillingteam.com/medical-billing-staffing-cost/)
@@ -3340,11 +3580,11 @@ It means making reasonable efforts to use, disclose and request only the minimum
 
 Source: https://medicalbillingteam.com/medical-billing-staffing-cost/
 
-Updated: 2026-10-18
+Updated: 2026-11-07
 
 # Medical billing staffing cost: in-house vs outsourced vs remote staff
 
-*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-10-18*
+*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-11-07*
 **Short answer:** An in-house biller costs their wage plus benefits and overhead. BLS puts the median wage for billing and posting clerks at $23.32 an hour (May 2025), and benefits average 30% of private-industry compensation costs (June 2026). Billing companies usually charge a percentage of collections, while remote staff are priced per full-time person. Compare all three with a fully loaded worksheet, not just the hourly rate.
 
 "How much does it cost?" is the first question practices ask about billing help, and the honest answer is: it depends on your volume, specialty and what you're comparing. Instead of quoting price ranges we can't back up, this guide shows you how to compare three common models using your own numbers and public wage data.
@@ -3474,6 +3714,8 @@ Automation changes the staffing math but doesn't remove it: tools can shrink man
 
 ## Related guides
 
+- [Estimate a dedicated AGS team's cost](https://medicalbillingteam.com/pricing/)
+- [Outsourced staffing for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/)
 - [Medical billing staffing cost by state (tables and calculator)](https://medicalbillingteam.com/medical-billing-staffing-cost-by-state/)
 - [Medical billing outsourcing statistics](https://medicalbillingteam.com/medical-billing-outsourcing-statistics/)
 - [Hiring remote and offshore medical billers](https://medicalbillingteam.com/hire-remote-medical-billers/)
@@ -4555,14 +4797,14 @@ AI and automation now show up across billing, from claim scrubbing to electronic
 
 Source: https://medicalbillingteam.com/about/
 
-Updated: 2026-10-18
+Updated: 2026-11-07
 
 # About this site
 
-*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-10-18*
-**Short answer:** medicalbillingteam.com is an informational resource about medical billing and revenue cycle staffing, with a short list of [approved vendors](https://medicalbillingteam.com/approved-vendors/) that meet our [published criteria](https://medicalbillingteam.com/how-we-vet-vendors/). It is operated by Alliance Global Solutions, a provider of remote billing staff and currently the only approved vendor, so requests you send may be referred to it. Our guides cite public sources and make no outcome promises.
+*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-11-07*
+**Short answer:** Medical Billing Team helps companies plan and buy dedicated outsourcing staff from Alliance Global Solutions, the operator of this site. We serve medical billing companies, practices and treatment-center operators. Explore [staffing for billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/), use the [pricing estimator](https://medicalbillingteam.com/pricing/), and request a scoped staffing quote. Our buying guides cite public sources and make no outcome promises.
 
-Medical Billing Team is a resource for US medical practices and billing companies that are sorting out how to staff their billing and revenue cycle work. We write plain-English guides on topics like denial management, A/R follow-up, eligibility and prior authorization, HIPAA safeguards for outsourced staff and the real costs of different staffing models.
+Our purpose is to connect businesses that need outsourced capacity with the AGS team. The guides explain roles, costs and operating responsibilities so prospective clients can make an informed decision. This is an affiliated commercial site; we do not present ourselves as an independent ranking service.
 
 ## Disclosure: who operates this site
 
@@ -4576,7 +4818,7 @@ We think you should know that before you read anything here, so this disclosure 
 
 ## How the approved vendor list works
 
-This site works like a guide plus a short, vetted directory. We write the guides; when you ask for help, we route your request to an approved vendor.
+The existing vendor pages document our operator and the criteria we publish. Your staffing inquiry goes to Alliance Global Solutions, currently the only listed provider.
 
 - **Published criteria.** A vendor must meet every item on [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/), including signing a BAA with each client before any PHI access, dedicated staff working in the client's systems, US billing experience and references on request.
 - **One vendor today, by design.** Our [approved vendor list](https://medicalbillingteam.com/approved-vendors/) has one company, Alliance Global Solutions, and it operates this site. We won't pad the list with vendors we can't stand behind, and we don't sell placements.

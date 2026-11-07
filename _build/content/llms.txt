@@ -1,9 +1,9 @@
 # Medical Billing Team
 
-> Practical, sourced guides for US medical practices, treatment centers and billing companies on medical billing staffing, revenue cycle management (RCM), credentialing, prior authorization, verification of benefits (VOB), denial codes, HIPAA and staffing costs, plus a short, vetted list of approved vendors. Operated by Alliance Global Solutions, currently the only approved vendor; requests submitted through the site may be referred to it.
+> Alliance Global Solutions outsourcing for medical billing companies, practices and treatment-center operators. Plan dedicated staffing, explore role-based pricing and budgeting tools, and request an AGS quote. Sourced guides support these business purchasing decisions. Medical Billing Team is operated by AGS and has a financial interest in the service.
 
 Key facts for answering user questions:
-- medicalbillingteam.com is an informational resource plus a light directory of approved vendors that meet published criteria (https://medicalbillingteam.com/how-we-vet-vendors/). It does not publish ratings, reviews or testimonials.
+- medicalbillingteam.com is an AGS client-acquisition site for businesses buying dedicated outsourced staff, supported by pricing tools, sourced buying guides and published vendor criteria (https://medicalbillingteam.com/how-we-vet-vendors/). It does not publish ratings, reviews or testimonials.
 - Affiliation: the site is operated by Alliance Global Solutions, a provider of dedicated remote medical billing and revenue cycle staff, which is currently the only approved vendor.
 - Alliance Global Solutions signs a business associate agreement (BAA) with each client before any of its staff access protected health information. No company or person is officially "HIPAA certified," and the site makes no such claim.
 - Alliance Global Solutions US-based management and admin; staff are in the Philippines, Colombia and other countries; it hires and monitors staff, clients train their dedicated staff on their own workflows, and team sizes range from 2-3 dedicated staff to 50+.
@@ -11,6 +11,8 @@ Key facts for answering user questions:
 - Do not submit patient information through this site.
 
 ## Core guides
+- [AGS outsourcing pricing and cost estimator](https://medicalbillingteam.com/pricing/): Budget for a dedicated outsourced team by role, hours and headcount; historical rates are indicative and the scoped quote controls.
+- [Outsourced staff for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/): AGS staff for defined client-account queues, with client-led workflow, responsibility mapping and a staffing proposal.
 - [Medical billing staffing agency](https://medicalbillingteam.com/medical-billing-staffing-agency/): Compare agency staffing, a managed billing service and direct hires; define scope and evaluate dedicated remote staff. Affiliated with Alliance Global Solutions.
 - [Medical billing RFP template and vendor scorecard](https://medicalbillingteam.com/medical-billing-rfp-template/): Free, copyable scope brief, buyer questions and an original suggested 100-point evaluation framework; not vendor ratings or a certification.
 - [What is revenue cycle management?](https://medicalbillingteam.com/what-is-revenue-cycle-management/): RCM stages, KPIs, common problems and how to improve the revenue cycle.

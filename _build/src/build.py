@@ -10,10 +10,13 @@ import json, os, re, shutil, html, datetime, pathlib, yaml
 from pages import PAGES, NAV
 from md import convert, front_matter, inline
 from icons import ico
+from outsourcing_estimator import render_estimator, markdown_summary
 
 B = pathlib.Path(__file__).resolve().parent.parent      # _build/
 ROOT = B.parent                                          # repo root = publish dir
 CFG = json.loads((B / 'config.json').read_text())
+PRICING_FILE = B / 'data' / 'ags-pricing.json'
+PRICING = json.loads(PRICING_FILE.read_text()) if PRICING_FILE.exists() else None
 BASE_PATH = os.environ.get('BASE_PATH', CFG['preview_base_path']).rstrip('/')
 INDEX = bool(CFG.get('indexing_enabled'))
 SITE = CFG['canonical_base'].rstrip('/')
@@ -32,6 +35,7 @@ def call_link(cls='', icon=True, text=None, loc='body'):
 GALLERY = json.loads((B / 'ags-gallery.json').read_text()) if (B / 'ags-gallery.json').exists() else {}
 # Unchanged CSS retains its cache key across content-only releases.
 ASSET_V = __import__('hashlib').sha256((B / 'static' / 'styles.css').read_bytes()).hexdigest()[:12]
+ESTIMATOR_V = __import__('hashlib').sha256((B / 'static' / 'outsourcing-estimator.js').read_bytes()).hexdigest()[:12]
 BAA_Q = 'Does the operator of this site sign a BAA?'  # distinct from the vendor-page FAQ question
 BAA_LINE = 'Alliance Global Solutions signs a BAA before any PHI access.'  # approved copy addition (Tony via Alliance Global, 2026-10-18); HIPAA page disclosure only
 SPEC_SECTIONS = re.compile(r'^(short form|sticky cta|footer$|form fields|implementation notes|other ways to reach us|get the checklist)', re.I)
@@ -123,7 +127,7 @@ def load(p):
     txt = re.sub(r'<!--\s*VENDOR TEASER.*?-->', '<!--VTEASER-->', txt, flags=re.S)
     txt = re.sub(r'<!--\s*LATEST-UPDATES.*?-->', '<!--UPDATES-->', txt, flags=re.S)
     txt = re.sub(r'<!--\s*HOME TEASER.*?-->', '<!--TEASER-->', txt, flags=re.S)
-    txt = re.sub(r'<!--(?!(?:IMG:[\w-]+|VCARD|VTEASER|UPDATES|TEASER|STATE-TABLE|STATE-ROLES|STATE-CALC)-->).*?-->', '', txt, flags=re.S)   # build notes
+    txt = re.sub(r'<!--(?!(?:IMG:[\w-]+|VCARD|VTEASER|UPDATES|TEASER|STATE-TABLE|STATE-ROLES|STATE-CALC|OUTSOURCING-ESTIMATOR)-->).*?-->', '', txt, flags=re.S)   # build notes
     if p['tech']:   # #38: Technology section renders from frontmatter; body duplicate replaced by the component marker
         txt, n = re.subn(r'^## Technology\s*\n.*?(?=^## |\Z)', '<!--TECH-->\n\n', txt, count=1, flags=re.M | re.S)
         if not n: txt = re.sub(r'(^## Related guides)', '<!--TECH-->\n\n\\1', txt, count=1, flags=re.M)
@@ -304,8 +308,8 @@ def nav(cur):
 <header class="site-header"><div class="wrap hdr">
 <a class="brand" href="/"><img class="brand-logo" src="/mbt-logo-horizontal.svg?v={_av('mbt-logo-horizontal.svg')}" alt="Medical Billing Team" width="457" height="88"></a>
 <nav class="nav-desk" aria-label="Main"><ul class="nav">{items}</ul></nav>
-{call_link("btn btn-sm btn-ghost hdr-call", loc="header")}<a class="btn btn-sm hdr-cta" href="/contact/">Free assessment</a>
-<details class="menu"><summary aria-label="Open menu"><span class="burger" aria-hidden="true"></span>Menu</summary><nav aria-label="Mobile"><ul class="nav">{items}{("<li>" + call_link("m-call", loc="menu", text="Call " + PHONE["display"]) + "</li>") if PHONE_ON else ""}<li><a class="m-cta" href="/contact/">Free assessment</a></li></ul></nav></details>
+{call_link("btn btn-sm btn-ghost hdr-call", loc="header")}<a class="btn btn-sm hdr-cta" href="/contact/">Get a quote</a>
+<details class="menu"><summary aria-label="Open menu"><span class="burger" aria-hidden="true"></span>Menu</summary><nav aria-label="Mobile"><ul class="nav">{items}{("<li>" + call_link("m-call", loc="menu", text="Call " + PHONE["display"]) + "</li>") if PHONE_ON else ""}<li><a class="m-cta" href="/contact/">Get a quote</a></li></ul></nav></details>
 </div></header>'''
 
 F = CFG['form']
@@ -347,7 +351,7 @@ def form(form_id):
                            f'<span>{E(CFG["tcpa_text"])}{tcpa_links()}</span></label>')
     grid2 = ' grid-2' if full or cmp else ''
     fields = f'<div class="grid{grid2}">{"".join(top)}</div>{mid}' + (f'<div class="grid{grid2}">{"".join(bottom)}</div>' if bottom else '')
-    btn = 'Send me the checklist' if form_id == 'checklist' else 'Email me this comparison' if cmp else 'Request my assessment'
+    btn = 'Send me the checklist' if form_id == 'checklist' else 'Email me this comparison' if cmp else 'Request my staffing quote'
     above = f'<p class="phi" role="note"><strong>Do not include any patient information.</strong> {E(CFG["phi_notice"].split(". ",1)[1])}</p>'
     if full: above += f'<p class="fine">{E(CFG["email_notice"])}</p><p class="fine"><strong>Reminder: do not include any patient information.</strong></p>'
     if form_id == 'checklist': above += '<p class="fine">We\'ll email you the checklist and occasional guides about billing staffing. Unsubscribe any time.</p>'
@@ -383,7 +387,7 @@ FOOT = [('Guides', [('what-is-revenue-cycle-management', 'RCM'), ('hipaa-outsour
                      ('medical-billing-technology', 'Technology'), ('denial-management', 'Denial Management'), ('denial-codes', 'Denial codes')]),
         ('Services', [('credentialing-services', 'Credentialing'), ('prior-authorization-specialist', 'Prior Auth'), ('treatment-center-vob', 'VOB'),
                       ('hire-remote-medical-coders', 'Coding'), ('ar-specialist', 'A/R'), ('virtual-medical-assistant', 'Virtual Assistants')]),
-        ('Vendors', [('medical-billing-staffing-agency', 'Staffing agency guide'), ('medical-billing-rfp-template', 'RFP & vendor scorecard'), ('approved-vendors', 'Approved vendors'), ('how-we-vet-vendors', 'How we vet vendors'),
+        ('Work with AGS', [('outsourced-medical-billing-staffing-pricing', 'Pricing & estimator'), ('medical-billing-company-staffing', 'Staff for billing companies'), ('medical-billing-staffing-agency', 'Staffing agency guide'), ('medical-billing-rfp-template', 'RFP & vendor scorecard'), ('approved-vendors', 'Approved vendors'), ('how-we-vet-vendors', 'How we vet vendors'),
                      ('featured-vendor-alliance-global-solutions', 'Alliance Global Solutions profile')]),
         ('Site', [('about', 'About & disclosure'), ('how-it-works', 'How it works'), ('faq', 'FAQ'), ('contact', 'Contact'), ('privacy', 'Privacy'), ('terms', 'Terms')])]
 
@@ -438,7 +442,7 @@ def chat_index(txt):
 def footer(p):
     cols = ''.join(f'<div><h2 class="fh">{E(h)}</h2><ul>' + ''.join(f'<li><a href="{BYKEY[k]["path"]}">{E(l)}</a></li>' for k, l in ks if BYKEY[k]['ready']) + '</ul></div>' for h, ks in FOOT)
     band = '' if p['key'] in ('contact', 'thank-you') else f'''<section class="cta-band" id="footer-cta"><div class="wrap cta-grid">
-<div><h2>Short on billing staff?</h2><p>Get a free, no-obligation staffing assessment. No patient info needed.</p>{('<p class="cta-call">Prefer to talk? Call ' + call_link('call-inline', icon=False, loc='footer-band') + ((' <span class="hrs">' + E(PHONE.get('hours')) + '</span>') if PHONE.get('hours') else '') + '</p>') if PHONE_ON else ''}</div>
+<div><h2>Build your AGS billing team</h2><p>Tell us about the work you need to outsource. Start with a free staffing assessment and a scoped quote. No patient info needed.</p>{('<p class="cta-call">Prefer to talk? Call ' + call_link('call-inline', icon=False, loc='footer-band') + ((' <span class="hrs">' + E(PHONE.get('hours')) + '</span>') if PHONE.get('hours') else '') + '</p>') if PHONE_ON else ''}</div>
 {form("footer")}</div></section>'''
     sticky = '' if p['key'] in ('contact', 'thank-you') else f'''<div class="sticky-cta" hidden><span class="s-m">Free billing staffing assessment</span><span class="s-d">Short on billing staff? Get a free, no-obligation staffing assessment. No patient info needed.</span>
 {call_link('btn btn-sm s-call', text='Call', loc='sticky')}<a class="btn btn-sm" href="{'#assessment' if p['key']=='index' else '/contact/'}">Get my free assessment</a><button class="x" type="button" aria-label="Dismiss">×</button></div>'''
@@ -664,6 +668,10 @@ rows.sort(function(a,b){{var x=a.cells[i],y=b.cells[i];var xv=x.dataset.v!==unde
 }})();</script>'''
 
 def components(h, p):
+    if '<!--OUTSOURCING-ESTIMATOR-->' in h:
+        if not PRICING:
+            raise SystemExit('Verified public AGS pricing data is required before publishing the estimator')
+        h = h.replace('<!--OUTSOURCING-ESTIMATOR-->', render_estimator(PRICING) + f'<script defer src="/outsourcing-estimator.js?v={ESTIMATOR_V}"></script>')
     h = h.replace('<!--TECH-->', tech_html(p))
     h = h.replace('<!--UPDATES-->', updates_html(UPDATES))
     h = h.replace('<!--TEASER-->', updates_html(UPDATES[:3], teaser=True))
@@ -757,7 +765,7 @@ def iconize_list(h, icons):
         return f'<li><span class="li-ic">{ico(n)}</span><span class="li-t">{m.group(1)}</span></li>'
     return re.sub(r'<li>(.*?)</li>', li, h, flags=re.S)
 
-HERO_H1 = 'Dedicated medical billing staff for practices, billing companies and treatment centers'
+HERO_H1 = 'Outsourced billing staff for your company, backed by AGS'
 HERO_SERVICES = [('RCM', 'revenue-cycle-management-staffing'), ('Credentialing', 'credentialing-services'),
   ('Prior authorization', 'prior-authorization-specialist'), ('VOB for treatment centers', 'treatment-center-vob'),
   ('Denial management', 'denial-management'), ('A/R follow-up', 'ar-specialist'), ('Medical coding', 'hire-remote-medical-coders'),
@@ -817,8 +825,8 @@ def home_main(p):
 <p class="rot-line rv" style="animation-delay:.12s"><span class="rot-pre">Staffing for</span> <span class="rot" aria-hidden="true">{ROT}</span><span class="sr-only">{E(", ".join(n for n, _ in HERO_SERVICES))}</span></p>
 <ul class="svc-pills" aria-label="Services">{SVC}</ul>
 <ul class="hero-chips rv" style="animation-delay:.5s" aria-label="What to expect">{CHIPS}</ul>
-<p class="hero-ctas rv" style="animation-delay:.58s"><a class="btn btn-cta" href="#assessment" data-cta="hero">Get my staffing assessment{ico('arrow-right')}</a></p><p class="hero-guides"><a href="/medical-billing-staffing-agency/">Compare staffing options</a> · <a href="/medical-billing-rfp-template/">Use the free vendor scorecard</a></p></div>
-<div class="hero-form form-card" id="get-matched"><h2 class="form-title">Get your free staffing assessment</h2>{form("hero")}</div>
+<p class="hero-ctas rv" style="animation-delay:.58s"><a class="btn btn-cta" href="/pricing/" data-cta="hero-pricing">Estimate my staffing cost{ico('arrow-right')}</a></p><p class="hero-guides"><a href="/medical-billing-company-staffing/">Staff for billing companies</a> · <a href="#assessment">Request an AGS quote</a></p></div>
+<div class="hero-form form-card" id="get-matched"><h2 class="form-title">Request an AGS staffing quote</h2>{form("hero")}</div>
 </div></section>
 <section class="band hero-intro"><div class="wrap narrow"><div class="hero-copy prose">{hero}<p class="disclosure-inline">{ico("building-2")}<span>{E(DISC)}</span></p></div></div></section>
 {topics}{rest}
@@ -905,7 +913,7 @@ bots = CFG['ai_crawlers']
 FULL_ORDER = [p['key'] for p in PAGES if p['indexable'] and not p.get('held')
               and not p.get('gated') and p['kind'] not in ('form', 'legal', 'utility')
               and p['key'] != 'checklist']
-FT = ["# Medical Billing Team: full text\n\n> Concatenated public guides from medicalbillingteam.com, generated " + TODAY + ". Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; requests may be referred to it. Excludes forms, legal drafts and gated content.\n"]
+FT = ["# Medical Billing Team: full text\n\n> Concatenated public guides from medicalbillingteam.com, generated " + TODAY + ". Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; staffing requests go to its team. Excludes forms, legal drafts and gated content.\n"]
 for k in FULL_ORDER:
     f = B / 'content' / f'{k}.md'
     if not f.exists() or not BYKEY[k]['ready']: continue
@@ -926,6 +934,8 @@ for k in FULL_ORDER:
         body = body.replace('<!--STATE-ROLES-->', '\n'.join(rows))
     body = body.replace('<!--STATE-CALC-->', 'Use the [interactive staffing calculator](/medical-billing-staffing-cost-by-state/#calculator-your-state-your-role-your-headcount) to compare state, role, wage percentile and headcount. Loaded annual cost = hourly wage × benefits load factor × 2,080 hours × headcount. Wage percentiles are not measured experience levels.')
     body = BYLINE_RE.sub(f'*By the Medical Billing Team editors · Published {BYKEY[k]["date_published"]} · Updated {BYKEY[k]["date_modified"]}*', body)
+    if '<!--OUTSOURCING-ESTIMATOR-->' in body:
+        body = body.replace('<!--OUTSOURCING-ESTIMATOR-->', markdown_summary(PRICING))
     body = re.sub(r'<!--.*?-->', '', body, flags=re.S)
     if k == 'index':
         body = re.sub(r'## Short form \(hero\).*?(?=## Who this site helps)', '', body, flags=re.S)

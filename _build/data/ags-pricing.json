@@ -1,0 +1,77 @@
+{
+  "currency": "USD",
+  "as_of": "2026-11-07",
+  "observation_period": "October 1–15, 2026",
+  "source_note": "Base hourly charges from five AGS client invoice schedules, with 54 included staff rows. Limited historical sample; role coverage varies and most roles have one observed rate. Overtime and other charges are excluded.",
+  "hours_per_week": 40,
+  "weeks_per_year": 52,
+  "months_per_year": 12,
+  "roles": [
+    {
+      "id": "medical-billing",
+      "label": "Medical billing support",
+      "unit": "hour",
+      "rate_min": 8.5,
+      "rate_max": 12.64,
+      "note": "Medical Billing Specialist: 7 staff rows across 2 invoices; scope and experience differ by engagement."
+    },
+    {
+      "id": "benefits-verification",
+      "label": "Verification of benefits (VOB)",
+      "unit": "hour",
+      "rate_min": 8.5,
+      "rate_max": 8.5,
+      "note": "VOB Specialist: 26 staff rows in 1 invoice; one observed rate, not a market range."
+    },
+    {
+      "id": "medical-collections",
+      "label": "Medical collections support",
+      "unit": "hour",
+      "rate_min": 8.5,
+      "rate_max": 8.5,
+      "note": "Medical Collections Specialist: 12 staff rows in 1 invoice; does not price every A/R or denial workflow."
+    },
+    {
+      "id": "authorization-appeals",
+      "label": "Authorization and appeal resolution",
+      "unit": "hour",
+      "rate_min": 8.5,
+      "rate_max": 8.5,
+      "note": "Combined Authorization and Appeal Resolution Specialist: 4 staff rows in 1 invoice; confirm your task mix."
+    },
+    {
+      "id": "appointment-setting",
+      "label": "Appointment setting",
+      "unit": "hour",
+      "rate_min": 9.0,
+      "rate_max": 9.0,
+      "note": "Appointment Setter: 2 staff rows in 1 invoice; does not establish a full medical receptionist rate."
+    },
+    {
+      "id": "customer-service",
+      "label": "Customer service support",
+      "unit": "hour",
+      "rate_min": 10.63,
+      "rate_max": 10.63,
+      "note": "Customer Service Representative: 3 staff rows across 2 invoices; confirm healthcare-specific requirements."
+    },
+    {
+      "id": "medical-receptionist",
+      "label": "Virtual medical receptionist",
+      "quote_only": true,
+      "note": "Receptionist scope extends beyond appointment setting; request a role-specific quote."
+    },
+    {
+      "id": "medical-coding",
+      "label": "Medical coding",
+      "quote_only": true,
+      "note": "The reviewed invoices do not establish a coding rate; credentials and scope need a quote."
+    },
+    {
+      "id": "other",
+      "label": "Other or specialized role",
+      "quote_only": true,
+      "note": "Describe your required work, experience and coverage in the follow-up discussion."
+    }
+  ]
+}

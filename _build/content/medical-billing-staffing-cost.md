@@ -20,7 +20,7 @@ search_intent: "commercial"
 audience: "practice owners and administrators"
 conversion_destination: "/contact/"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
@@ -31,7 +31,7 @@ tech_section:  # reusable <TechSection> component; edit here
 
 # Medical billing staffing cost: in-house vs outsourced vs remote staff
 
-*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated November 7, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
 **Short answer:** An in-house biller costs their wage plus benefits and overhead. BLS puts the median wage for billing and posting clerks at $23.32 an hour (May 2025), and benefits average 30% of private-industry compensation costs (June 2026). Billing companies usually charge a percentage of collections, while remote staff are priced per full-time person. Compare all three with a fully loaded worksheet, not just the hourly rate.
 
@@ -162,6 +162,8 @@ Automation changes the staffing math but doesn't remove it: tools can shrink man
 
 ## Related guides
 
+- [Estimate a dedicated AGS team's cost](/pricing/)
+- [Outsourced staffing for medical billing companies](/medical-billing-company-staffing/)
 - [Medical billing staffing cost by state (tables and calculator)](/medical-billing-staffing-cost-by-state/)
 - [Medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/)
 - [Hiring remote and offshore medical billers](/hire-remote-medical-billers/)

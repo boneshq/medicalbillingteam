@@ -19,6 +19,10 @@ jobs:
           persist-credentials: false
       - name: Check search metadata and retrieval content
         run: python3 scripts/seo-check.py
+      - name: Check staffing estimator calculations
+        run: node scripts/test-outsourcing-estimator.cjs
+      - name: Check staffing estimator rendering
+        run: python3 scripts/test-outsourcing-estimator.py
       - name: Build like GitHub Pages
         uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697  # v1.0.13
         with:

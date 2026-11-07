@@ -1,6 +1,6 @@
 ---
-title: "Free Medical Billing Staffing Assessment | Contact"
-meta_description: "Request a free medical billing staffing assessment from a vetted approved vendor. Practice-level details only, never patient information. Reply in 1 day."
+title: "Request an AGS Outsourced Staffing Quote | Medical Billing Team"
+meta_description: "Request a dedicated outsourced staffing quote from Alliance Global Solutions. Start with your business details, then discuss roles, hours and workload with our team."
 slug: "/contact/"
 schema_type: ["ContactPage"]
 canonical: "https://medicalbillingteam.com/contact/"
@@ -9,17 +9,17 @@ search_intent: "transactional"
 audience: "prospective clients"
 conversion_destination: "form submit"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "semiannual"
 ---
 
-# Request a free staffing assessment
+# Request an AGS staffing quote
 
-Tell us about your practice or billing company and we'll route your request to a vetted, [approved vendor](/approved-vendors/), usually within one business day. The assessment is free and there's no obligation. If remote staff aren't a good fit for you, you'll hear that too.
+Start with your practice or billing company details and the help areas below. Our AGS team will follow up to discuss the work you want to outsource. The initial staffing assessment is free and there is no obligation. We will review the role, workload, schedule and systems with you before confirming scope and price. Use the [staffing estimator](/pricing/) for an initial budget, or read about [teams for medical billing companies](/medical-billing-company-staffing/).
 
-> **Who receives your request:** Medical Billing Team is operated by Alliance Global Solutions, currently the only vendor on our approved vendor list. Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. See [how we vet vendors](/how-we-vet-vendors/) and the [Alliance Global Solutions profile](/approved-vendors/alliance-global-solutions/).
+> **Who receives your request:** Medical Billing Team is operated by Alliance Global Solutions, currently the only vendor on our approved vendor list. Staffing requests submitted here go to Alliance Global Solutions, and we benefit if you hire it. See [how we vet vendors](/how-we-vet-vendors/) and the [Alliance Global Solutions profile](/approved-vendors/alliance-global-solutions/).
 
 > **Do not include any patient information.** This form is for business inquiries only. Please don't enter patient names, dates of birth, addresses, member or policy IDs, claim numbers, account numbers, diagnoses, treatment details or any other health information in any field.
 
@@ -48,9 +48,9 @@ Tell us about your practice or billing company and we'll route your request to a
 > Reminder: do not include any patient information.
 
 **Referral notice (directly above the button, always visible):**
-> Your request will be shared with Alliance Global Solutions, our affiliated approved vendor, so it can follow up.
+> Your staffing request goes to Alliance Global Solutions, the operator of this site, so our team can follow up.
 
-**Submit button:** Request my assessment
+**Submit button:** Request my staffing quote
 
 **Success page / message:**
 > Thank you. We've received your request. Alliance Global Solutions, our affiliated approved vendor, will email you, usually within one business day. In the meantime, you might find these useful: [Medical Billing Health Checklist](/checklist/) · [HIPAA guide for outsourced billing staff](/hipaa-outsourced-medical-billing/) · [RCM staffing guide](/revenue-cycle-management-staffing/)
@@ -77,4 +77,4 @@ Tell us about your practice or billing company and we'll route your request to a
 - [answers to common questions](/faq/)
 
 ---
-*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Requests submitted here may be referred to Alliance Global Solutions, and we benefit if you hire it. We don't publish ratings, reviews or testimonials. [How we vet vendors](/how-we-vet-vendors/).*
+*Affiliation disclosure: Medical Billing Team is operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the only vendor on our [approved vendor list](/approved-vendors/). Staffing requests submitted here go to Alliance Global Solutions, and we benefit if you hire it. We don't publish ratings, reviews or testimonials. [How we vet vendors](/how-we-vet-vendors/).*

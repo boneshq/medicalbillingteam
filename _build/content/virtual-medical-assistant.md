@@ -1,6 +1,6 @@
 ---
-title: "Virtual Medical Assistants for Billing and Front Office"
-meta_description: "What a virtual medical assistant can do for billing and front-office work, what to keep in-house, HIPAA safeguards and how to start. Get an assessment."
+title: "Hire a Virtual Medical Assistant | AGS Staffing"
+meta_description: "Add dedicated outsourced administrative staff to your practice or billing team. Define tasks, hours and systems, then request a virtual medical assistant quote."
 slug: "/virtual-medical-assistant/"
 schema_type: ["Article", "FAQPage", "BreadcrumbList"]
 faq:
@@ -21,7 +21,7 @@ audience: "solo and small practices, office managers"
 conversion_destination: "/contact/"
 pillar: "/revenue-cycle-management-staffing/"
 date_published: "2026-10-18"
-date_modified: "2026-10-18"
+date_modified: "2026-11-07"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "quarterly + on rule change"
@@ -30,13 +30,27 @@ tech_section:  # reusable <TechSection> component; edit here
   link: "/medical-billing-technology/"
 ---
 
-# Virtual medical assistants for billing and front-office work
+# Hire a virtual medical assistant for administrative and billing support
 
-*By the Medical Billing Team editors · Published October 18, 2026 · Updated October 18, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
+*By the Medical Billing Team editors · Published October 18, 2026 · Updated November 7, 2026 · [How we research and review](/about/#how-we-write-our-guides)*
 
 **Short answer:** A virtual medical assistant is a remote staff member who handles administrative work for a practice, such as eligibility checks, prior authorization follow-up, appointment reminders, data entry, payment posting and inbox management. A virtual assistant is not a clinical medical assistant and shouldn't do clinical tasks. Because the role touches patient data, require a BAA and secure access before day one.
 
 "Virtual medical assistant" is a broad term. In practice it usually means remote administrative help for an overloaded front desk or billing team. This guide covers what a virtual assistant can and can't do, how the role fits with billing, and how to set it up safely. It's part of our [revenue cycle management staffing](/revenue-cycle-management-staffing/) series.
+
+## Turn your task list into an outsourcing brief
+
+Alliance Global Solutions operates this site and supplies dedicated remote staff. To discuss an administrative role for your practice or billing team, [submit your contact details to request an AGS staffing quote](/contact/). Prepare a short brief for the follow-up conversation:
+
+- **Priority tasks:** the first two or three queues to assign, with clear exclusions.
+- **Volume:** approximate weekly incoming work and any existing backlog.
+- **Working hours:** the time zone and overlap your team needs.
+- **Systems and skills:** software used, relevant payer or administrative experience, and any language requirement.
+- **Training and review:** who will teach your procedures, answer questions and approve exceptions.
+
+The [outsourcing pricing estimator](/pricing/) shows the available staffing benchmarks and their assumptions. Specialized medical work needs its own scope and written quote; a general virtual-assistant rate is not evidence of pricing for coding, authorization or other specialist work. If claims and denials dominate your task list, compare the [dedicated medical billing staffing model](/medical-billing-staffing-agency/) before choosing the role.
+
+Keep the initial inquiry and follow-up brief to business requirements. Do not share patient records, claim files or screenshots containing patient information during this scoping discussion.
 
 ## What a virtual medical assistant can do
 
