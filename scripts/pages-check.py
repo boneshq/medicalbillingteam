@@ -13,7 +13,7 @@ Stdlib only.
 """
 import pathlib, subprocess, sys
 
-INTERNAL = ('_build/', 'docs/', 'scripts/', '.github/', 'README.md', '_config.yml', '.nojekyll')
+INTERNAL = ('_build/', 'docs/', 'scripts/', '.github/', '.gitignore', 'README.md', '_config.yml', '.nojekyll')
 INTERNAL_EXT = {'.md', '.py', '.pyc', '.sh', '.gs', '.yml', '.yaml', '.toml', '.env'}
 
 
