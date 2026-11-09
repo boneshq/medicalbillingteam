@@ -454,7 +454,7 @@ def footer(p):
 </div></footer>{sticky}
 <script>document.addEventListener('click',function(e){{document.querySelectorAll('.nav-desk details[open]').forEach(function(d){{if(!d.contains(e.target))d.removeAttribute('open')}})}})</script>
 <script>document.addEventListener('click',function(e){{var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a&&window.gtag){{try{{gtag('event','phone_call_click',{{cta_location:a.getAttribute('data-cta')||'body',link_url:a.getAttribute('href'),page_path:location.pathname}})}}catch(x){{}}}}}})</script>
-{chat_loader()}<script src="/form-config.js" defer></script><script src="/form.js" defer></script>{CALL_SNIPPET}</body></html>'''
+{chat_loader()}<script src="/form-config.js" defer></script><script src="/form.js?v={_av('form.js')}" defer></script>{CALL_SNIPPET}</body></html>'''
 
 def stub(p):
     return f"""<div class="placeholder"><p><strong>Copy pending.</strong> This guide is being written. Until it is published, this page is a stub

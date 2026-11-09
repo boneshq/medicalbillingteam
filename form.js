@@ -42,7 +42,8 @@
         var t = f.dataset.thanks || '', went = false;
         var go = function () { if (went) return; went = true;
           if (t.charAt(0) === '#') { var g = document.querySelector(t); if (g) { g.hidden = false; f.hidden = true; g.scrollIntoView(); } return; }
-          location.href = t; };
+          // Keep marked QA visits out of analytics on the destination page too.
+          location.href = row.is_test ? t + (t.indexOf('?') < 0 ? '?' : '&') + 'mbt_test=1' : t; };
         // GA4 generate_lead fires on confirmed success only (no form values); navigation waits at most 1.2 s for it.
         if (window.gtag) { try { gtag('event', 'generate_lead', { form_type: row.form_id, event_callback: go, event_timeout: 1200 }); } catch (x) {} setTimeout(go, 1300); } else go();
       };
