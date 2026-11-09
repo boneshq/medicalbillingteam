@@ -105,6 +105,8 @@ Start with the [AGS staffing cost estimator](/pricing/) for a budget scenario. I
 
 ## FAQ
 
+For a concrete planning exercise, review the [documented AGS staffing roles and sample team budget](/medical-billing-team-structure/) before deciding which responsibilities your provider should cover.
+
 ### What does a medical billing staffing agency do?
 
 A staffing agency recruits billing personnel for an agreed role. In a dedicated remote staffing arrangement, the people work in your systems and your manager directs the queues. Ask which recruiting, employment, supervision, equipment and replacement responsibilities the written agreement includes.

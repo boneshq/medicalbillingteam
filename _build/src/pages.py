@@ -10,6 +10,7 @@ PAGES = [
   # RCM hub + staffing pillar (parents come from frontmatter `pillar` at build time)
   P("outsourced-medical-billing-staffing-pricing", "/pricing/", "Pricing & Estimator", "page", None, "Outsourced Medical Billing Staff Pricing | AGS Cost Estimator", "Estimate a budget for dedicated AGS outsourced staff by role, hours and headcount, then request a scoped quote."),
   P("medical-billing-company-staffing", "/medical-billing-company-staffing/", "Staff for Billing Companies", "page", None, "Outsourced Staff for Medical Billing Companies | AGS", "Add dedicated billing support capacity for your client accounts with Alliance Global Solutions."),
+  P("medical-billing-team-structure", "/medical-billing-team-structure/", "Team Structure & Example", "cluster", None, "Medical Billing Team Structure: A Documented Example | AGS", "Explore documented AGS staffing roles, a three-person planning budget and the handoffs to define before hiring."),
   P("medical-billing-staffing-agency", "/medical-billing-staffing-agency/", "Staffing Agency", "page", None, "Medical Billing Staffing Agency: Compare Your Options", "Compare staffing agencies, billing companies and direct hires, and scope a dedicated remote billing team."),
   P("medical-billing-rfp-template", "/medical-billing-rfp-template/", "RFP & Scorecard", "page", None, "Medical Billing RFP Template & Vendor Scorecard", "A free medical billing RFP template and weighted vendor scorecard for practices and billing companies."),
   P("what-is-revenue-cycle-management", "/what-is-revenue-cycle-management/", "What Is RCM", "pillar", None, "What Is Revenue Cycle Management?", "The revenue cycle explained."),
@@ -66,6 +67,6 @@ NAV = [
   ("RCM", ["what-is-revenue-cycle-management", "revenue-cycle-management-staffing"]),
   ("Services", ["credentialing-services", "prior-authorization-specialist", "eligibility-verification-prior-authorization", "treatment-center-vob", "hire-remote-medical-coders", "ar-specialist", "virtual-medical-assistant", "virtual-medical-receptionist"]),
   ("Denials", ["denial-management", "denial-codes", "denial-code-co-16", "denial-code-co-22", "denial-code-co-29", "denial-code-co-97", "denial-code-co-197", "denial-code-co-204"]),
-  ("Resources", ["medical-billing-staffing-cost-by-state", "medical-billing-staffing-cost", "medical-billing-rfp-template", "hipaa-outsourced-medical-billing", "medical-billing-outsourcing-statistics", "medical-billing-technology", "faq"]),
+  ("Resources", ["medical-billing-staffing-cost-by-state", "medical-billing-staffing-cost", "medical-billing-team-structure", "medical-billing-rfp-template", "hipaa-outsourced-medical-billing", "medical-billing-outsourcing-statistics", "medical-billing-technology", "faq"]),
   ("About AGS", "featured-vendor-alliance-global-solutions"),
 ]

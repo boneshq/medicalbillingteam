@@ -1,6 +1,6 @@
 # Medical Billing Team: full text
 
-> Concatenated public guides from medicalbillingteam.com, generated 2026-11-07. Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; staffing requests go to its team. Excludes forms, legal drafts and gated content.
+> Concatenated public guides from medicalbillingteam.com, generated 2026-11-09. Operated by Alliance Global Solutions, a provider of remote medical billing and revenue cycle staff and currently the site's only approved vendor; staffing requests go to its team. Excludes forms, legal drafts and gated content.
 
 ---
 
@@ -214,6 +214,8 @@ For a side-by-side provider review, use the [medical billing RFP template and ve
 
 ## Get a quote for your actual team
 
+Planning several roles? See a [documented staffing example and three-person budget](https://medicalbillingteam.com/medical-billing-team-structure/) to connect the rate assumptions to a proposed team and its responsibilities.
+
 [Request an AGS staffing quote](#footer-cta) by submitting your contact details. Your selected estimator role, headcount and hours carry over automatically. Prepare your systems, approximate workload and other scope requirements for the follow-up conversation so the team can confirm the assumptions behind your estimate.
 
 **Business information only.** Do not submit patient names, claim files, insurance IDs or other patient information through this site. Any later production access needs the appropriate agreements and your approved access process; read the [outsourced billing HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/) when preparing that discussion.
@@ -311,6 +313,8 @@ A proposed rollout can use three checkpoints: agreement on scope, completion of 
 
 ## Tell us what your billing company needs next
 
+Our [team structure guide](https://medicalbillingteam.com/medical-billing-team-structure/) shows specialist roles documented together in an AGS customer invoice, plus a separate planning budget and handoff checklist for your own operation.
+
 [Submit your contact details to request a staffing proposal](https://medicalbillingteam.com/contact/) or [review the AGS service profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). For the follow-up conversation, prepare your systems, approximate queue size, roles, coverage hours and who will supervise the work. That brief will help us discuss staffing fit and the next steps.
 
 ## FAQ
@@ -334,6 +338,105 @@ Bring the queue, approximate volume, age bands and required coverage to the asse
 ### Will outsourcing guarantee higher collections?
 
 No. Staffing adds capacity for agreed work. Collections also depend on payer decisions, documentation, contract terms and your operating processes. Evaluate completed work and quality alongside payment results using consistent definitions.
+
+---
+
+Source: https://medicalbillingteam.com/medical-billing-team-structure/
+
+Updated: 2026-11-09
+
+# Medical billing team structure: a documented staffing example
+
+*By the Medical Billing Team editors · Published 2026-11-09 · Updated 2026-11-09*
+**Short answer:** Structure a medical billing team around distinct work queues and the decisions each role can make. One reviewed Alliance Global Solutions customer invoice documents VOB, medical collections, authorization and appeal resolution, and medical billing specialists on the same staffing schedule. That is evidence of an actual mix of billed roles. It does not establish the right headcount for your business or prove a collection result.
+
+Medical Billing Team is operated by AGS. This guide separates the documented example from a small-team budget you can adapt before [requesting a staffing proposal](https://medicalbillingteam.com/contact/).
+
+## What one customer staffing schedule documents
+
+Our editors reviewed an AGS-issued customer invoice with an attached staffing schedule covering **October 1–15, 2026**. The following specialist designations appeared together on that schedule. Each had a listed base rate of **$8.50 per hour** during that period.
+
+| Designation on the schedule | What the record establishes |
+|---|---|
+| VOB Specialist | This role was included in the customer's billed staffing |
+| Medical Collections Specialist | This role was included in the same schedule |
+| Authorization and Appeal Resolution Specialist | This role was included in the same schedule |
+| Medical Billing Specialist | This role was included in the same schedule |
+
+Client identity, exact staffing counts and individual hours are withheld. These are selected specialist categories, not a statement of the customer's total workforce. The schedule also does not show the customer's task instructions, claim volume, collections, denial rate or reasons for choosing that mix. It cannot establish a before-and-after result or a recommended staffing ratio.
+
+The useful takeaway is narrower: **an outsourced engagement can contain several named specialist roles, rather than treating every assignment as a generic biller position.** Your scope still needs to define what those titles mean in your operation. For example, do not assume a medical collections designation covers every A/R or denial task.
+
+The broader five-invoice review found medical billing specialist base rates of **$8.50–$12.64 per hour**. These are historical customer-billed components, not employee take-home pay, a market average or a current offer. See the [pricing methodology and staffing estimator](https://medicalbillingteam.com/pricing/) for the sample limits and other supported roles.
+
+## Turn the role list into a work plan
+
+For your own team, name the queue before assigning the title. These are questions to resolve in a staffing discussion, not claims about the anonymous customer's workflow.
+
+| Work to scope | Define the handoff before hiring |
+|---|---|
+| Eligibility and benefits verification | What information must be recorded, what remains unresolved and who decides the next action |
+| Medical collections follow-up | Which accounts and payers are assigned, how actions are documented and which decisions require approval |
+| Authorization and appeal support | Who supplies supporting information, who approves submissions and who handles clinical questions |
+| Medical billing work | Which tasks are included, which systems are used and who reviews exceptions |
+
+Keep clinical decisions and any financial approval outside the role's agreed authority with the responsible person on your team. Use the [RFP template and scorecard](https://medicalbillingteam.com/medical-billing-rfp-template/) to record those boundaries. If you bill for other organizations, also define the account ownership and communication rules described in our [staffing guide for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/).
+
+## A separate three-person planning budget
+
+**Illustration only:** Suppose you want to budget for one VOB specialist, one medical collections specialist and one medical billing specialist, each at 40 hours per week. This is not the anonymous customer's team, a recommended starting size or an availability promise.
+
+| Illustrative role | People | Historical base rate used | Modeled monthly base |
+|---|---:|---:|---:|
+| VOB specialist | 1 | $8.50/hour | $1,473.33 |
+| Medical collections specialist | 1 | $8.50/hour | $1,473.33 |
+| Medical billing specialist | 1 | $8.50–$12.64/hour | $1,473.33–$2,190.93 |
+| **Illustrative team total** | **3** | **Before other charges** | **$4,420.00–$5,137.60** |
+
+Formula: hourly rate × people × 40 hours/week × 52 weeks ÷ 12 months. Totals are calculated before rounding. This converts a weekly staffing assumption into an average-month planning figure; it is not a monthly retainer or the amount on the reviewed invoice.
+
+Overtime and other charges are excluded. Current rates, minimum commitments, coverage, software, onboarding and supervision costs require a written proposal. Adjust your assumptions with the [role-based estimator](https://medicalbillingteam.com/pricing/); do not scale headcount from the example without reviewing actual workload.
+
+## Agree on onboarding responsibilities and inclusions
+
+The [AGS medical billing service description](https://www.allianceglobalsolutions.com/medical-billing/), checked November 9, 2026, assigns recruiting and monitoring to AGS and client-specific training to the client. It describes gathering the workload, hiring for the roles, signing agreements and then training and monitoring. AGS also states that it signs a BAA before staff access PHI.
+
+That service description is not an itemized quote. Use it to begin the responsibility discussion:
+
+| Topic | Put this in the written proposal or operating brief |
+|---|---|
+| Hiring and readiness | Required experience, screening, selection process and what must be completed before work begins |
+| Client training | Named trainer, procedures, practice exercises and how readiness will be checked |
+| Monitoring and quality | Reporting owner, review frequency, error correction and escalation contact |
+| Systems and access | Approved tools, permissions, licenses, setup responsibilities and removal of access |
+| Commercial inclusions | Which fees cover recruiting, equipment, monitoring, onboarding or support; which costs remain yours |
+| Coverage and changes | Agreed hours, leave coverage, replacement terms, changes in workload and notice requirements |
+
+Neither an invoice rate nor a role title answers all of those questions. Confirm the terms for your engagement. Our [overview of how dedicated staffing works](https://medicalbillingteam.com/how-it-works/) can help you prepare for that conversation.
+
+## Check the first assignment before expanding
+
+Choose a defined queue and record its opening size, incoming work, completed actions, blocked items and the quality-review method. Those measures help distinguish additional capacity from a change in payer behavior or work arriving from your own team. Agree on the reporting definitions and review checkpoints before using results to justify another role.
+
+To discuss your team, [submit your business contact details](https://medicalbillingteam.com/contact/). For the follow-up conversation, prepare the roles, approximate workload, systems, required hours and training owner. Share aggregate business information only; do not send patient records or claim files through this website.
+
+## FAQ
+
+### Is the staffing example based on a real customer?
+
+Yes. The four role categories appeared together in one AGS customer's staffing schedule for October 1–15, 2026. We withhold the customer's identity and exact staffing counts. The record documents billed staffing, not collection results, total client headcount or a recommended staffing ratio.
+
+### Is the three-person budget the customer's actual team?
+
+No. It is a separate planning example with one VOB specialist, one medical collections specialist and one medical billing specialist working 40 hours per week each. Historical observed rates produce a modeled monthly base of $4,420.00–$5,137.60 before overtime and other charges.
+
+### How many people should our medical billing team have?
+
+Start with the assigned queues, incoming volume, handling time, coverage hours and work that needs experienced review. Role titles or another customer's staffing pattern cannot establish your required headcount. Ask AGS to scope a team against your workload and confirm current availability and terms.
+
+### Who trains an outsourced AGS team?
+
+AGS's published service model assigns hiring and monitoring to AGS and training on the client's systems, payers and rules to the client. Define the training owner, quality checks, escalation process and related costs in the proposal before starting.
 
 ---
 
@@ -416,6 +519,8 @@ Start with the [AGS staffing cost estimator](https://medicalbillingteam.com/pric
 [Request an assessment from the AGS team](https://medicalbillingteam.com/contact/) or review the [AGS vendor profile](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/). Start with the business problem: the work that is falling behind, your existing management capacity and the hours you need covered. The team can confirm whether its current staffing offer fits your requirements.
 
 ## FAQ
+
+For a concrete planning exercise, review the [documented AGS staffing roles and sample team budget](https://medicalbillingteam.com/medical-billing-team-structure/) before deciding which responsibilities your provider should cover.
 
 ### What does a medical billing staffing agency do?
 
@@ -4621,83 +4726,93 @@ At least once a year, and sooner if we learn of a material change.
 
 Source: https://medicalbillingteam.com/how-it-works/
 
-Updated: 2026-10-18
+Updated: 2026-11-09
 
 # How a remote medical billing team works
 
-*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-10-18*
-**Short answer:** You tell us which billing work needs help. Alliance Global Solutions recruits dedicated remote staff for those roles, and they work in your systems, under your workflows, once a business associate agreement and access controls are in place. You direct the work; the staffing provider employs and supports the staff.
+*By the Medical Billing Team editors · Published 2026-10-18 · Updated 2026-11-09*
+**Short answer:** You define the billing work and train the team on your systems, payers and rules. Alliance Global Solutions recruits, screens and monitors dedicated staff. AGS states that it signs a business associate agreement with each client before staff access protected health information. Confirm the staffing, price, access requirements and onboarding schedule in your proposal.
 
-A dedicated remote billing team is people, not software. Here is what the process looks like from the first conversation to day-to-day work.
+This guide follows [AGS's published medical billing service process](https://www.allianceglobalsolutions.com/medical-billing/), reviewed November 9, 2026. Medical Billing Team is operated by AGS. The model serves medical billing companies, practices and treatment centers that want dedicated staff working within their own processes.
 
 ## Step 1: Tell us about your workload
 
-Use the [short form on the home page](https://medicalbillingteam.com/#assessment) or the [longer contact form](https://medicalbillingteam.com/contact/). We ask for practice-level details only: specialty, number of providers, a collections range and your current setup. **Never include patient information.**
+Use the [short form on the home page](https://medicalbillingteam.com/#assessment) or the [contact form](https://medicalbillingteam.com/contact/) to describe your organization, the roles you need and your current billing setup. **Share business-level information only. Never include patient information.**
 
-## Step 2: Free staffing assessment
+Prepare the queues you want staffed, approximate workload, systems, payers, coverage hours and the person who will train the team. A billing company can also identify which client accounts or work queues the proposed staff would support, without sending patient records.
 
-A billing staffing specialist talks with you, usually for 20 to 30 minutes, about:
+## Step 2: Scope the team and review the proposal
+
+Discuss the work you want assigned and the responsibilities your company will retain:
 
 - which queues are falling behind (eligibility, authorizations, claims, denials, A/R, posting);
 - your systems, payers and specialty-specific rules;
-- whether your systems can support secure remote access;
+- your approved method for remote access;
 - the hours and coverage you need; and
-- whether a remote team is a sensible fit at all.
+- who trains staff, reviews work and handles exceptions.
 
-If it isn't, for example because your processes are undocumented or your payer contracts restrict offshore access, we'll tell you.
+Use the [staffing cost estimator](https://medicalbillingteam.com/pricing/) for an initial budget based on historical invoiced rates. It is not a current quote. Before accepting a proposal, confirm:
 
-## Step 3: Meet candidates, sign agreements, onboard
+- **Staffing minimums:** How many people and hours are required for the role?
+- **Total cost:** What is the current rate, and are recruiting, supervision, equipment, software, training, overtime or other charges included or billed separately?
+- **Selection and timing:** Can you interview candidates, who makes the selection, and what start date can AGS commit to?
+- **Working arrangements:** What reporting, quality checks, absence coverage, replacement process and notice terms apply?
+- **Access:** Which systems and permissions are approved, and who sets up and manages access?
+
+These are proposal questions, not published promises that every arrangement includes the same services or terms. The [documented team-structure example](https://medicalbillingteam.com/medical-billing-team-structure/) can help you think through role boundaries without treating another customer's team as a staffing requirement.
+
+## Step 3: Recruit, complete agreements and train
 
 If you decide to go ahead:
 
-1. **Role definition.** We agree on tasks, hours, systems and how performance will be measured.
-2. **Candidate interviews.** You interview shortlisted candidates and choose who joins your team.
-3. **Agreements.** A services agreement and a **business associate agreement (BAA)** are signed before anyone receives access to protected health information. See our [HIPAA guide](https://medicalbillingteam.com/hipaa-outsourced-medical-billing/).
-4. **Secure access setup.** Unique logins, multi-factor authentication, role-based permissions and secure remote access (VDI or VPN), with no local downloads.
-5. **Training on your workflows.** Your procedures, payers, escalation rules and reporting.
-6. **Ramp-up.** Start with a defined queue, review work closely in the first weeks, then expand.
+1. **AGS recruits and screens staff** for the roles you described.
+2. **Complete the agreements.** AGS states that it signs a **business associate agreement (BAA)** with each client before its staff access protected health information.
+3. **Prepare the agreed access and training.** Your company trains the team on its systems, payers, procedures and escalation rules. Confirm the access setup with the people responsible for your systems.
+4. **Begin the agreed work.** AGS handles monitoring and support. Establish the training plan, work review and reporting expectations before the start date.
+
+Recruiting and onboarding timing depends on the arrangement. Ask for a proposed schedule and the dependencies your company needs to complete.
 
 ## Day to day
 
-- Staff work your queues during agreed hours, often overlapping US business hours.
-- You set priorities and approve anything outside the agreed rules (write-offs, refunds, appeals strategy).
-- You get regular reporting on volumes worked and the KPIs you choose, such as days in A/R or denial rate. See [RCM KPIs, defined](https://medicalbillingteam.com/revenue-cycle-management-staffing/).
-- You can add roles or reduce capacity under the terms of your agreement.
+AGS's published model assigns hiring and monitoring to AGS and training on your processes to your company. Turn that division into a practical operating plan:
 
-## What we don't do
+- Name the person who sets priorities and answers staff questions.
+- Define which decisions staff can make and which require escalation.
+- Agree on how work is reviewed, how exceptions are tracked and when reporting is due.
+- Confirm how changes in roles, hours or headcount are handled under your agreement.
 
-- We don't ask for patient information through this website.
-- We don't claim to be "HIPAA certified"; no such official certification exists.
-- We don't promise specific outcomes before understanding your data.
+For ideas on measurement, see [RCM KPIs, defined](https://medicalbillingteam.com/revenue-cycle-management-staffing/). A staffing arrangement does not guarantee a collection result or a specific change in denial rates.
 
 **Approved vendor:** [Alliance Global Solutions](https://medicalbillingteam.com/approved-vendors/alliance-global-solutions/), which operates this site, provides dedicated remote staff for this work and signs a business associate agreement with each client before any PHI access. See [approved vendors](https://medicalbillingteam.com/approved-vendors/) and [how we vet vendors](https://medicalbillingteam.com/how-we-vet-vendors/).
 
 ## Related guides
 
 - [medical billing staffing FAQ](https://medicalbillingteam.com/faq/)
+- [staffing support for medical billing companies](https://medicalbillingteam.com/medical-billing-company-staffing/)
+- [medical billing team structure and handoffs](https://medicalbillingteam.com/medical-billing-team-structure/)
 - [back to the Medical Billing Team home page](https://medicalbillingteam.com/)
 
 ## Technology
 
-Once staff are onboarded, many teams add automation for eligibility checks and claim status, plus AI assistants that help draft appeals or summarize payer policies, with a person reviewing the output. Any tool that touches PHI should be approved by your practice and covered by a BAA where the tool vendor handles PHI ([HHS](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html)). Alliance Global Solutions helps clients set up AI assistant workflows alongside their dedicated staff. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
+AGS also describes helping clients set up AI assistant workflows, such as summarizing payer policies or drafting routine work for a person to review. Ask which workflows, tools, approvals and costs would apply to your team; this capability is not a statement that automation is included in every staffing quote. [Latest updates in medical billing technology →](https://medicalbillingteam.com/medical-billing-technology/)
 
 ## FAQ
 
 ### Do remote staff use our software or theirs?
 
-Yours. Dedicated staff work in your practice management system, clearinghouse and payer portals, with access you grant and can revoke at any time.
+AGS describes a client-led model: you train dedicated staff on your systems, payers and rules. Confirm the software, approved access method and permissions for each role before onboarding.
 
 ### Who manages the remote staff day to day?
 
-You direct the work and set priorities. The staffing provider handles employment, HR, equipment, attendance and support, and can help with supervision and reporting.
+AGS hires and monitors the staff; you train them on your workflows. Agree on daily priorities, the client-side supervisor, reporting, quality checks and escalation responsibilities in the proposal.
 
 ### What do we need to have in place first?
 
-A signed business associate agreement, a secure way for staff to reach your systems (ideally a virtual desktop or VPN with MFA), user accounts with role-based access, and documented procedures for the tasks you're assigning.
+Prepare the tasks, systems, coverage needs and training owner for each role. AGS states that it signs a business associate agreement with each client before staff access protected health information. Confirm the access requirements and remaining onboarding steps with AGS before starting.
 
 ### Can we start with one person?
 
-Yes. Many practices start with one role, such as eligibility verification or A/R follow-up, and add more once the workflow is running smoothly.
+Ask AGS to confirm its current minimum staffing and hours requirements for your role. Its published examples describe teams ranging from two or three reps to more than 50; those examples do not establish a contractual minimum or guarantee single-person availability.
 
 [Request a free staffing assessment →](https://medicalbillingteam.com/contact/)
 
