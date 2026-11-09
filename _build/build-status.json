@@ -2,6 +2,7 @@
  "ags_links_pending_prod_check": {
   "https://www.allianceglobalsolutions.com/medical-billing/": [
    "/medical-billing-company-staffing/",
+   "/medical-billing-team-structure/",
    "/medical-billing-staffing-agency/",
    "/what-is-revenue-cycle-management/",
    "/revenue-cycle-management-staffing/",
@@ -16,10 +17,11 @@
    "/hipaa-outsourced-medical-billing/",
    "/medical-billing-staffing-cost/",
    "/behavioral-health-billing/",
-   "/approved-vendors/alliance-global-solutions/"
+   "/approved-vendors/alliance-global-solutions/",
+   "/how-it-works/"
   ]
  },
- "built": "2026-11-07T15:34:36",
+ "built": "2026-11-09T17:12:42",
  "base_path": "",
  "indexing_enabled": true,
  "form_backend_enabled": true,
@@ -27,6 +29,7 @@
   "/",
   "/pricing/",
   "/medical-billing-company-staffing/",
+  "/medical-billing-team-structure/",
   "/medical-billing-staffing-agency/",
   "/medical-billing-rfp-template/",
   "/what-is-revenue-cycle-management/",

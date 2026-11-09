@@ -86,6 +86,8 @@ For a side-by-side provider review, use the [medical billing RFP template and ve
 
 ## Get a quote for your actual team
 
+Planning several roles? See a [documented staffing example and three-person budget](/medical-billing-team-structure/) to connect the rate assumptions to a proposed team and its responsibilities.
+
 [Request an AGS staffing quote](#footer-cta) by submitting your contact details. Your selected estimator role, headcount and hours carry over automatically. Prepare your systems, approximate workload and other scope requirements for the follow-up conversation so the team can confirm the assumptions behind your estimate.
 
 **Business information only.** Do not submit patient names, claim files, insurance IDs or other patient information through this site. Any later production access needs the appropriate agreements and your approved access process; read the [outsourced billing HIPAA guide](/hipaa-outsourced-medical-billing/) when preparing that discussion.

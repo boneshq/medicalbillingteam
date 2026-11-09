@@ -94,6 +94,8 @@ A proposed rollout can use three checkpoints: agreement on scope, completion of 
 
 ## Tell us what your billing company needs next
 
+Our [team structure guide](/medical-billing-team-structure/) shows specialist roles documented together in an AGS customer invoice, plus a separate planning budget and handoff checklist for your own operation.
+
 [Submit your contact details to request a staffing proposal](/contact/) or [review the AGS service profile](/approved-vendors/alliance-global-solutions/). For the follow-up conversation, prepare your systems, approximate queue size, roles, coverage hours and who will supervise the work. That brief will help us discuss staffing fit and the next steps.
 
 ## FAQ
