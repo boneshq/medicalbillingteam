@@ -24,7 +24,7 @@ search_intent: "commercial"
 audience: "practice owners, managers, billing companies"
 conversion_destination: "/#assessment"
 date_published: "2026-10-18"
-date_modified: "2026-11-07"
+date_modified: "2026-11-19"
 author: "Medical Billing Team editors"  # brand byline; no invented persona
 reviewer: ""  # TONY DECISION: real, authorized reviewer with billing experience; render "Reviewed by" only when set
 review_cadence: "semiannual"
@@ -45,6 +45,8 @@ Add dedicated outsourced staff to the billing work your company already manages.
 - **Compare with hiring locally:** use the [medical billing staffing cost calculator by state](/medical-billing-staffing-cost-by-state/) for an in-house wage-and-benefit baseline.
 - **Make quotes comparable:** use our free [medical billing RFP template and vendor scorecard](/medical-billing-rfp-template/) to define the work, ask for evidence and score the responses.
 - **Choose the service model:** compare a [staffing agency, billing company and direct hire](/medical-billing-staffing-agency/) before deciding who will own the queues and supervise the work.
+- **See a documented team:** review a [medical billing team structure example](/medical-billing-team-structure/) built from the role categories on an actual AGS customer staffing schedule, with a separate three-person planning budget.
+- **Weigh the outsourcing models:** compare a [full-service billing company, dedicated remote staff and a hybrid](/medical-billing-outsourcing/) on control, cost and fit.
 
 ## Short form (hero)
 
@@ -77,7 +79,7 @@ Add dedicated outsourced staff to the billing work your company already manages.
 ## Who this site helps
 
 - **Solo and small practices** where the office manager is also the biller, the scheduler and the person who calls payers.
-- **Specialty groups** such as behavioral health, physical therapy, chiropractic, labs and ambulatory surgery centers (ASCs), where payer rules and authorizations are specialty-specific.
+- **Specialty groups** such as [behavioral health](/behavioral-health-billing/), physical therapy, chiropractic, labs and ambulatory surgery centers (ASCs), where payer rules and authorizations are specialty-specific.
 - **Multi-location groups** that need consistent billing processes across sites.
 - **Practice and billing managers** who need more hands on the A/R, denial or authorization queues without adding local headcount.
 - **Medical billing companies** that need to add trained staff as they win new clients.
@@ -87,10 +89,10 @@ Add dedicated outsourced staff to the billing work your company already manages.
 - **Denials that never get reworked.** In a vendor survey of billing professionals, 40% reported an increase in denials over the prior year ([Tebra, 2025](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)). Federal transparency data show HealthCare.gov insurers denied 20% of in-network claims in 2023 ([KFF](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/)).
 - **Aging A/R.** Claims nobody has followed up on after 30, 60 or 90 days.
 - **Prior authorization workload.** Physicians surveyed by the AMA reported an average of 39 prior authorization requests per physician per week, taking about 13 hours of physician and staff time ([AMA](https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior-auth-nearly-40-prior-authorizations-week-way)).
-- **Eligibility surprises.** Coverage changes discovered after the visit, not before.
-- **Hiring and turnover.** In the same vendor survey, 38% of billers said they struggle to find qualified candidates ([Tebra, 2025](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)).
+- **Eligibility surprises.** Coverage changes discovered after the visit, not before. See [insurance verification and prior authorization](/eligibility-verification-prior-authorization/).
+- **Hiring and turnover.** In the same vendor survey, 38% of billers said they struggle to find qualified candidates ([Tebra, 2025](https://www.tebra.com/theintake/getting-paid/medical-billing-pain-points-insights-solutions)). See [how to hire remote medical billers](/hire-remote-medical-billers/).
 
-Read more: [Revenue cycle management staffing](/revenue-cycle-management-staffing/) · [Denial management](/denial-management/) · [How to reduce AR days](/reduce-ar-days/)
+Read more: [Revenue cycle management staffing](/revenue-cycle-management-staffing/) · [Denial management](/denial-management/) · [How to reduce AR days](/reduce-ar-days/) · [Medical billing outsourcing statistics](/medical-billing-outsourcing-statistics/)
 
 ## The remote billing team model, explained
 
