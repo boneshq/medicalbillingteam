@@ -1,0 +1,57 @@
+# Tells IndexNow (Bing, Yandex, Seznam, Naver) about changed public pages after each
+# production deploy. Waits for the GitHub Pages build of the pushed commit, then runs
+# scripts/indexnow-submit.py for the pages whose HTML changed. The IndexNow key is public
+# by design (served at /<key>.txt); no secrets are used. Manual run: Actions > indexnow >
+# Run workflow (tick "all" to submit the whole live sitemap).
+name: indexnow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      all:
+        description: Submit every URL in the live sitemap
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pages: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Wait for the Pages build of this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 30); do
+            read -r status commit < <(gh api "repos/${GITHUB_REPOSITORY}/pages/builds/latest" --jq '[.status, .commit] | @tsv' || echo "unknown none")
+            echo "attempt $i: pages build status=$status commit=$commit (want $GITHUB_SHA)"
+            if [ "$commit" = "$GITHUB_SHA" ] && [ "$status" = "built" ]; then sleep 60; exit 0; fi
+            if [ "$commit" = "$GITHUB_SHA" ] && [ "$status" = "errored" ]; then echo "Pages build errored; not submitting"; exit 1; fi
+            sleep 20
+          done
+          echo "Pages build for $GITHUB_SHA not confirmed; submitting anyway (the script still checks the live key file and sitemap)"
+      - name: Submit to IndexNow
+        env:
+          ALL: ${{ inputs.all && '1' || '' }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ -n "$ALL" ]; then
+            python3 scripts/indexnow-submit.py --all
+          elif [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ] && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            python3 scripts/indexnow-submit.py --since "$BEFORE"
+          else
+            python3 scripts/indexnow-submit.py --since HEAD~1
+          fi

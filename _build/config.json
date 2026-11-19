@@ -80,6 +80,8 @@
     ]
   },
   "indexing_enabled": true,
+  "indexnow_key": "375551ee4ea63e4b8474105a0ac3a4e6",
+  "_indexnow_note": "IndexNow ownership key (Bing, Yandex, Seznam, Naver). PUBLIC by design: build.py serves it at /<key>.txt and .github/workflows/indexnow.yml submits changed URLs after each Pages deploy. Not a secret. Added MBT-011, 2026-11-19.",
   "preview_base_path": "",
   "form_backend": {
     "mode": "apps_script",
